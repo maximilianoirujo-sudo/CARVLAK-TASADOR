@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
+  <!-- Soporte Oficial Apple iOS / iPhone (PWA) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CARVLAK">
+  <meta name="theme-color" content="#2D3E46">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="https://dcdn-us.mitiendanube.com/stores/006/928/264/themes/common/logo-1181937392-1762700015-9161ba30a7197fa8fc6cefa80fffb51e1762700015.ico?0">
+  <link rel="icon" type="image/x-icon" href="https://dcdn-us.mitiendanube.com/stores/006/928/264/themes/common/logo-1181937392-1762700015-9161ba30a7197fa8fc6cefa80fffb51e1762700015.ico?0">
+  <link rel="manifest" href="manifest.json">
+
+  <title>CARVLAK | Tasador Rápido de Vehículos</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Piazzolla & Instrument Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Piazzolla:opsz,wght@8..30,600;8..30,700;8..30,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Instrument Sans"', '"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['"Piazzolla"', 'Georgia', 'serif'],
+          },
+          colors: {
+            brand: {
+              petrol: '#2D3E46',
+              petrolDark: '#1E2B31',
+              petrolLight: '#3E545F',
+              petrolSubtle: '#F1F5F7',
+              red: '#C0392B',
+              redHover: '#A93226',
+              chip: '#EFF2EE',
+              chipBorder: '#DFE5DD',
+              gold: '#D4AF37',
+              bgLight: '#F8FAFC'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#F8FAFC] text-slate-800 min-h-screen flex flex-col antialiased selection:bg-[#2D3E46] selection:text-white">
+
+  <!-- ============================================================================== -->
+  <!-- BARRA SUPERIOR INSTITUCIONAL CARVLAK -->
+  <!-- ============================================================================== -->
+  <div class="bg-[#2D3E46] text-white px-3 sm:px-4 py-2 text-xs font-medium border-b border-[#1E2B31]">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5">
+      <div class="flex items-center space-x-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="font-bold text-white tracking-wide">CARVLAK AUTOMOTORES</span>
+        <span class="text-slate-300 hidden sm:inline">•</span>
+        <span class="text-slate-200">Panel de Tasación Rápida</span>
+      </div>
+      
+      <div class="flex items-center space-x-2 sm:space-x-3 text-slate-300 text-[11px] flex-wrap justify-center">
+        <!-- Botón para abrir en iPhone vía QR -->
+        <button onclick="openIPhoneModal()" class="bg-[#3E545F] hover:bg-[#4E6876] text-white px-2.5 py-1 rounded-lg font-bold flex items-center gap-1 transition-colors shadow-sm">
+          <span>📱</span>
+          <span>Abrir en mi iPhone</span>
+        </button>
+
+        <!-- Botón Sincronizar Google Sheets -->
+        <button onclick="openSyncModal()" class="bg-emerald-700/80 hover:bg-emerald-700 text-white px-2.5 py-1 rounded-lg font-bold flex items-center gap-1 transition-colors shadow-sm">
+          <span>🔄</span>
+          <span>Google Sheets</span>
+        </button>
+
+        <span>•</span>
+        <button onclick="refreshData()" class="text-white hover:text-emerald-300 underline font-semibold flex items-center transition-colors">
+          <svg id="refreshIcon" class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>Recargar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Informativo para iPhone (Se muestra en iOS Safari) -->
+  <div id="iosInstallBanner" class="hidden bg-emerald-50 border-b border-emerald-200 text-emerald-900 px-4 py-2 text-xs">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="text-base">📲</span>
+        <p class="font-medium">
+          <strong>¿En tu iPhone?</strong> Para tenerla como App nativa: tocá <span class="font-bold bg-white px-1.5 py-0.5 rounded border border-emerald-300">Compartir ⬆️</span> y elegí <strong>"Agregar a pantalla de inicio"</strong>.
+        </p>
+      </div>
+      <button onclick="dismissIosBanner()" class="text-emerald-700 hover:text-emerald-950 font-bold text-sm px-2">&times;</button>
+    </div>
+  </div>
+
+  <!-- ============================================================================== -->
+  <!-- NAVBAR PRINCIPAL: SELECTOR DE OPERADOR Y CONTADORES -->
+  <!-- ============================================================================== -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex flex-col md:flex-row md:items-center justify-between gap-2 sm:gap-3">
+      
+      <!-- Brand & Selector de Operador -->
+      <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center space-x-2.5 sm:space-x-3">
+          <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#2D3E46] flex items-center justify-center text-white font-serif font-black text-lg sm:text-xl shadow border border-[#1E2B31]">
+            C
+          </div>
+          <div>
+            <div class="flex items-center space-x-1.5">
+              <h1 class="text-lg sm:text-2xl font-bold font-serif text-[#1E2B31] tracking-tight">Tasador CARVLAK</h1>
+              <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#C0392B] text-white">Vercel Edition</span>
+            </div>
+            <p class="text-[11px] text-slate-500 hidden sm:block">Hoy primero • WhatsApp automático • Sincronización en vivo</p>
+          </div>
+        </div>
+
+        <!-- Selector de Operador / Firma (Jonathan, Maxi, Marcos, Bruno) -->
+        <div class="flex items-center gap-1.5 bg-[#EFF2EE] border border-[#DFE5DD] px-2.5 py-1.5 rounded-xl shadow-sm">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-slate-600 hidden sm:inline">Cotiza:</span>
+          <span class="text-xs">👤</span>
+          <select 
+            id="operatorSelect" 
+            onchange="changeOperator(this.value)" 
+            class="bg-transparent text-xs font-black text-[#1E2B31] focus:outline-none cursor-pointer"
+            title="Seleccionar quién firma los mensajes de WhatsApp"
+          >
+            <option value="Jonathan Kaitazoff">Jonathan Kaitazoff</option>
+            <option value="Maximiliano Irujo">Maximiliano Irujo</option>
+            <option value="Marcos Martínez">Marcos Martínez</option>
+            <option value="Bruno Di Giovanni">Bruno Di Giovanni</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Counters -->
+      <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 md:pb-0 text-xs no-scrollbar">
+        <div class="bg-blue-50 border border-blue-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-blue-900 shadow-sm shrink-0">
+          <span>⏳</span>
+          <span class="font-medium text-[11px]">Pendientes:</span>
+          <span id="counterPendientes" class="font-black text-sm">400</span>
+        </div>
+        <div class="bg-emerald-50 border border-emerald-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-emerald-900 shadow-sm shrink-0">
+          <span>✓</span>
+          <span class="font-medium text-[11px]">Tasados:</span>
+          <span id="counterTasados" class="font-black text-sm">316</span>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-amber-900 shadow-sm shrink-0">
+          <span>📸</span>
+          <span class="font-medium text-[11px]">Fotos:</span>
+          <span id="counterFotos" class="font-black text-sm">14</span>
+        </div>
+        <div class="bg-rose-50 border border-rose-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-rose-900 shadow-sm shrink-0">
+          <span>🚫</span>
+          <span class="font-medium text-[11px]">Descarte:</span>
+          <span id="counterDescartados" class="font-black text-sm">10</span>
+        </div>
+        <div class="bg-slate-100 border border-slate-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-slate-700 shadow-sm shrink-0">
+          <span class="font-medium text-[11px]">Total:</span>
+          <span id="counterTotal" class="font-black text-sm">716</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================================================================== -->
+  <!-- BARRA DE FILTROS, BÚSQUEDA Y ORDENAMIENTO -->
+  <!-- ============================================================================== -->
+  <section class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-3 sm:pt-4 pb-2 w-full">
+    <div class="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-sm space-y-3">
+      
+      <!-- Fila 1: Búsqueda y Orden -->
+      <div class="flex flex-col sm:flex-row gap-2 sm:gap-3 items-stretch sm:items-center justify-between">
+        
+        <!-- Input de Búsqueda -->
+        <div class="relative flex-1">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            oninput="applyFilters()" 
+            placeholder="Buscar por cliente, WhatsApp, marca (Chevrolet, VW...), modelo o año..." 
+            class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#2D3E46] transition-all"
+          >
+        </div>
+
+        <!-- Selector de Orden de Entrada (Hoy primero por defecto) -->
+        <div class="flex items-center gap-2 shrink-0">
+          <select 
+            id="sortOrderSelect" 
+            onchange="changeSortOrder(this.value)" 
+            class="w-full sm:w-auto bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-xs font-bold text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none cursor-pointer"
+          >
+            <option value="newest_first">🕒 Más recientes primero (Hoy al inicio)</option>
+            <option value="oldest_first">⏳ Más antiguos primero</option>
+            <option value="km_lowest">🛞 Menor Kilometraje</option>
+            <option value="year_newest">📅 Año más nuevo</option>
+          </select>
+        </div>
+
+      </div>
+
+      <!-- Fila 2: Pestañas de Estado -->
+      <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-100">
+        <div class="flex flex-wrap items-center gap-1 sm:gap-1.5 text-xs font-semibold overflow-x-auto w-full sm:w-auto pb-1 sm:pb-0">
+          <button onclick="setFilter('pendientes')" id="filter-pendientes" class="filter-btn active px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-[#2D3E46] text-white border-[#2D3E46] shadow-sm transition-all flex items-center gap-1 shrink-0">
+            <span>⏳</span> Pendientes (<span id="tabCountPendientes">400</span>)
+          </button>
+          <button onclick="setFilter('tasados')" id="filter-tasados" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Tasados (<span id="tabCountTasados">316</span>)
+          </button>
+          <button onclick="setFilter('fotos')" id="filter-fotos" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
+            <span>📸</span> Fotos (<span id="tabCountFotos">14</span>)
+          </button>
+          <button onclick="setFilter('descartar')" id="filter-descartar" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
+            <span>🚫</span> Sin Títulos (<span id="tabCountDescartar">10</span>)
+          </button>
+          <button onclick="setFilter('todos')" id="filter-todos" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
+            Todos (<span id="tabCountTodos">716</span>)
+          </button>
+        </div>
+
+        <div class="text-[11px] sm:text-xs text-slate-500 font-medium hidden sm:block">
+          Mostrando <span id="displayedCount" class="font-bold text-[#1E2B31]">0</span> de <span id="totalFilteredCount" class="font-bold text-[#1E2B31]">0</span> autos
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================================== -->
+  <!-- LISTADO PRINCIPAL DE AUTOS (FICHAS DE TASACIÓN RÁPIDA) -->
+  <!-- ============================================================================== -->
+  <main class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4 flex-1 w-full space-y-3 sm:space-y-4">
+    
+    <!-- Contenedor dinámico de tarjetas -->
+    <div id="leadsContainer" class="space-y-3 sm:space-y-4"></div>
+
+    <!-- Botón Cargar Más (Paginación de alto rendimiento) -->
+    <div id="loadMoreContainer" class="hidden py-4 text-center">
+      <button 
+        onclick="loadMoreLeads()" 
+        class="w-full sm:w-auto px-6 py-3.5 bg-white border border-slate-300 hover:border-[#2D3E46] text-[#2D3E46] font-bold rounded-xl text-sm shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 touch-target"
+      >
+        <svg class="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        <span>Cargar más vehículos (quedan <span id="remainingCount">0</span>)</span>
+      </button>
+    </div>
+
+    <!-- Estado Vacío -->
+    <div id="emptyState" class="hidden py-16 text-center bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
+      <div class="w-14 h-14 mx-auto bg-slate-100 rounded-full flex items-center justify-center text-slate-400 mb-3 text-2xl">
+        🔍
+      </div>
+      <h3 class="text-lg font-bold font-serif text-[#1E2B31]">No se encontraron vehículos</h3>
+      <p class="text-xs text-slate-500 max-w-md mx-auto mt-1">Probá cambiando el filtro o borrando el término de búsqueda.</p>
+    </div>
+
+  </main>
+
+  <!-- ============================================================================== -->
+  <!-- MODAL DE WHATSAPP (PLANTILLAS Y FIRMA DINÁMICA) -->
+  <!-- ============================================================================== -->
+  <div id="whatsappModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4">
+    <div class="bg-white rounded-t-3xl sm:rounded-2xl max-w-xl w-full border border-slate-200 shadow-2xl overflow-hidden flex flex-col max-h-[92vh] sm:max-h-none animate-in slide-in-from-bottom duration-200">
+      
+      <!-- Cabezal del Modal -->
+      <div class="bg-[#2D3E46] text-white p-4 flex items-center justify-between shrink-0">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500 flex items-center justify-center text-white font-bold shadow">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </div>
+          <div>
+            <h3 id="modalClientTitle" class="text-base font-bold font-serif text-white">Enviar Mensaje por WhatsApp</h3>
+            <p id="modalClientSub" class="text-xs text-slate-300">Firma: <span id="modalOperatorBadge" class="font-bold text-amber-300">Jonathan Kaitazoff</span> • CARVLAK</p>
+          </div>
+        </div>
+        <button onclick="closeWhatsAppModal()" class="text-slate-300 hover:text-white text-3xl font-bold p-1 leading-none">&times;</button>
+      </div>
+
+      <!-- Selector de Plantilla -->
+      <div class="p-3 sm:p-4 bg-slate-50 border-b border-slate-200 shrink-0">
+        <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1.5">Seleccionar Plantilla:</label>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 text-xs font-semibold">
+          <button onclick="selectTemplate('oferta')" id="tplBtn-oferta" class="px-2.5 py-2 rounded-xl border bg-[#2D3E46] text-white border-[#2D3E46] transition-all">
+            💰 Oferta
+          </button>
+          <button onclick="selectTemplate('fotos')" id="tplBtn-fotos" class="px-2.5 py-2 rounded-xl border bg-white text-slate-700 border-slate-300 hover:bg-slate-100 transition-all">
+            📸 Pedir Fotos
+          </button>
+          <button onclick="selectTemplate('visita')" id="tplBtn-visita" class="px-2.5 py-2 rounded-xl border bg-white text-slate-700 border-slate-300 hover:bg-slate-100 transition-all">
+            📍 Visita
+          </button>
+          <button onclick="selectTemplate('descarte')" id="tplBtn-descarte" class="px-2.5 py-2 rounded-xl border bg-white text-slate-700 border-slate-300 hover:bg-slate-100 transition-all">
+            🚫 Sin Títulos
+          </button>
+        </div>
+      </div>
+
+      <!-- Editor de Mensaje -->
+      <div class="p-4 space-y-2.5 overflow-y-auto">
+        <div class="flex items-center justify-between text-xs">
+          <span class="font-bold text-slate-700">Para: <span id="modalTargetPhone" class="text-emerald-700 font-mono font-bold"></span></span>
+          <button onclick="copyModalMessage()" class="text-[#2D3E46] hover:underline font-semibold flex items-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            <span>Copiar</span>
+          </button>
+        </div>
+
+        <textarea 
+          id="modalMessageText" 
+          rows="6" 
+          class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm text-slate-800 leading-relaxed font-sans focus:bg-white focus:ring-2 focus:ring-[#2D3E46] focus:outline-none transition-all"
+        ></textarea>
+      </div>
+
+      <!-- Pie del Modal: Botón Abrir WhatsApp -->
+      <div class="bg-slate-100 p-3 sm:p-4 border-t border-slate-200 flex items-center justify-between gap-2 shrink-0 pb-6 sm:pb-4">
+        <button onclick="closeWhatsAppModal()" class="px-3 py-2.5 text-xs font-bold text-slate-600 hover:text-slate-800">
+          Cerrar
+        </button>
+
+        <a 
+          id="modalOpenWspLink" 
+          href="#" 
+          target="_blank" 
+          onclick="onWspOpened()"
+          class="flex-1 sm:flex-none justify-center px-5 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 shadow-md hover:shadow transition-all touch-target"
+        >
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>Abrir WhatsApp ↗</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================================== -->
+  <!-- MODAL: CÓMO ABRIR EN IPHONE (CON CÓDIGO QR) -->
+  <!-- ============================================================================== -->
+  <div id="iphoneModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full border border-slate-200 shadow-2xl overflow-hidden p-6 text-center space-y-4 animate-in zoom-in-95 duration-150">
+      
+      <div class="w-12 h-12 rounded-2xl bg-[#EFF2EE] text-[#2D3E46] border border-[#DFE5DD] flex items-center justify-center mx-auto text-2xl">
+        📱
+      </div>
+
+      <div>
+        <h3 class="text-lg font-bold font-serif text-[#1E2B31]">Abrir en tu iPhone</h3>
+        <p class="text-xs text-slate-500 mt-1">Escaneá este código QR con la cámara de tu iPhone para abrir la app al instante</p>
+      </div>
+
+      <!-- Imagen QR Dinámica -->
+      <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl inline-block mx-auto shadow-inner">
+        <img id="qrCodeImg" src="" alt="QR Code para iPhone" class="w-48 h-48 mx-auto rounded-lg">
+      </div>
+
+      <!-- URL del Web App copiable -->
+      <div class="space-y-1.5 text-left">
+        <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500">Enlace directo:</label>
+        <div class="flex items-center gap-1.5">
+          <input 
+            type="text" 
+            id="appUrlInput" 
+            readonly 
+            class="flex-1 bg-slate-100 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs text-slate-700 font-mono select-all truncate"
+          >
+          <button onclick="copyAppUrl()" class="px-3 py-1.5 bg-[#2D3E46] hover:bg-[#1E2B31] text-white rounded-lg text-xs font-bold shrink-0">
+            Copiar
+          </button>
+        </div>
+      </div>
+
+      <!-- Guía paso a paso para añadir al inicio de iPhone -->
+      <div class="bg-blue-50 border border-blue-200 rounded-xl p-3 text-left space-y-1.5 text-xs text-blue-900">
+        <p class="font-bold flex items-center gap-1">
+          <span>💡</span> <span>Cómo instalarla como App en tu iPhone:</span>
+        </p>
+        <ol class="list-decimal list-inside space-y-1 text-[11px] text-blue-800">
+          <li>Abrí el enlace en <strong>Safari</strong> de tu iPhone.</li>
+          <li>Tocá el botón <strong>Compartir</strong> (cuadrado con flecha hacia arriba ⬆️).</li>
+          <li>Seleccioná <strong>"Agregar a pantalla de inicio"</strong>.</li>
+          <li>¡Listo! Te queda el icono de CARVLAK en tu pantalla.</li>
+        </ol>
+      </div>
+
+      <button onclick="closeIPhoneModal()" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-xl text-xs transition-colors">
+        Entendido
+      </button>
+
+    </div>
+  </div>
+
+  <!-- ============================================================================== -->
+  <!-- MODAL: CONFIGURACIÓN Y SINCRONIZACIÓN CON GOOGLE SHEETS -->
+  <!-- ============================================================================== -->
+  <div id="syncModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full border border-slate-200 shadow-2xl overflow-hidden p-6 space-y-4 animate-in zoom-in-95 duration-150">
+      
+      <div class="flex items-center space-x-3 pb-3 border-b border-slate-100">
+        <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl">
+          🔄
+        </div>
+        <div>
+          <h3 class="text-base font-bold font-serif text-[#1E2B31]">Sincronización con Google Sheets</h3>
+          <p class="text-xs text-slate-500">Conexión bidireccional en vivo para Vercel</p>
+        </div>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">URL de Apps Script Webhook (Opcional):</label>
+          <input 
+            type="url" 
+            id="settingWebhookUrl" 
+            placeholder="https://script.google.com/macros/s/.../exec"
+            class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-mono focus:bg-white focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"
+          >
+          <p class="text-[11px] text-slate-500 mt-1">Si pegás la URL de tu Google Apps Script publicado como Web App, cada tasación se guarda automáticamente en tu Google Sheet.</p>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 p-3 rounded-xl space-y-1 text-slate-600">
+          <p class="font-bold text-slate-800">📊 Hoja de Respuestas Conectada:</p>
+          <p class="text-[11px] font-mono select-all">1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I</p>
+          <p class="text-[11px] text-slate-500">Pestaña: Respuestas de formulario 1 (716 filas)</p>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end gap-2 pt-2 border-t border-slate-100">
+        <button onclick="closeSyncModal()" class="px-4 py-2 text-xs font-bold text-slate-600 hover:text-slate-800">
+          Cancelar
+        </button>
+        <button onclick="saveSyncSettings()" class="px-5 py-2 bg-[#2D3E46] hover:bg-[#1E2B31] text-white rounded-xl text-xs font-bold shadow transition-all">
+          Guardar Configuración
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-200 bg-[#2D3E46] text-white px-4 py-3 rounded-xl shadow-xl flex items-center space-x-3 text-xs border border-[#1E2B31]">
+    <span id="toastIcon" class="text-base">✓</span>
+    <div>
+      <p id="toastTitle" class="font-bold"></p>
+      <p id="toastMessage" class="text-slate-300 text-[11px]"></p>
+    </div>
+  </div>
+
+  <!-- Scripts: Primero la base de datos pre-cargada, luego la lógica -->
+  <script src="leads-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "CARVLAK - Tasador de Autos",
+  "short_name": "CARVLAK",
+  "description": "Sistema de tasación rápida de vehículos de CARVLAK automotores para iPhone y Computadora",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#2D3E46",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://dcdn-us.mitiendanube.com/stores/006/928/264/themes/common/logo-1181937392-1762700015-9161ba30a7197fa8fc6cefa80fffb51e1762700015.ico?0",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://dcdn-us.mitiendanube.com/stores/006/928/264/themes/common/logo-1181937392-1762700015-9161ba30a7197fa8fc6cefa80fffb51e1762700015.ico?0",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ]
+}
