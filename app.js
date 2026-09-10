@@ -17,7 +17,8 @@ const OPERATORS = [
 let appConfig = {
   activeOperator: localStorage.getItem('carvlak_active_operator') || "Jonathan Kaitazoff",
   webhookUrl: localStorage.getItem('carvlak_webhook_url') || "",
-  sheetId: "1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I"
+  sheetId: "1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I",
+  gid: "782368790"
 };
 
 let allLeads = [];
@@ -60,13 +61,27 @@ function initApp() {
   // Aplicar tasaciones y fotos adjuntadas guardadas en localStorage
   applyLocalStorageOverrides();
 
-  // Si hay webhook configurado, intentar sincronizar en segundo plano
-  if (appConfig.webhookUrl) {
-    syncWithGoogleSheetWebhook(false);
-  }
-
   // Ordenar y renderizar (Hoy primero / Orden de llegada)
   sortAndFilter();
+
+  // Sincronización en vivo silenciosa al abrir
+  setTimeout(() => {
+    triggerLiveSync(true);
+  }, 1000);
+
+  // Sincronización automática al volver a la app o cambiar de pestaña
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) {
+      triggerLiveSync(true);
+    }
+  });
+
+  // Sincronización periódica cada 3 minutos en segundo plano
+  setInterval(() => {
+    if (!document.hidden) {
+      triggerLiveSync(true);
+    }
+  }, 180000);
 }
 
 function checkIosEnvironment() {
@@ -953,16 +968,174 @@ function saveSyncSettings() {
   if (url) syncWithGoogleSheetWebhook(true);
 }
 
-function refreshData() {
-  const icon = document.getElementById("refreshIcon");
-  if (icon) icon.classList.add("animate-spin");
-  
-  setTimeout(() => {
+// ================= SINCRONIZACIÓN EN VIVO CON GOOGLE SHEETS & FOTOS DRIVE =================
+let isSyncingLive = false;
+
+function triggerLiveSync(isSilent = false) {
+  if (isSyncingLive) return;
+  isSyncingLive = true;
+
+  const btnText = document.getElementById("liveSyncText");
+  const btnIcon = document.getElementById("liveSyncIcon");
+  if (btnIcon) btnIcon.classList.add("animate-spin");
+  if (btnText && !isSilent) btnText.innerText = "Sincronizando...";
+
+  const scriptId = "gviz_live_sync_script";
+  const existing = document.getElementById(scriptId);
+  if (existing) existing.remove();
+
+  const script = document.createElement("script");
+  script.id = scriptId;
+  const sheetId = appConfig.sheetId || "1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I";
+  const gid = appConfig.gid || "782368790";
+  script.src = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=responseHandler:carvlakLiveSyncCallback&gid=${gid}&_t=${Date.now()}`;
+
+  script.onerror = () => {
+    isSyncingLive = false;
+    if (btnIcon) btnIcon.classList.remove("animate-spin");
+    if (btnText) btnText.innerText = "🔄 Actualizar en Vivo";
+    if (!isSilent) showToast("⚠️ Conexión", "No se pudo conectar a Google Sheets temporalmente. Mostrando fotos guardadas.");
+  };
+
+  document.body.appendChild(script);
+}
+
+window.carvlakLiveSyncCallback = function(data) {
+  isSyncingLive = false;
+  const btnText = document.getElementById("liveSyncText");
+  const btnIcon = document.getElementById("liveSyncIcon");
+  if (btnIcon) btnIcon.classList.remove("animate-spin");
+  if (btnText) btnText.innerText = "🔄 Actualizar en Vivo";
+
+  try {
+    if (!data || !data.table || !data.table.rows) return;
+    const rows = data.table.rows;
+    let newOrUpdated = 0;
+
+    rows.forEach((r, idx) => {
+      const c = r.c;
+      if (!c) return;
+
+      const rawA = c[0] ? (c[0].f || c[0].v || '') : '';
+      if (!rawA) return;
+
+      const rowNum = idx + 2;
+      const nombre = c[1] ? String(c[1].v || '').trim() : '';
+      let rawPhone = c[2] ? String(c[2].f || c[2].v || '') : '';
+      let whatsapp = rawPhone.replace(/\D/g, '');
+      if (whatsapp.startsWith('09')) whatsapp = '598' + whatsapp.substring(1);
+      else if (whatsapp.startsWith('9') && whatsapp.length === 8) whatsapp = '598' + whatsapp;
+
+      const marca = c[4] ? String(c[4].v || '').trim() : '';
+      const modelo = c[5] ? String(c[5].v || '').trim() : '';
+      const ano = c[6] ? String(c[6].f || c[6].v || '').replace('.0', '') : '';
+      const km = c[7] ? String(c[7].f || c[7].v || '').replace('.0', '') : '';
+      const papeles = c[8] ? String(c[8].v || '').trim() : '';
+
+      // Photos from cols 9, 10, 11, 12
+      const photos = [];
+      [9, 10, 11, 12].forEach(colIdx => {
+        const val = c[colIdx] ? String(c[colIdx].v || '') : '';
+        const match = val.match(/id=([a-zA-Z0-9_-]+)/);
+        if (match) {
+          const fId = match[1];
+          photos.push({
+            id: fId,
+            thumbnail: `https://drive.google.com/thumbnail?id=${fId}&sz=w800`,
+            viewUrl: `https://drive.google.com/file/d/${fId}/view?usp=sharing`
+          });
+        }
+      });
+
+      const comentario = c[13] ? String(c[13].v || '').trim() : (c[14] ? String(c[14].v || '').trim() : '');
+      const tasVal = c[14] ? parseFloat(c[14].v) || 0 : 0;
+      const estado = c[16] ? String(c[16].v || '').trim() : '';
+
+      const isDesc = papeles.includes('No esta a mi nombre') || papeles.includes('No conozco al titular');
+      const leadKey = `CF-${rowNum}`;
+
+      const existingIndex = allLeads.findIndex(l => l.id === leadKey || l.row === rowNum);
+      if (existingIndex >= 0) {
+        if (photos.length > 0 && (!allLeads[existingIndex].photos || allLeads[existingIndex].photos.length === 0)) {
+          allLeads[existingIndex].photos = photos;
+          newOrUpdated++;
+        }
+      } else if (nombre || whatsapp || marca || photos.length > 0) {
+        allLeads.unshift({
+          id: leadKey,
+          campaign: "CF",
+          campaignName: "Tasación Con Fotos",
+          row: rowNum,
+          nombre: nombre,
+          whatsapp: whatsapp,
+          marca: marca,
+          modelo: modelo,
+          ano: ano,
+          km: km,
+          papeles: papeles,
+          comentario: comentario,
+          tasacion: tasVal,
+          estado: estado,
+          isPending: (tasVal === 0),
+          isDiscarded: isDesc,
+          photos: photos,
+          tags: getLiveTags(comentario, papeles),
+          fecha: String(rawA),
+          rawDate: String(rawA)
+        });
+        newOrUpdated++;
+      }
+    });
+
     applyLocalStorageOverrides();
     sortAndFilter();
-    if (icon) icon.classList.remove("animate-spin");
-    showToast("✓ Actualizado", "Datos recargados y ordenados por fecha de llegada");
-  }, 400);
+    showToast("✓ ¡Sincronizado en Vivo!", `${newOrUpdated > 0 ? newOrUpdated + ' nuevas consultas sincronizadas' : 'Base de datos al día con Google Sheets y fotos'}`);
+  } catch (err) {
+    console.error("Error en live sync callback:", err);
+  }
+};
+
+function getLiveTags(comment, papeles) {
+  const tags = [];
+  const c = (comment || "").toLowerCase();
+  const p = (papeles || "").toLowerCase();
+
+  if (p.includes("libreta a mi nombre")) {
+    tags.push({ type: "positive", label: "Traspaso Facil por Libreta", code: "LIBRETA_AGIL" });
+  } else if (p.includes("titulos a mi nombre") || p.includes("tiene titulos a mi nombre")) {
+    tags.push({ type: "positive", label: "Titulos al Dia", code: "TITULOS_AL_DIA" });
+  } else if (p.includes("no esta a mi nombre") || p.includes("no conozco al titular")) {
+    tags.push({ type: "danger", label: "Sin Titulos (Descarte)", code: "SIN_TITULOS" });
+  }
+
+  if (c.includes("service oficial") || c.includes("servis oficial") || c.includes("service oficiales")) {
+    tags.push({ type: "positive", label: "Service Oficial", code: "SERVICE_OFICIAL" });
+  }
+  if (c.includes("impecable") || c.includes("como nuevo") || c.includes("muy buen estado")) {
+    tags.push({ type: "positive", label: "Estado Impecable", code: "IMPECABLE" });
+  }
+  if (c.includes("cubiertas nuevas") || c.includes("neumaticos nuevos")) {
+    tags.push({ type: "positive", label: "Cubiertas Nuevas", code: "CUBIERTAS_NUEVAS" });
+  }
+  if (c.includes("choque") || c.includes("golpe") || c.includes("chocado")) {
+    tags.push({ type: "danger", label: "Detalles de Choque", code: "CHOQUE" });
+  }
+  if (c.includes("raya") || c.includes("rayones") || c.includes("raspado")) {
+    tags.push({ type: "warning", label: "Rayas / Detalles de Pintura", code: "RAYAS" });
+  }
+  if (c.includes("deuda") || c.includes("multas")) {
+    tags.push({ type: "warning", label: "Deuda / Multas a Revisar", code: "DEUDA" });
+  }
+
+  if (tags.length === 0 && comment && comment.length > 3) {
+    tags.push({ type: "neutral", label: "Nota del cliente", code: "NOTA_CLIENTE" });
+  }
+
+  return tags;
+}
+
+function refreshData() {
+  triggerLiveSync(false);
 }
 
 // ================= POST TASACIÓN A WEBHOOK GOOGLE SHEETS =================
@@ -988,35 +1161,6 @@ async function postTasacionToWebhook(rowNum, tasacion, estado) {
     console.log(`Tasación enviada a Google Sheets para fila ${rowNum}`);
   } catch (err) {
     console.warn("Fallo enviando al Webhook de Google Sheets:", err);
-  }
-}
-
-async function syncWithGoogleSheetWebhook(showNotification) {
-  if (!appConfig.webhookUrl) return;
-
-  try {
-    const res = await fetch(`${appConfig.webhookUrl}?action=getRecent`);
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        let updatedCount = 0;
-        data.forEach(item => {
-          const lead = allLeads.find(l => l.row === item.row);
-          if (lead && item.tasacion) {
-            lead.tasacion = item.tasacion;
-            lead.estado = item.estado || 'TASADO';
-            lead.isPending = false;
-            updatedCount++;
-          }
-        });
-        if (showNotification) {
-          showToast("✓ Sincronizado", `${updatedCount} tasaciones actualizadas desde Google Sheets`);
-          applyFilters();
-        }
-      }
-    }
-  } catch (e) {
-    console.log("Sincronización en segundo plano completada:", e);
   }
 }
 

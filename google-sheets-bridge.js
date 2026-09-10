@@ -12,7 +12,7 @@
  * 5. Copiá la URL resultante y pegala en el botón "🔄 Google Sheets" de tu app de Vercel.
  */
 
-var SPREADSHEET_ID = '1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I';
+var SPREADSHEET_ID = '1VVFjZTuH_kivjBz_qV1XpqqNRVzQwBYv2QmugyhV6Vk';
 var SHEET_NAME = 'Respuestas de formulario 1';
 
 function doGet(e) {

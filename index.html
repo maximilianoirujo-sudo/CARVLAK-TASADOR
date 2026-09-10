@@ -74,16 +74,10 @@
           <span>Abrir en mi iPhone</span>
         </button>
 
-        <!-- Botón Sincronizar Google Sheets -->
-        <button onclick="openSyncModal()" class="bg-emerald-700/80 hover:bg-emerald-700 text-white px-2.5 py-1 rounded-lg font-bold flex items-center gap-1 transition-colors shadow-sm">
-          <span>🔄</span>
-          <span>Google Sheets</span>
-        </button>
-
-        <span>•</span>
-        <button onclick="refreshData()" class="text-white hover:text-emerald-300 underline font-semibold flex items-center transition-colors">
-          <svg id="refreshIcon" class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
-          <span>Recargar</span>
+        <!-- Botón Actualizar en Vivo (Google Sheets + Fotos Drive) -->
+        <button id="liveSyncBtn" onclick="triggerLiveSync()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1 rounded-lg font-bold flex items-center gap-1.5 transition-all shadow-sm active:scale-95 cursor-pointer">
+          <svg id="liveSyncIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span id="liveSyncText">🔄 Actualizar en Vivo</span>
         </button>
       </div>
     </div>
@@ -234,9 +228,9 @@
         </div>
 
         <!-- Indicador de Planilla Única (Con Fotos - Drive) -->
-        <div class="flex items-center gap-1.5 px-3 py-1.5 bg-purple-50 border border-purple-200 rounded-xl text-purple-950 text-xs font-bold shadow-sm shrink-0 self-end sm:self-center">
-          <span class="text-sm">📸</span>
-          <span>Planilla: Con Fotos (Google Drive)</span>
+        <div class="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-950 text-xs font-bold shadow-sm shrink-0 self-end sm:self-center">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>Google Sheets Con Fotos (Drive)</span>
         </div>
 
       </div>
@@ -510,7 +504,9 @@
         </div>
 
         <div class="bg-slate-50 border border-slate-200 p-3 rounded-xl space-y-1 text-slate-600">
-          <p class="text-[11px] text-slate-500">Planilla: Tasación Con Fotos (919 registros • 3.104 fotos en Drive)</p>
+          <p class="font-bold text-slate-800">📊 Google Sheet Activo (Con Fotos):</p>
+          <p class="text-[11px] font-mono select-all font-bold text-emerald-700">1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I (GID: 782368790)</p>
+          <p class="text-[11px] text-slate-500">Respuestas de formulario 1 • Fotos en Google Drive actualizadas en vivo</p>
         </div>
       </div>
 
