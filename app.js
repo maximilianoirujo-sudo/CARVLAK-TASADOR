@@ -22,16 +22,25 @@ let appConfig = {
 
 let allLeads = [];
 let filteredLeads = [];
-let activeFilter = 'pendientes'; // Por defecto: liquidar los pendientes
-let currentSort = 'newest_first'; // Hoy primero por orden de ingreso
+let activeFilter = 'pendientes'; // 'pendientes', 'fotos', 'tasados', 'descartar', 'todos'
+let activeCampaign = 'all';       // 'all', 'CF', 'SF'
+let currentSort = 'newest_first';  // Hoy primero por orden de ingreso
 let pageSize = 30;
 let currentlyRendered = 0;
 let activeModalLead = null;
+
+// Lightbox state
+let activeLightboxLead = null;
+let activeLightboxIndex = 0;
+
+// Attach photo modal state
+let activeAttachLead = null;
 
 // ================= INICIALIZACIÓN =================
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
   checkIosEnvironment();
+  initLightboxListeners();
 });
 
 function initApp() {
@@ -48,7 +57,7 @@ function initApp() {
     allLeads = [];
   }
 
-  // Aplicar tasaciones guardadas localmente en el navegador
+  // Aplicar tasaciones y fotos adjuntadas guardadas en localStorage
   applyLocalStorageOverrides();
 
   // Si hay webhook configurado, intentar sincronizar en segundo plano
@@ -56,7 +65,7 @@ function initApp() {
     syncWithGoogleSheetWebhook(false);
   }
 
-  // Ordenar y renderizar
+  // Ordenar y renderizar (Hoy primero / Orden de llegada)
   sortAndFilter();
 }
 
@@ -73,7 +82,8 @@ function checkIosEnvironment() {
 }
 
 function dismissIosBanner() {
-  document.getElementById("iosInstallBanner").classList.add("hidden");
+  const b = document.getElementById("iosInstallBanner");
+  if (b) b.classList.add("hidden");
   localStorage.setItem('carvlak_ios_banner_dismissed', 'true');
 }
 
@@ -84,9 +94,9 @@ function changeOperator(newOperator) {
     localStorage.setItem('carvlak_active_operator', newOperator);
     showToast("✓ Operador Activo", `Firmando como: ${newOperator}`);
     
-    // Si el modal de WhatsApp está abierto, actualizar vista previa
     if (activeModalLead) {
-      document.getElementById("modalOperatorBadge").innerText = newOperator;
+      const b = document.getElementById("modalOperatorBadge");
+      if (b) b.innerText = newOperator;
       updatePreviewMessage();
     }
   }
@@ -95,14 +105,28 @@ function changeOperator(newOperator) {
 // ================= OVERRIDES LOCALES (PERSISTENCIA OFFLINE) =================
 function applyLocalStorageOverrides() {
   try {
+    // Tasaciones guardadas
     const saved = localStorage.getItem('carvlak_saved_tasaciones');
     if (saved) {
       const overrides = JSON.parse(saved);
       allLeads.forEach(lead => {
-        if (overrides[lead.row]) {
-          lead.tasacion = overrides[lead.row].tasacion;
-          lead.estado = overrides[lead.row].estado || lead.estado;
+        const key = lead.id || lead.row;
+        if (overrides[key]) {
+          lead.tasacion = overrides[key].tasacion;
+          lead.estado = overrides[key].estado || lead.estado;
           lead.isPending = (lead.tasacion === 0);
+        }
+      });
+    }
+
+    // Fotos añadidas manualmente
+    const savedPhotos = localStorage.getItem('carvlak_attached_photos');
+    if (savedPhotos) {
+      const photoOverrides = JSON.parse(savedPhotos);
+      allLeads.forEach(lead => {
+        const key = lead.id || lead.row;
+        if (photoOverrides[key] && Array.isArray(photoOverrides[key])) {
+          lead.photos = photoOverrides[key].concat(lead.photos || []);
         }
       });
     }
@@ -111,13 +135,13 @@ function applyLocalStorageOverrides() {
   }
 }
 
-function saveOverrideLocal(rowNum, tasacion, estado) {
+function saveOverrideLocal(leadKey, tasacion, estado) {
   try {
     let saved = {};
     const existing = localStorage.getItem('carvlak_saved_tasaciones');
     if (existing) saved = JSON.parse(existing);
     
-    saved[rowNum] = {
+    saved[leadKey] = {
       tasacion: tasacion,
       estado: estado,
       operator: appConfig.activeOperator,
@@ -130,22 +154,43 @@ function saveOverrideLocal(rowNum, tasacion, estado) {
   }
 }
 
-// ================= ORDENAMIENTO (HOY PRIMERO) Y FILTRADO =================
+// ================= ORDENAMIENTO (ORDEN DE LLEGADA / HOY PRIMERO) Y FILTRADO =================
 function changeSortOrder(val) {
   currentSort = val;
   sortAndFilter();
 }
 
+function setCampaignFilter(camp) {
+  activeCampaign = camp;
+  ['all', 'CF', 'SF'].forEach(c => {
+    const btn = document.getElementById(`campBtn-${c}`);
+    if (btn) {
+      if (c === camp) {
+        btn.className = "campaign-btn active px-2.5 py-1 rounded-lg border bg-[#2D3E46] text-white border-[#2D3E46] transition-all font-bold";
+      } else {
+        btn.className = "campaign-btn px-2.5 py-1 rounded-lg border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all font-bold";
+      }
+    }
+  });
+  applyFilters();
+}
+
 function sortAndFilter() {
   allLeads.sort((a, b) => {
     if (currentSort === 'newest_first') {
-      const dateA = parseFloat(a.rawDate) || a.row || 0;
-      const dateB = parseFloat(b.rawDate) || b.row || 0;
-      return dateB - dateA;
+      const dateA = a.rawDate || a.fecha || '';
+      const dateB = b.rawDate || b.fecha || '';
+      if (dateA && dateB && dateA !== dateB) {
+        return dateB.localeCompare(dateA);
+      }
+      return (b.row || 0) - (a.row || 0);
     } else if (currentSort === 'oldest_first') {
-      const dateA = parseFloat(a.rawDate) || a.row || 0;
-      const dateB = parseFloat(b.rawDate) || b.row || 0;
-      return dateA - dateB;
+      const dateA = a.rawDate || a.fecha || '';
+      const dateB = b.rawDate || b.fecha || '';
+      if (dateA && dateB && dateA !== dateB) {
+        return dateA.localeCompare(dateB);
+      }
+      return (a.row || 0) - (b.row || 0);
     } else if (currentSort === 'km_lowest') {
       const kmA = parseInt(a.km, 10) || 999999;
       const kmB = parseInt(b.km, 10) || 999999;
@@ -169,14 +214,15 @@ function updateGlobalCounters() {
   let countDescartar = 0;
 
   allLeads.forEach(l => {
-    const isDesc = (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular')));
-    const isFoto = (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
+    const isDesc = (l.isDiscarded || (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular'))));
+    const isFoto = (l.photos && l.photos.length > 0) || (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
     const isTas = (l.tasacion && l.tasacion > 0);
 
     if (isDesc) countDescartar++;
-    else if (isFoto) countFotos++;
     else if (isTas) countTasados++;
     else countPendientes++;
+
+    if (isFoto) countFotos++;
   });
 
   document.getElementById("counterPendientes").innerText = countPendientes;
@@ -210,8 +256,13 @@ function applyFilters() {
   const q = (document.getElementById("searchInput").value || "").toLowerCase().trim();
 
   filteredLeads = allLeads.filter(l => {
-    const isDesc = (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular')));
-    const isFoto = (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
+    // Campaign filter
+    if (activeCampaign !== 'all' && l.campaign !== activeCampaign) {
+      return false;
+    }
+
+    const isDesc = (l.isDiscarded || (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular'))));
+    const isFoto = (l.photos && l.photos.length > 0) || (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
     const isTas = (l.tasacion && l.tasacion > 0);
     const isPend = !isDesc && !isTas;
 
@@ -221,7 +272,7 @@ function applyFilters() {
     if (activeFilter === 'descartar' && !isDesc) return false;
 
     if (q) {
-      const hayMatch = `${l.nombre || ''} ${l.whatsapp || ''} ${l.marca || ''} ${l.modelo || ''} ${l.ano || ''} ${l.comentario || ''} ${l.estado || ''}`.toLowerCase();
+      const hayMatch = `${l.nombre || ''} ${l.whatsapp || ''} ${l.marca || ''} ${l.modelo || ''} ${l.ano || ''} ${l.comentario || ''} ${l.estado || ''} ${l.papeles || ''}`.toLowerCase();
       return hayMatch.includes(q);
     }
     return true;
@@ -271,18 +322,41 @@ function loadMoreLeads() {
 
 // ================= GENERACIÓN DE TARJETA DE VEHÍCULO =================
 function createLeadCardHtml(lead) {
-  const isDesc = (lead.papeles && (lead.papeles.includes('No esta a mi nombre') || lead.papeles.includes('No conozco al titular')));
-  const isLibreta = (lead.papeles && lead.papeles.includes('Libreta a mi nombre'));
+  const leadKey = lead.id || lead.row;
+  
+  // LOGICA URUGUAY: LIBRETA VS TÍTULOS
+  // Si nunca tuvo títulos pero tiene libreta a su nombre, es POSITIVO (traspaso directo sin gasto de títulos)
+  const isDesc = (lead.isDiscarded || (lead.papeles && (lead.papeles.includes('No esta a mi nombre') || lead.papeles.includes('No conozco al titular'))));
+  const isLibreta = (lead.papeles && (lead.papeles.includes('Libreta a mi nombre') || lead.papeles.includes('nunca tuvo') || lead.papeles.includes('traspaso de libreta')));
 
   let papelesBadge = '';
   if (isDesc) {
-    papelesBadge = `<span class="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-rose-100 text-rose-800 border border-rose-200">🚫 Sin Títulos</span>`;
+    papelesBadge = `
+      <div class="inline-flex flex-col">
+        <span class="px-2 py-0.5 rounded-lg text-[11px] font-black bg-rose-100 text-rose-800 border border-rose-300">
+          🚫 Sin Títulos (Descarte)
+        </span>
+        <span class="text-[9px] text-rose-600 font-semibold">Titular desconocido</span>
+      </div>`;
   } else if (isLibreta) {
-    papelesBadge = `<span class="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-amber-100 text-amber-800 border border-amber-200">⚠️ Libreta</span>`;
+    papelesBadge = `
+      <div class="inline-flex flex-col">
+        <span class="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-300">
+          ✓ Traspaso por Libreta
+        </span>
+        <span class="text-[9px] text-emerald-700 font-medium">Ágil • Sin gasto notarial</span>
+      </div>`;
   } else {
-    papelesBadge = `<span class="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">✓ Títulos</span>`;
+    papelesBadge = `
+      <div class="inline-flex flex-col">
+        <span class="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-teal-100 text-teal-800 border border-teal-300">
+          ✓ Títulos al Día
+        </span>
+        <span class="text-[9px] text-teal-700 font-medium">A nombre del titular</span>
+      </div>`;
   }
 
+  // Tags automáticos
   const tagsArray = Array.isArray(lead.tags) ? lead.tags : (lead.tags ? [lead.tags] : []);
   let tagsHtml = '';
   if (tagsArray.length > 0) {
@@ -298,7 +372,84 @@ function createLeadCardHtml(lead) {
               </span>`;
     }).join(' ');
   } else {
-    tagsHtml = `<span class="text-[11px] text-slate-400 italic">Sin tags detectados</span>`;
+    tagsHtml = `<span class="text-[11px] text-slate-400 italic">Sin observaciones detectadas</span>`;
+  }
+
+  // Galería de fotos del auto
+  const hasPhotos = (lead.photos && lead.photos.length > 0);
+  let photosHtml = '';
+
+  if (hasPhotos) {
+    const totalPhotos = lead.photos.length;
+    const maxPreview = 4;
+    const previewList = lead.photos.slice(0, maxPreview);
+    
+    const thumbs = previewList.map((p, pIdx) => {
+      const isLast = (pIdx === maxPreview - 1 && totalPhotos > maxPreview);
+      const remainingPhotos = totalPhotos - maxPreview;
+      
+      return `
+        <div 
+          onclick="openLightbox('${leadKey}', ${pIdx})" 
+          class="relative aspect-[4/3] rounded-xl overflow-hidden bg-slate-900 border border-slate-200 shadow-sm cursor-pointer group shrink-0 w-20 sm:w-24 md:w-28"
+        >
+          <img 
+            src="${p.thumbnail || p.url}" 
+            alt="Foto auto" 
+            loading="lazy"
+            onerror="this.onerror=null; this.src='https://lh3.googleusercontent.com/d/${p.id}=w600';"
+            class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
+          >
+          ${isLast ? `
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white font-bold text-xs sm:text-sm">
+              +${remainingPhotos + 1}
+            </div>` : ''}
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors"></div>
+        </div>
+      `;
+    }).join('');
+
+    photosHtml = `
+      <div class="bg-purple-50/70 border border-purple-200 rounded-xl p-2.5 sm:p-3 space-y-2">
+        <div class="flex items-center justify-between text-xs">
+          <span class="font-bold text-purple-950 flex items-center gap-1.5">
+            <span>📷</span>
+            <span>Fotos del Vehículo (${totalPhotos}):</span>
+          </span>
+          <div class="flex items-center gap-2">
+            <button onclick="openLightbox('${leadKey}', 0)" class="text-[11px] font-bold text-purple-800 hover:text-purple-950 underline flex items-center gap-1">
+              <span>🔍 Ver pantalla completa</span>
+            </button>
+            ${lead.photos[0] && lead.photos[0].viewUrl ? `
+              <a href="${lead.photos[0].viewUrl}" target="_blank" class="text-[11px] text-slate-500 hover:text-slate-800" title="Ver en Google Drive">
+                Drive ↗
+              </a>` : ''}
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5">
+          ${thumbs}
+        </div>
+      </div>
+    `;
+  } else {
+    photosHtml = `
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-2.5 flex items-center justify-between gap-2 text-xs">
+        <div class="flex items-center gap-1.5 text-slate-500">
+          <span>📷</span>
+          <span class="text-[11px] italic">Sin fotos cargadas en el formulario</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="openWhatsAppModal('${leadKey}', 'fotos')" class="text-[11px] font-bold text-blue-700 hover:text-blue-900 underline flex items-center gap-1">
+            <span>📲 Pedir fotos</span>
+          </button>
+          <span>•</span>
+          <button onclick="openAttachModal('${leadKey}')" class="text-[11px] font-bold text-slate-700 hover:text-slate-900 underline flex items-center gap-1">
+            <span>📎 Adjuntar</span>
+          </button>
+        </div>
+      </div>
+    `;
   }
 
   const kmDisplay = lead.km ? `${Number(lead.km).toLocaleString('es-UY')} km` : 'S/D';
@@ -310,7 +461,7 @@ function createLeadCardHtml(lead) {
   const age = Math.max(0, currentYear - carYear);
 
   return `
-    <div id="lead-card-${lead.row}" class="lead-card bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-3 sm:space-y-4">
+    <div id="lead-card-${leadKey}" class="lead-card bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-3 sm:space-y-4">
       
       <!-- Encabezado Móvil y Desktop -->
       <div class="flex items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
@@ -324,15 +475,21 @@ function createLeadCardHtml(lead) {
               <span class="text-[9px] bg-slate-100 text-slate-600 font-bold px-1.5 py-0.5 rounded border border-slate-200">
                 #${lead.row}
               </span>
+              ${lead.campaign === 'CF' ? `
+                <span class="text-[9px] bg-purple-100 text-purple-800 font-bold px-1.5 py-0.5 rounded border border-purple-200">
+                  📸 Con Fotos
+                </span>` : ''}
               ${estadoVal ? `<span class="text-[9px] bg-blue-100 text-blue-800 font-black px-1.5 py-0.5 rounded border border-blue-200 uppercase">${escapeHtml(estadoVal)}</span>` : ''}
             </div>
-            <p class="text-[10px] text-slate-500">${lead.fecha || 'Reciente'}</p>
+            <p class="text-[10px] text-slate-500 flex items-center gap-1">
+              <span>🕒 ${lead.fecha || 'Reciente'}</span>
+            </p>
           </div>
         </div>
 
         <!-- Botón WhatsApp Directo en Cabezal -->
         <button 
-          onclick="openWhatsAppModal(${lead.row}, 'oferta')" 
+          onclick="openWhatsAppModal('${leadKey}', 'oferta')" 
           class="px-3 py-1.5 sm:px-3.5 sm:py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold flex items-center gap-1.5 shadow-sm transition-colors touch-target shrink-0"
         >
           <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
@@ -346,7 +503,7 @@ function createLeadCardHtml(lead) {
         <div class="bg-slate-50 border border-slate-200 p-2.5 rounded-xl">
           <p class="text-[9px] uppercase font-bold tracking-wider text-slate-500">Vehículo</p>
           <p class="text-xs sm:text-sm font-black text-[#1E2B31] truncate">${escapeHtml(lead.marca)} ${escapeHtml(lead.modelo)}</p>
-          <p class="text-[10px] text-slate-500">Modelo declarado</p>
+          <p class="text-[10px] text-slate-500 truncate">${escapeHtml(lead.modelo || '')}</p>
         </div>
 
         <div class="bg-slate-50 border border-slate-200 p-2.5 rounded-xl flex items-center justify-between">
@@ -365,20 +522,23 @@ function createLeadCardHtml(lead) {
         </div>
 
         <div class="bg-slate-50 border border-slate-200 p-2.5 rounded-xl flex flex-col justify-center">
-          <p class="text-[9px] uppercase font-bold tracking-wider text-slate-500 mb-0.5">Papeles</p>
+          <p class="text-[9px] uppercase font-bold tracking-wider text-slate-500 mb-0.5">Titularidad</p>
           <div>${papelesBadge}</div>
         </div>
 
       </div>
 
+      <!-- Fotos del Vehículo -->
+      ${photosHtml}
+
       <!-- Comentario del Cliente (Columna J) -->
       <div class="bg-[#F8FAFC] border border-slate-200 p-3 rounded-xl space-y-2">
         <div class="flex items-center justify-between text-xs">
           <span class="font-bold text-[#1E2B31] text-[11px] uppercase tracking-wider flex items-center gap-1">
-            💬 Detalles del Auto (Columna J):
+            💬 Comentarios / Detalles del Cliente:
           </span>
-          <button onclick="openWhatsAppModal(${lead.row}, 'fotos')" class="text-[11px] font-bold text-blue-700 hover:text-blue-900 underline">
-            📸 Pedir fotos si faltan
+          <button onclick="openWhatsAppModal('${leadKey}', 'fotos')" class="text-[11px] font-bold text-blue-700 hover:text-blue-900 underline">
+            📸 Pedir fotos adicionales
           </button>
         </div>
 
@@ -401,7 +561,7 @@ function createLeadCardHtml(lead) {
             <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-xs font-black text-slate-600">$</span>
             <input 
               type="number" 
-              id="tasacionInput-${lead.row}" 
+              id="tasacionInput-${leadKey}" 
               value="${tasacionVal}" 
               placeholder="Monto USD" 
               class="w-full sm:w-36 pl-7 pr-2 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"
@@ -409,22 +569,22 @@ function createLeadCardHtml(lead) {
           </div>
 
           <div class="flex items-center gap-1">
-            <button onclick="quickAdjustTasacion(${lead.row}, -500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">-500</button>
-            <button onclick="quickAdjustTasacion(${lead.row}, 500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+500</button>
-            <button onclick="quickAdjustTasacion(${lead.row}, 1000)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+1k</button>
+            <button onclick="quickAdjustTasacion('${leadKey}', -500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">-500</button>
+            <button onclick="quickAdjustTasacion('${leadKey}', 500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+500</button>
+            <button onclick="quickAdjustTasacion('${leadKey}', 1000)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+1k</button>
           </div>
         </div>
 
         <div class="flex items-center gap-2">
           <button 
-            onclick="saveLeadTasacion(${lead.row}, false)" 
+            onclick="saveLeadTasacion('${leadKey}', false)" 
             class="flex-1 sm:flex-none px-3.5 py-2.5 bg-white border border-[#2D3E46] text-[#2D3E46] hover:bg-slate-50 rounded-xl text-xs font-bold transition-all shadow-sm touch-target text-center"
           >
             💾 Guardar
           </button>
           
           <button 
-            onclick="saveLeadTasacion(${lead.row}, true)" 
+            onclick="saveLeadTasacion('${leadKey}', true)" 
             class="flex-2 sm:flex-none px-4 py-2.5 bg-[#C0392B] hover:bg-[#A93226] text-white rounded-xl text-xs font-black transition-all shadow hover:shadow-md flex items-center justify-center gap-1.5 touch-target text-center"
           >
             <span>🚀 Tasar y WhatsApp</span>
@@ -438,16 +598,16 @@ function createLeadCardHtml(lead) {
 }
 
 // ================= ACCIONES DE TASACIÓN =================
-function quickAdjustTasacion(rowNum, amount) {
-  const input = document.getElementById(`tasacionInput-${rowNum}`);
+function quickAdjustTasacion(leadKey, amount) {
+  const input = document.getElementById(`tasacionInput-${leadKey}`);
   if (!input) return;
   let val = parseFloat(input.value) || 0;
   val = Math.max(0, val + amount);
   input.value = val;
 }
 
-function saveLeadTasacion(rowNum, openWspAfter) {
-  const input = document.getElementById(`tasacionInput-${rowNum}`);
+function saveLeadTasacion(leadKey, openWspAfter) {
+  const input = document.getElementById(`tasacionInput-${leadKey}`);
   const val = parseFloat(input.value) || 0;
   if (val <= 0) {
     showToast("⚠️ Atención", "Ingresá un valor mayor a 0 para tasar el auto.");
@@ -455,34 +615,201 @@ function saveLeadTasacion(rowNum, openWspAfter) {
     return;
   }
 
-  const lead = allLeads.find(l => l.row === rowNum);
+  const lead = allLeads.find(l => (l.id === leadKey || l.row === leadKey || String(l.row) === String(leadKey)));
   if (lead) {
     lead.tasacion = val;
     lead.estado = 'TASADO';
     lead.isPending = false;
   }
 
-  // 1. Guardar en caché local
-  saveOverrideLocal(rowNum, val, 'TASADO');
+  // Guardar en caché local
+  saveOverrideLocal(leadKey, val, 'TASADO');
 
-  // 2. Si hay Webhook conectado a Google Sheets, sincronizar en vivo
+  // Si hay Webhook conectado a Google Sheets, sincronizar en vivo
   if (appConfig.webhookUrl) {
-    postTasacionToWebhook(rowNum, val, 'TASADO');
+    postTasacionToWebhook(lead.row, val, 'TASADO');
   }
 
   showToast("✓ Tasación Guardada", `USD ${val.toLocaleString('es-UY')} registrada por ${appConfig.activeOperator}`);
   updateGlobalCounters();
 
   if (openWspAfter) {
-    openWhatsAppModal(rowNum, 'oferta');
+    openWhatsAppModal(leadKey, 'oferta');
+  }
+}
+
+// ================= LIGHTBOX VIEWER (FOTOS EN PANTALLA COMPLETA) =================
+function openLightbox(leadKey, index) {
+  const lead = allLeads.find(l => (l.id === leadKey || l.row === leadKey || String(l.row) === String(leadKey)));
+  if (!lead || !lead.photos || lead.photos.length === 0) return;
+
+  activeLightboxLead = lead;
+  activeLightboxIndex = Math.max(0, Math.min(index || 0, lead.photos.length - 1));
+
+  updateLightboxView();
+  document.getElementById("lightboxModal").classList.remove("hidden");
+  document.body.classList.add("overflow-hidden");
+}
+
+function closeLightbox() {
+  document.getElementById("lightboxModal").classList.add("hidden");
+  document.body.classList.remove("overflow-hidden");
+  activeLightboxLead = null;
+}
+
+function updateLightboxView() {
+  if (!activeLightboxLead || !activeLightboxLead.photos) return;
+  const photos = activeLightboxLead.photos;
+  const current = photos[activeLightboxIndex];
+
+  document.getElementById("lightboxCounter").innerText = `Foto ${activeLightboxIndex + 1} de ${photos.length}`;
+  document.getElementById("lightboxCarTitle").innerText = `${activeLightboxLead.marca} ${activeLightboxLead.modelo} (${activeLightboxLead.ano || ''}) • ${activeLightboxLead.nombre || ''}`;
+
+  const imgEl = document.getElementById("lightboxImg");
+  imgEl.src = current.thumbnail || current.url;
+  imgEl.onerror = () => {
+    imgEl.src = `https://lh3.googleusercontent.com/d/${current.id}=w1200`;
+  };
+
+  const driveLink = document.getElementById("lightboxDriveLink");
+  if (current.viewUrl) {
+    driveLink.href = current.viewUrl;
+    driveLink.classList.remove("hidden");
+  } else {
+    driveLink.classList.add("hidden");
+  }
+
+  // Thumbnails bar
+  const strip = document.getElementById("lightboxThumbStrip");
+  strip.innerHTML = photos.map((p, idx) => `
+    <img 
+      src="${p.thumbnail || p.url}" 
+      onclick="setLightboxIndex(${idx})" 
+      class="h-12 sm:h-14 aspect-[4/3] object-cover rounded-lg cursor-pointer transition-all ${idx === activeLightboxIndex ? 'ring-2 ring-emerald-400 opacity-100 scale-105' : 'opacity-50 hover:opacity-80'}"
+    >
+  `).join('');
+}
+
+function setLightboxIndex(idx) {
+  if (!activeLightboxLead) return;
+  activeLightboxIndex = idx;
+  updateLightboxView();
+}
+
+function nextLightboxPhoto() {
+  if (!activeLightboxLead || !activeLightboxLead.photos) return;
+  activeLightboxIndex = (activeLightboxIndex + 1) % activeLightboxLead.photos.length;
+  updateLightboxView();
+}
+
+function prevLightboxPhoto() {
+  if (!activeLightboxLead || !activeLightboxLead.photos) return;
+  activeLightboxIndex = (activeLightboxIndex - 1 + activeLightboxLead.photos.length) % activeLightboxLead.photos.length;
+  updateLightboxView();
+}
+
+function initLightboxListeners() {
+  window.addEventListener('keydown', (e) => {
+    const lb = document.getElementById("lightboxModal");
+    if (lb && !lb.classList.contains("hidden")) {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextLightboxPhoto();
+      if (e.key === 'ArrowLeft') prevLightboxPhoto();
+    }
+  });
+
+  // Touch swipe support for mobile / iPhone
+  let touchStartX = 0;
+  let touchEndX = 0;
+  const lbModal = document.getElementById("lightboxModal");
+  if (lbModal) {
+    lbModal.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lbModal.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      if (touchStartX - touchEndX > 50) nextLightboxPhoto();
+      if (touchEndX - touchStartX > 50) prevLightboxPhoto();
+    }, { passive: true });
+  }
+}
+
+// ================= MODAL ADJUNTAR FOTOS =================
+function openAttachModal(leadKey) {
+  const lead = allLeads.find(l => (l.id === leadKey || l.row === leadKey || String(l.row) === String(leadKey)));
+  if (!lead) return;
+
+  activeAttachLead = lead;
+  document.getElementById("attachModalCarTitle").innerText = `${lead.marca} ${lead.modelo} (${lead.ano || ''}) • ${lead.nombre || ''}`;
+  document.getElementById("attachPhotoUrls").value = "";
+  document.getElementById("attachPhotoModal").classList.remove("hidden");
+}
+
+function closeAttachModal() {
+  document.getElementById("attachPhotoModal").classList.add("hidden");
+  activeAttachLead = null;
+}
+
+function saveAttachedPhotos() {
+  if (!activeAttachLead) return;
+  const text = document.getElementById("attachPhotoUrls").value.trim();
+  if (!text) {
+    showToast("⚠️ Atención", "Ingresá al menos un enlace de foto.");
+    return;
+  }
+
+  const urls = text.split(/[\r\n,]+/).map(u => u.trim()).filter(u => u.length > 5);
+  const newPhotos = [];
+
+  urls.forEach(u => {
+    let fId = "";
+    if (u.includes('id=')) {
+      fId = u.split('id=')[1].split('&')[0];
+    } else if (u.includes('/d/')) {
+      fId = u.split('/d/')[1].split('/')[0];
+    }
+
+    if (fId) {
+      newPhotos.push({
+        id: fId,
+        thumbnail: `https://drive.google.com/thumbnail?id=${fId}&sz=w800`,
+        viewUrl: `https://drive.google.com/file/d/${fId}/view?usp=sharing`
+      });
+    } else {
+      newPhotos.push({
+        id: "custom-" + Date.now(),
+        thumbnail: u,
+        viewUrl: u
+      });
+    }
+  });
+
+  if (newPhotos.length > 0) {
+    activeAttachLead.photos = newPhotos.concat(activeAttachLead.photos || []);
+    
+    // Guardar en localStorage
+    let saved = {};
+    try {
+      const ex = localStorage.getItem('carvlak_attached_photos');
+      if (ex) saved = JSON.parse(ex);
+    } catch (e) {}
+
+    const key = activeAttachLead.id || activeAttachLead.row;
+    saved[key] = activeAttachLead.photos;
+    localStorage.setItem('carvlak_attached_photos', JSON.stringify(saved));
+
+    showToast("✓ Fotos Guardadas", `Se agregaron ${newPhotos.length} fotos a la ficha`);
+    closeAttachModal();
+    applyFilters();
   }
 }
 
 // ================= MOTOR DE MENSAJES DE WHATSAPP CON OPERADOR =================
 let currentTemplateKey = 'oferta';
 
-function openWhatsAppModal(rowNum, templateKey) {
-  const lead = allLeads.find(l => l.row === rowNum);
+function openWhatsAppModal(leadKey, templateKey) {
+  const lead = allLeads.find(l => (l.id === leadKey || l.row === leadKey || String(l.row) === String(leadKey)));
   if (!lead) return;
 
   activeModalLead = lead;
@@ -530,8 +857,9 @@ function updatePreviewMessage() {
   if (!activeModalLead) return;
   const lead = activeModalLead;
   const operator = appConfig.activeOperator;
+  const leadKey = lead.id || lead.row;
 
-  const currentTasacion = lead.tasacion || (document.getElementById(`tasacionInput-${lead.row}`) ? parseFloat(document.getElementById(`tasacionInput-${lead.row}`).value) : 0) || 0;
+  const currentTasacion = lead.tasacion || (document.getElementById(`tasacionInput-${leadKey}`) ? parseFloat(document.getElementById(`tasacionInput-${leadKey}`).value) : 0) || 0;
   const formattedMonto = currentTasacion > 0 ? Number(currentTasacion).toLocaleString('es-UY') : '0';
 
   const tagsArray = Array.isArray(lead.tags) ? lead.tags : (lead.tags ? [lead.tags] : []);
@@ -549,54 +877,50 @@ function updatePreviewMessage() {
 
     text = `¡Hola ${lead.nombre || ''}! Te saluda ${operator} de CARVLAK.\n\nEstuvimos revisando la información de tu ${lead.marca || 'auto'} ${lead.modelo || ''} año ${lead.ano || ''} (${lead.km ? lead.km + ' km' : ''}).\n\n${detalleMention}te podemos pasar una tasación estimada de USD $${formattedMonto} al contado en mano.\n\n¿Te sirve la propuesta para coordinar y que te des una vuelta por el local a revisarlo y cerrar en el día? ¡Quedo a las órdenes!\n\n¡Saludos cordiales!\n${operator} • CARVLAK`;
   } else if (currentTemplateKey === 'fotos') {
-    text = `¡Hola ${lead.nombre || ''}! Te saluda ${operator} de CARVLAK por tu ${lead.marca || 'auto'} ${lead.modelo || ''} año ${lead.ano || ''}.\n\n¿Me podrás mandar unas fotitos del exterior y del interior por acá? Así le pego una mirada y te paso el valor exacto de tasación hoy mismo. ¡Muchas gracias!\n\n${operator} • CARVLAK`;
+    text = `¡Hola ${lead.nombre || ''}! Te saluda ${operator} de CARVLAK por tu ${lead.marca || 'auto'} ${lead.modelo || ''} año ${lead.ano || ''}.\n\n¿Me podrás mandar unas fotos del exterior y del interior por acá? Así le pego una mirada y te paso el valor exacto de tasación hoy mismo. ¡Muchas gracias!\n\n${operator} • CARVLAK`;
   } else if (currentTemplateKey === 'visita') {
     text = `¡Hola ${lead.nombre || ''}! ${operator} de CARVLAK nuevamente.\n\n¿Cómo te queda para pasar por nuestro local con el ${lead.modelo || 'auto'} para revisarlo juntos y ya dejar liquidada la compra? Saludos cordiales.\n\n${operator} • CARVLAK`;
   } else if (currentTemplateKey === 'descarte') {
-    text = `Hola ${lead.nombre || ''}, muchas gracias por consultar en CARVLAK por tu ${lead.marca || ''} ${lead.modelo || ''}.\n\nLamentablemente por el momento solo estamos comprando vehículos que tengan los títulos o libreta a nombre del titular directo para transferir en el momento. ¡Cualquier otra consulta quedamos a las órdenes!\n\n${operator} • CARVLAK`;
+    text = `Hola ${lead.nombre || ''}, muchas gracias por consultar en CARVLAK por tu ${lead.marca || ''} ${lead.modelo || ''}.\n\nLamentablemente por el momento solo estamos comprando vehículos que tengan los títulos o la libreta a nombre del titular directo para transferir en el momento. ¡Cualquier otra consulta quedamos a las órdenes!\n\n${operator} • CARVLAK`;
   }
 
   const textarea = document.getElementById("modalMessageText");
   textarea.value = text;
-  updateModalWspLink();
-}
 
-function updateModalWspLink() {
-  if (!activeModalLead) return;
-  const cleanPhone = sanitizePhone(activeModalLead.whatsapp || "");
-  const text = document.getElementById("modalMessageText").value;
-  const link = document.getElementById("modalOpenWspLink");
-  link.href = `https://api.whatsapp.com/send?phone=${cleanPhone}&text=${encodeURIComponent(text)}`;
+  // Actualizar link de WhatsApp
+  const cleanPhone = (lead.whatsapp || "").replace(/\D/g, '');
+  const encodedText = encodeURIComponent(text);
+  const wspLink = `https://wa.me/${cleanPhone}?text=${encodedText}`;
+  document.getElementById("modalOpenWspLink").href = wspLink;
 }
-
-document.getElementById("modalMessageText").addEventListener('input', updateModalWspLink);
 
 function copyModalMessage() {
-  const textarea = document.getElementById("modalMessageText");
-  textarea.select();
-  navigator.clipboard.writeText(textarea.value).then(() => {
-    showToast("✓ Copiado", "Mensaje copiado al portapapeles");
+  const text = document.getElementById("modalMessageText").value;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast("✓ Copiado al portapapeles", "Mensaje listo para pegar en WhatsApp Web");
+  }).catch(() => {
+    showToast("✓ Copiado", "Texto seleccionado");
   });
 }
 
 function onWspOpened() {
-  showToast("✓ WhatsApp Abierto", `Mensaje enviado firmado por ${appConfig.activeOperator}`);
-  setTimeout(() => {
-    closeWhatsAppModal();
-  }, 600);
+  if (activeModalLead) {
+    showToast("🚀 WhatsApp Abierto", `Chat iniciado para ${activeModalLead.nombre}`);
+    setTimeout(() => {
+      closeWhatsAppModal();
+    }, 1000);
+  }
 }
 
-// ================= MODAL IPHONE & QR =================
+// ================= MODALES DE IPHONE Y SINCRONIZACIÓN =================
 function openIPhoneModal() {
-  const modal = document.getElementById("iphoneModal");
-  const urlInput = document.getElementById("appUrlInput");
-  const qrImg = document.getElementById("qrCodeImg");
+  const currentUrl = window.location.href;
+  document.getElementById("appUrlInput").value = currentUrl;
   
-  const targetUrl = window.location.href;
-  urlInput.value = targetUrl;
-  qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(targetUrl)}`;
-  
-  modal.classList.remove("hidden");
+  const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(currentUrl)}&bgcolor=F8FAFC&color=2D3E46`;
+  document.getElementById("qrCodeImg").src = qrApiUrl;
+
+  document.getElementById("iphoneModal").classList.remove("hidden");
 }
 
 function closeIPhoneModal() {
@@ -611,12 +935,9 @@ function copyAppUrl() {
   });
 }
 
-// ================= MODAL DE SINCRONIZACIÓN GOOGLE SHEETS =================
 function openSyncModal() {
-  const modal = document.getElementById("syncModal");
-  const input = document.getElementById("settingWebhookUrl");
-  input.value = appConfig.webhookUrl || "";
-  modal.classList.remove("hidden");
+  document.getElementById("settingWebhookUrl").value = appConfig.webhookUrl;
+  document.getElementById("syncModal").classList.remove("hidden");
 }
 
 function closeSyncModal() {
@@ -624,115 +945,106 @@ function closeSyncModal() {
 }
 
 function saveSyncSettings() {
-  const input = document.getElementById("settingWebhookUrl");
-  const url = input.value.trim();
+  const url = document.getElementById("settingWebhookUrl").value.trim();
   appConfig.webhookUrl = url;
   localStorage.setItem('carvlak_webhook_url', url);
+  showToast("✓ Configuración Guardada", url ? "Conectado a Google Sheets" : "Modo local activo");
   closeSyncModal();
-  showToast("✓ Configuración Guardada", "Conexión a Google Sheets actualizada");
-  if (url) {
-    syncWithGoogleSheetWebhook(true);
-  }
+  if (url) syncWithGoogleSheetWebhook(true);
 }
 
 function refreshData() {
   const icon = document.getElementById("refreshIcon");
   if (icon) icon.classList.add("animate-spin");
   
-  if (appConfig.webhookUrl) {
-    syncWithGoogleSheetWebhook(true, () => {
-      if (icon) icon.classList.remove("animate-spin");
-    });
-  } else {
-    setTimeout(() => {
-      sortAndFilter();
-      if (icon) icon.classList.remove("animate-spin");
-      showToast("✓ Actualizado", "Lista de vehículos ordenada");
-    }, 300);
-  }
+  setTimeout(() => {
+    applyLocalStorageOverrides();
+    sortAndFilter();
+    if (icon) icon.classList.remove("animate-spin");
+    showToast("✓ Actualizado", "Datos recargados y ordenados por fecha de llegada");
+  }, 400);
 }
 
-function syncWithGoogleSheetWebhook(showNotification = false, callback = null) {
-  if (!appConfig.webhookUrl) {
-    if (callback) callback();
-    return;
-  }
-
-  fetch(appConfig.webhookUrl + "?action=getLeads")
-    .then(res => res.json())
-    .then(data => {
-      if (data && data.leads && data.leads.length > 0) {
-        allLeads = data.leads;
-        applyLocalStorageOverrides();
-        sortAndFilter();
-        if (showNotification) {
-          showToast("✓ Sincronizado", `${allLeads.length} respuestas recibidas en vivo de Google Sheets`);
-        }
-      }
-      if (callback) callback();
-    })
-    .catch(err => {
-      console.warn("Error en sincronización webhook:", err);
-      if (showNotification) {
-        showToast("⚠️ Modo Offline", "Usando datos locales cargados");
-      }
-      if (callback) callback();
-    });
-}
-
-function postTasacionToWebhook(rowNum, tasacion, estado) {
+// ================= POST TASACIÓN A WEBHOOK GOOGLE SHEETS =================
+async function postTasacionToWebhook(rowNum, tasacion, estado) {
   if (!appConfig.webhookUrl) return;
 
-  const payload = {
-    action: "saveTasacion",
-    rowIndex: rowNum,
-    tasacion: tasacion,
-    estado: estado,
-    operator: appConfig.activeOperator
-  };
+  try {
+    const payload = {
+      action: "updateTasacion",
+      row: rowNum,
+      tasacion: tasacion,
+      estado: estado,
+      operator: appConfig.activeOperator,
+      timestamp: new Date().toISOString()
+    };
 
-  fetch(appConfig.webhookUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: JSON.stringify(payload)
-  })
-  .then(res => res.json())
-  .then(res => {
-    console.log("Guardado en Google Sheets con éxito:", res);
-  })
-  .catch(err => {
-    console.warn("Aviso: guardado localmente, pendiente sincronizar en Google Sheets:", err);
-  });
-}
-
-// ================= UTILIDADES =================
-function sanitizePhone(phoneRaw) {
-  if (!phoneRaw) return "";
-  let digits = phoneRaw.replace(/\D/g, "");
-  if (digits.startsWith("09") && digits.length === 9) {
-    digits = "598" + digits.substring(1);
-  } else if (digits.startsWith("9") && digits.length === 8) {
-    digits = "598" + digits;
+    await fetch(appConfig.webhookUrl, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    console.log(`Tasación enviada a Google Sheets para fila ${rowNum}`);
+  } catch (err) {
+    console.warn("Fallo enviando al Webhook de Google Sheets:", err);
   }
-  return digits;
 }
 
-function escapeHtml(str) {
-  if (!str) return '';
-  return str.toString()
+async function syncWithGoogleSheetWebhook(showNotification) {
+  if (!appConfig.webhookUrl) return;
+
+  try {
+    const res = await fetch(`${appConfig.webhookUrl}?action=getRecent`);
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data) && data.length > 0) {
+        let updatedCount = 0;
+        data.forEach(item => {
+          const lead = allLeads.find(l => l.row === item.row);
+          if (lead && item.tasacion) {
+            lead.tasacion = item.tasacion;
+            lead.estado = item.estado || 'TASADO';
+            lead.isPending = false;
+            updatedCount++;
+          }
+        });
+        if (showNotification) {
+          showToast("✓ Sincronizado", `${updatedCount} tasaciones actualizadas desde Google Sheets`);
+          applyFilters();
+        }
+      }
+    }
+  } catch (e) {
+    console.log("Sincronización en segundo plano completada:", e);
+  }
+}
+
+// ================= TOASTS & UTILIDADES =================
+let toastTimer = null;
+function showToast(title, message) {
+  const toast = document.getElementById("toast");
+  if (!toast) return;
+
+  document.getElementById("toastTitle").innerText = title;
+  document.getElementById("toastMessage").innerText = message;
+
+  clearTimeout(toastTimer);
+  toast.classList.remove("opacity-0", "translate-y-20");
+  toast.classList.add("opacity-100", "translate-y-0");
+
+  toastTimer = setTimeout(() => {
+    toast.classList.remove("opacity-100", "translate-y-0");
+    toast.classList.add("opacity-0", "translate-y-20");
+  }, 3500);
+}
+
+function escapeHtml(text) {
+  if (!text) return '';
+  return String(text)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
-}
-
-function showToast(title, msg) {
-  const toast = document.getElementById("toast");
-  document.getElementById("toastTitle").innerText = title;
-  document.getElementById("toastMessage").innerText = msg;
-  toast.classList.remove("translate-y-20", "opacity-0");
-  setTimeout(() => {
-    toast.classList.add("translate-y-20", "opacity-0");
-  }, 3500);
 }

@@ -80,6 +80,17 @@ h1, h2, h3, .font-heading {
   transform: translateY(-1px);
 }
 
+/* ================= GALERÍA DE FOTOS & LIGHTBOX ================= */
+#lightboxModal {
+  touch-action: pan-y;
+}
+
+#lightboxImg {
+  user-select: none;
+  -webkit-user-drag: none;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
 /* Soporte para modo PWA en pantalla completa */
 @media all and (display-mode: standalone) {
   header {

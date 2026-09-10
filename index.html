@@ -119,7 +119,7 @@
               <h1 class="text-lg sm:text-2xl font-bold font-serif text-[#1E2B31] tracking-tight">Tasador CARVLAK</h1>
               <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#C0392B] text-white">Vercel Edition</span>
             </div>
-            <p class="text-[11px] text-slate-500 hidden sm:block">Hoy primero • WhatsApp automático • Sincronización en vivo</p>
+            <p class="text-[11px] text-slate-500 hidden sm:block">Orden de llegada • Fotos integradas • WhatsApp automático</p>
           </div>
         </div>
 
@@ -146,26 +146,26 @@
         <div class="bg-blue-50 border border-blue-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-blue-900 shadow-sm shrink-0">
           <span>⏳</span>
           <span class="font-medium text-[11px]">Pendientes:</span>
-          <span id="counterPendientes" class="font-black text-sm">400</span>
+          <span id="counterPendientes" class="font-black text-sm">0</span>
+        </div>
+        <div class="bg-purple-50 border border-purple-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-purple-900 shadow-sm shrink-0">
+          <span>📸</span>
+          <span class="font-medium text-[11px]">Con Fotos:</span>
+          <span id="counterFotos" class="font-black text-sm">0</span>
         </div>
         <div class="bg-emerald-50 border border-emerald-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-emerald-900 shadow-sm shrink-0">
           <span>✓</span>
           <span class="font-medium text-[11px]">Tasados:</span>
-          <span id="counterTasados" class="font-black text-sm">316</span>
-        </div>
-        <div class="bg-amber-50 border border-amber-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-amber-900 shadow-sm shrink-0">
-          <span>📸</span>
-          <span class="font-medium text-[11px]">Fotos:</span>
-          <span id="counterFotos" class="font-black text-sm">14</span>
+          <span id="counterTasados" class="font-black text-sm">0</span>
         </div>
         <div class="bg-rose-50 border border-rose-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-rose-900 shadow-sm shrink-0">
           <span>🚫</span>
           <span class="font-medium text-[11px]">Descarte:</span>
-          <span id="counterDescartados" class="font-black text-sm">10</span>
+          <span id="counterDescartados" class="font-black text-sm">0</span>
         </div>
         <div class="bg-slate-100 border border-slate-200 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center space-x-1.5 text-slate-700 shadow-sm shrink-0">
           <span class="font-medium text-[11px]">Total:</span>
-          <span id="counterTotal" class="font-black text-sm">716</span>
+          <span id="counterTotal" class="font-black text-sm">0</span>
         </div>
       </div>
 
@@ -190,19 +190,19 @@
             type="text" 
             id="searchInput" 
             oninput="applyFilters()" 
-            placeholder="Buscar por cliente, WhatsApp, marca (Chevrolet, VW...), modelo o año..." 
+            placeholder="Buscar por cliente, WhatsApp, auto (Peugeot, VW, Chevrolet...), año o comentarios..." 
             class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#2D3E46] transition-all"
           >
         </div>
 
-        <!-- Selector de Orden de Entrada (Hoy primero por defecto) -->
+        <!-- Selector de Orden de Entrada (Hoy / Más recientes primero por defecto) -->
         <div class="flex items-center gap-2 shrink-0">
           <select 
             id="sortOrderSelect" 
             onchange="changeSortOrder(this.value)" 
             class="w-full sm:w-auto bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-xs font-bold text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none cursor-pointer"
           >
-            <option value="newest_first">🕒 Más recientes primero (Hoy al inicio)</option>
+            <option value="newest_first" selected>⚡ Orden de llegada (Más recientes primero)</option>
             <option value="oldest_first">⏳ Más antiguos primero</option>
             <option value="km_lowest">🛞 Menor Kilometraje</option>
             <option value="year_newest">📅 Año más nuevo</option>
@@ -211,29 +211,48 @@
 
       </div>
 
-      <!-- Fila 2: Pestañas de Estado -->
-      <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-100">
-        <div class="flex flex-wrap items-center gap-1 sm:gap-1.5 text-xs font-semibold overflow-x-auto w-full sm:w-auto pb-1 sm:pb-0">
+      <!-- Fila 2: Selector de Campaña & Filtros de Estado -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 pt-2 border-t border-slate-100">
+        
+        <!-- Pestañas de Estado -->
+        <div class="flex flex-wrap items-center gap-1 sm:gap-1.5 text-xs font-semibold overflow-x-auto no-scrollbar">
           <button onclick="setFilter('pendientes')" id="filter-pendientes" class="filter-btn active px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-[#2D3E46] text-white border-[#2D3E46] shadow-sm transition-all flex items-center gap-1 shrink-0">
-            <span>⏳</span> Pendientes (<span id="tabCountPendientes">400</span>)
-          </button>
-          <button onclick="setFilter('tasados')" id="filter-tasados" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
-            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Tasados (<span id="tabCountTasados">316</span>)
+            <span>⏳</span> Pendientes (<span id="tabCountPendientes">0</span>)
           </button>
           <button onclick="setFilter('fotos')" id="filter-fotos" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
-            <span>📸</span> Fotos (<span id="tabCountFotos">14</span>)
+            <span>📸</span> Con Fotos (<span id="tabCountFotos">0</span>)
+          </button>
+          <button onclick="setFilter('tasados')" id="filter-tasados" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Tasados (<span id="tabCountTasados">0</span>)
           </button>
           <button onclick="setFilter('descartar')" id="filter-descartar" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
-            <span>🚫</span> Sin Títulos (<span id="tabCountDescartar">10</span>)
+            <span>🚫</span> Titular Desconocido (<span id="tabCountDescartar">0</span>)
           </button>
           <button onclick="setFilter('todos')" id="filter-todos" class="filter-btn px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all flex items-center gap-1 shrink-0">
-            Todos (<span id="tabCountTodos">716</span>)
+            Todos (<span id="tabCountTodos">0</span>)
           </button>
         </div>
 
-        <div class="text-[11px] sm:text-xs text-slate-500 font-medium hidden sm:block">
-          Mostrando <span id="displayedCount" class="font-bold text-[#1E2B31]">0</span> de <span id="totalFilteredCount" class="font-bold text-[#1E2B31]">0</span> autos
+        <!-- Selector de Campaña (Con Fotos vs Sin Fotos) -->
+        <div class="flex items-center gap-1 text-[11px] font-bold shrink-0 self-end sm:self-center">
+          <span class="text-slate-400 mr-1 hidden sm:inline">Campaña:</span>
+          <button onclick="setCampaignFilter('all')" id="campBtn-all" class="campaign-btn active px-2.5 py-1 rounded-lg border bg-[#2D3E46] text-white border-[#2D3E46] transition-all">
+            Todas
+          </button>
+          <button onclick="setCampaignFilter('CF')" id="campBtn-CF" class="campaign-btn px-2.5 py-1 rounded-lg border bg-purple-50 text-purple-900 border-purple-200 hover:bg-purple-100 transition-all flex items-center gap-1">
+            <span>📸 Con Fotos</span>
+          </button>
+          <button onclick="setCampaignFilter('SF')" id="campBtn-SF" class="campaign-btn px-2.5 py-1 rounded-lg border bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100 transition-all">
+            Sin Fotos
+          </button>
         </div>
+
+      </div>
+
+      <!-- Resumen de items mostrados -->
+      <div class="text-[11px] text-slate-500 font-medium flex justify-between items-center pt-1">
+        <span>Mostrando <strong id="displayedCount" class="text-[#1E2B31]">0</strong> de <strong id="totalFilteredCount" class="text-[#1E2B31]">0</strong> autos</span>
+        <span class="text-[10px] text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">✓ Libreta a mi nombre = Traspaso directo</span>
       </div>
 
     </div>
@@ -270,6 +289,74 @@
   </main>
 
   <!-- ============================================================================== -->
+  <!-- MODAL: VISOR DE FOTOS EN ALTA RESOLUCIÓN (LIGHTBOX) -->
+  <!-- ============================================================================== -->
+  <div id="lightboxModal" class="hidden fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex flex-col justify-between p-2 sm:p-4 select-none animate-in fade-in duration-150">
+    <!-- Top Bar: Info & Close -->
+    <div class="flex items-center justify-between text-white px-3 py-2 shrink-0 border-b border-white/10">
+      <div class="flex items-center gap-2 overflow-hidden">
+        <span class="text-sm font-bold text-emerald-400 shrink-0">📷 <span id="lightboxCounter">Foto 1 de 1</span></span>
+        <span class="text-slate-400 shrink-0">•</span>
+        <span id="lightboxCarTitle" class="text-xs sm:text-sm font-semibold truncate text-slate-200"></span>
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        <a id="lightboxDriveLink" href="#" target="_blank" class="px-2.5 py-1 bg-white/10 hover:bg-white/20 text-white rounded-lg text-xs font-semibold flex items-center gap-1 transition-colors">
+          <span>Abrir Drive ↗</span>
+        </a>
+        <button onclick="closeLightbox()" class="text-white hover:text-rose-400 text-3xl font-bold px-2 py-1 leading-none transition-colors">&times;</button>
+      </div>
+    </div>
+
+    <!-- Center: Image & Navigation -->
+    <div class="relative flex-1 flex items-center justify-center overflow-hidden p-2 sm:p-4">
+      <button onclick="prevLightboxPhoto()" class="absolute left-2 sm:left-4 z-10 w-11 h-11 rounded-full bg-black/70 hover:bg-black/90 text-white flex items-center justify-center text-xl font-bold shadow-xl border border-white/20 touch-target transition-all">
+        &#10094;
+      </button>
+      
+      <img id="lightboxImg" src="" alt="Foto vehículo CARVLAK" class="max-h-[75vh] max-w-[95vw] object-contain rounded-xl shadow-2xl transition-all duration-200">
+      
+      <button onclick="nextLightboxPhoto()" class="absolute right-2 sm:right-4 z-10 w-11 h-11 rounded-full bg-black/70 hover:bg-black/90 text-white flex items-center justify-center text-xl font-bold shadow-xl border border-white/20 touch-target transition-all">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Bottom Thumbnails Strip -->
+    <div id="lightboxThumbStrip" class="flex items-center justify-center gap-2 py-2 overflow-x-auto shrink-0 no-scrollbar max-w-2xl mx-auto"></div>
+  </div>
+
+  <!-- ============================================================================== -->
+  <!-- MODAL: ADJUNTAR FOTOS O ENLACE A DRIVE -->
+  <!-- ============================================================================== -->
+  <div id="attachPhotoModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full border border-slate-200 shadow-2xl overflow-hidden p-5 sm:p-6 space-y-4 animate-in zoom-in-95 duration-150">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">📸</span>
+          <div>
+            <h3 class="text-base font-bold font-serif text-[#1E2B31]">Adjuntar Fotos del Vehículo</h3>
+            <p id="attachModalCarTitle" class="text-xs text-slate-500"></p>
+          </div>
+        </div>
+        <button onclick="closeAttachModal()" class="text-slate-400 hover:text-slate-700 text-2xl font-bold leading-none">&times;</button>
+      </div>
+      
+      <p class="text-xs text-slate-600 leading-relaxed">
+        Pegá enlaces de Google Drive o fotos que te mandó el cliente por WhatsApp para guardarlas en la ficha de este auto.
+      </p>
+
+      <div>
+        <label class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Enlaces de fotos (uno por línea o separados por coma):</label>
+        <textarea id="attachPhotoUrls" rows="4" placeholder="https://drive.google.com/file/d/1cO_E6t6HRa...&#10;https://drive.google.com/open?id=1nXSVrF..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-mono text-slate-800 focus:bg-white focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"></textarea>
+      </div>
+
+      <div class="flex justify-end gap-2 pt-2 border-t border-slate-100">
+        <button onclick="closeAttachModal()" class="px-3.5 py-2 text-xs font-bold text-slate-600 hover:text-slate-800">Cancelar</button>
+        <button onclick="saveAttachedPhotos()" class="px-4 py-2 bg-[#2D3E46] hover:bg-[#1E2B31] text-white rounded-xl text-xs font-bold shadow transition-all">Guardar Fotos</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================================== -->
   <!-- MODAL DE WHATSAPP (PLANTILLAS Y FIRMA DINÁMICA) -->
   <!-- ============================================================================== -->
   <div id="whatsappModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4">
@@ -303,7 +390,7 @@
             📍 Visita
           </button>
           <button onclick="selectTemplate('descarte')" id="tplBtn-descarte" class="px-2.5 py-2 rounded-xl border bg-white text-slate-700 border-slate-300 hover:bg-slate-100 transition-all">
-            🚫 Sin Títulos
+            🚫 Descarte
           </button>
         </div>
       </div>
@@ -433,7 +520,7 @@
         <div class="bg-slate-50 border border-slate-200 p-3 rounded-xl space-y-1 text-slate-600">
           <p class="font-bold text-slate-800">📊 Hoja de Respuestas Conectada:</p>
           <p class="text-[11px] font-mono select-all">1pomsp0u3fEhCz1syDz9HtOT5VrneOZT2JYBDgK2qv-I</p>
-          <p class="text-[11px] text-slate-500">Pestaña: Respuestas de formulario 1 (716 filas)</p>
+          <p class="text-[11px] text-slate-500">Formularios: Con Fotos (829 fotos) & Sin Fotos (716)</p>
         </div>
       </div>
 
