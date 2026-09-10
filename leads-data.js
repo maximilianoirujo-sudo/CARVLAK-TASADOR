@@ -4,7 +4,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1437",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1437,
         "nombre":  "Gonzalo Herosa",
         "whatsapp":  "59893492241",
@@ -14,8 +14,8 @@ const INITIAL_LEADS = [
         "km":  "220000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Interior y motor impecable único detalle en farol trasero",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58,7 +58,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1436",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1436,
         "nombre":  "Fiorella antonini",
         "whatsapp":  "59894018767",
@@ -86,7 +86,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1435",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1435,
         "nombre":  "Adrian Núñez",
         "whatsapp":  "5989127101",
@@ -112,7 +112,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1434",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1434,
         "nombre":  "Belen",
         "whatsapp":  "598983660640000000000",
@@ -122,8 +122,8 @@ const INITIAL_LEADS = [
         "km":  "75000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene neumáticos cambiados este año. Tiene un detalle estético que subí foto",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -159,7 +159,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1433",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1433,
         "nombre":  "",
         "whatsapp":  "59894019123",
@@ -213,7 +213,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1432",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1432,
         "nombre":  "Fiorella albano",
         "whatsapp":  "59892884299",
@@ -223,8 +223,8 @@ const INITIAL_LEADS = [
         "km":  "151000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está impecable, lo vendo para cambiar a uno eléctrico",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -267,7 +267,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1431",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1431,
         "nombre":  "Leticia",
         "whatsapp":  "59898254871",
@@ -277,8 +277,8 @@ const INITIAL_LEADS = [
         "km":  "39000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Unica dueña esta impecable",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -302,7 +302,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1430",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1430,
         "nombre":  "Gonzalo Bentancor",
         "whatsapp":  "59891308990000000000",
@@ -356,7 +356,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1429",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1429,
         "nombre":  "",
         "whatsapp":  "598978268420000000000",
@@ -410,7 +410,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1428",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1428,
         "nombre":  "Nicolás Machín",
         "whatsapp":  "59891772281",
@@ -420,8 +420,8 @@ const INITIAL_LEADS = [
         "km":  "62300 reales, se pueden verificar ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene sus detalles, estuvo siempre en la familia, se compró 0km en el 2000, tiene embrague nuevo hecho en turismo de este año, 4 inyectores nuevos, corte a la inyección (por seguridad) 2 llantas cambiadas este año",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -457,7 +457,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1427",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1427,
         "nombre":  "",
         "whatsapp":  "",
@@ -485,7 +485,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1426",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1426,
         "nombre":  "Juan Manuel Arias",
         "whatsapp":  "598937357750000000000",
@@ -495,8 +495,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está muy cuidado, mantenimiento al día. Pronto para andar",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -532,7 +532,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1425",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1425,
         "nombre":  "Marcos oviedo",
         "whatsapp":  "598928705150000000000",
@@ -542,8 +542,8 @@ const INITIAL_LEADS = [
         "km":  "105mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene pendiente un toque de atras a la espera que llegue repuestos al taller es por medio de seguro",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -579,7 +579,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1424",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1424,
         "nombre":  "German quiroz",
         "whatsapp":  "598984200550000000000",
@@ -589,8 +589,8 @@ const INITIAL_LEADS = [
         "km":  "168000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "De mecanica no tiene ningun inconveniente, lo compre hace 8 meses y lo use bastante poco ya que iba y venia de mi trabajo dentro de jose ignacio en punta del este, recientemente le hice un service exahustivo tengo recibos y que se le hizo, los unicos detalles que tiene son de chapa y pintura, del lado derexho tiene un roce de la dueña previa en la salida de un estacionamiento y en el techo del lado exterior tiene un oxido de pintura saltada, nada grave, esta tapado en la foto si quieres lo puedo descubrir y mandarte una de esa parte, despues en el interior le funciona todo, lo unico que esta roto es la luz interior del techo y apenas un rasguño en el tapizado del conductor, soy el segundo dueño del auto, le tuve que realizar los titulos y esta todo al dia y a mi nombre",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -626,7 +626,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1423",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1423,
         "nombre":  "Raquel",
         "whatsapp":  "59895076285",
@@ -636,8 +636,8 @@ const INITIAL_LEADS = [
         "km":  "Aprox 174000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Te mando fotos x wapsap service en tiempo y forma",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -654,7 +654,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1422",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1422,
         "nombre":  "Federico",
         "whatsapp":  "598988881420000000000",
@@ -686,7 +686,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1421",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1421,
         "nombre":  "Luciano barboza",
         "whatsapp":  "598985404070000000000",
@@ -728,7 +728,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1420",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1420,
         "nombre":  "Nahuel",
         "whatsapp":  "59895556152",
@@ -763,7 +763,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1419",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1419,
         "nombre":  "",
         "whatsapp":  "598991795330000000000",
@@ -791,7 +791,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1418",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1418,
         "nombre":  "Gonzalo Baston",
         "whatsapp":  "598991627420000000000",
@@ -801,8 +801,8 @@ const INITIAL_LEADS = [
         "km":  "95000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficiales en Zucchino, cubiertas cerca del cambio, segundo dueño",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -838,7 +838,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1417",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1417,
         "nombre":  "Nicolas Saravia",
         "whatsapp":  "598994975730000000000",
@@ -848,8 +848,8 @@ const INITIAL_LEADS = [
         "km":  "39500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño, siempre service oficial en garantía",
-        "tasacion":  138000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -885,7 +885,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1416",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1416,
         "nombre":  "Juan Loureiro",
         "whatsapp":  "598999831440000000000",
@@ -895,8 +895,8 @@ const INITIAL_LEADS = [
         "km":  "15000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El service de los 10 mil se lo hice en mi taller de confianza.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -927,7 +927,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1415",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1415,
         "nombre":  "Fabiana",
         "whatsapp":  "598991021030000000000",
@@ -937,8 +937,8 @@ const INITIAL_LEADS = [
         "km":  "98500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto se encuentra muy bien y solo lo vendo para el cambio por eléctrico ora 5",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -974,7 +974,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1414",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1414,
         "nombre":  "Maxi",
         "whatsapp":  "598935416390000000000",
@@ -1002,7 +1002,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1413",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1413,
         "nombre":  "Nicolas",
         "whatsapp":  "59895147295",
@@ -1012,8 +1012,8 @@ const INITIAL_LEADS = [
         "km":  "121000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un pequeño golpe mínimo en una puerta y después anda en exelente estado",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1051,7 +1051,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1412",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1412,
         "nombre":  "Manuel",
         "whatsapp":  "598920869190000000000",
@@ -1061,8 +1061,8 @@ const INITIAL_LEADS = [
         "km":  "28000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1d8YTWRu7LDT8FxJVpq5fU9RwN8SyvrJI",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1098,7 +1098,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1411",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1411,
         "nombre":  "Fredyel Farfán",
         "whatsapp":  "598963099080000000000",
@@ -1108,8 +1108,8 @@ const INITIAL_LEADS = [
         "km":  "110000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo funcional, detalle en puerta pero pienso repararlo yo. Service al día, computest vigente",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1145,7 +1145,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1410",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1410,
         "nombre":  "Martín Jourdan",
         "whatsapp":  "598939311380000000000",
@@ -1155,8 +1155,8 @@ const INITIAL_LEADS = [
         "km":  "290000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy el segundo dueño del auto. Está impecable tanto de estética, como mecánica.\nLo vendo porque estoy haciendo más kilómetros de lo que pensaba y me serviría comprar un auto eléctrico.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1199,7 +1199,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1409",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1409,
         "nombre":  "Jorge Rodríguez",
         "whatsapp":  "59892222894",
@@ -1258,7 +1258,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1408",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1408,
         "nombre":  "Fabián Erviti",
         "whatsapp":  "59892442742",
@@ -1312,7 +1312,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1407",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1407,
         "nombre":  "Maria Pino",
         "whatsapp":  "59891926570000000000",
@@ -1322,8 +1322,8 @@ const INITIAL_LEADS = [
         "km":  "32000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Único dueño, todos los service oficiales, lo vendo por compra de Tesla",
-        "tasacion":  155000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1366,7 +1366,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1406",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1406,
         "nombre":  "Román Caraballo",
         "whatsapp":  "598992720720000000000",
@@ -1408,7 +1408,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1405",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1405,
         "nombre":  "",
         "whatsapp":  "598955819590000000000",
@@ -1455,7 +1455,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1404",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1404,
         "nombre":  "Rodrigo",
         "whatsapp":  "598984889080000000000",
@@ -1509,7 +1509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1403",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1403,
         "nombre":  "Gabriel Feo",
         "whatsapp":  "598922413550000000000",
@@ -1519,8 +1519,8 @@ const INITIAL_LEADS = [
         "km":  "59000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene detalles estéticos, sin lona, algunos raspones, un pequeño choque en la parte delantera. No tiene service oficial, siempre con mi mecánico de confianza.",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1563,7 +1563,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1402",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1402,
         "nombre":  "Mauro Barreto",
         "whatsapp":  "59894070517",
@@ -1610,7 +1610,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1401",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1401,
         "nombre":  "Agustín Navarro",
         "whatsapp":  "59896983300000000",
@@ -1664,7 +1664,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1400",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1400,
         "nombre":  "Marcelo",
         "whatsapp":  "004548181",
@@ -1692,7 +1692,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1399",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1399,
         "nombre":  "Martina",
         "whatsapp":  "59898448815",
@@ -1734,7 +1734,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1398",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1398,
         "nombre":  "Dylan",
         "whatsapp":  "598981994110000000000",
@@ -1744,8 +1744,8 @@ const INITIAL_LEADS = [
         "km":  "100000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en excelente estado service al día, cambio de correa de distribución y bomba de agua realizado, funcionando perfecto y con cubiertas Pirelli con 15 mil km aprox, lo vendo por desuso",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1781,7 +1781,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1397",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1397,
         "nombre":  "Sergio Pacheco",
         "whatsapp":  "59809782380400000000000",
@@ -1823,7 +1823,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1396",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1396,
         "nombre":  "Marcos",
         "whatsapp":  "598917547860000000000",
@@ -1870,7 +1870,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1395",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1395,
         "nombre":  "Santiago",
         "whatsapp":  "598984356870000000000",
@@ -1880,8 +1880,8 @@ const INITIAL_LEADS = [
         "km":  "118000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "En el capó tiene un rayón que se ve en la primer foto, service oficial se le hizo hasta los 70000 kms y le funciona todo perfectamente.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1924,7 +1924,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1394",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1394,
         "nombre":  "Daniel Petronio",
         "whatsapp":  "59899171280000000000",
@@ -1934,8 +1934,8 @@ const INITIAL_LEADS = [
         "km":  "231000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los service no son oficiales,pero han sido siempre en tiempo y forma. Nunca ha tenido choques, tiene el aire descargado y parabrisas roto",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -1978,7 +1978,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1393",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1393,
         "nombre":  "Joaquin Nuñez",
         "whatsapp":  "59891471060",
@@ -1988,8 +1988,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1UVc2oPG_6SIZwGCBOGWOmM6Ms_jKuwYQ",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2025,7 +2025,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1392",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1392,
         "nombre":  "Matias",
         "whatsapp":  "598989147090000000000",
@@ -2035,8 +2035,8 @@ const INITIAL_LEADS = [
         "km":  "50000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La camioneta esta literalmente nueva y muy bien cuidada",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2072,7 +2072,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1391",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1391,
         "nombre":  "",
         "whatsapp":  "59891287682",
@@ -2119,7 +2119,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1390",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1390,
         "nombre":  "Joaquín Santesteban",
         "whatsapp":  "598914859120000000000",
@@ -2166,7 +2166,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1389",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1389,
         "nombre":  "Daniel",
         "whatsapp":  "598973482780000000000",
@@ -2176,8 +2176,8 @@ const INITIAL_LEADS = [
         "km":  "65000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Esta todo impecable, muy bien cuidado y service oficiales",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2220,7 +2220,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1388",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1388,
         "nombre":  "Claudio Grasiuso",
         "whatsapp":  "598993629490000000000",
@@ -2230,8 +2230,8 @@ const INITIAL_LEADS = [
         "km":  "93500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo en orden soy el 2do dueño desde los 22.000 km todos los service a realizados, el último se hizo hace poco, cubiertas con 1000 km desde uso (nuevas), la mayoría de los kilómetros aproximadamente el 90% son de ruta (vivo a 12 km de la ciudad) y esta con tratamiento cerámico con duración 3 años la tengo hace 2 años, el antiguo dueño vivía también en el interior de San José y la usaba poco. En San José, es uno de los departamentos que no se necesita títulos, solo libreta a tu nombre y esta esta a mi nombre con patente al día. Una joyita, son fanático de tenerla Muuy bien, esta a la vista.",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2267,7 +2267,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1387",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1387,
         "nombre":  "Sergio",
         "whatsapp":  "59809672179100000000000",
@@ -2295,7 +2295,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1386",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1386,
         "nombre":  "Veronica",
         "whatsapp":  "598951310860000000000",
@@ -2342,7 +2342,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1385",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1385,
         "nombre":  "Fabia silva",
         "whatsapp":  "598999158160000000000",
@@ -2389,7 +2389,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1384",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1384,
         "nombre":  "Abril",
         "whatsapp":  "598962263930000000000",
@@ -2399,8 +2399,8 @@ const INITIAL_LEADS = [
         "km":  "100mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene el embrague raro, y debe 49",
-        "tasacion":  61000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6100,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2417,7 +2417,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1383",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1383,
         "nombre":  "Nicolas Lema",
         "whatsapp":  "598944026270000000000",
@@ -2427,8 +2427,8 @@ const INITIAL_LEADS = [
         "km":  "119000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tienen ningún choque (solo un roce menor en el guardabarros izquierdo que se sucedió estacionado), los neumáticos son nuevos, se cambió la correa de distribución en el último Service por mantenimiento. De mecánica está en excelente estado (lo puede revisar su mecánico de confianza). Las fotos son de hoy mismo. Vendo porque compré otro vehículo (sino lo la vendía)",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2471,7 +2471,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1382",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1382,
         "nombre":  "",
         "whatsapp":  "59899363427",
@@ -2481,8 +2481,8 @@ const INITIAL_LEADS = [
         "km":  "110",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene AC funcionando\nParabrisas roto\nY deuda de patente 20 mil",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2518,7 +2518,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1381",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1381,
         "nombre":  "Andres QUINTAS",
         "whatsapp":  "598945858840000000000",
@@ -2577,7 +2577,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1380",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1380,
         "nombre":  "Francisco Fernández",
         "whatsapp":  "598964538660000000000",
@@ -2624,7 +2624,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1379",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1379,
         "nombre":  "Andres Bergara",
         "whatsapp":  "59898110499",
@@ -2678,7 +2678,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1378",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1378,
         "nombre":  "Luka samy",
         "whatsapp":  "598962326460000000000",
@@ -2706,7 +2706,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1377",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1377,
         "nombre":  "Fabricio Toledo",
         "whatsapp":  "598977698020000000000",
@@ -2716,8 +2716,8 @@ const INITIAL_LEADS = [
         "km":  "223000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos cambiados hace menos de 5000km, burro nuevo, cables, bujías y tapa de distribuidor nuevas, pequeña rotura en el paragolpes",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -2750,7 +2750,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1376",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1376,
         "nombre":  "Carlos Bacigalupe",
         "whatsapp":  "59899319800",
@@ -2804,7 +2804,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1375",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1375,
         "nombre":  "Sebastián Cardozo",
         "whatsapp":  "59891442566",
@@ -2851,7 +2851,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1374",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1374,
         "nombre":  "Maximiliano Rosano",
         "whatsapp":  "598983871390000000000",
@@ -2910,7 +2910,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1373",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1373,
         "nombre":  "Carol",
         "whatsapp":  "598983899850000000000",
@@ -2957,7 +2957,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1372",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1372,
         "nombre":  "Fernando",
         "whatsapp":  "59898208120",
@@ -2967,8 +2967,8 @@ const INITIAL_LEADS = [
         "km":  "413000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hola qué tal y pienso que en ese estado no se va a encontrar ya que es un clásico .",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3004,7 +3004,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1371",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1371,
         "nombre":  "Natalia",
         "whatsapp":  "598912782880000000000",
@@ -3032,7 +3032,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1370",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1370,
         "nombre":  "Gonzalo Gonzalez",
         "whatsapp":  "598947715780000000000",
@@ -3076,7 +3076,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1369",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1369,
         "nombre":  "Eugenia",
         "whatsapp":  "598995879880000000000",
@@ -3086,8 +3086,8 @@ const INITIAL_LEADS = [
         "km":  "189000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Dirección hidráulica, carrocería y chapa excelente, vidrios eléctricos delanteros, láminas polarizadas de seguridad, Radio multimedia, patente al día, cubiertas nuevas",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3130,7 +3130,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1368",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1368,
         "nombre":  "Guillermo",
         "whatsapp":  "59894379272",
@@ -3184,7 +3184,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1367",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1367,
         "nombre":  "Leslie",
         "whatsapp":  "598989222240000000000",
@@ -3238,7 +3238,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1366",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1366,
         "nombre":  "Nicolas",
         "whatsapp":  "59809953593100000000000",
@@ -3292,7 +3292,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1365",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1365,
         "nombre":  "Gabriel",
         "whatsapp":  "598998197220000000000",
@@ -3339,7 +3339,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1364",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1364,
         "nombre":  "Hola Jonathan, soy Lourdes Sosa Russo",
         "whatsapp":  "598963285160000000000",
@@ -3349,8 +3349,8 @@ const INITIAL_LEADS = [
         "km":  "93",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los servicios oficiales realizados; el último fue en junio de 2026 y dio todo impecable.\nTiene todos los papeles al día, incluyendo convenio de patente y una multa, listo para transferir. \nTiene un detalle estético superficial en el borde trasero por un toque estacionando. \nFuera de eso, el auto está impecable y muy bien cuidado. Si bien lo mantengo limpio, las fotos las tome unos días atrás que había llovizna, si te parece le vuelvo a sacar. Desde ya gracias por tu tiempo.\nAh está re bien de neumáticos y tiene auto ok hasta el 2028!",
-        "tasacion":  62000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3393,7 +3393,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1363",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1363,
         "nombre":  "Maximiliano Cardenas",
         "whatsapp":  "598997575560000000000",
@@ -3457,7 +3457,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1362",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1362,
         "nombre":  "Malena Costa",
         "whatsapp":  "598994732690000000000",
@@ -3467,8 +3467,8 @@ const INITIAL_LEADS = [
         "km":  "42000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Patente paga por el resto del año, seguro pago hasta abril 2027 y service de los 40.000km recientemente hecho.",
-        "tasacion":  102000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3504,7 +3504,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1361",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1361,
         "nombre":  "Diego Sacco",
         "whatsapp":  "598956840630000000000",
@@ -3514,8 +3514,8 @@ const INITIAL_LEADS = [
         "km":  "52000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "La camioneta está a mi nombre la compré 0km todos los Service hechos en taller oficial. Cuenta con cubiertas nuevas con 1000km de uso.",
-        "tasacion":  170000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3546,7 +3546,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1360",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1360,
         "nombre":  "Gabriel",
         "whatsapp":  "59894292974",
@@ -3556,8 +3556,8 @@ const INITIAL_LEADS = [
         "km":  "93000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está impecable el auto solo tiene un detalle en la ventanilla del conductor que no baja bien",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3595,7 +3595,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1359",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1359,
         "nombre":  "Agustín del puerto",
         "whatsapp":  "598928349660000000000",
@@ -3605,8 +3605,8 @@ const INITIAL_LEADS = [
         "km":  "123800",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Quiero venderlo para comprar uno mas económico. Esta andando impecable tiene algun detalle en la chapa del sol el barniz un poco levantado pero no tiene picaduras ni nada. Adentro está impecable también. Muy bien cuidado, se le cambió la distribución hace poco.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3649,7 +3649,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1358",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1358,
         "nombre":  "Paula",
         "whatsapp":  "59891964033",
@@ -3686,7 +3686,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1357",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1357,
         "nombre":  "",
         "whatsapp":  "59892282057",
@@ -3696,8 +3696,8 @@ const INITIAL_LEADS = [
         "km":  "166413",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en perfectas condiciones. Tiene algunos raspones de pintura en el guardabarros de adelante",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3733,7 +3733,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1356",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1356,
         "nombre":  "Alexander Gimenez",
         "whatsapp":  "59809248959800000000000",
@@ -3780,7 +3780,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1355",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1355,
         "nombre":  "Patricia",
         "whatsapp":  "59894968929",
@@ -3827,7 +3827,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1354",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1354,
         "nombre":  "Bárbara Machado",
         "whatsapp":  "598948291290000000000",
@@ -3837,8 +3837,8 @@ const INITIAL_LEADS = [
         "km":  "113000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los service oficiales, todo funciona bien, neumáticos cambiados hace 6 meses. Patente paga todo el año.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -3881,7 +3881,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1353",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1353,
         "nombre":  "Facundo Fernández",
         "whatsapp":  "598979982820000000000",
@@ -3928,7 +3928,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1352",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1352,
         "nombre":  "German",
         "whatsapp":  "59895473931",
@@ -3975,7 +3975,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1351",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1351,
         "nombre":  "Nahuel Gonzalez",
         "whatsapp":  "59899789373",
@@ -3985,8 +3985,8 @@ const INITIAL_LEADS = [
         "km":  "178000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al día. Patente al día. Vidrios eléctricos algo trancados. Neumáticos delanteros recién cambiados. Parabrisas con detalle. Cerradura de puerta de conductor gastada pero funcional con cierre centralizado.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4022,7 +4022,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1350",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1350,
         "nombre":  "Laura Tuberosa",
         "whatsapp":  "929788750000000",
@@ -4069,7 +4069,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1349",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1349,
         "nombre":  "Mauricio arace",
         "whatsapp":  "59898953480000000000",
@@ -4079,8 +4079,8 @@ const INITIAL_LEADS = [
         "km":  "156000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1xy4EKz4H4xbeJ0hpVlF8cA2jkJBkyASh",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4116,7 +4116,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1348",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1348,
         "nombre":  "Joaquín Pérez",
         "whatsapp":  "598999849090000000000",
@@ -4144,7 +4144,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1347",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1347,
         "nombre":  "Christopher Figueredo",
         "whatsapp":  "59892965469",
@@ -4154,8 +4154,8 @@ const INITIAL_LEADS = [
         "km":  "256000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto está al día , libreta ah mi nombre pronto ah transferir , no tuvo choques , funciona todo , estado de neumáticos bien y service eso echo hace poco , detalle ah tener es que suena un poco la rueda izquierda que es algo sencillo de cambiar , y los espejos laterales están fijos",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4191,7 +4191,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1346",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1346,
         "nombre":  "Enrique Fontes",
         "whatsapp":  "598982312260000000000",
@@ -4250,7 +4250,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1345",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1345,
         "nombre":  "Joaquin",
         "whatsapp":  "598097860700000000000",
@@ -4260,8 +4260,8 @@ const INITIAL_LEADS = [
         "km":  "118300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1mMwAfjxUQ3sPUr7TnRs9-6PNRWRlCM6B",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4292,7 +4292,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1344",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1344,
         "nombre":  "Valeria",
         "whatsapp":  "59899265284",
@@ -4302,8 +4302,8 @@ const INITIAL_LEADS = [
         "km":  "146546",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todo al día, patente paga todo el año, mal funcionamiento del aire, detalle de chapas que se ven en las fotos gracias",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4339,7 +4339,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1343",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1343,
         "nombre":  "Agustín Santalla",
         "whatsapp":  "59895360780000000000",
@@ -4349,8 +4349,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Agregados tiene desempeñador tracero, radio pantalla (car Android) camara de reversa, aire acondicionado (agregar gas) vehículo cuenta con deuda",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4388,7 +4388,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1342",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1342,
         "nombre":  "Eugenia",
         "whatsapp":  "598956658310000000000",
@@ -4398,8 +4398,8 @@ const INITIAL_LEADS = [
         "km":  "186mil",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos todo terreno con poco uso, cámara de reversa, el motor es mitsubishi cadenero, la camioneta no tiene titulos, nunca tuvo, no hicimos la transferencia porque habia un divircio de por medio, se resuelve con una carta poder que nos da la automotora, patente al dia, sin multas",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4435,7 +4435,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1341",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1341,
         "nombre":  "Matteo",
         "whatsapp":  "598950144470000000000",
@@ -4463,7 +4463,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1340",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1340,
         "nombre":  "Lucas Ferreira",
         "whatsapp":  "598989109610000000000",
@@ -4473,8 +4473,8 @@ const INITIAL_LEADS = [
         "km":  "205000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un raspón abajo en la puerta del conductor puliendo desaparece.\n- Enganche Bracco\n- Hace 2mil km: Service de distribución completo, service de aceite y filtros incluido el de cabina. Cambio de discos y pastillas de freno delanteras, cambio de patines traseros. Aceite LIQUIMOLY.\n- Cubiertas YOKOHAMA atrás, MICHELIN adelante.",
-        "tasacion":  180000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4510,7 +4510,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1339",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1339,
         "nombre":  "Bryan Leal",
         "whatsapp":  "598985779490000000000",
@@ -4520,8 +4520,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos en buen estado, no tuvo choque, cambio de aceite y filtros echo recientemente, funciona impecable",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4569,7 +4569,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1338",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1338,
         "nombre":  "Marcos",
         "whatsapp":  "59894700398",
@@ -4579,8 +4579,8 @@ const INITIAL_LEADS = [
         "km":  "20800",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño, en garantia",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4616,7 +4616,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1337",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1337,
         "nombre":  "Federico Marino",
         "whatsapp":  "59898277728",
@@ -4626,8 +4626,8 @@ const INITIAL_LEADS = [
         "km":  "11500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficial de los 10.000 km hace 1 mes , vidrios polarizados , tuerca de seguridad en sus llantas , estan pidiendo entre 19500 y 20.000 , pero por ser carvlak que lo siguen hace tiempo pueden hacer una excepción y dejarlo en 19.000 , \nAbrazo gracias espero su respuesta .",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4670,7 +4670,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1336",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1336,
         "nombre":  "Juan molinaro",
         "whatsapp":  "598945709520000000000",
@@ -4680,8 +4680,8 @@ const INITIAL_LEADS = [
         "km":  "38000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto esta nuevo, todos service oficiales. Unico dueño, no tuvo ningun choque. Todo al dia. Lo cambio por que le quiero comprar el auto a un amigo",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4729,7 +4729,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1335",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1335,
         "nombre":  "Sebastián",
         "whatsapp":  "598913779360000000000",
@@ -4776,7 +4776,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1334",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1334,
         "nombre":  "José López",
         "whatsapp":  "598972967270000000000",
@@ -4823,7 +4823,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1333",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1333,
         "nombre":  "Federico Caruso",
         "whatsapp":  "59894888874",
@@ -4833,8 +4833,8 @@ const INITIAL_LEADS = [
         "km":  "158000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene choques, tiene el tren delantero a nuevo alineado y balanceado hace muy poco, cubiertas medio uso cambiadas a principio de año, tiene detalles esteticos, mecanica impecable siempre cambios de aceite en tiempo y forma, No le funciona la calefaccion y los 2 vifrios electricos de atras, tiene radio con pantalla y parlantes pionner",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4877,7 +4877,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1332",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1332,
         "nombre":  "Jonathan pedetti",
         "whatsapp":  "598977868530000000000",
@@ -4887,8 +4887,8 @@ const INITIAL_LEADS = [
         "km":  "181000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles en los paragolpes el resto todo ok. Cubiertas nuevas, aire acondicionado funciona perfecto, cambio de correa de distribución de le hizo a las 159 mil km. Si tiene convenio activo",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4931,7 +4931,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1331",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1331,
         "nombre":  "Yanela",
         "whatsapp":  "59897216623",
@@ -4941,8 +4941,8 @@ const INITIAL_LEADS = [
         "km":  "98000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Services al día! Oficiales solo en garantía!sin deudas todo al día",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -4968,7 +4968,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1330",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1330,
         "nombre":  "Pablo",
         "whatsapp":  "59899882063",
@@ -5015,7 +5015,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1329",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1329,
         "nombre":  "Veronica Leira",
         "whatsapp":  "59897073309",
@@ -5025,8 +5025,8 @@ const INITIAL_LEADS = [
         "km":  "182000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy la primera dueña. Se le hicieron los Service oficiales hasta los 100 mil km",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5064,7 +5064,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1328",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1328,
         "nombre":  "",
         "whatsapp":  "598994930510000000000",
@@ -5074,8 +5074,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Funciona bien, desgaste del tiempo nomás pero bien",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5111,7 +5111,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1327",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1327,
         "nombre":  "Martin Benia",
         "whatsapp":  "59899255915",
@@ -5158,7 +5158,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1326",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1326,
         "nombre":  "Romina Laffitte",
         "whatsapp":  "59899725163",
@@ -5190,7 +5190,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1325",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1325,
         "nombre":  "Bautista Rodriguez",
         "whatsapp":  "598955410590000000000",
@@ -5237,7 +5237,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1324",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1324,
         "nombre":  "Leonardo",
         "whatsapp":  "59894705785",
@@ -5284,7 +5284,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1323",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1323,
         "nombre":  "Jorge Firpo",
         "whatsapp":  "598991232060000000000",
@@ -5312,7 +5312,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1322",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1322,
         "nombre":  "Fernando Delgado",
         "whatsapp":  "59895657603",
@@ -5322,8 +5322,8 @@ const INITIAL_LEADS = [
         "km":  "168000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Están títulos y libreta  a nombre de mi suegro, fallecido y comenzamos el trámite de sucesión, no tenemos donde guardarlo, por ese motivo necesitamos venderlo",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5359,7 +5359,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1321",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1321,
         "nombre":  "Maxi Di Matteo",
         "whatsapp":  "598918028820000000000",
@@ -5413,7 +5413,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1320",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1320,
         "nombre":  "Mauricio Pintos",
         "whatsapp":  "598956623520000000000",
@@ -5460,7 +5460,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1319",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1319,
         "nombre":  "Facundo",
         "whatsapp":  "598933801290000000000",
@@ -5470,8 +5470,8 @@ const INITIAL_LEADS = [
         "km":  "188km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene para cambiar paragolpe y alguna cubierta los servis están todos en tiempo y forma",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5495,7 +5495,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1318",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1318,
         "nombre":  "Alfonso",
         "whatsapp":  "598917727750000000000",
@@ -5549,7 +5549,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1317",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1317,
         "nombre":  "Irina",
         "whatsapp":  "598925310850000000000",
@@ -5596,7 +5596,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1316",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1316,
         "nombre":  "Francisco dos santos",
         "whatsapp":  "5989120874000000000",
@@ -5606,8 +5606,8 @@ const INITIAL_LEADS = [
         "km":  "78000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas cambiadas hace 25 mil km.\nService oficiales hasta los 42 mil km, luego cuando lo compré al no tener garantía lo llevaba a mi mecánico de confianza. No tuve choques",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5655,7 +5655,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1315",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1315,
         "nombre":  "Alfonso Calvo",
         "whatsapp":  "598995171810000000000",
@@ -5704,7 +5704,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1314",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1314,
         "nombre":  "Renato Bizera",
         "whatsapp":  "59896830737",
@@ -5714,8 +5714,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un rayon y abollón en la puerta del acompañante, la puerta trasera izquierda no abre (es un arreglo sencillo que nunca hice), bateria nueva,arranque nuevo, suspensión reciente",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5751,7 +5751,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1313",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1313,
         "nombre":  "Gabriel Schwartz",
         "whatsapp":  "598994738380000000000",
@@ -5761,8 +5761,8 @@ const INITIAL_LEADS = [
         "km":  "215320",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Se le cambió correa de distribución a los 210437km embriague nuevo con poco uso , compuesto hasta 2028, alarma bloqueo, cámara trasera aire",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5798,7 +5798,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1312",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1312,
         "nombre":  "Agustín González",
         "whatsapp":  "59894984619",
@@ -5808,8 +5808,8 @@ const INITIAL_LEADS = [
         "km":  "86600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está sin ningún detalle, tiene service oficiales hasta los 60 mil",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5852,7 +5852,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1311",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1311,
         "nombre":  "Jhonatan gomez",
         "whatsapp":  "59899208735",
@@ -5862,8 +5862,8 @@ const INITIAL_LEADS = [
         "km":  "190000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene deuda de 30 mil",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5906,7 +5906,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1310",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1310,
         "nombre":  "Franco Camacho",
         "whatsapp":  "598933535770000000000",
@@ -5916,8 +5916,8 @@ const INITIAL_LEADS = [
         "km":  "126000 kms ",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Cubiertas nuevas,batería nueva,tren delantero completo nuevo y le funciona todo no tuvo nunca un golpe fuerte tiene detalles del uso diario.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -5960,7 +5960,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1309",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1309,
         "nombre":  "Sebastián García",
         "whatsapp":  "598927408930000000000",
@@ -6009,7 +6009,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1308",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1308,
         "nombre":  "Bryan",
         "whatsapp":  "598998066390000000000",
@@ -6056,7 +6056,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1307",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1307,
         "nombre":  "Felipe",
         "whatsapp":  "59898486143",
@@ -6066,8 +6066,8 @@ const INITIAL_LEADS = [
         "km":  "9000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1IWE8Y68MawZ2lCHFhlNgIeLj5q1KsSQA",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6103,7 +6103,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1306",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1306,
         "nombre":  "Diego Valladares",
         "whatsapp":  "598982285090000000000",
@@ -6150,7 +6150,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1305",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1305,
         "nombre":  "Martin",
         "whatsapp":  "59895561205",
@@ -6160,8 +6160,8 @@ const INITIAL_LEADS = [
         "km":  "25000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene deuda de susive 60.000",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6204,7 +6204,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1304",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1304,
         "nombre":  "Federico Perez",
         "whatsapp":  "598949109020000000000",
@@ -6214,8 +6214,8 @@ const INITIAL_LEADS = [
         "km":  "178000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Perfecto estado, muy bien cuidado. Tengo que cambiarle parabrisas que lo hago en estos días.",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6251,7 +6251,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1303",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1303,
         "nombre":  "Daniel",
         "whatsapp":  "598957742910000000000",
@@ -6261,8 +6261,8 @@ const INITIAL_LEADS = [
         "km":  "39800",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficial. Único dueño.",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6298,7 +6298,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1302",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1302,
         "nombre":  "Veronica Da Costa",
         "whatsapp":  "598954712770000000000",
@@ -6308,8 +6308,8 @@ const INITIAL_LEADS = [
         "km":  "95300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un detalle en la puerta del conductor, dos Marquitas . Supongo se hizo en algún estacionamiento por golpe de otra puerta de un auto. No fue accidente",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6352,7 +6352,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1301",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1301,
         "nombre":  "Ismael Suárez",
         "whatsapp":  "59893827204",
@@ -6399,7 +6399,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1300",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1300,
         "nombre":  "Matias",
         "whatsapp":  "59897382606",
@@ -6409,8 +6409,8 @@ const INITIAL_LEADS = [
         "km":  "10000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "En garantía",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6441,7 +6441,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1299",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1299,
         "nombre":  "Matias",
         "whatsapp":  "59897382606",
@@ -6451,8 +6451,8 @@ const INITIAL_LEADS = [
         "km":  "65000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1GXKx8zBFUWMlvvTsXvV2pdfxRIncQbQV",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6478,7 +6478,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1298",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1298,
         "nombre":  "Rodrigo Noya",
         "whatsapp":  "598938614080000000000",
@@ -6520,7 +6520,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1297",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1297,
         "nombre":  "",
         "whatsapp":  "598997267650000000000",
@@ -6567,7 +6567,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1296",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1296,
         "nombre":  "Fabián",
         "whatsapp":  "598997267650000000000",
@@ -6626,7 +6626,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1295",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1295,
         "nombre":  "Alejandro Rodal",
         "whatsapp":  "598985985360000000000",
@@ -6636,8 +6636,8 @@ const INITIAL_LEADS = [
         "km":  "172mil",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service hecho todos en tiempo y forma. Frenos delanteros nuevos y traseros recién arreglados están perfectos. Motor impecable soy segundo dueño. Interior excelente estado, tiene algún detalle de chapa como se ve en las fotos, en guardabarros traseros y alguna mancha en el techo de la dueña anterior, por no limpiar caca de pájaro a tiempo. El resto excelentes condiciones",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6673,7 +6673,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1294",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1294,
         "nombre":  "Federico",
         "whatsapp":  "598915134740000000000",
@@ -6683,8 +6683,8 @@ const INITIAL_LEADS = [
         "km":  "35mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tuvo choques, detalle estético se ve en la foto exterior la puerta del lado del conductor tiene una marca apenas visible.\nLas llantas tienen algunas marcas, el interior no tiene ningún detalle al tapizado y funciona todo bien.\nEstá todo al día, la patente paga todo el año, y service oficiales al día próximo a los 40mil.",
-        "tasacion":  190000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6732,7 +6732,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1293",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1293,
         "nombre":  "Eveline",
         "whatsapp":  "598988130470000000000",
@@ -6742,8 +6742,8 @@ const INITIAL_LEADS = [
         "km":  "152000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales. Unico dueño. Patente paga. Cámara de reversa. Enganche para trailer",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6786,7 +6786,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1292",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1292,
         "nombre":  "Fabián Román",
         "whatsapp":  "598970597120000000000",
@@ -6840,7 +6840,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1291",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1291,
         "nombre":  "Javier",
         "whatsapp":  "598912398370000000000",
@@ -6887,7 +6887,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1290",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1290,
         "nombre":  "Francisco",
         "whatsapp":  "598986821140000000000",
@@ -6929,7 +6929,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1289",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1289,
         "nombre":  "Juan",
         "whatsapp":  "598989165180000000000",
@@ -6939,8 +6939,8 @@ const INITIAL_LEADS = [
         "km":  "55000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Está muy bien la camioneta, no tiene choques ni nada parecido, todos los servicios oficiales, cubiertas casi nuevas, patente 2026 paga.",
-        "tasacion":  155000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -6976,7 +6976,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1288",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1288,
         "nombre":  "Mariana",
         "whatsapp":  "598987620930000000000",
@@ -6986,8 +6986,8 @@ const INITIAL_LEADS = [
         "km":  "153000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene choques. Solo toques de estacionamiento. Somos únicos dueños.",
-        "tasacion":  62000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7030,7 +7030,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1287",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1287,
         "nombre":  "",
         "whatsapp":  "598928445450000000000",
@@ -7040,8 +7040,8 @@ const INITIAL_LEADS = [
         "km":  "168500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La camioneta está sana a entera revisacion",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7072,7 +7072,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1286",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1286,
         "nombre":  "Daniel Viojo",
         "whatsapp":  "598982181570000000000",
@@ -7082,8 +7082,8 @@ const INITIAL_LEADS = [
         "km":  "83000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "el único detalle que tiene es un golpe atrás con dos abolladuras pequeñas y partido el paragolpe trasero",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7126,7 +7126,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1285",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1285,
         "nombre":  "Enrique Fontes",
         "whatsapp":  "59809823133600000000000",
@@ -7180,7 +7180,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1284",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1284,
         "nombre":  "Francisco",
         "whatsapp":  "59896862060",
@@ -7190,8 +7190,8 @@ const INITIAL_LEADS = [
         "km":  "98.300 aprox ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Títulos y libreta a mi nombre y libre de deudas",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7234,7 +7234,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1283",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1283,
         "nombre":  "Fernando",
         "whatsapp":  "59809178549200000000000",
@@ -7288,7 +7288,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1282",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1282,
         "nombre":  "Maximo",
         "whatsapp":  "5989223554",
@@ -7298,8 +7298,8 @@ const INITIAL_LEADS = [
         "km":  "128000",
         "papeles":  "",
         "comentario":  "https://drive.google.com/open?id=104SGo3ynw4IE3_T_LAW-XqaOmAaFtGA1",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7335,7 +7335,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1281",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1281,
         "nombre":  "Federico Hill",
         "whatsapp":  "598997079240000000000",
@@ -7370,7 +7370,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1280",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1280,
         "nombre":  "Brahian",
         "whatsapp":  "59895477053",
@@ -7380,8 +7380,8 @@ const INITIAL_LEADS = [
         "km":  "190000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene un toque en el paragolpes trasero",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7417,7 +7417,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1279",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1279,
         "nombre":  "Lorena Gonzalez",
         "whatsapp":  "598959815240000000000",
@@ -7427,8 +7427,8 @@ const INITIAL_LEADS = [
         "km":  "98000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=190tt_qUPxxMwYKIoja4pIJr7Qz7kuDvn",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7459,7 +7459,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1278",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1278,
         "nombre":  "Francisco",
         "whatsapp":  "598945898380000000000",
@@ -7508,7 +7508,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1277",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1277,
         "nombre":  "Luis Rodríguez",
         "whatsapp":  "598998661870000000000",
@@ -7555,7 +7555,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1276",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1276,
         "nombre":  "Stella Larrosa",
         "whatsapp":  "990020750000000",
@@ -7565,8 +7565,8 @@ const INITIAL_LEADS = [
         "km":  "77500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene una reparación del lado delantero izq sobre el foco y capote. Servicio al dia, cambio filtros, rotación, balanceo y aceite. Funcionado todo ok",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7602,7 +7602,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1275",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1275,
         "nombre":  "Ana Daniela de Souza",
         "whatsapp":  "59898696232",
@@ -7612,8 +7612,8 @@ const INITIAL_LEADS = [
         "km":  "180 000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La camioneta esta hermosa. Quiero hacer el pasaje a eléctrico",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7649,7 +7649,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1274",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1274,
         "nombre":  "Gabriel598",
         "whatsapp":  "59809383827900000000000",
@@ -7681,7 +7681,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1273",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1273,
         "nombre":  "Gonzalo Rebollo",
         "whatsapp":  "598986264080000000000",
@@ -7691,8 +7691,8 @@ const INITIAL_LEADS = [
         "km":  "98000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en buenas condiciones con el autotest al día y su única observación fue reparada",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7728,7 +7728,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1272",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1272,
         "nombre":  "Sofía Jamgotchian",
         "whatsapp":  "59899545790",
@@ -7738,8 +7738,8 @@ const INITIAL_LEADS = [
         "km":  "173000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo al día, computest hecho",
-        "tasacion":  44000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4400,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7775,7 +7775,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1271",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1271,
         "nombre":  "Franco",
         "whatsapp":  "5989529186",
@@ -7785,8 +7785,8 @@ const INITIAL_LEADS = [
         "km":  "94000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Está muy sana",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7817,7 +7817,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1270",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1270,
         "nombre":  "",
         "whatsapp":  "",
@@ -7854,7 +7854,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1269",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1269,
         "nombre":  "Sebastián Ferraro",
         "whatsapp":  "598973312830000000000",
@@ -7908,7 +7908,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1268",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1268,
         "nombre":  "Martin Quevedo",
         "whatsapp":  "598933998060000000000",
@@ -7918,8 +7918,8 @@ const INITIAL_LEADS = [
         "km":  "136000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un service hecho hace 1 mes, de cambio de aceite y filtros, revisión de tren delantera y trasera y frenos. Tiene el espejo izquierdo roto pero solo el plástico y la óptica derecha astillada",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -7955,7 +7955,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1267",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1267,
         "nombre":  "Nataly",
         "whatsapp":  "598967140860000000000",
@@ -7997,7 +7997,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1266",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1266,
         "nombre":  "Ivan",
         "whatsapp":  "598987803930000000000",
@@ -8023,7 +8023,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1265",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1265,
         "nombre":  "Andrés Araújo",
         "whatsapp":  "598943838770000000000",
@@ -8033,8 +8033,8 @@ const INITIAL_LEADS = [
         "km":  "89500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los service oficiales. El estado de neumáticos está bien.a palanca de cambios se le salieron unos plásticos que no aprecia tan bien en la foto que les pasé, pero es algo estético, funcionalmente no tiene nada. Nunca tuvo choques que comprometieran motor, solo chapa y pintura",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8077,7 +8077,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1264",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1264,
         "nombre":  "Michell",
         "whatsapp":  "598988951580000000000",
@@ -8124,7 +8124,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1263",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1263,
         "nombre":  "",
         "whatsapp":  "59809866066800000000000",
@@ -8178,7 +8178,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1262",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1262,
         "nombre":  "Paola loza",
         "whatsapp":  "598926814920000000000",
@@ -8188,8 +8188,8 @@ const INITIAL_LEADS = [
         "km":  "150mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1dea9t9765H-DhOVUL-xxfu4bhjdKfvz6",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8225,7 +8225,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1261",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1261,
         "nombre":  "Agustín",
         "whatsapp":  "598940375810000000000",
@@ -8272,7 +8272,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1260",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1260,
         "nombre":  "Kristian",
         "whatsapp":  "598947725290000000000",
@@ -8326,7 +8326,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1259",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1259,
         "nombre":  "Germán Castiglioni",
         "whatsapp":  "598944210060000000000",
@@ -8336,8 +8336,8 @@ const INITIAL_LEADS = [
         "km":  "86000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales por el periodo de garantia, luego realizados en tiempo y forma en otro taller. Neumáticos en buen estado, uso familiar.",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8380,7 +8380,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1258",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1258,
         "nombre":  "Lucia molinelli",
         "whatsapp":  "59891239049",
@@ -8390,8 +8390,8 @@ const INITIAL_LEADS = [
         "km":  "60500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Totalmente impecable",
-        "tasacion":  68000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8429,7 +8429,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1257",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1257,
         "nombre":  "Jairo Diaz",
         "whatsapp":  "59891480288",
@@ -8439,8 +8439,8 @@ const INITIAL_LEADS = [
         "km":  "114000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service recien hecho, bateria nueva. Cubiertas con mas de medio uso",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8476,7 +8476,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1256",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1256,
         "nombre":  "Enrique Fernández",
         "whatsapp":  "59894930273",
@@ -8486,8 +8486,8 @@ const INITIAL_LEADS = [
         "km":  "246000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Detalles a la vista y el aire no funciona,tren delantero recién hecho batería nueva",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8523,7 +8523,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1255",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1255,
         "nombre":  "Agustín Curbelo",
         "whatsapp":  "598996719760000000000",
@@ -8533,8 +8533,8 @@ const INITIAL_LEADS = [
         "km":  "129000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Segundo dueño, nunca tuvo un choque",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8577,7 +8577,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1254",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1254,
         "nombre":  "Martin",
         "whatsapp":  "59895028861",
@@ -8631,7 +8631,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1253",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1253,
         "nombre":  "Sebastian",
         "whatsapp":  "598929573260000000000",
@@ -8641,8 +8641,8 @@ const INITIAL_LEADS = [
         "km":  "98000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Siempre de Paysandu,absolutamente nada para hacerle,ni en motor ni en cubiertas,tren delantero etc, busco venderlo por necesidad de  terminar de construir mi casa , de lo contrario no lo haría 🥲",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8678,7 +8678,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1252",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1252,
         "nombre":  "",
         "whatsapp":  "59897088935",
@@ -8706,7 +8706,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1251",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1251,
         "nombre":  "Alex Beare",
         "whatsapp":  "59899906032",
@@ -8753,7 +8753,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1250",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1250,
         "nombre":  "Mathias",
         "whatsapp":  "59891079581",
@@ -8800,7 +8800,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1249",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1249,
         "nombre":  "María Goñi",
         "whatsapp":  "59895077333",
@@ -8854,7 +8854,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1248",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1248,
         "nombre":  "Matias olivera",
         "whatsapp":  "598954744670000000000",
@@ -8864,8 +8864,8 @@ const INITIAL_LEADS = [
         "km":  "91000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene abollon en el costado derecho en la imagen se ve",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8901,7 +8901,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1247",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1247,
         "nombre":  "Facundo Púa",
         "whatsapp":  "598941566050000000000",
@@ -8948,7 +8948,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1246",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1246,
         "nombre":  "Camilo Suárez",
         "whatsapp":  "59809242697300000000000",
@@ -8958,8 +8958,8 @@ const INITIAL_LEADS = [
         "km":  "125000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tuvo un choque de atrás hace relativamente poco, se reparo con el BSE. Luego le anda todo, es único dueño, se le hizo servicio oficial durante la garantía y luego en mi mecánico de confianza. Cubiertas tiene más d medio uso pero todavía tiene para unos km más.",
-        "tasacion":  72000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -8990,7 +8990,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1245",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1245,
         "nombre":  "",
         "whatsapp":  "59892744995",
@@ -9032,7 +9032,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1244",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1244,
         "nombre":  "Mathias",
         "whatsapp":  "598995953480000000000",
@@ -9074,7 +9074,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1243",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1243,
         "nombre":  "Emilio",
         "whatsapp":  "598992378870000000000",
@@ -9084,8 +9084,8 @@ const INITIAL_LEADS = [
         "km":  "79000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1OGdSsdTLF0SJv5wze-ZTbDoYbz_2tg3o",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9121,7 +9121,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1242",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1242,
         "nombre":  "Alejo",
         "whatsapp":  "598953796170000000000",
@@ -9131,8 +9131,8 @@ const INITIAL_LEADS = [
         "km":  "48000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Descuenta iva",
-        "tasacion":  350000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  35000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9158,7 +9158,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1241",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1241,
         "nombre":  "Alejo",
         "whatsapp":  "598953796170000000000",
@@ -9168,8 +9168,8 @@ const INITIAL_LEADS = [
         "km":  "20500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos nuevos, Service oficial tiene +1 gratis, patente paga todo el año y más extras (100% original)",
-        "tasacion":  400000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  40000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9205,7 +9205,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1240",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1240,
         "nombre":  "Max Lanz",
         "whatsapp":  "598963515650000000000",
@@ -9259,7 +9259,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1239",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1239,
         "nombre":  "Leticia Fernandez",
         "whatsapp":  "59894831761",
@@ -9306,7 +9306,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1238",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1238,
         "nombre":  "Lucia sotolani",
         "whatsapp":  "59893718332",
@@ -9360,7 +9360,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1237",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1237,
         "nombre":  "Sandra Ametrano",
         "whatsapp":  "59894144218",
@@ -9402,7 +9402,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1236",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1236,
         "nombre":  "Ignacio",
         "whatsapp":  "598996829810000000000",
@@ -9439,7 +9439,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1235",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1235,
         "nombre":  "Martín Vilche",
         "whatsapp":  "598997940910000000000",
@@ -9449,8 +9449,8 @@ const INITIAL_LEADS = [
         "km":  "113000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=19qXZyFNJ-ilM1tMZVhjUJmgAS2np7BXL",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9486,7 +9486,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1234",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1234,
         "nombre":  "Andres",
         "whatsapp":  "59899690511",
@@ -9545,7 +9545,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1233",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1233,
         "nombre":  "",
         "whatsapp":  "598970827640000000000",
@@ -9592,7 +9592,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1232",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1232,
         "nombre":  "José Lima",
         "whatsapp":  "59895930461",
@@ -9602,8 +9602,8 @@ const INITIAL_LEADS = [
         "km":  "152000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas!, espero todo muy bien por ahí, tengo este auto a la venta por si interesa. Soy vendedor particular. \n\nhttps://auto.mercadolibre.com.uy/MLU-1465390290?ua=-repe8BJkjRknIC8s8zWBWxxDNla3A7fXfQXviFyHzsO#origin=share\u0026sid=share\u0026action=copy\n\nObviamente me acerco a ustedes de modo que el precio es negociable. \n\nGracias!\nJosé",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9634,7 +9634,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1231",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1231,
         "nombre":  "Alejandra",
         "whatsapp":  "598984466660000000000",
@@ -9644,8 +9644,8 @@ const INITIAL_LEADS = [
         "km":  "131420",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1JpQruqWOX9ZjfM_CAZU1m3CBuwKCn7kV",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9681,7 +9681,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1230",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1230,
         "nombre":  "Sebastian",
         "whatsapp":  "598954188770000000000",
@@ -9691,8 +9691,8 @@ const INITIAL_LEADS = [
         "km":  "148000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Al auto le funciona todo, aire acondicionado, pantalla multimedia, comandos del volante. \nLos delates que tiene están a la vista, el farol trasero derecho está roto, presenta algún toque de pintura. \nNunca choco. \nCubiertas delanteras nuevas.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9728,7 +9728,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1229",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1229,
         "nombre":  "Pamela González",
         "whatsapp":  "59809936446500000000000",
@@ -9738,8 +9738,8 @@ const INITIAL_LEADS = [
         "km":  "71000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene sensores de estacionamiento,cámaras de frente y reversa,loneta",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9775,7 +9775,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1228",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1228,
         "nombre":  "Sandra Ametrano",
         "whatsapp":  "59894144218",
@@ -9812,7 +9812,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1227",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1227,
         "nombre":  "Soledad Morales",
         "whatsapp":  "598996535310000000000",
@@ -9866,7 +9866,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1226",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1226,
         "nombre":  "",
         "whatsapp":  "598983663660000000000",
@@ -9876,8 +9876,8 @@ const INITIAL_LEADS = [
         "km":  "30000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Ningún detalle, service oficiales",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -9908,7 +9908,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1225",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1225,
         "nombre":  "Nacho",
         "whatsapp":  "59891320082",
@@ -9955,7 +9955,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1224",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1224,
         "nombre":  "Sebastian",
         "whatsapp":  "59899892875",
@@ -10002,7 +10002,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1223",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1223,
         "nombre":  "Valentina Lema",
         "whatsapp":  "598924016280000000000",
@@ -10030,7 +10030,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1222",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1222,
         "nombre":  "Victor veiga",
         "whatsapp":  "59894246953",
@@ -10089,7 +10089,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1221",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1221,
         "nombre":  "Lorena",
         "whatsapp":  "598982624650000000000",
@@ -10143,7 +10143,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1220",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1220,
         "nombre":  "",
         "whatsapp":  "920168270000000",
@@ -10190,7 +10190,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1219",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1219,
         "nombre":  "Damian Pereira",
         "whatsapp":  "598997455820000000000",
@@ -10200,8 +10200,8 @@ const INITIAL_LEADS = [
         "km":  "141867",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto tiene un choque atrás a bajo y adelante a la altura del farol. Subí fotos de los choques. Tiene los services oficiales y los últimos han sido realizados en ACU. Las cubiertas tienen su desgaste. Estarían próximas a cambiar.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10237,7 +10237,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1218",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1218,
         "nombre":  "Nicolás",
         "whatsapp":  "598951639510000000000",
@@ -10247,8 +10247,8 @@ const INITIAL_LEADS = [
         "km":  "227000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Impecable estado y todo en funcionamiento sin choques",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10291,7 +10291,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1217",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1217,
         "nombre":  "Lidia",
         "whatsapp":  "59891327493",
@@ -10338,7 +10338,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1216",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1216,
         "nombre":  "Lucia mesa",
         "whatsapp":  "598983972150000000000",
@@ -10348,8 +10348,8 @@ const INITIAL_LEADS = [
         "km":  "27600",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene los services oficiales",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10385,7 +10385,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1215",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1215,
         "nombre":  "Agustin nebril",
         "whatsapp":  "598928502010000000000",
@@ -10439,7 +10439,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1214",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1214,
         "nombre":  "Matias Silva",
         "whatsapp":  "59899040390",
@@ -10486,7 +10486,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1213",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1213,
         "nombre":  "Martin Bentancur",
         "whatsapp":  "598989503950000000000",
@@ -10514,7 +10514,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1212",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1212,
         "nombre":  "Ignacio",
         "whatsapp":  "598919018910000000000",
@@ -10556,7 +10556,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1211",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1211,
         "nombre":  "Gonzalo Centurión",
         "whatsapp":  "59892962576",
@@ -10566,8 +10566,8 @@ const INITIAL_LEADS = [
         "km":  "119000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles estéticos mínimos afuera, por dentro le hacen falta dos rendijas del aire, el aire acondicionado no calefacciona ni enfría, tapa guantera rota y volante sin bocina pero totalmente funcional, y por ultimo, tren delantero para hacer.",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10603,7 +10603,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1210",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1210,
         "nombre":  "Agustín fernandez",
         "whatsapp":  "59892416281",
@@ -10657,7 +10657,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1209",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1209,
         "nombre":  "Nicolás",
         "whatsapp":  "5989813793000000000",
@@ -10706,7 +10706,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1208",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1208,
         "nombre":  "Gerardo",
         "whatsapp":  "59898627604",
@@ -10760,7 +10760,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1207",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1207,
         "nombre":  "Ignacio Pérez",
         "whatsapp":  "598950116540000000000",
@@ -10807,7 +10807,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1206",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1206,
         "nombre":  "Nansen Aldeta",
         "whatsapp":  "598924427020000000000",
@@ -10854,7 +10854,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1205",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1205,
         "nombre":  "Francisco Lacuesta",
         "whatsapp":  "59891700666",
@@ -10864,8 +10864,8 @@ const INITIAL_LEADS = [
         "km":  "221000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Un auto de uso diario, siempre se le realizó los service, está a mi nombre y al día, cubiertas semi nuevas",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10901,7 +10901,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1204",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1204,
         "nombre":  "Mario bonini",
         "whatsapp":  "598969694170000000000",
@@ -10911,8 +10911,8 @@ const INITIAL_LEADS = [
         "km":  "210000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene llantas led en los camineros y en larga y corta, neumáticos a medio uso",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -10948,7 +10948,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1203",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1203,
         "nombre":  "Facundo Harispe",
         "whatsapp":  "598981524660000000000",
@@ -11007,7 +11007,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1202",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1202,
         "nombre":  "Jenniffer Pechi",
         "whatsapp":  "59891063603",
@@ -11017,8 +11017,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Choques no, algún pequeños toques en la chapa, ruido en una homosinetica, neumáticos  dos para cambiar, tiene todos los servicios oficiales. Estamos en Maldonado",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11061,7 +11061,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1201",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1201,
         "nombre":  "Andres",
         "whatsapp":  "59891747020",
@@ -11108,7 +11108,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1200",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1200,
         "nombre":  "Yadier",
         "whatsapp":  "59897230328",
@@ -11136,7 +11136,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1199",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1199,
         "nombre":  "Daniel Gandolfo",
         "whatsapp":  "598957518360000000000",
@@ -11146,8 +11146,8 @@ const INITIAL_LEADS = [
         "km":  "114000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "tiene algunos roces de estar en la calle porque la dejamos afuera durante el dia y hay unas canchas de tenis y encontramos varias veces algunas cosas, por lo que hay que hacer chapa y pintura. Los services están al dia y neumaticos nuevos. Bateria tambien la cambiamos hace poco. Está al dia con la patente y el seguro está vigente hasta el 20/07. Tengo más fotos que pueden ver en el siguiente enlace: \n\nhttps://drive.google.com/drive/folders/19goblV4vacbeFxNMj4WgHMRO4660D50L?usp=drive_link",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11190,7 +11190,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1198",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1198,
         "nombre":  "Cesar Vener",
         "whatsapp":  "598999887110000000000",
@@ -11200,8 +11200,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Distribución recién hecha en service oficial, cubiertas nuevas, frenos delanteros nuevos, no choques, detalles a la vista de uso, kilometraje hecho en ruta.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11249,7 +11249,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1197",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1197,
         "nombre":  "Sebastián Miró",
         "whatsapp":  "598990599230000000000",
@@ -11259,8 +11259,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ningún choque, la puerta trasera no se sostiene arriba, tiene uno de los paragolpes reyado, neumáticos con 40000km, service no oficiales al día",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11303,7 +11303,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1196",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1196,
         "nombre":  "Mateo",
         "whatsapp":  "59899377144",
@@ -11362,7 +11362,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1195",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1195,
         "nombre":  "Valentina",
         "whatsapp":  "59896399463",
@@ -11372,8 +11372,8 @@ const INITIAL_LEADS = [
         "km":  "193000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Patente anual paga y al dia",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11409,7 +11409,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1194",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1194,
         "nombre":  "Mathew Mendez",
         "whatsapp":  "598947883660000000000",
@@ -11451,7 +11451,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1193",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1193,
         "nombre":  "Marcelo",
         "whatsapp":  "598999009670000000000",
@@ -11461,8 +11461,8 @@ const INITIAL_LEADS = [
         "km":  "86000",
         "papeles":  "",
         "comentario":  "La libreta está a mi nombre. Tiene títulos a nombre del primer dueño, soy el segundo\nEl service le hice a los 80 mil,  las  4 cubiertas son nuevas con aproximado mil km rodados. Funciona todo normal lo único que tiene es un un rose del lado derecho. No tiene abolladuras",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11498,7 +11498,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1192",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1192,
         "nombre":  "Sylvana",
         "whatsapp":  "598942457240000000000",
@@ -11508,8 +11508,8 @@ const INITIAL_LEADS = [
         "km":  "24150",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficiales",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11545,7 +11545,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1191",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1191,
         "nombre":  "Ignacio",
         "whatsapp":  "598918337110000000000",
@@ -11555,8 +11555,8 @@ const INITIAL_LEADS = [
         "km":  "154000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene cubiertas nuevas adelante, medio uso atrás. Interior funcionando todo perfectamente.\nService y revisión integral con informes impresos realizados en Punta Motors. \nEl único detalle es la tapa trasera, no abre porque tiene roto el actuador.\nTengo más fotos pero por el límite de 10mb no me deja subirlas.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11589,7 +11589,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1190",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1190,
         "nombre":  "Matias",
         "whatsapp":  "59898586729",
@@ -11599,8 +11599,8 @@ const INITIAL_LEADS = [
         "km":  "65000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11615,7 +11615,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1189",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1189,
         "nombre":  "Camila",
         "whatsapp":  "598973212020000000000",
@@ -11625,8 +11625,8 @@ const INITIAL_LEADS = [
         "km":  "146000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene el radiador de la calefacción roto, funciona solo en aire acondicionado, y tiene 2 levantavidrios que no funcionan.\nY tiene un par de detalles estéticos por fuera al costado y arriba",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11662,7 +11662,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1188",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1188,
         "nombre":  "Franco Perdomo",
         "whatsapp":  "598957650740000000000",
@@ -11716,7 +11716,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1187",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1187,
         "nombre":  "",
         "whatsapp":  "59893819655",
@@ -11726,8 +11726,8 @@ const INITIAL_LEADS = [
         "km":  "22500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto lo compré hace un par de semanas a una amiga de mi padre que se fue de el país , tiene 22500 km tiene unos toques en el parachoques trasero ya que estaba guardado en un estacionamiento del centro , cada 10\nMeses se llevaba a service oficial aunque nunca se llegará al km tengo todo documentado puede ir como está o le mando a pintar los raspones no tengo problema lo dejé así para que después no me dijesen que está repintado , lo compré por que era una oportunidad , tengo una berlingo también que es mi vehículo personal con 80 mil km",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11775,7 +11775,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1186",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1186,
         "nombre":  "Felipe vallejo",
         "whatsapp":  "59809926974100000000000",
@@ -11785,8 +11785,8 @@ const INITIAL_LEADS = [
         "km":  "300000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11803,7 +11803,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1185",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1185,
         "nombre":  "",
         "whatsapp":  "598977099670000000000",
@@ -11813,8 +11813,8 @@ const INITIAL_LEADS = [
         "km":  "256500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Patente paga todo el año. Manual. Interior en cuero.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11850,7 +11850,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1184",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1184,
         "nombre":  "Cristian Cayrus",
         "whatsapp":  "598942849820000000000",
@@ -11860,8 +11860,8 @@ const INITIAL_LEADS = [
         "km":  "247000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Cubiertas delanteras casi nuevas, traseras medio uso títulos en la escribana y libreta a mi nombre al dia",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11892,7 +11892,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1183",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1183,
         "nombre":  "Guillermo Marchese",
         "whatsapp":  "5989453048000000000",
@@ -11939,7 +11939,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1182",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1182,
         "nombre":  "",
         "whatsapp":  "59896725500000000",
@@ -11949,8 +11949,8 @@ const INITIAL_LEADS = [
         "km":  "100000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Todos los Service al día y los neumáticos tiene 2 meses de uso continental.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -11986,7 +11986,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1181",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1181,
         "nombre":  "Gary",
         "whatsapp":  "59892546693",
@@ -12028,7 +12028,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1180",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1180,
         "nombre":  "Mariano Soprani",
         "whatsapp":  "598948684760000000000",
@@ -12038,8 +12038,8 @@ const INITIAL_LEADS = [
         "km":  "130907",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tengo mas fotos motor nuevo recien echo detalle abollon en el capot minimo al dia en todo tengo los  titulos con poder de traspaso y vendo o permuto",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12070,7 +12070,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1179",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1179,
         "nombre":  "",
         "whatsapp":  "59809919371600000000000",
@@ -12080,8 +12080,8 @@ const INITIAL_LEADS = [
         "km":  "38000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Servicios oficiales al día",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12117,7 +12117,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1178",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1178,
         "nombre":  "Sergio Duarte",
         "whatsapp":  "598943235120000000000",
@@ -12127,8 +12127,8 @@ const INITIAL_LEADS = [
         "km":  "180.000 casi",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un abollon pequeño en la puerta trasera derecha el freno de manos esta largo no funciona la manija del chófer se rompió , en general muy sano único dueño patente y seguro pago todo el año",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12164,7 +12164,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1177",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1177,
         "nombre":  "Dario",
         "whatsapp":  "59809391203200000000000",
@@ -12174,8 +12174,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "No choqes no tiene y esta todo bien",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12192,7 +12192,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1176",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1176,
         "nombre":  "",
         "whatsapp":  "59898460578",
@@ -12220,7 +12220,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1175",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1175,
         "nombre":  "Alfonso Schaich",
         "whatsapp":  "59898654546",
@@ -12279,7 +12279,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1174",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1174,
         "nombre":  "Manuel García",
         "whatsapp":  "598092906708",
@@ -12326,7 +12326,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1173",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1173,
         "nombre":  "Jorge",
         "whatsapp":  "59891618708",
@@ -12336,8 +12336,8 @@ const INITIAL_LEADS = [
         "km":  "150000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Impecable, sin choques, muy cuidada",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12378,9 +12378,49 @@ const INITIAL_LEADS = [
         "rawDate":  "2026-07-11 18:59:22"
     },
     {
+        "id":  "CF-1172",
+        "campaign":  "CF",
+        "campaignName":  "Tasacion Con Fotos",
+        "row":  1172,
+        "nombre":  "Cinthya",
+        "whatsapp":  "59894855906",
+        "marca":  "Chevrolet",
+        "modelo":  "Xorsa",
+        "ano":  "2008",
+        "km":  "170 mil",
+        "papeles":  "tiene titulos a mi nombre",
+        "comentario":  "Tiene un golpe atrás, tiene convenio al día de multas, el total de la deuda es un aprox de 30 mil, (aprox)",
+        "tasacion":  3000,
+        "estado":  "TASADO",
+        "isPending":  false,
+        "isDiscarded":  false,
+        "photos":  [
+
+                   ],
+        "tags":  [
+                     {
+                         "label":  "Titulos al Dia",
+                         "code":  "TITULOS_AL_DIA",
+                         "type":  "positive"
+                     },
+                     {
+                         "label":  "Detalles de Choque",
+                         "code":  "CHOQUE",
+                         "type":  "danger"
+                     },
+                     {
+                         "label":  "Deuda / Multas a Revisar",
+                         "code":  "DEUDA",
+                         "type":  "warning"
+                     }
+                 ],
+        "fecha":  "11/07/2026 13:48",
+        "rawDate":  "2026-07-11 13:48:41"
+    },
+    {
         "id":  "CF-1171",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1171,
         "nombre":  "Bettiana López",
         "whatsapp":  "59809814799300000000000",
@@ -12390,8 +12430,8 @@ const INITIAL_LEADS = [
         "km":  "290000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Peugeot 306 XS 1998 –\n\n* Motor 1.6 naftero.\n* 290.000 km reales (aprox.).\n* 2 dueños.\n* Papeles al día, sin deudas.\n* Funciona correctamente y está en uso.\n\nMecánica:\n✔️ Radiador nuevo.\n✔️ Tren delantero hecho recientemente.\n✔️ Dos cubiertas delanteras nuevas.\n✔️ Motor con buen funcionamiento.\n\nA tener en cuenta:\n\n* Como todo vehículo de su año, presenta algunos detalles estéticos propios del uso y del paso del tiempo.\n* La puerta del conductor requiere ajustar el cierre (cierra y funciona, pero sería conveniente regularla).\n* El aire acondicionado actualmente no funciona.\n* La calefacción necesita revisión.\n\nEs un auto noble, confiable y bien mantenido mecánicamente, ideal para quien busca un vehículo funcional y sabe valorar el estado general por encima de pequeños detalles estéticos.",
-        "tasacion":  18000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12432,49 +12472,9 @@ const INITIAL_LEADS = [
         "rawDate":  "2026-07-11 17:20:08"
     },
     {
-        "id":  "CF-1172",
-        "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
-        "row":  1172,
-        "nombre":  "Cinthya",
-        "whatsapp":  "59894855906",
-        "marca":  "Chevrolet",
-        "modelo":  "Xorsa",
-        "ano":  "2008",
-        "km":  "170 mil",
-        "papeles":  "tiene titulos a mi nombre",
-        "comentario":  "Tiene un golpe atrás, tiene convenio al día de multas, el total de la deuda es un aprox de 30 mil, (aprox)",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
-        "isPending":  false,
-        "isDiscarded":  false,
-        "photos":  [
-
-                   ],
-        "tags":  [
-                     {
-                         "label":  "Titulos al Dia",
-                         "code":  "TITULOS_AL_DIA",
-                         "type":  "positive"
-                     },
-                     {
-                         "label":  "Detalles de Choque",
-                         "code":  "CHOQUE",
-                         "type":  "danger"
-                     },
-                     {
-                         "label":  "Deuda / Multas a Revisar",
-                         "code":  "DEUDA",
-                         "type":  "warning"
-                     }
-                 ],
-        "fecha":  "11/07/2026 13:48",
-        "rawDate":  "2026-07-11 13:48:41"
-    },
-    {
         "id":  "CF-1170",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1170,
         "nombre":  "Cristian",
         "whatsapp":  "598997239670000000000",
@@ -12528,7 +12528,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1169",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1169,
         "nombre":  "Vanina Vázquez",
         "whatsapp":  "59898185386",
@@ -12538,8 +12538,8 @@ const INITIAL_LEADS = [
         "km":  "154000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los levanta vidrios de atrás y acompañante no funcionan muy bien.\nLos títulos estan a nombre de mis hijos.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12575,7 +12575,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1168",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1168,
         "nombre":  "Andrea Touzet",
         "whatsapp":  "598992515540000000000",
@@ -12603,7 +12603,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1167",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1167,
         "nombre":  "Antonella",
         "whatsapp":  "598956946260000000000",
@@ -12650,7 +12650,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1166",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1166,
         "nombre":  "",
         "whatsapp":  "",
@@ -12704,7 +12704,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1165",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1165,
         "nombre":  "Nestor",
         "whatsapp":  "59899736102",
@@ -12714,8 +12714,8 @@ const INITIAL_LEADS = [
         "km":  "230000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está con detalle de rayones nomas, nunca tuvo un siniestro y tiene mucha ruta realizada, desde 0km se uso con tapizado de la casa del cubre asiento",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12758,7 +12758,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1164",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1164,
         "nombre":  "Sabrina",
         "whatsapp":  "598983269860000000000",
@@ -12812,7 +12812,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1163",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1163,
         "nombre":  "Gastón García",
         "whatsapp":  "59898604762",
@@ -12840,7 +12840,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1162",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1162,
         "nombre":  "Bruno Miraballes",
         "whatsapp":  "598995498120000000000",
@@ -12899,7 +12899,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1161",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1161,
         "nombre":  "Luis",
         "whatsapp":  "598928748740000000000",
@@ -12909,8 +12909,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1lQkoH3aoKu4TGWJSa-7_Aq0VJoGXv-NF",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -12936,7 +12936,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1160",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1160,
         "nombre":  "Sergio Mayobre",
         "whatsapp":  "59896631598",
@@ -12990,7 +12990,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1159",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1159,
         "nombre":  "Rafael",
         "whatsapp":  "986769450000000",
@@ -13032,7 +13032,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1158",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1158,
         "nombre":  "",
         "whatsapp":  "59891261635",
@@ -13079,7 +13079,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1157",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1157,
         "nombre":  "Christian Velazquez",
         "whatsapp":  "598951562060000000000",
@@ -13133,7 +13133,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1156",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1156,
         "nombre":  "Valeria Lafluf",
         "whatsapp":  "59891433186",
@@ -13175,7 +13175,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1155",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1155,
         "nombre":  "Alexander",
         "whatsapp":  "59898570128",
@@ -13217,7 +13217,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1154",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1154,
         "nombre":  "Gonzalo Moreira",
         "whatsapp":  "598924916310000000000",
@@ -13259,7 +13259,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1153",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1153,
         "nombre":  "Ximena silvera",
         "whatsapp":  "59892400515",
@@ -13287,7 +13287,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1152",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1152,
         "nombre":  "Claudio Viera",
         "whatsapp":  "598988094650000000000",
@@ -13297,8 +13297,8 @@ const INITIAL_LEADS = [
         "km":  "90000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No ha tenido choques, los neumáticos los veo muy bien. Es de mi padre y ya hace años que no maneja por lo cual estamos baraja do la idea de venderlo y no quiero andar con muchas vueltas.",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13341,7 +13341,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1151",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1151,
         "nombre":  "Martin",
         "whatsapp":  "59892386840000000000",
@@ -13390,7 +13390,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1150",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1150,
         "nombre":  "RubenMarset",
         "whatsapp":  "598941004450000000000",
@@ -13437,7 +13437,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1149",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1149,
         "nombre":  "David Ferreira",
         "whatsapp":  "598938952430000000000",
@@ -13447,8 +13447,8 @@ const INITIAL_LEADS = [
         "km":  "70000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenos días. Servís no oficiales. Tengo las fotos y la boleta de lo que se realizó junto con el mantenimiento de distribución. Cambio de discos de freno y pastilla nuevas. Cambio de cables de bujía. Además del servís normal de todos los filtros y aceite. Le agregue cámara de reversa y frontal. Las cubiertas están a medio uso. Soy segundo dueño. No tiene choques ni reparaciones. Hasta donde se tampoco del dueño anterior. Gracias.",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13491,7 +13491,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1148",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1148,
         "nombre":  "Alejandro Chadarevian",
         "whatsapp":  "598960591550000000000",
@@ -13538,7 +13538,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1147",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1147,
         "nombre":  "Fernando Irin",
         "whatsapp":  "598995903230000000000",
@@ -13550,7 +13550,7 @@ const INITIAL_LEADS = [
         "comentario":  "Soy Único dueño con servicio oficial desde 0km con todos los servicios documentados en tiempo y forma.",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -13585,7 +13585,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1146",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1146,
         "nombre":  "Carlos",
         "whatsapp":  "598915286650000000000",
@@ -13595,8 +13595,8 @@ const INITIAL_LEADS = [
         "km":  "143800",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1ARBKudum9ipmM0B4FRancnnyvC3-KjSO",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13632,7 +13632,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1145",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1145,
         "nombre":  "Diego Chaves",
         "whatsapp":  "598995212890000000000",
@@ -13642,8 +13642,8 @@ const INITIAL_LEADS = [
         "km":  "71500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Todos los service oficiales , neumáticos , dos nuevos y los dos restantes con 10000km, no tiene choques , funciona todo",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13686,7 +13686,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1144",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1144,
         "nombre":  "Marcos Berttoni",
         "whatsapp":  "598912829690000000000",
@@ -13696,8 +13696,8 @@ const INITIAL_LEADS = [
         "km":  "75000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los service oficiales y esta en garantía.",
-        "tasacion":  170000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13735,7 +13735,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1143",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1143,
         "nombre":  "Esteban Cabrera",
         "whatsapp":  "598924002370000000000",
@@ -13745,8 +13745,8 @@ const INITIAL_LEADS = [
         "km":  "39000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "En garantía , con los servicios oficiales y único dueño, sin deuda patente ni multas",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13777,7 +13777,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1142",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1142,
         "nombre":  "Oriana",
         "whatsapp":  "598927350390000000000",
@@ -13787,8 +13787,8 @@ const INITIAL_LEADS = [
         "km":  "173000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todo al día, único dueño, los service son hechos en mi taller, nunca tuvo un choque o detalles por el estilo.",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13824,7 +13824,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1141",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1141,
         "nombre":  "Pablo",
         "whatsapp":  "598915244680000000000",
@@ -13834,8 +13834,8 @@ const INITIAL_LEADS = [
         "km":  "141000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas puestas hace 2000kmts al igual que el service, aceite alineación y balanceo",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13873,7 +13873,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1140",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1140,
         "nombre":  "Victoria",
         "whatsapp":  "59895846712",
@@ -13883,8 +13883,8 @@ const INITIAL_LEADS = [
         "km":  "154 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1OnM89NYnVSyhGnehp9YAtI67AgXUQE99",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -13920,7 +13920,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1139",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1139,
         "nombre":  "Silvana",
         "whatsapp":  "59897105609",
@@ -13946,7 +13946,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1138",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1138,
         "nombre":  "Pablo Marcano",
         "whatsapp":  "598974521730000000000",
@@ -13956,8 +13956,8 @@ const INITIAL_LEADS = [
         "km":  "30000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales, MY 2025,",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14000,7 +14000,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1137",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1137,
         "nombre":  "Christian",
         "whatsapp":  "598922428250000000000",
@@ -14010,8 +14010,8 @@ const INITIAL_LEADS = [
         "km":  "45000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales! Estado de los neumáticos bien, quizás le quedan unos 15.000-20.000 de vida.",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14054,7 +14054,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1136",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1136,
         "nombre":  "Julio",
         "whatsapp":  "598929145260000000000",
@@ -14108,7 +14108,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1135",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1135,
         "nombre":  "Nicolás",
         "whatsapp":  "59894677880000000000",
@@ -14118,8 +14118,8 @@ const INITIAL_LEADS = [
         "km":  "228000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Rodado 17 perfil bajo \nMuy bien de mecánica \nExelente andar\nSubir y andar\nTodo al dia",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14145,7 +14145,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1134",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1134,
         "nombre":  "Gerónimo Gratadoux",
         "whatsapp":  "598994941810000000000",
@@ -14155,8 +14155,8 @@ const INITIAL_LEADS = [
         "km":  "148500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "excelente estado, está como nueva",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14192,7 +14192,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1133",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1133,
         "nombre":  "Pablo es mi nombre, un gusto.",
         "whatsapp":  "59894245150000000000",
@@ -14202,8 +14202,8 @@ const INITIAL_LEADS = [
         "km":  "235000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Las cubiertas no tienen 6 meses de uso, funciona todo.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14239,7 +14239,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1132",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1132,
         "nombre":  "Sabrina torterolo",
         "whatsapp":  "598922994990000000000",
@@ -14293,7 +14293,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1131",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1131,
         "nombre":  "Héctor",
         "whatsapp":  "598937726420000000000",
@@ -14335,7 +14335,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1129",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1129,
         "nombre":  "Milena Palermo",
         "whatsapp":  "598921529510000000000",
@@ -14345,8 +14345,8 @@ const INITIAL_LEADS = [
         "km":  "Casi 136000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service se hace a los 138000",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14382,7 +14382,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1128",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1128,
         "nombre":  "Agustín Bertone",
         "whatsapp":  "598983714320000000000",
@@ -14392,8 +14392,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas tardes. Detalles principales vidrio del frente astillado por piedra . Espejos chofer y acompañante están con detalles. Detalles pequeños en general excepción de parte trasera derecha que tiene un raspón . Creo que se puede apreciar justamente en una de las fotos que compartí para que se vea. Gracias services cada 10 mil de dejo el oficial desde los 40mil. Cambio de correa a los 110.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14429,7 +14429,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1127",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1127,
         "nombre":  "Paul Rifon",
         "whatsapp":  "59897107890000000000",
@@ -14439,8 +14439,8 @@ const INITIAL_LEADS = [
         "km":  "79700",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Todos los servicios en Sadar, en garantía hasta enero 2027, cubiertas originales en buen estado.",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14476,7 +14476,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1126",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1126,
         "nombre":  "May",
         "whatsapp":  "598977344990000000000",
@@ -14486,8 +14486,8 @@ const INITIAL_LEADS = [
         "km":  "90200",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La app no me ha dejado subir las fotos. Le pusimos alarma y polarizado. Tiene un plástico quebrado en la parte interna de la puerta pero no afecta funcionalidad. Focos delanteros nuevos, los de atrás se ven opacos. Le toca service en 2000 km.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14504,7 +14504,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1125",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1125,
         "nombre":  "Richard Granizal",
         "whatsapp":  "598953480910000000000",
@@ -14514,8 +14514,8 @@ const INITIAL_LEADS = [
         "km":  "204000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas tardes, estoy buscando cotizaciones por venta de auto, estoy evaluando si venderlo y quería saber que cotizaciones le dan distintos concesionarios, en caso de que alguno me convenga procedo con la venta.\n\nVolkswagen Gol G5 Power Sedan\nAño: 2012\nKilometraje: 204.000kms.\nDirección asistida.\nAire acondicionado funcionando.\nVidrios delanteros elétricos.\nNo hay deuda.\nServices: Al dia, ultimo en Enero 2026\nService de distribución: Enero 2026\nTapa de cilindros revisada: Marzo 2026 (se cambió cuando se abrió).\n\nAuto sin problemas mecanicos.\n\nEl detalle es que el auto tuvo un robo en febrero, se robó radio, auxiliar y gato, aún no se repusieron, si se vende ahora el auto iría sin ellos.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14558,7 +14558,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1124",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1124,
         "nombre":  "Matias",
         "whatsapp":  "59893635340000000000",
@@ -14600,7 +14600,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1123",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1123,
         "nombre":  "Marcelo Rodríguez",
         "whatsapp":  "598929411980000000000",
@@ -14610,8 +14610,8 @@ const INITIAL_LEADS = [
         "km":  "115500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "No tiene calefacción, está el servicio de cambio de aceite y frenos hecho recientemente",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14647,7 +14647,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1122",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1122,
         "nombre":  "Jorge",
         "whatsapp":  "598939720470000000000",
@@ -14657,8 +14657,8 @@ const INITIAL_LEADS = [
         "km":  "28000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Buenas noches la camioneta es único dueño, servía oficiales le hicimos el primero luego con el taller de confianza que me hace en los otros vehículos, la camioneta le anda todo aire dirección calefacción está bien de cubiertas, la caja se pintó de blanco ya que se usó en ese tiempo con un caballete para llevar vidrios (mamparas de baño) y había quedado feo, de interior está sano cualquier cosa mañana le envío fotos porque no saqué muchas gracias y espero su repuesta.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14694,7 +14694,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1121",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1121,
         "nombre":  "María Laura de la Sierra",
         "whatsapp":  "598982918080000000000",
@@ -14704,8 +14704,8 @@ const INITIAL_LEADS = [
         "km":  "165000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto al día. Service hecho hace 10 días. Algunas marcas de rayones de uso.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14748,7 +14748,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1120",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1120,
         "nombre":  "Rodrigo Bocchi",
         "whatsapp":  "598999932760000000000",
@@ -14807,7 +14807,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1119",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1119,
         "nombre":  "Christian Ferreira",
         "whatsapp":  "598971703060000000000",
@@ -14817,8 +14817,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "JAC S2 1.5, 5 pasajeros, año 2019, en excelente estado general.\n\n* Año: 2019\n* Kilometraje: 120.000 km\n* Motor 1.5\n* Uso particular\n* Services realizados en tiempo y forma\n* Muy bien cuidada, lista para transferir\n* Patente anual paga\nSe encuentra en muy buen estado mecánico y estético aunque \ntiene un choque atrás en la puerta del baúl",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14866,7 +14866,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1118",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1118,
         "nombre":  "Alejandro",
         "whatsapp":  "59809259117900000000000",
@@ -14930,7 +14930,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1117",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1117,
         "nombre":  "Martin",
         "whatsapp":  "598987150740000000000",
@@ -14940,8 +14940,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Al día único dueño todos los service en casey, interior impecable y detalles de pintura en paragolpes",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -14989,7 +14989,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1116",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1116,
         "nombre":  "Damián Pirez",
         "whatsapp":  "59899677110000000000",
@@ -14999,8 +14999,8 @@ const INITIAL_LEADS = [
         "km":  "132000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto se encuentra en perfecto estado. Único detalle que tiene detalles de ruptura del tapizado del asiento del conductor y tiene rito el plástico protector debajo del mismo asiento",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15036,7 +15036,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1115",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1115,
         "nombre":  "Lorena Piriz",
         "whatsapp":  "598923675380000000000",
@@ -15046,8 +15046,8 @@ const INITIAL_LEADS = [
         "km":  "8000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene detalles, 7 meses de uso",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15073,7 +15073,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1114",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1114,
         "nombre":  "Ignacio morales",
         "whatsapp":  "598990659040000000000",
@@ -15122,7 +15122,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1113",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1113,
         "nombre":  "Camila",
         "whatsapp":  "598924641940000000000",
@@ -15132,8 +15132,8 @@ const INITIAL_LEADS = [
         "km":  "84000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El motor esta impecable porque hicimos varios arreglos y services, cuando la compramos ella había quedado mucho tiempo parada por un choque entonces tiene algunos detalles en el exterior, el choue que tuvo es en el lado derecho frontal que quedo el chasis arreglado",
-        "tasacion":  38000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15181,7 +15181,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1112",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1112,
         "nombre":  "Martin",
         "whatsapp":  "598948564080000000000",
@@ -15191,8 +15191,8 @@ const INITIAL_LEADS = [
         "km":  "85000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumático en excelente estado ya cambiados, servicios oficiales al hasta los 70\nMil y el de los 80 hechos en tiempo y forma con sus respectivas boletas y detalles . Estado general muy bueno.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15228,7 +15228,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1111",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1111,
         "nombre":  "Alberto Rosano",
         "whatsapp":  "598953134530000000000",
@@ -15260,7 +15260,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1110",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1110,
         "nombre":  "Lorena",
         "whatsapp":  "598953682110000000000",
@@ -15309,7 +15309,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1109",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1109,
         "nombre":  "Franco principessa",
         "whatsapp":  "598952759210000000000",
@@ -15319,8 +15319,8 @@ const INITIAL_LEADS = [
         "km":  "268700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene suspención neumatica",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15356,7 +15356,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1108",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1108,
         "nombre":  "Mauricio",
         "whatsapp":  "598916889550000000000",
@@ -15366,8 +15366,8 @@ const INITIAL_LEADS = [
         "km":  "270000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Patente todo el año paga",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15403,7 +15403,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1107",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1107,
         "nombre":  "",
         "whatsapp":  "598914992890000000000",
@@ -15413,8 +15413,8 @@ const INITIAL_LEADS = [
         "km":  "132000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1s6cwbfN2P9bDyIWun8oH6Doq-qiWyTTa",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15450,7 +15450,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1106",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1106,
         "nombre":  "Gaston Barindelli",
         "whatsapp":  "59895719370000000000",
@@ -15492,7 +15492,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1105",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1105,
         "nombre":  "Claudio García",
         "whatsapp":  "598998684380000000000",
@@ -15502,8 +15502,8 @@ const INITIAL_LEADS = [
         "km":  "446000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Nunca tuvo choques pero si fue pintada entera para sacar detalles, ahora faltaría pintar el paragolpes delantero, recientemente se me prendió la luz de check, y el abs, neumáticos delanteros nuevos, traseros para cambiar.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15529,7 +15529,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1104",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1104,
         "nombre":  "Joaquin",
         "whatsapp":  "598949783890000000000",
@@ -15578,7 +15578,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1103",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1103,
         "nombre":  "Valeria",
         "whatsapp":  "598914176710000000000",
@@ -15625,7 +15625,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1102",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1102,
         "nombre":  "Maximiliano Pirez",
         "whatsapp":  "598934077690000000000",
@@ -15635,8 +15635,8 @@ const INITIAL_LEADS = [
         "km":  "148000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No le anda el abs, según escaneo son 2 sensores a revisar, tengo el paragolpe trasero nuevo sin pintar y para colocar me choco una moto de atras y tompio lo que se ve en la foto 2, neumaticos 1 año de uso, service no oficiales pero todos en fecha, distribucion para hacer a los 170000, embrague para hacer a los 150000",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15674,7 +15674,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1101",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1101,
         "nombre":  "Andreina",
         "whatsapp":  "598927605330000000000",
@@ -15684,8 +15684,8 @@ const INITIAL_LEADS = [
         "km":  "46000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está muy bien cuidada y ya con el service echo",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15721,7 +15721,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1100",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1100,
         "nombre":  "Santiago",
         "whatsapp":  "598993564380000000000",
@@ -15775,7 +15775,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1099",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1099,
         "nombre":  "Guzmán",
         "whatsapp":  "598922340590000000000",
@@ -15822,7 +15822,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1098",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1098,
         "nombre":  "Santiago",
         "whatsapp":  "598993564380000000000",
@@ -15864,7 +15864,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1097",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1097,
         "nombre":  "Guillermo caye",
         "whatsapp":  "59892914847",
@@ -15874,8 +15874,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Services oficiales hasta 100 mil kms\nTodo funcionando",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15911,7 +15911,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1096",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1096,
         "nombre":  "Bernardo Mullin",
         "whatsapp":  "59899312790000000000",
@@ -15921,8 +15921,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está impecable. Segundo dueño, traído del exterior en 2021.",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -15960,7 +15960,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1095",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1095,
         "nombre":  "Sofia",
         "whatsapp":  "59895904520000000000",
@@ -15970,8 +15970,8 @@ const INITIAL_LEADS = [
         "km":  "139000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos se cambiaron hace 1 año aprox",
-        "tasacion":  48000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16007,7 +16007,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1094",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1094,
         "nombre":  "prueba jk",
         "whatsapp":  "598938530920000000000",
@@ -16035,7 +16035,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1093",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1093,
         "nombre":  "Adrian",
         "whatsapp":  "59899082260000000000",
@@ -16045,8 +16045,8 @@ const INITIAL_LEADS = [
         "km":  "142000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "2 cubiertas nuevas khumo adelante. Espejo del lado del conductor no es el original",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16089,7 +16089,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1092",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1092,
         "nombre":  "Cristofer Pintos",
         "whatsapp":  "598925406810000000000",
@@ -16099,8 +16099,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está totalmente al día, con patente paga todo el por todo el año",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16136,7 +16136,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1091",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1091,
         "nombre":  "Santiago silveira",
         "whatsapp":  "598994597420000000000",
@@ -16146,8 +16146,8 @@ const INITIAL_LEADS = [
         "km":  "184000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1oeXgL2DI6wX-Llab0dzDrVp2rhN0zZ6z",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16178,7 +16178,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1090",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1090,
         "nombre":  "Juan jaume",
         "whatsapp":  "59899969182",
@@ -16225,7 +16225,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1089",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1089,
         "nombre":  "Valentina",
         "whatsapp":  "598913679470000000000",
@@ -16253,7 +16253,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1088",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1088,
         "nombre":  "Gorgina Dagostini",
         "whatsapp":  "598939412720000000000",
@@ -16307,7 +16307,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1087",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1087,
         "nombre":  "Alejandra",
         "whatsapp":  "598996319490000000000",
@@ -16317,8 +16317,8 @@ const INITIAL_LEADS = [
         "km":  "87000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16335,7 +16335,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1086",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1086,
         "nombre":  "",
         "whatsapp":  "598916828770000000000",
@@ -16345,8 +16345,8 @@ const INITIAL_LEADS = [
         "km":  "14000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene patente paga 2026 todo el año, service oficiales de los primero 1000 km y de los primero 10000 realizados.",
-        "tasacion":  200000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  20000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16382,7 +16382,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1085",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1085,
         "nombre":  "Rodolfo do amaral",
         "whatsapp":  "598948269790000000000",
@@ -16429,7 +16429,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1084",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1084,
         "nombre":  "Elvis",
         "whatsapp":  "598977826590000000000",
@@ -16464,7 +16464,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1083",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1083,
         "nombre":  "Federico Sansone",
         "whatsapp":  "598910623540000000000",
@@ -16518,7 +16518,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1082",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1082,
         "nombre":  "Anthony",
         "whatsapp":  "598991665840000000000",
@@ -16528,8 +16528,8 @@ const INITIAL_LEADS = [
         "km":  "107mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Títulos, manual de fabrica, rueda auxiliar, alarma y cierre centralizado. Butacas e interior en buen estado.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16560,7 +16560,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1081",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1081,
         "nombre":  "Agustín Mesa",
         "whatsapp":  "598998448680000000000",
@@ -16614,7 +16614,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1080",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1080,
         "nombre":  "Jose Barreto",
         "whatsapp":  "598918116410000000000",
@@ -16642,7 +16642,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1079",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1079,
         "nombre":  "Alexandra",
         "whatsapp":  "598959991190000000000",
@@ -16682,7 +16682,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1078",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1078,
         "nombre":  "Natali",
         "whatsapp":  "59809578062400000000000",
@@ -16724,7 +16724,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1077",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1077,
         "nombre":  "Kevin Corujo",
         "whatsapp":  "598922425390000000000",
@@ -16778,7 +16778,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1076",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1076,
         "nombre":  "Gabriel",
         "whatsapp":  "598941239230000000000",
@@ -16788,8 +16788,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Camioneta muy cuidada, total mente al dia el kilometraje es aproximado xq justo ahra no estoy en casa, tiene detalle mínimos de estética pero fuera de eso esta muy cuidada, radio a pantalla, aire acondicionado, 4 vidrios eléctricos, cubiertas muy sanas",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16820,7 +16820,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1075",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1075,
         "nombre":  "Nicolás",
         "whatsapp":  "598996171340000000000",
@@ -16867,7 +16867,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1074",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1074,
         "nombre":  "Tonga Bermejo",
         "whatsapp":  "598967799990000000000",
@@ -16877,8 +16877,8 @@ const INITIAL_LEADS = [
         "km":  "124000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Servicios particulares \nCubiertas están nuevas 4 meses máximo \nAuxiliar sin uso con llanta original",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16909,7 +16909,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1073",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1073,
         "nombre":  "Alejandro Ruiz Díaz",
         "whatsapp":  "598982201530000000000",
@@ -16919,8 +16919,8 @@ const INITIAL_LEADS = [
         "km":  "66000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los service oficiales con libro, nunca choque",
-        "tasacion":  155000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -16958,7 +16958,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1072",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1072,
         "nombre":  "Gonzalo Notte",
         "whatsapp":  "598945438160000000000",
@@ -16968,8 +16968,8 @@ const INITIAL_LEADS = [
         "km":  "20000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Único detalle, señalero del espejo izquierdo",
-        "tasacion":  190000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17000,7 +17000,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1071",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1071,
         "nombre":  "Alejandro",
         "whatsapp":  "59894225413",
@@ -17010,8 +17010,8 @@ const INITIAL_LEADS = [
         "km":  "214000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los neumáticos tienen cuatro meses, le funciona todo service hecho hace poco varios extras, servicio de caja hecho a los 200000km todo funciona correcto\nTiene algún detalle en el tapizado del techo interior.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17047,7 +17047,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1070",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1070,
         "nombre":  "Luis Piastre",
         "whatsapp":  "59897490862",
@@ -17057,8 +17057,8 @@ const INITIAL_LEADS = [
         "km":  "88000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está todo al día, excelente estado",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17094,7 +17094,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1069",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1069,
         "nombre":  "Matias Flores",
         "whatsapp":  "59819695900000000",
@@ -17104,8 +17104,8 @@ const INITIAL_LEADS = [
         "km":  "155000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Segundo dueño, lo tengo desde los 98000. Se le cambió correa a los 150, siempre con mantenimiento, tiene las cubiertas de atrás para cambiar",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17141,7 +17141,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1068",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1068,
         "nombre":  "Jeronimo",
         "whatsapp":  "59809227765600000000000",
@@ -17188,7 +17188,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1067",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1067,
         "nombre":  "Dario",
         "whatsapp":  "598960279120000000000",
@@ -17237,7 +17237,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1066",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1066,
         "nombre":  "Esteban",
         "whatsapp":  "59897073140000000000",
@@ -17247,8 +17247,8 @@ const INITIAL_LEADS = [
         "km":  "85300",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Parlantes de la puertas,dejaron de funcionar, la radio funciona",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17284,7 +17284,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1065",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1065,
         "nombre":  "Junior Andrés",
         "whatsapp":  "598990914410000000000",
@@ -17294,8 +17294,8 @@ const INITIAL_LEADS = [
         "km":  "216000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto esta con servicio cada 10 mil kms.\nAire \nCubiertas delanteras nuevas \nEs modelo ltz \nTiene control crucero de velocidad",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17312,7 +17312,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1064",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1064,
         "nombre":  "Germán",
         "whatsapp":  "598914153880000000000",
@@ -17322,8 +17322,8 @@ const INITIAL_LEADS = [
         "km":  "94000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service recién realizado, 4 cubiertas nuevas",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17366,7 +17366,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1063",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1063,
         "nombre":  "Marcos Guerrero",
         "whatsapp":  "598945582230000000000",
@@ -17376,8 +17376,8 @@ const INITIAL_LEADS = [
         "km":  "19000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Absolutamente todo le anda tiene detalle del año pero después muy bien de mecánica auto familiar es muy bien cuidado",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17408,7 +17408,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1062",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1062,
         "nombre":  "Nicolas",
         "whatsapp":  "598913549620000000000",
@@ -17418,8 +17418,8 @@ const INITIAL_LEADS = [
         "km":  "102",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño, todos los servís oficiales",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17440,7 +17440,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1061",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1061,
         "nombre":  "",
         "whatsapp":  "598948971530000000000",
@@ -17487,7 +17487,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1060",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1060,
         "nombre":  "José ferreira",
         "whatsapp":  "598919751890000000000",
@@ -17497,8 +17497,8 @@ const INITIAL_LEADS = [
         "km":  "57000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene las cuatro cubiertas nuevas, el Service recién echo(no oficial), es segunda dueña y tiene muy buen estado de conservación. Tiene algunos abolloncitos propio del uso, pero choques no tiene",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17546,7 +17546,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1059",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1059,
         "nombre":  "Oscar Alvarez",
         "whatsapp":  "598933096070000000000",
@@ -17556,8 +17556,8 @@ const INITIAL_LEADS = [
         "km":  "105000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "En realidad no tiene nada para reparar esta todo funcionando muy bien",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17593,7 +17593,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1058",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1058,
         "nombre":  "Belén",
         "whatsapp":  "598922474760000000000",
@@ -17603,8 +17603,8 @@ const INITIAL_LEADS = [
         "km":  "196000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas, cambio de aceite, correas y demás hecho hace 2mil km",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17647,7 +17647,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1057",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1057,
         "nombre":  "Juan Lois",
         "whatsapp":  "598912674270000000000",
@@ -17689,7 +17689,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1056",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1056,
         "nombre":  "Mateo Perdomo",
         "whatsapp":  "598913875330000000000",
@@ -17731,7 +17731,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1055",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1055,
         "nombre":  "Augusto",
         "whatsapp":  "598935174770000000000",
@@ -17785,7 +17785,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1054",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1054,
         "nombre":  "Yoice Elosegui",
         "whatsapp":  "598933507940000000000",
@@ -17839,7 +17839,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1053",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1053,
         "nombre":  "",
         "whatsapp":  "598924665610000000000",
@@ -17893,7 +17893,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1052",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1052,
         "nombre":  "Rodrigo",
         "whatsapp":  "598916081540000000000",
@@ -17942,7 +17942,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1051",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1051,
         "nombre":  "Florencia",
         "whatsapp":  "598988541170000000000",
@@ -17952,8 +17952,8 @@ const INITIAL_LEADS = [
         "km":  "56441",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está impecable, todos los Services oficiales, funciona todo.",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -17996,7 +17996,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1050",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1050,
         "nombre":  "Nahuel q tal jonathan",
         "whatsapp":  "59893560087",
@@ -18006,8 +18006,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Guardabarro derecho abollado",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18024,7 +18024,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1049",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1049,
         "nombre":  "",
         "whatsapp":  "598910952240000000000",
@@ -18061,7 +18061,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1048",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1048,
         "nombre":  "Alejandro",
         "whatsapp":  "59894480243",
@@ -18071,8 +18071,8 @@ const INITIAL_LEADS = [
         "km":  "46000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está impecable, único con 46000 en Uruguay",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18100,7 +18100,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1047",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1047,
         "nombre":  "Gonzalo da motta",
         "whatsapp":  "598943007000000000",
@@ -18142,7 +18142,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1046",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1046,
         "nombre":  "Valeria",
         "whatsapp":  "598998977850000000000",
@@ -18196,7 +18196,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1045",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1045,
         "nombre":  "Sebastian",
         "whatsapp":  "598987007830000000000",
@@ -18243,7 +18243,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1044",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1044,
         "nombre":  "Fernando",
         "whatsapp":  "598918084070000000000",
@@ -18253,8 +18253,8 @@ const INITIAL_LEADS = [
         "km":  "176000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Prisma LT año 2014 con llantas de aleación, cierre centralizado, alarma, cubiertas nuevas, amortiguación nueva, polarizado con lámina de seguridad, audio con potencia, cámara de reversa, desonidización en 4 puertas.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18297,7 +18297,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1043",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1043,
         "nombre":  "Laura",
         "whatsapp":  "59899525008",
@@ -18325,7 +18325,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1042",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1042,
         "nombre":  "Federico",
         "whatsapp":  "598971919710000000000",
@@ -18335,8 +18335,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Motor 1.6, con detalles de chapa a la vista",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18367,7 +18367,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1041",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1041,
         "nombre":  "Felipe",
         "whatsapp":  "598941539060000000000",
@@ -18377,8 +18377,8 @@ const INITIAL_LEADS = [
         "km":  "159000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Patente paga todo el año, títulos a mi nombre, service hechos y andando bárbaro.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18414,7 +18414,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1040",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1040,
         "nombre":  "Juan Pablo",
         "whatsapp":  "598936523090000000000",
@@ -18461,7 +18461,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1039",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1039,
         "nombre":  "Juan Martín",
         "whatsapp":  "598990416070000000000",
@@ -18515,7 +18515,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1038",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1038,
         "nombre":  "Eduardo",
         "whatsapp":  "59894795033",
@@ -18552,7 +18552,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1037",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1037,
         "nombre":  "Ezequiel Exposito",
         "whatsapp":  "598913395130000000000",
@@ -18599,7 +18599,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1036",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1036,
         "nombre":  "Rafael Vázquez",
         "whatsapp":  "598970805070000000000",
@@ -18646,7 +18646,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1035",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1035,
         "nombre":  "Diego",
         "whatsapp":  "59892311363",
@@ -18693,7 +18693,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1034",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1034,
         "nombre":  "Fernando",
         "whatsapp":  "598996868910000000000",
@@ -18740,7 +18740,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1033",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1033,
         "nombre":  "Macarena",
         "whatsapp":  "59898324992",
@@ -18787,7 +18787,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1032",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1032,
         "nombre":  "Andrea Alarcón",
         "whatsapp":  "598995963290000000000",
@@ -18829,7 +18829,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1031",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1031,
         "nombre":  "",
         "whatsapp":  "598997015430000000000",
@@ -18839,8 +18839,8 @@ const INITIAL_LEADS = [
         "km":  "43000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los servicios hechos en lugares oficiales. Único dueño. Telefono 099701543 silvana di gaeta sildigaeta@gmail.com",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18871,7 +18871,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1030",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1030,
         "nombre":  "Matias",
         "whatsapp":  "598947722810000000000",
@@ -18881,8 +18881,8 @@ const INITIAL_LEADS = [
         "km":  "97000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño. Patente paga todo el año. Cero golpe. Neumáticos cambiados hace 15.000 km. Siempre services oficiales en Taller Americano. Lavado al detalle para la venta.",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -18918,7 +18918,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1029",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1029,
         "nombre":  "RAFAEL MONTES",
         "whatsapp":  "598955819990000000000",
@@ -18946,7 +18946,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1028",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1028,
         "nombre":  "Manuel Storace",
         "whatsapp":  "598935367650000000000",
@@ -19005,7 +19005,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1027",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1027,
         "nombre":  "Gustavo",
         "whatsapp":  "59896212050",
@@ -19052,7 +19052,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1026",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1026,
         "nombre":  "Yisselle Giménez",
         "whatsapp":  "59894650730",
@@ -19099,7 +19099,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1025",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1025,
         "nombre":  "Luis Santos",
         "whatsapp":  "598913178580000000000",
@@ -19109,8 +19109,8 @@ const INITIAL_LEADS = [
         "km":  "98000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta cuidada en modo histerico. Tratamiento cerámico, ficha oficial hasta los 75mil kms, luego en el taller del la tahona. Cubiertas all terrain casi nuevas.",
-        "tasacion":  350000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  35000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19146,7 +19146,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1024",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1024,
         "nombre":  "Braulio",
         "whatsapp":  "59894220005",
@@ -19205,7 +19205,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1023",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1023,
         "nombre":  "Gustavo",
         "whatsapp":  "598944103850000000000",
@@ -19247,7 +19247,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1022",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1022,
         "nombre":  "Yamila Rodríguez",
         "whatsapp":  "598922807980000000000",
@@ -19301,7 +19301,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1021",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1021,
         "nombre":  "Mateo Rodríguez",
         "whatsapp":  "59891839398",
@@ -19343,7 +19343,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1020",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1020,
         "nombre":  "Guillermo Estevez",
         "whatsapp":  "941228780000000",
@@ -19369,7 +19369,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1019",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1019,
         "nombre":  "Nataly Lespiaux",
         "whatsapp":  "59891788778",
@@ -19423,7 +19423,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1018",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1018,
         "nombre":  "Lorena",
         "whatsapp":  "598990957990000000000",
@@ -19433,8 +19433,8 @@ const INITIAL_LEADS = [
         "km":  "55300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Con todos los services oficiales, único dueño. Motor 1.0. Patente paga todo el año.",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19470,7 +19470,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1017",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1017,
         "nombre":  "Yoselin gallo",
         "whatsapp":  "598921109020000000000",
@@ -19517,7 +19517,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1016",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1016,
         "nombre":  "Gabriel",
         "whatsapp":  "598995820690000000000",
@@ -19576,7 +19576,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1015",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1015,
         "nombre":  "Mario Zurita",
         "whatsapp":  "598950568830000000000",
@@ -19623,7 +19623,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1014",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1014,
         "nombre":  "Santiago Méndez",
         "whatsapp":  "598916171",
@@ -19670,7 +19670,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1013",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1013,
         "nombre":  "Maria",
         "whatsapp":  "598998613510000000000",
@@ -19680,8 +19680,8 @@ const INITIAL_LEADS = [
         "km":  "203 mil km",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos nuevos, en el costado solo tiene un roce",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19717,7 +19717,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1012",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1012,
         "nombre":  "",
         "whatsapp":  "598933998060000000000",
@@ -19727,8 +19727,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1NpIMPf6t-nDfcbLp9FBphUEofWNl5ppJ",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19759,7 +19759,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1011",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1011,
         "nombre":  "Martina",
         "whatsapp":  "598946472480000000000",
@@ -19769,8 +19769,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El único detalle que tiene es un choque adelante, del lado del conductor, chocamos un zorro en la ruta. La luz que le falta está adentro se salió por el golpe pero sigue ahí. Service y cubiertas nuevas hace 4mil km",
-        "tasacion":  73000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19818,7 +19818,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1010",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1010,
         "nombre":  "Nicole González",
         "whatsapp":  "598952580080000000000",
@@ -19865,7 +19865,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1009",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1009,
         "nombre":  "",
         "whatsapp":  "59899939871",
@@ -19919,7 +19919,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1008",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1008,
         "nombre":  "Martin",
         "whatsapp":  "598919272150000000000",
@@ -19929,8 +19929,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto muy bien cuidado, services al día, interior impecable y llantas originales en excelente estado. Solo presenta un pequeño detalle estético menor en el guardabarro delantero izquierdo, una leve hundida sin pintura saltada ni algo estructural. Todo funcionando correctamente",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -19973,7 +19973,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1007",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1007,
         "nombre":  "Christian Blanco",
         "whatsapp":  "59899246249",
@@ -19983,8 +19983,8 @@ const INITIAL_LEADS = [
         "km":  "129 mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Aw1EzWeXmfAqKuq8KH-jw6y2E0TFsx2Y",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20020,7 +20020,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1006",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1006,
         "nombre":  "Aldo",
         "whatsapp":  "59894449133",
@@ -20030,8 +20030,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tengo una Nissan Frontier 2018 2.5 nafta, 4x2, 169000 kms, en excelente estado, documentación al dia, patente paga todo el año, alarma y bloqueo, radio con pantalla táctil 9\", 4 parlantes nuevos, cubre caja y lona maritima, todo con 4 meses de uso",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20067,7 +20067,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1005",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1005,
         "nombre":  "Nicolás",
         "whatsapp":  "59894721041",
@@ -20077,8 +20077,8 @@ const INITIAL_LEADS = [
         "km":  "137000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un detalle en el frente, en la línea del capot, es un detalle mínimo que incluso en las fotos no se destaca.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20114,7 +20114,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1004",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1004,
         "nombre":  "Bahian Umpierrez",
         "whatsapp":  "59892000488",
@@ -20161,7 +20161,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1003",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1003,
         "nombre":  "Erika",
         "whatsapp":  "598979896540000000000",
@@ -20171,8 +20171,8 @@ const INITIAL_LEADS = [
         "km":  "52000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "La camioneta está excelente no tiene service oficial, tiene un pequeño golpe atrás como muestra la foto, tapizado original con bien cuidado. Y en el capot algunos golpes de granizo, nada afecta su funcionamiento ! Todo al día",
-        "tasacion":  139000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13900,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20215,7 +20215,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1002",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1002,
         "nombre":  "Facundo Gil",
         "whatsapp":  "59895832650000000000",
@@ -20225,8 +20225,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo perfecto, Service Oficial hasta la fecha",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20269,7 +20269,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1001",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1001,
         "nombre":  "Federico Rodriguez",
         "whatsapp":  "5989835560000000000",
@@ -20279,8 +20279,8 @@ const INITIAL_LEADS = [
         "km":  "151000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los servicios oficiales en autoland menos los dos últimos, neumaticos nuevos recién colocados",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20297,7 +20297,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-1000",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  1000,
         "nombre":  "Richard",
         "whatsapp":  "598997764960000000000",
@@ -20307,8 +20307,8 @@ const INITIAL_LEADS = [
         "km":  "142mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1KA5X5BvyfeGlqmpkGc4f77VToVTJATGz",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20339,7 +20339,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-999",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  999,
         "nombre":  "Martin",
         "whatsapp":  "598994768160000000000",
@@ -20349,8 +20349,8 @@ const INITIAL_LEADS = [
         "km":  "23000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Servicio oficial",
-        "tasacion":  500000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  50000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20367,7 +20367,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-998",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  998,
         "nombre":  "Nicolas Fandiño",
         "whatsapp":  "59899384284",
@@ -20414,7 +20414,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-997",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  997,
         "nombre":  "Christian Ferreira",
         "whatsapp":  "598971703060000000000",
@@ -20424,8 +20424,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en excelente estado ya que lo usa mi padre para hacer mandados",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20461,7 +20461,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-996",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  996,
         "nombre":  "Gonzalo",
         "whatsapp":  "59898053789",
@@ -20503,7 +20503,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-995",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  995,
         "nombre":  "Gerall",
         "whatsapp":  "598947151790000000000",
@@ -20513,8 +20513,8 @@ const INITIAL_LEADS = [
         "km":  "29021",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene en el costado derecho un caminero chocado por un animal , tiene service oficial y neumáticos en buen estado",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20562,7 +20562,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-994",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  994,
         "nombre":  "Nahuel",
         "whatsapp":  "598997555730000000000",
@@ -20572,8 +20572,8 @@ const INITIAL_LEADS = [
         "km":  "143 mil ",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Se le realizó service completo para ir a Brasil a los 140mil km",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20609,7 +20609,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-993",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  993,
         "nombre":  "Nelson",
         "whatsapp":  "59899132285",
@@ -20651,7 +20651,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-992",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  992,
         "nombre":  "Abril Guerrero",
         "whatsapp":  "598994555860000000000",
@@ -20688,7 +20688,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-991",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  991,
         "nombre":  "León Cuti",
         "whatsapp":  "598987174710000000000",
@@ -20698,8 +20698,8 @@ const INITIAL_LEADS = [
         "km":  "188000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está el día y a mi nombre, en buenas condiciones. Tiene algún pequeño detalle de chapa por algún roce, lo vendo porque preciso el dinero pero quiero que sea con papeles, todo legal",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20720,7 +20720,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-990",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  990,
         "nombre":  "Jonatan Rebagliatti",
         "whatsapp":  "598986968140000000000",
@@ -20767,7 +20767,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-989",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  989,
         "nombre":  "Jorge Rodríguez",
         "whatsapp":  "598923268840000000000",
@@ -20814,7 +20814,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-988",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  988,
         "nombre":  "Natalia",
         "whatsapp":  "598990381260000000000",
@@ -20824,8 +20824,8 @@ const INITIAL_LEADS = [
         "km":  "81000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en perfectas condiciones; tiene el detalle de la puerta del conductor y algún toque más que se arregla por poco dinero. Muchas gracias.",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -20861,7 +20861,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-987",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  987,
         "nombre":  "Franco",
         "whatsapp":  "59892675940",
@@ -20908,7 +20908,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-986",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  986,
         "nombre":  "Fernando Navarro",
         "whatsapp":  "598999074750000000000",
@@ -20962,7 +20962,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-985",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  985,
         "nombre":  "Gonzalo Aguilar",
         "whatsapp":  "59892363538",
@@ -21009,7 +21009,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-984",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  984,
         "nombre":  "Paula",
         "whatsapp":  "59893711917",
@@ -21056,7 +21056,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-983",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  983,
         "nombre":  "Santiago",
         "whatsapp":  "598923885780000000000",
@@ -21098,7 +21098,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-982",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  982,
         "nombre":  "Lucas Baptista",
         "whatsapp":  "59898049242",
@@ -21152,7 +21152,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-981",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  981,
         "nombre":  "Joaquín rivas",
         "whatsapp":  "598937504960000000000",
@@ -21162,8 +21162,8 @@ const INITIAL_LEADS = [
         "km":  "230",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo normal en funcionamiento",
-        "tasacion":  67000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21199,7 +21199,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-980",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  980,
         "nombre":  "Diego García",
         "whatsapp":  "59891668856",
@@ -21227,7 +21227,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-979",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  979,
         "nombre":  "Luciano Suarez",
         "whatsapp":  "598977357350000000000",
@@ -21237,8 +21237,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos de adelante casi nuevos",
-        "tasacion":  12000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21274,7 +21274,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-978",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  978,
         "nombre":  "Juan Ignacio Colucci",
         "whatsapp":  "598942403840000000000",
@@ -21284,8 +21284,8 @@ const INITIAL_LEADS = [
         "km":  "96500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Cubiertas continental en buen estado, radio con car play, láminas de seguridad",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21321,7 +21321,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-977",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  977,
         "nombre":  "Raúl Maldonado",
         "whatsapp":  "59893354481",
@@ -21368,7 +21368,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-976",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  976,
         "nombre":  "Sofia",
         "whatsapp":  "598992928590000000000",
@@ -21415,7 +21415,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-975",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  975,
         "nombre":  "Gerardo",
         "whatsapp":  "59899897653",
@@ -21464,7 +21464,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-974",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  974,
         "nombre":  "Mathias",
         "whatsapp":  "59899222433",
@@ -21490,7 +21490,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-973",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  973,
         "nombre":  "Agustín",
         "whatsapp":  "598917803020000000000",
@@ -21500,8 +21500,8 @@ const INITIAL_LEADS = [
         "km":  "137000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buen día, el auto tiene la distribución echa hasta los 195 mil km, tiene que hacerse cambio de aceite a los 139 además le compré el radiador de calefacción, solo habría que cambiárselo por el momento está anulado. \nA mi parecer anda impecable. \nLo cambio simplemente para poder comprar algo más grande\nEsta para que lo vean bien \nTiene de dos pequeñas abolladuras en cada puerta \nAdemás lo lleve a arreglar hace poco donde apoya el parabrisas, se le había comido la chapa de ahí quedó todo nuevo.\nY por último tiene un lamparón como Sprite rojo en una puerta \nSería más bien un retoque de pintura \nPero después todo impecable \nPodemos coordinar para verlo \nYo lo q más quiero saber es cuánto me darían por el.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21539,7 +21539,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-972",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  972,
         "nombre":  "Christian Julián",
         "whatsapp":  "59891368532",
@@ -21586,7 +21586,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-971",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  971,
         "nombre":  "Agustin Alva",
         "whatsapp":  "598962505580000000000",
@@ -21633,7 +21633,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-970",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  970,
         "nombre":  "Andrea Tabarez",
         "whatsapp":  "598989444460000000000",
@@ -21643,8 +21643,8 @@ const INITIAL_LEADS = [
         "km":  "95500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumaticos nuevos a los 80mil, soy segunda dueña, esta muy cuidado, services oficiales hasta los 60mil.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21687,7 +21687,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-969",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  969,
         "nombre":  "Franco",
         "whatsapp":  "59893443743",
@@ -21734,7 +21734,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-968",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  968,
         "nombre":  "Lucas callejas",
         "whatsapp":  "59898530648",
@@ -21778,7 +21778,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-967",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  967,
         "nombre":  "Roberta",
         "whatsapp":  "59891482840",
@@ -21825,7 +21825,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-966",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  966,
         "nombre":  "Fabián",
         "whatsapp":  "59809930386400000000000",
@@ -21879,7 +21879,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-965",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  965,
         "nombre":  "Beatriz Graña",
         "whatsapp":  "59891681023",
@@ -21926,7 +21926,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-964",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  964,
         "nombre":  "Yanina",
         "whatsapp":  "5989535922000000000",
@@ -21936,8 +21936,8 @@ const INITIAL_LEADS = [
         "km":  "78",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo funciona servís correspondientes",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -21973,7 +21973,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-963",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  963,
         "nombre":  "Vanesa Mosqueira",
         "whatsapp":  "59809331140100000000000",
@@ -22020,7 +22020,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-962",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  962,
         "nombre":  "Nicolás",
         "whatsapp":  "598928856950000000000",
@@ -22062,7 +22062,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-961",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  961,
         "nombre":  "Diego",
         "whatsapp":  "598974642960000000000",
@@ -22072,8 +22072,8 @@ const INITIAL_LEADS = [
         "km":  "144000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado de neumáticos bien, no tiene Service oficial",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22116,7 +22116,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-960",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  960,
         "nombre":  "",
         "whatsapp":  "598956555520000000000",
@@ -22163,7 +22163,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-959",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  959,
         "nombre":  "Dilan fontoura",
         "whatsapp":  "56809827903100000000000",
@@ -22210,7 +22210,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-958",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  958,
         "nombre":  "Diego Montanari",
         "whatsapp":  "598973270510000000000",
@@ -22220,8 +22220,8 @@ const INITIAL_LEADS = [
         "km":  "71000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ya me lo habías tasado en 9200 y yo quería un Nami 430 .  Mi Renault no tiene choques servis oficiales  neumáticos están en mitad de recorrido",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22250,7 +22250,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-957",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  957,
         "nombre":  "Belen",
         "whatsapp":  "598921349270000000000",
@@ -22260,8 +22260,8 @@ const INITIAL_LEADS = [
         "km":  "118000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Las cubiertas nuevas\nEmbriague nuevo\nCorrea de distribución nueva\nCreo que tiene 2 service oficiales y el resto por taller conocido a cada 10mil km \nPatente paga todo el año \nTodo al día y títulos a mi nombre",
-        "tasacion":  63000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22309,7 +22309,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-956",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  956,
         "nombre":  "Jonathan",
         "whatsapp":  "59895101245",
@@ -22368,7 +22368,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-955",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  955,
         "nombre":  "Nicolás Burgueño",
         "whatsapp":  "59891287566",
@@ -22415,7 +22415,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-954",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  954,
         "nombre":  "Jonathan",
         "whatsapp":  "598941551340000000000",
@@ -22462,7 +22462,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-953",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  953,
         "nombre":  "Franco",
         "whatsapp":  "598962544130000000000",
@@ -22472,8 +22472,8 @@ const INITIAL_LEADS = [
         "km":  "183000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "le anda todo lo mas bien, tiene 3 multas de 13 mil pesos nomas, pero esta a mi nombre para transferir, el estado de los neumaticos no es muy bueno, lo demas esta todo perfecto distribucion y servicios echos recientemente, no tiene ningun choque solo alguna rayita, nada fuera de lo comun. yo pido 11 mil dolares por el auto",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22521,7 +22521,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-952",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  952,
         "nombre":  "",
         "whatsapp":  "598921233320000000000",
@@ -22531,8 +22531,8 @@ const INITIAL_LEADS = [
         "km":  "22000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene algún detalle de pintura que no se ven en las fotos",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22568,7 +22568,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-951",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  951,
         "nombre":  "agustin",
         "whatsapp":  "598922346090000000000",
@@ -22596,7 +22596,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-950",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  950,
         "nombre":  "Nicolas",
         "whatsapp":  "59892320450000000000",
@@ -22606,8 +22606,8 @@ const INITIAL_LEADS = [
         "km":  "132600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hay que cambiar cubiertas delanteras y hacerle el cambio de aceite y tien un golpe chico en zócalo izquierdo",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22650,7 +22650,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-949",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  949,
         "nombre":  "Josefina Manfredi",
         "whatsapp":  "598998902860000000000",
@@ -22697,7 +22697,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-948",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  948,
         "nombre":  "Diego Bermudez",
         "whatsapp":  "598990430570000000000",
@@ -22744,7 +22744,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-947",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  947,
         "nombre":  "Mauricio Bauzá",
         "whatsapp":  "598942520120000000000",
@@ -22791,7 +22791,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-946",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  946,
         "nombre":  "Victoria",
         "whatsapp":  "59899975154",
@@ -22838,7 +22838,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-945",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  945,
         "nombre":  "Angel",
         "whatsapp":  "598934739410000000000",
@@ -22848,8 +22848,8 @@ const INITIAL_LEADS = [
         "km":  "91600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene cervice los e echó yo todo que se refiere cambios de filtro ,aceite etc",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -22885,7 +22885,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-944",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  944,
         "nombre":  "Marcela Cabrera y Esteban Borges",
         "whatsapp":  "59891881097",
@@ -22939,7 +22939,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-943",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  943,
         "nombre":  "",
         "whatsapp":  "598915044530000000000",
@@ -22965,7 +22965,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-942",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  942,
         "nombre":  "Eduardo Dos Santos",
         "whatsapp":  "598944334890000000000",
@@ -22997,7 +22997,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-941",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  941,
         "nombre":  "Carlos tejeira",
         "whatsapp":  "59892177437",
@@ -23009,7 +23009,7 @@ const INITIAL_LEADS = [
         "comentario":  "Está bien de motor tiene detalles como todo auto usado",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -23034,7 +23034,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-940",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  940,
         "nombre":  "Damián Pérez",
         "whatsapp":  "59892399000",
@@ -23062,7 +23062,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-939",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  939,
         "nombre":  "Mario Burucua",
         "whatsapp":  "59899562874",
@@ -23109,7 +23109,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-938",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  938,
         "nombre":  "Damian",
         "whatsapp":  "59895983112",
@@ -23151,7 +23151,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-937",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  937,
         "nombre":  "Braulio",
         "whatsapp":  "598984223170000000000",
@@ -23198,7 +23198,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-936",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  936,
         "nombre":  "Israel",
         "whatsapp":  "598943360680000000000",
@@ -23247,7 +23247,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-935",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  935,
         "nombre":  "Facundo",
         "whatsapp":  "59892190347",
@@ -23294,7 +23294,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-934",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  934,
         "nombre":  "Rodrigo",
         "whatsapp":  "598947486790000000000",
@@ -23348,7 +23348,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-933",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  933,
         "nombre":  "Mathias González",
         "whatsapp":  "59895033318",
@@ -23395,7 +23395,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-932",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  932,
         "nombre":  "Mauricio",
         "whatsapp":  "59894844842",
@@ -23405,8 +23405,8 @@ const INITIAL_LEADS = [
         "km":  "305000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas,aceite y filtro nuevo . Muy buen estado en general",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -23449,7 +23449,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-931",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  931,
         "nombre":  "Enzo serena",
         "whatsapp":  "598987560220000000000",
@@ -23491,7 +23491,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-930",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  930,
         "nombre":  "Cecilia Souto",
         "whatsapp":  "961616090000000",
@@ -23538,7 +23538,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-929",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  929,
         "nombre":  "Milagros Gomez",
         "whatsapp":  "59891938537",
@@ -23548,8 +23548,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Detalles estéticos en pintura, títulos en escribana para hacer transferencia en el momento, no está a mi nombre pero se hace transferencia al momento de compra.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -23585,7 +23585,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-928",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  928,
         "nombre":  "",
         "whatsapp":  "59895015398",
@@ -23627,7 +23627,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-927",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  927,
         "nombre":  "Lucia",
         "whatsapp":  "59892898474",
@@ -23674,7 +23674,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-926",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  926,
         "nombre":  "Federico Alza",
         "whatsapp":  "598998275560000000000",
@@ -23721,7 +23721,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-925",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  925,
         "nombre":  "Christian Croz",
         "whatsapp":  "59895300730000000000",
@@ -23775,7 +23775,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-924",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  924,
         "nombre":  "Martín Fernández",
         "whatsapp":  "59899879427",
@@ -23829,7 +23829,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-923",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  923,
         "nombre":  "Stephanie",
         "whatsapp":  "598969882540000000000",
@@ -23839,8 +23839,8 @@ const INITIAL_LEADS = [
         "km":  "120 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado excelente. No tuvo choques. Funciona todo. Neumático en buen estado. Services tiene cambio de aceite hecho hace 3 mil kilómetros y se debe cambiar a los 10 mil km. Tiene deuda de patente cuando quede sin trabajo. Debe 128 mil pesos.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -23888,7 +23888,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-922",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  922,
         "nombre":  "Alexis Méndez",
         "whatsapp":  "598944863360000000000",
@@ -23942,7 +23942,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-921",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  921,
         "nombre":  "valentin",
         "whatsapp":  "598994042070000000000",
@@ -23984,7 +23984,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-920",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  920,
         "nombre":  "Tiago Cóppola",
         "whatsapp":  "598982699750000000000",
@@ -24031,7 +24031,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-919",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  919,
         "nombre":  "Victoria Marco",
         "whatsapp":  "59898981110000000000",
@@ -24041,8 +24041,8 @@ const INITIAL_LEADS = [
         "km":  "66400",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Leve hundimiento en la parte trasera de un costado",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24073,7 +24073,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-918",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  918,
         "nombre":  "Héctor Riera",
         "whatsapp":  "598912457560000000000",
@@ -24132,7 +24132,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-917",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  917,
         "nombre":  "Nicolás  Abalo",
         "whatsapp":  "5989755320000000000",
@@ -24181,7 +24181,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-916",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  916,
         "nombre":  "Juan Guedes",
         "whatsapp":  "598962083820000000000",
@@ -24191,8 +24191,8 @@ const INITIAL_LEADS = [
         "km":  "238000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto de mecánica se encuentra impecable, tiene la bateria y el alternador nuevos puestos a principio de año. Mañana voy a ir a hacerle el service (cambio de aceite filtros, alineación y balanceo) tiene detalles de chapa a la vista y le falta el gas del aire",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24235,7 +24235,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-915",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  915,
         "nombre":  "Martín Viotti",
         "whatsapp":  "59899476816",
@@ -24263,7 +24263,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-914",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  914,
         "nombre":  "Andres albin",
         "whatsapp":  "59899990023",
@@ -24273,8 +24273,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Yo ño compre hace 6 años y esta talcual lo compre. El auto esta impecable. Tenho mas fotos si quieren.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24317,7 +24317,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-913",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  913,
         "nombre":  "Pablo Costa",
         "whatsapp":  "598914881440000000000",
@@ -24327,8 +24327,8 @@ const INITIAL_LEADS = [
         "km":  "42000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los services en taller oficial con histórico que lo compruebe , las 4 cubiertas nuevas con 2 mil km de uso, auxiliar sin uso desde 0km , motor 1.0 turbo. Nunca tuvo siniestros ni nada por el estilo.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24359,7 +24359,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-912",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  912,
         "nombre":  "Elidio",
         "whatsapp":  "598922519010000000000",
@@ -24406,7 +24406,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-911",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  911,
         "nombre":  "Matías Esteche",
         "whatsapp":  "598994702680000000000",
@@ -24416,8 +24416,8 @@ const INITIAL_LEADS = [
         "km":  "235mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles varios estéticos, no choques pero si de pintura y cosas que están feas en el interior más que nada, los neumáticos tiene 2 con medio uso delanteros y los de atrás están para cambiar, tiene títulos a mi nombre pero la libreta no, tiene una deuda de 60mil pesos, de mecánica funciona impecable",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24470,7 +24470,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-910",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  910,
         "nombre":  "",
         "whatsapp":  "598929066210000000000",
@@ -24480,8 +24480,8 @@ const INITIAL_LEADS = [
         "km":  "174500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo al día",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24517,7 +24517,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-909",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  909,
         "nombre":  "José Curbelo",
         "whatsapp":  "59898703558",
@@ -24527,8 +24527,8 @@ const INITIAL_LEADS = [
         "km":  "301000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Lo que no le está andando es el aire acondicionado. Yo lo tengo publicado en 5.500",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24564,7 +24564,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-908",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  908,
         "nombre":  "Christian",
         "whatsapp":  "598979898910000000000",
@@ -24618,7 +24618,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-907",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  907,
         "nombre":  "Facundo Medina",
         "whatsapp":  "598943349390000000000",
@@ -24628,8 +24628,8 @@ const INITIAL_LEADS = [
         "km":  "240000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No funciona la calefacción,  los neumáticos aun tienen vida util.",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24665,7 +24665,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-906",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  906,
         "nombre":  "",
         "whatsapp":  "59896042852",
@@ -24677,7 +24677,7 @@ const INITIAL_LEADS = [
         "comentario":  "",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
 
@@ -24693,7 +24693,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-905",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  905,
         "nombre":  "Pablo González",
         "whatsapp":  "598918812880000000000",
@@ -24757,7 +24757,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-904",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  904,
         "nombre":  "Liliana Arias",
         "whatsapp":  "59891318100",
@@ -24804,7 +24804,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-903",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  903,
         "nombre":  "Nicolas Leivas",
         "whatsapp":  "59898538720000000000",
@@ -24863,7 +24863,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-902",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  902,
         "nombre":  "Matias Gonzalez",
         "whatsapp":  "59898247939",
@@ -24910,7 +24910,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-901",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  901,
         "nombre":  "",
         "whatsapp":  "59891381071",
@@ -24957,7 +24957,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-900",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  900,
         "nombre":  "Diego",
         "whatsapp":  "598995002360000000000",
@@ -24967,8 +24967,8 @@ const INITIAL_LEADS = [
         "km":  "33000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La camioneta esta totalmente bien",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -24989,7 +24989,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-899",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  899,
         "nombre":  "Cristian Rodriguez",
         "whatsapp":  "598995609730000000000",
@@ -24999,8 +24999,8 @@ const INITIAL_LEADS = [
         "km":  "158000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ningun choque funciona todo neumático nuevos service oficiales hasta ciertos kilómetros",
-        "tasacion":  170000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25048,7 +25048,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-898",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  898,
         "nombre":  "",
         "whatsapp":  "59809921794900000000000",
@@ -25074,7 +25074,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-897",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  897,
         "nombre":  "Sol Ruiz Díaz",
         "whatsapp":  "598913079980000000000",
@@ -25084,8 +25084,8 @@ const INITIAL_LEADS = [
         "km":  "158000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los vidrios eléctricos no funcionan del todo bien",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25121,7 +25121,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-896",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  896,
         "nombre":  "Danilo Barrios",
         "whatsapp":  "598978446120000000000",
@@ -25168,7 +25168,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-895",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  895,
         "nombre":  "Ximena",
         "whatsapp":  "59809361530400000000000",
@@ -25215,7 +25215,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-894",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  894,
         "nombre":  "Tomás",
         "whatsapp":  "598944153980000000000",
@@ -25264,7 +25264,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-893",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  893,
         "nombre":  "Marcos",
         "whatsapp":  "59809389356500000000000",
@@ -25318,7 +25318,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-892",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  892,
         "nombre":  "Nicolas",
         "whatsapp":  "598923848130000000000",
@@ -25360,7 +25360,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-891",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  891,
         "nombre":  "Erik Bentancur",
         "whatsapp":  "59809518018700000000000",
@@ -25370,8 +25370,8 @@ const INITIAL_LEADS = [
         "km":  "144000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Detalles de pintura",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25407,7 +25407,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-890",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  890,
         "nombre":  "",
         "whatsapp":  "59899408225",
@@ -25439,7 +25439,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-889",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  889,
         "nombre":  "Pablo",
         "whatsapp":  "598981490950000000000",
@@ -25449,8 +25449,8 @@ const INITIAL_LEADS = [
         "km":  "154000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene alguna rallina nada que una pulida no solucione dos rueda nueva las otra medio resto impecable todo funcionando",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25493,7 +25493,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-888",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  888,
         "nombre":  "Victoria Vite",
         "whatsapp":  "598946893880000000000",
@@ -25535,7 +25535,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-887",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  887,
         "nombre":  "Carlos mateos",
         "whatsapp":  "59893729084",
@@ -25582,7 +25582,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-886",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  886,
         "nombre":  "",
         "whatsapp":  "59891383886",
@@ -25629,7 +25629,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-885",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  885,
         "nombre":  "Eugenia Ferulo",
         "whatsapp":  "598993229530000000000",
@@ -25639,8 +25639,8 @@ const INITIAL_LEADS = [
         "km":  "88000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Impecable, todo al día, service recién realizado",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25683,7 +25683,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-884",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  884,
         "nombre":  "Gonzalo",
         "whatsapp":  "59892901934",
@@ -25737,7 +25737,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-883",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  883,
         "nombre":  "Diego Brea",
         "whatsapp":  "598972119980000000000",
@@ -25747,8 +25747,8 @@ const INITIAL_LEADS = [
         "km":  "47000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales siempre y al día. \nCambié el equipo multimedia a uno con CarPlay y Android auto inalámbrico y parlantes delanteros. También le incorporé cámara de reversa Full HD. \nTiene algunos roces visibles.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25791,7 +25791,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-882",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  882,
         "nombre":  "Cristian",
         "whatsapp":  "598912933130000000000",
@@ -25801,8 +25801,8 @@ const INITIAL_LEADS = [
         "km":  "680",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Escucho tu propuesta( cuenta con varios km pero hace 5 mil se le hizo tapa de cilindro cigueñal encamisado, batería bomba de freno y gasoil nueva ) detalles estéticos a la vista",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25838,7 +25838,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-881",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  881,
         "nombre":  "Naiara Tellechea",
         "whatsapp":  "598947747890000000000",
@@ -25892,7 +25892,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-880",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  880,
         "nombre":  "Miguel Barriola",
         "whatsapp":  "598980357270000000000",
@@ -25902,8 +25902,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1mQ1Pskr4_WPUOAVOqWEIXUiSjHinkVH6",
-        "tasacion":  230000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  23000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -25939,7 +25939,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-879",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  879,
         "nombre":  "Verónica Fernández",
         "whatsapp":  "598999268640000000000",
@@ -25993,7 +25993,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-878",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  878,
         "nombre":  "Hebert",
         "whatsapp":  "59898124732",
@@ -26047,7 +26047,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-877",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  877,
         "nombre":  "Federico Berriel",
         "whatsapp":  "598993359960000000000",
@@ -26094,7 +26094,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-876",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  876,
         "nombre":  "Nicolas",
         "whatsapp":  "598948953220000000000",
@@ -26141,7 +26141,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-875",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  875,
         "nombre":  "Patricia Maccio",
         "whatsapp":  "598943645120000000000",
@@ -26190,7 +26190,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-874",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  874,
         "nombre":  "Bruno Pintos",
         "whatsapp":  "598987001620000000000",
@@ -26232,7 +26232,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-873",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  873,
         "nombre":  "Lucas",
         "whatsapp":  "59809477293400000000000",
@@ -26274,7 +26274,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-872",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  872,
         "nombre":  "Nicolás",
         "whatsapp":  "598945982510000000000",
@@ -26284,8 +26284,8 @@ const INITIAL_LEADS = [
         "km":  "96500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado general bueno. Tiene un pequeño detalle en la parte superior de la puerta del chofer por rozar con las barras. Estado de los neumáticos es bueno. Correas y filtros cambiados recientemente.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26321,7 +26321,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-871",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  871,
         "nombre":  "Hola me llamo Carlos Palacio",
         "whatsapp":  "59898231801",
@@ -26358,7 +26358,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-870",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  870,
         "nombre":  "María José",
         "whatsapp":  "598992162530000000000",
@@ -26368,8 +26368,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene aire acondicionado y vidrios eléctricos.\nEstá totalmente funcional, neumáticos en buen estado, cambio de aceite vigente, batería con 8 meses de uso. Papeles al día.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26400,7 +26400,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-869",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  869,
         "nombre":  "Dayana Rodriguez",
         "whatsapp":  "59896200606",
@@ -26459,7 +26459,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-868",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  868,
         "nombre":  "Ivanna",
         "whatsapp":  "598970896350000000000",
@@ -26469,8 +26469,8 @@ const INITIAL_LEADS = [
         "km":  "137500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Se vende camioneta tiguan 2018.\n137.000 km en muy buen estado:\n4 Cubiertas nuevas continental hace 30.000 km.\nDiscos nuevos delanteros y traseros hace 20.000 km\nPastillas nuevas cerámicas delanteras y traseras hace 20.000 km\nDistribución echa hace menos de 10.000 km\n2 juegos de Alfombras originales (de goma y tela)\nTratamiento cerámico echo.\nSe encuentra como en la foto fue una camioneta muy cuidada se vende en excelente estado\nPatente paga todo el año",
-        "tasacion":  165000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26518,7 +26518,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-867",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  867,
         "nombre":  "Alejo Krucheff",
         "whatsapp":  "598985682180000000000",
@@ -26572,7 +26572,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-866",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  866,
         "nombre":  "Lorena Hobinchet",
         "whatsapp":  "598095059253",
@@ -26619,7 +26619,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-865",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  865,
         "nombre":  "Fabián de lima",
         "whatsapp":  "598935969930000000000",
@@ -26629,8 +26629,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El  vehiculo está en  buen estado",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26666,7 +26666,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-864",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  864,
         "nombre":  "Facundo Sosa",
         "whatsapp":  "598919226090000000000",
@@ -26676,8 +26676,8 @@ const INITIAL_LEADS = [
         "km":  "108000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El vehículo esta con todo nuevo, los neumaticos, a los 100km se hizo el cambio de correa de distribución, hace unos días se cambió la bomba de agua. En general esta muy bien y no tiene ningún choque.",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26715,7 +26715,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-863",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  863,
         "nombre":  "Dacier Morales",
         "whatsapp":  "598099770190",
@@ -26762,7 +26762,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-862",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  862,
         "nombre":  "Gustavo Méndez",
         "whatsapp":  "59809848283700000000000",
@@ -26816,7 +26816,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-861",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  861,
         "nombre":  "Macarena bosque",
         "whatsapp":  "598986004490000000000",
@@ -26826,8 +26826,8 @@ const INITIAL_LEADS = [
         "km":  "147000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Chevrolet agile LZ. año 2011, 1.4 dirección hidráulica, blanco, el service echo en tiempo y forma. Con inmovilizador, cubiertas nuevas, alarma y cierre centralizado con velocidad crucero, con casi 147.000 km. Segunda dueña, aunque los títulos por sucesión figuran una familia entera. No fue chocado nunca, tengo los títulos a mi nombre pero no la libreta de propiedad.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -26870,7 +26870,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-860",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  860,
         "nombre":  "Agustin Bertone",
         "whatsapp":  "59837143200000000",
@@ -26907,7 +26907,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-859",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  859,
         "nombre":  "Franco Bornia",
         "whatsapp":  "598982702250000000000",
@@ -26961,7 +26961,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-858",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  858,
         "nombre":  "Andrés Ramos",
         "whatsapp":  "59898954260000000000",
@@ -27008,7 +27008,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-857",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  857,
         "nombre":  "Yanina",
         "whatsapp":  "598951105340000000000",
@@ -27055,7 +27055,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-856",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  856,
         "nombre":  "Lucía Gandoglia",
         "whatsapp":  "598943545650000000000",
@@ -27102,7 +27102,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-855",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  855,
         "nombre":  "Facundo",
         "whatsapp":  "598991348370000000000",
@@ -27139,7 +27139,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-854",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  854,
         "nombre":  "Nolberto",
         "whatsapp":  "59896268984",
@@ -27167,7 +27167,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-853",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  853,
         "nombre":  "Leonardo",
         "whatsapp":  "59809714373500000000000",
@@ -27221,7 +27221,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-852",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  852,
         "nombre":  "Martin",
         "whatsapp":  "59895339520000000000",
@@ -27263,7 +27263,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-851",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  851,
         "nombre":  "Damian rocha",
         "whatsapp":  "598962208810000000000",
@@ -27273,8 +27273,8 @@ const INITIAL_LEADS = [
         "km":  "293000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto esta totalmente al día,  tiene detalles en chapa pintura motor funcionando ok 0 consumo 0 perdida \nFuncionando ok,  busco algo 4 puertas ya que se agrandó la familia",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27310,7 +27310,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-850",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  850,
         "nombre":  "Yoelvis Garcia",
         "whatsapp":  "598925205280000000000",
@@ -27320,8 +27320,8 @@ const INITIAL_LEADS = [
         "km":  "168.314",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1AYsCJ59_s8FS5eJjDxeiu-JpmawRZtwq",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27357,7 +27357,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-849",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  849,
         "nombre":  "Alon Stark",
         "whatsapp":  "598979695930000000000",
@@ -27404,7 +27404,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-848",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  848,
         "nombre":  "Romina",
         "whatsapp":  "59809424146700000000000",
@@ -27414,8 +27414,8 @@ const INITIAL_LEADS = [
         "km":  "155819",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Último servicio hecho con 150.000km, distribución, árbol de elevas y sona landa  puesto a nuevo hace 2 semanas.\nNeumáticos como nuevos cambiamos el año pasado",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27458,7 +27458,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-847",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  847,
         "nombre":  "Agustin Gianelli",
         "whatsapp":  "598916039110000000000",
@@ -27505,7 +27505,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-846",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  846,
         "nombre":  "",
         "whatsapp":  "598970658920000000000",
@@ -27547,7 +27547,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-845",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  845,
         "nombre":  "Fabián",
         "whatsapp":  "598982886640000000000",
@@ -27589,7 +27589,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-844",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  844,
         "nombre":  "José Bonilla",
         "whatsapp":  "59897357870000000000",
@@ -27599,8 +27599,8 @@ const INITIAL_LEADS = [
         "km":  "51000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficiales al día con Hyundai aún está en garantía. Patente paga por todo el 2026",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27638,7 +27638,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-843",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  843,
         "nombre":  "Sabrina",
         "whatsapp":  "598910559630000000000",
@@ -27692,7 +27692,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-842",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  842,
         "nombre":  "Rafael",
         "whatsapp":  "598994133130000000000",
@@ -27727,7 +27727,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-841",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  841,
         "nombre":  "Alejandro Sierra",
         "whatsapp":  "59894498815",
@@ -27755,7 +27755,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-840",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  840,
         "nombre":  "Facundo cledon",
         "whatsapp":  "59894580111",
@@ -27809,7 +27809,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-839",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  839,
         "nombre":  "Thiago",
         "whatsapp":  "59898923588",
@@ -27819,8 +27819,8 @@ const INITIAL_LEADS = [
         "km":  "119000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un arañon en la chapa, que muestro en la foto. Luego de neumáticos está bien, aún le quedan kms para el cambio, services oficiales se le hizo hasta los 50.",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27856,7 +27856,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-838",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  838,
         "nombre":  "Alejandra",
         "whatsapp":  "59895642364",
@@ -27898,7 +27898,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-837",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  837,
         "nombre":  "Mauro",
         "whatsapp":  "59894117714",
@@ -27908,8 +27908,8 @@ const INITIAL_LEADS = [
         "km":  "21400",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo impecable. Tiene un tajo de 7 cm en la lona de la caja.",
-        "tasacion":  190000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27947,7 +27947,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-836",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  836,
         "nombre":  "María Jose",
         "whatsapp":  "598985365390000000000",
@@ -27957,8 +27957,8 @@ const INITIAL_LEADS = [
         "km":  "95000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en muy buenas condiciones. Con las cubiertas delanteras nuevas.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -27994,7 +27994,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-835",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  835,
         "nombre":  "",
         "whatsapp":  "598957193070000000000",
@@ -28004,8 +28004,8 @@ const INITIAL_LEADS = [
         "km":  "460000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en muy buen estado, está a nombre de mi madre pero me estoy haciendo cargo de la venta y fue taxi",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28048,7 +28048,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-834",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  834,
         "nombre":  "Cecilia",
         "whatsapp":  "598992482460000000000",
@@ -28107,7 +28107,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-833",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  833,
         "nombre":  "Pablo Correa",
         "whatsapp":  "59891917750",
@@ -28117,8 +28117,8 @@ const INITIAL_LEADS = [
         "km":  "51800",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La camioneta esta bárbara.  La verdad q no tiene detalles más q los del uso normal. Esta totalmente libre para una revisión.  Simplemente la vendo xq busco otra tipo de vehículo",
-        "tasacion":  180000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28154,7 +28154,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-832",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  832,
         "nombre":  "Mateo Fernández",
         "whatsapp":  "598958304810000000000",
@@ -28164,8 +28164,8 @@ const INITIAL_LEADS = [
         "km":  "300000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene la careta personalizada, chapón cubre cárter, llantas del modelo nuevo y enganche original toyota",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28196,7 +28196,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-831",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  831,
         "nombre":  "Caroline Barcelo",
         "whatsapp":  "598990518240000000000",
@@ -28206,8 +28206,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1oMRcygO9dM0lrLCa984EdMOujt4B1JQT",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28238,7 +28238,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-830",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  830,
         "nombre":  "Diego Cabrera",
         "whatsapp":  "598999253330000000000",
@@ -28280,7 +28280,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-829",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  829,
         "nombre":  "José",
         "whatsapp":  "598951158870000000000",
@@ -28290,8 +28290,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado general muy bueno",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28327,7 +28327,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-828",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  828,
         "nombre":  "Gerardo Lara",
         "whatsapp":  "598961186690000000000",
@@ -28337,8 +28337,8 @@ const INITIAL_LEADS = [
         "km":  "11600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cero choques. Todo le funciona. Garantía oficial. Service oficial de 10.000km hecho. La vendo por no usar lo suficiente",
-        "tasacion":  180000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28386,7 +28386,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-827",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  827,
         "nombre":  "Nicolás Franco",
         "whatsapp":  "598964415550000000000",
@@ -28396,8 +28396,8 @@ const INITIAL_LEADS = [
         "km":  "Moto nuevo hace 100.000 chasis con 300.000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Lo único que no le funciona es el aire acondicionado el resto está todo en funcionamiento.",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28433,7 +28433,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-826",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  826,
         "nombre":  "Jonatan",
         "whatsapp":  "59893932076",
@@ -28475,7 +28475,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-825",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  825,
         "nombre":  "Lucas",
         "whatsapp":  "598950949210000000000",
@@ -28485,8 +28485,8 @@ const INITIAL_LEADS = [
         "km":  "219000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "- Sandero Stepway Expression 2012\n- ⁠219.000Km\n- ⁠Único Dueño \n- ⁠Cubiertas Continental Nuevas\n- ⁠Patente 2026 paga\n- ⁠Service No oficial al día \n\n🔧 Mangón de aire para cambiar\n🔧 Palanca de cambio para cambiar\n🔧 Guantera floja\n🔧 Detalles de pintura \n\nTengo una oferta por USD 6.000 estoy buscando mejorarla",
-        "tasacion":  61000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6100,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28522,7 +28522,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-824",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  824,
         "nombre":  "Miguel",
         "whatsapp":  "598934574790000000000",
@@ -28561,7 +28561,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-823",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  823,
         "nombre":  "Gonzalo Sanguinetti",
         "whatsapp":  "598910814080000000000",
@@ -28610,7 +28610,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-822",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  822,
         "nombre":  "",
         "whatsapp":  "598983580610000000000",
@@ -28620,8 +28620,8 @@ const INITIAL_LEADS = [
         "km":  "190000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28638,7 +28638,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-821",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  821,
         "nombre":  "Alejandra",
         "whatsapp":  "95916530000000",
@@ -28685,7 +28685,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-820",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  820,
         "nombre":  "Nicolas",
         "whatsapp":  "598989025670000000000",
@@ -28695,8 +28695,8 @@ const INITIAL_LEADS = [
         "km":  "79000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Excelente estado general, mantenimientos preventivos hechos (diferencial, caja, etc) con todos los comprobantes, todos al dia y a mi nombre",
-        "tasacion":  220000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  22000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28732,7 +28732,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-819",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  819,
         "nombre":  "Braian Yarzón",
         "whatsapp":  "598927927720000000000",
@@ -28742,8 +28742,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28760,7 +28760,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-818",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  818,
         "nombre":  "Gastón mazzo",
         "whatsapp":  "59809162018800000000000",
@@ -28807,7 +28807,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-817",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  817,
         "nombre":  "George Nuñez",
         "whatsapp":  "598910759030000000000",
@@ -28817,8 +28817,8 @@ const INITIAL_LEADS = [
         "km":  "66000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Buenas es único dueño tiene 66000 km es la con motor cadenero tiene rayoncitos las cubiertas son las de fabrica",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28849,7 +28849,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-816",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  816,
         "nombre":  "Guillermo",
         "whatsapp":  "59899965295",
@@ -28903,7 +28903,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-815",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  815,
         "nombre":  "Angela ragghianti",
         "whatsapp":  "59894151867",
@@ -28913,8 +28913,8 @@ const INITIAL_LEADS = [
         "km":  "300000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Motor excelente, precio regalado",
-        "tasacion":  9000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  900,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28935,7 +28935,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-814",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  814,
         "nombre":  "Erika ganzinelli",
         "whatsapp":  "598948586460000000000",
@@ -28945,8 +28945,8 @@ const INITIAL_LEADS = [
         "km":  "86000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los servici oficiales menos el ultimo",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -28982,7 +28982,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-813",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  813,
         "nombre":  "Camila Di Candia",
         "whatsapp":  "598938300790000000000",
@@ -28992,8 +28992,8 @@ const INITIAL_LEADS = [
         "km":  "65000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1bj5tqt42AL_3xAUt34ur9Eq7EZCdScEc",
-        "tasacion":  200000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  20000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29029,7 +29029,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-812",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  812,
         "nombre":  "Jonathan Bertone",
         "whatsapp":  "59898056780000000000",
@@ -29039,8 +29039,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy el segundo dueño de la camioneta tengo carta de poder echa a mi nombre para transferir títulos y la libreta si esta a mi nombre",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29076,7 +29076,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-811",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  811,
         "nombre":  "Gonzalo",
         "whatsapp":  "598913132060000000000",
@@ -29086,8 +29086,8 @@ const INITIAL_LEADS = [
         "km":  "casi 200mil km ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "lo único q tiene para cambiar son las dos cubiertas de adelante después impecable",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29125,7 +29125,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-810",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  810,
         "nombre":  "Luis Raffo",
         "whatsapp":  "598948608030000000000",
@@ -29172,7 +29172,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-809",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  809,
         "nombre":  "Juan Peña",
         "whatsapp":  "598991242770000000000",
@@ -29226,7 +29226,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-808",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  808,
         "nombre":  "Guillermo del Cerro",
         "whatsapp":  "59809957310800000000000",
@@ -29236,8 +29236,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "T mando fotos x wstp xq no m deja cargar las fotos . No tienen ningún problema mecánico.  Lo vendo para mejorar",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29254,7 +29254,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-807",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  807,
         "nombre":  "Lorena bentos",
         "whatsapp":  "084820488",
@@ -29296,7 +29296,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-806",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  806,
         "nombre":  "Gerardo Bicudo",
         "whatsapp":  "9879510000000",
@@ -29338,7 +29338,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-805",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  805,
         "nombre":  "Agustin Kosseda",
         "whatsapp":  "59891397900000000",
@@ -29392,7 +29392,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-804",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  804,
         "nombre":  "Ana",
         "whatsapp":  "59899431730000000000",
@@ -29402,8 +29402,8 @@ const INITIAL_LEADS = [
         "km":  "97mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "4 neumáticos nuevos, los cambié en febrero.\nService oficiales todos \nTiene un choque adelante que muestra la foto",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29446,7 +29446,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-803",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  803,
         "nombre":  "Angela Lemos",
         "whatsapp":  "59899345072",
@@ -29493,7 +29493,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-802",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  802,
         "nombre":  "Ignacio Barboza",
         "whatsapp":  "598916925870000000000",
@@ -29503,8 +29503,8 @@ const INITIAL_LEADS = [
         "km":  "94500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto tuvo dos choques que solo sufrió daños estéticos que fueron arreglados en su momento. La radio no es la original ya que vino mal de fábrica y tiene service oficial hasta los 50 mil km",
-        "tasacion":  73000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29552,7 +29552,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-801",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  801,
         "nombre":  "Matias Gonzalez",
         "whatsapp":  "598927463060000000000",
@@ -29562,8 +29562,8 @@ const INITIAL_LEADS = [
         "km":  "116000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Agradezco se comunique por wpp y le envío mas fotos e info. Muy amable",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29599,7 +29599,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-800",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  800,
         "nombre":  "",
         "whatsapp":  "59899464689",
@@ -29653,7 +29653,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-799",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  799,
         "nombre":  "Gabriel ramirez",
         "whatsapp":  "59809914133700000000000",
@@ -29663,8 +29663,8 @@ const INITIAL_LEADS = [
         "km":  "170.000km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un rayon en la puerta trasera derecha, funcionamiento perfecto, no tiene choques",
-        "tasacion":  38000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29702,7 +29702,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-798",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  798,
         "nombre":  "Giuliano",
         "whatsapp":  "508916461410000000000",
@@ -29761,7 +29761,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-797",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  797,
         "nombre":  "Yenifer",
         "whatsapp":  "59892862482",
@@ -29773,7 +29773,7 @@ const INITIAL_LEADS = [
         "comentario":  "",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
 
@@ -29789,7 +29789,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-796",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  796,
         "nombre":  "Gonzalo Roman",
         "whatsapp":  "5980920234700000000000",
@@ -29843,7 +29843,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-795",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  795,
         "nombre":  "Virginia",
         "whatsapp":  "59809250477600000000000",
@@ -29853,8 +29853,8 @@ const INITIAL_LEADS = [
         "km":  "2",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No me deja subir la fotos te la dejo p WhatsApp",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29871,7 +29871,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-794",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  794,
         "nombre":  "Santiago Mernies",
         "whatsapp":  "598955090230000000000",
@@ -29881,8 +29881,8 @@ const INITIAL_LEADS = [
         "km":  "133000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al día\nNeumáticos nuevos \nBatería nueva \nParabrisas dañado",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -29918,7 +29918,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-793",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  793,
         "nombre":  "Julio",
         "whatsapp":  "59897338902",
@@ -29946,7 +29946,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-792",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  792,
         "nombre":  "Melanie",
         "whatsapp":  "59894509020000000000",
@@ -29974,7 +29974,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-791",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  791,
         "nombre":  "Diego",
         "whatsapp":  "598918127180000000000",
@@ -29984,8 +29984,8 @@ const INITIAL_LEADS = [
         "km":  "6000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "En este momento no cuento con fotos , pero el auto está en impecable condiciones , tiene 6000 km aprox y la idea de venderlo es para poder cambiar por un electrico",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30009,7 +30009,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-790",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  790,
         "nombre":  "PABLO Almenarez",
         "whatsapp":  "598919931880000000000",
@@ -30019,8 +30019,8 @@ const INITIAL_LEADS = [
         "km":  "126000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1cQ-1QANWbgfdWWt0b14qtf0w6lLzMCvx",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30051,7 +30051,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-789",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  789,
         "nombre":  "Cristhian Pagano",
         "whatsapp":  "598997407020000000000",
@@ -30093,7 +30093,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-788",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  788,
         "nombre":  "Johaquin",
         "whatsapp":  "598999767550000000000",
@@ -30140,7 +30140,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-787",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  787,
         "nombre":  "Sergio",
         "whatsapp":  "59897352589",
@@ -30187,7 +30187,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-786",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  786,
         "nombre":  "Leandro Méndez",
         "whatsapp":  "598981917170000000000",
@@ -30197,8 +30197,8 @@ const INITIAL_LEADS = [
         "km":  "172000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene deuda de 4500 dólares. Todo funciona y tiene realizado reciente el cambio de aceite",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30236,7 +30236,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-785",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  785,
         "nombre":  "Leonardo tremezana",
         "whatsapp":  "598994841690000000000",
@@ -30248,7 +30248,7 @@ const INITIAL_LEADS = [
         "comentario":  "Esta funcionando bien prende de una tiene deuda de 100 quiero permutar lo",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -30290,7 +30290,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-784",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  784,
         "nombre":  "Santiago",
         "whatsapp":  "59893984160000000000",
@@ -30349,7 +30349,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-783",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  783,
         "nombre":  "",
         "whatsapp":  "598999846830000000000",
@@ -30396,7 +30396,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-782",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  782,
         "nombre":  "Matías Cifuentes",
         "whatsapp":  "598917400290000000000",
@@ -30406,8 +30406,8 @@ const INITIAL_LEADS = [
         "km":  "117000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos con 10mil km.\nBatería 0km\nService en fecha.\nMucha ruta",
-        "tasacion":  58000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30443,7 +30443,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-781",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  781,
         "nombre":  "Ximena Otasú",
         "whatsapp":  "5989576123000000000",
@@ -30453,8 +30453,8 @@ const INITIAL_LEADS = [
         "km":  "224500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "4 neumáticos nuevos, no funciona el vidrio de chofer, hecho embrague hace menos de 1 mes, tren delantero hecho hace 1 mes. Títulos a nombre de mi hijo, seguro y patente paga anual.",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30490,7 +30490,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-780",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  780,
         "nombre":  "Jose alvarez",
         "whatsapp":  "598982892650000000000",
@@ -30500,8 +30500,8 @@ const INITIAL_LEADS = [
         "km":  "75600",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Esta todo funcionando perfecto, el estado de los neumaticos no es el mejor ( estarian para cambiar) serivce oficiales al dia.",
-        "tasacion":  170000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30537,7 +30537,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-779",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  779,
         "nombre":  "Charlie",
         "whatsapp":  "598919322730000000000",
@@ -30547,8 +30547,8 @@ const INITIAL_LEADS = [
         "km":  ".......",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30565,7 +30565,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-778",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  778,
         "nombre":  "Valeria cantera",
         "whatsapp":  "598967335970000000000",
@@ -30597,7 +30597,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-777",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  777,
         "nombre":  "Lucas Camiletti",
         "whatsapp":  "59898573813",
@@ -30607,8 +30607,8 @@ const INITIAL_LEADS = [
         "km":  "222300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está muy sano. Funciona todo, aire, climatizador de butacas, 10airbag, extra full. Todos los service en regla, services oficiales, con folleto. Automático tiptronic caja de 6ta. Soy 3er dueño, el primero lo vendió con 30mil km y la segunda muchacha una escribana que lo tuvo hasta que se lo compré uso diario, muy cuidado. Libreta de propiedad a mi nombre, títulos a nombre de la escribana que se cambian al momento de la venta. Todo al día",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30644,7 +30644,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-776",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  776,
         "nombre":  "Martin",
         "whatsapp":  "59843569600000000",
@@ -30654,8 +30654,8 @@ const INITIAL_LEADS = [
         "km":  "187300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo implicable \nAlarma y bloqueo en las 4 puertas \nAire funcionando correctamente",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30691,7 +30691,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-775",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  775,
         "nombre":  "Facundo",
         "whatsapp":  "598913427260000000000",
@@ -30733,7 +30733,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-774",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  774,
         "nombre":  "Pablo",
         "whatsapp":  "598947140260000000000",
@@ -30743,8 +30743,8 @@ const INITIAL_LEADS = [
         "km":  "125000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tuvo todos los services oficiales hasta que terminó la garantía, después se los hice con mi mecánico cada 10mil km.\nSiempre el mismo aceite havoline.\nChoques grandes nunca tuvo, solo un toque en el guardabarros delantero que ya se reparó.\nEl auto es de uso familiar y por lo general ando yo solo.",
-        "tasacion":  97000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -30782,7 +30782,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-773",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  773,
         "nombre":  "santino",
         "whatsapp":  "598959714640000000000",
@@ -30810,7 +30810,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-772",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  772,
         "nombre":  "Bruno",
         "whatsapp":  "508929570210000000000",
@@ -30854,7 +30854,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-771",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  771,
         "nombre":  "Sebastian",
         "whatsapp":  "598914622780000000000",
@@ -30891,7 +30891,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-770",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  770,
         "nombre":  "Silvana",
         "whatsapp":  "598947288850000000000",
@@ -30923,7 +30923,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-769",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  769,
         "nombre":  "",
         "whatsapp":  "59891956229",
@@ -30970,7 +30970,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-768",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  768,
         "nombre":  "Gastón Flores",
         "whatsapp":  "598972169150000000000",
@@ -31007,7 +31007,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-767",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  767,
         "nombre":  "Leandro",
         "whatsapp":  "59899774875",
@@ -31035,7 +31035,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-766",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  766,
         "nombre":  "Grisel Fernández",
         "whatsapp":  "59892974710000000000",
@@ -31045,8 +31045,8 @@ const INITIAL_LEADS = [
         "km":  "220.950 km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los service he hechos en tiempo y forma, tengo multas financiadas por un valor de 19 mil que eso antes de vender lo voy a pagar esta al día después",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31089,7 +31089,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-765",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  765,
         "nombre":  "Kevin",
         "whatsapp":  "598921530920000000000",
@@ -31099,8 +31099,8 @@ const INITIAL_LEADS = [
         "km":  "72000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "• Año 2017\n• 72.000 km\n• Motor 1.0 muy económico y confiable\n• Caja manual de 6 velocidades\n• Al día y a mi nombre\n• Patente paga todo el año\n• Libre de deuda\n• Listo para transferir\n\nEquipamiento y extras:\n• Aire acondicionado funcionando perfecto (congela)\n• Radio multimedia 7” con Apple CarPlay y Android Auto\n• Vidrios polarizados\n• Lips delantero y trasero\n• Cubre volante cosido\n• Goteros\n• Leds interiores\n• Dirección eléctrica\n• Airbags y ABS",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31136,7 +31136,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-764",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  764,
         "nombre":  "Hola Carlos Javier",
         "whatsapp":  "598973106650000000000",
@@ -31146,8 +31146,8 @@ const INITIAL_LEADS = [
         "km":  "210000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene 3 rayas en la puerta trasera izquierda y en el paragolpe delantero izquierdo también un toque en los zócalos de  cada lateral el resto impecable tren delantero echo y cubiertas bomba de agua y pe k con menos de 150k...",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31200,7 +31200,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-763",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  763,
         "nombre":  "",
         "whatsapp":  "59898389350",
@@ -31247,7 +31247,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-762",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  762,
         "nombre":  "Natalia Caporal",
         "whatsapp":  "59897992048",
@@ -31275,7 +31275,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-761",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  761,
         "nombre":  "Maria noel",
         "whatsapp":  "598990394760000000000",
@@ -31317,7 +31317,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-760",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  760,
         "nombre":  "Rodrigo",
         "whatsapp":  "598997058380000000000",
@@ -31327,8 +31327,8 @@ const INITIAL_LEADS = [
         "km":  "108000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Patente paga todo el año. Service oficiales",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31371,7 +31371,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-759",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  759,
         "nombre":  "Fabiana Ascarate",
         "whatsapp":  "598993819230000000000",
@@ -31413,7 +31413,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-758",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  758,
         "nombre":  "Nicolas Fernandez",
         "whatsapp":  "598981031750000000000",
@@ -31423,8 +31423,8 @@ const INITIAL_LEADS = [
         "km":  "68690",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1xNTOD7ySmlgBVNTMhR90svEIFV_vuiOI",
-        "tasacion":  170000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31460,7 +31460,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-757",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  757,
         "nombre":  "Javier García",
         "whatsapp":  "598919930270000000000",
@@ -31470,8 +31470,8 @@ const INITIAL_LEADS = [
         "km":  "258000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1ad0Dgdq_0KKGUZAwWj_QMs3KQb_LPQKp",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31507,7 +31507,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-756",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  756,
         "nombre":  "Nicolás Montelongo",
         "whatsapp":  "59892940100000000",
@@ -31517,8 +31517,8 @@ const INITIAL_LEADS = [
         "km":  "60000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy segundo dueño, lo compré con casi 30 mil km a la dueña original. Fui el primero en hacer los títulos. Cuando lo compré le hice todo, no por los km sino por los años porque estaba todo original. Distribución completa, tren delantero y sus service correspondientes. Bien de cubiertas, le puse 4 toyo tendrán unos 20 mil km. El auto está sano sano, lo vendo únicamente porque me salió un negocio con un auto de un familiar más nuevo.",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31554,7 +31554,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-755",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  755,
         "nombre":  "Marcos",
         "whatsapp":  "598995866160000000000",
@@ -31564,8 +31564,8 @@ const INITIAL_LEADS = [
         "km":  "219000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Ui68TpuLI3yENc-hsvYRUYHiQ-27mTFa",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31591,7 +31591,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-754",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  754,
         "nombre":  "Matías Insua",
         "whatsapp":  "59899160929",
@@ -31601,8 +31601,8 @@ const INITIAL_LEADS = [
         "km":  "94300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas tardes como te va ? El\nAuto está en perfectas condiciones a los 91.000 km se le hizo servís y cambio de cubiertas se encuentra en buen estado, obviamente desgaste como cualquier auto usado",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31619,7 +31619,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-753",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  753,
         "nombre":  "",
         "whatsapp":  "59809985044500000000000",
@@ -31629,8 +31629,8 @@ const INITIAL_LEADS = [
         "km":  "175000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene deuda de refinanciamiento",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31661,7 +31661,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-752",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  752,
         "nombre":  "MAURICIO ALAMO",
         "whatsapp":  "59809445371400000000000",
@@ -31708,7 +31708,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-751",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  751,
         "nombre":  "Alexis Rivero",
         "whatsapp":  "598940412480000000000",
@@ -31718,8 +31718,8 @@ const INITIAL_LEADS = [
         "km":  "122000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1KBzkfBqbfG97uFrhFxOa00LqFa_vR9wg",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -31755,7 +31755,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-750",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  750,
         "nombre":  "Simón",
         "whatsapp":  "59898124258",
@@ -31819,7 +31819,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-749",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  749,
         "nombre":  "Patricio",
         "whatsapp":  "598929628860000000000",
@@ -31866,7 +31866,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-748",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  748,
         "nombre":  "Damian",
         "whatsapp":  "959293180000000",
@@ -31915,7 +31915,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-747",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  747,
         "nombre":  "German",
         "whatsapp":  "59899849107",
@@ -31962,7 +31962,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-746",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  746,
         "nombre":  "Mauricio fernandez",
         "whatsapp":  "59809140028300000000000",
@@ -32009,7 +32009,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-745",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  745,
         "nombre":  "",
         "whatsapp":  "59895032536",
@@ -32051,7 +32051,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-744",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  744,
         "nombre":  "Joaquín Pereira",
         "whatsapp":  "598935931620000000000",
@@ -32061,8 +32061,8 @@ const INITIAL_LEADS = [
         "km":  "133000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene el parabrisas roto, está en una parte que no molesta a la vista. Yo lo compré así, es el parabrisas original del auto. Los detalles que tiene de pintura del lado derecho van a ser arreglados en estos días, tuvo un roce y me lo cubre el seguro al arreglo. Tiene batería nueva en garantía. 4 cubiertas nuevas.\nSoy el tercer dueño y los servicios no son oficiales. Patente 2026 paga todo el año.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32086,7 +32086,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-743",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  743,
         "nombre":  "fernanda",
         "whatsapp":  "59898373160",
@@ -32128,7 +32128,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-742",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  742,
         "nombre":  "Royman",
         "whatsapp":  "59894094894",
@@ -32156,7 +32156,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-741",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  741,
         "nombre":  "Patricia",
         "whatsapp":  "598957147760000000000",
@@ -32166,8 +32166,8 @@ const INITIAL_LEADS = [
         "km":  "84000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy única dueña..está impecable ..le realize un cerámico ..todos los service oficiales.\nMe gustaría venderla. Para poder comprar un ok..",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32215,7 +32215,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-740",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  740,
         "nombre":  "Juan Ferber",
         "whatsapp":  "598992432420000000000",
@@ -32262,7 +32262,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-739",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  739,
         "nombre":  "Leandro",
         "whatsapp":  "59891476766",
@@ -32321,7 +32321,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-738",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  738,
         "nombre":  "Federico Oliver",
         "whatsapp":  "59898361276",
@@ -32375,7 +32375,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-737",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  737,
         "nombre":  "Federico Oliver",
         "whatsapp":  "59898361276",
@@ -32422,7 +32422,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-736",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  736,
         "nombre":  "Cristhian Fernandez",
         "whatsapp":  "59893492715",
@@ -32450,7 +32450,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-735",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  735,
         "nombre":  "Santiago",
         "whatsapp":  "59894038010000000000",
@@ -32460,8 +32460,8 @@ const INITIAL_LEADS = [
         "km":  "199000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Le funciona todo. Aire dirección airbag conductor y acompañante.\nCubiertas nuevas. Distribución completa en julio del año pasado. Se le instaló camioneros con kit original de Renault. Soy mecánico por eso las fundas en los cientos pero están sanos los tapizados.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32504,7 +32504,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-734",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  734,
         "nombre":  "Patricia Rodríguez",
         "whatsapp":  "598999067170000000000",
@@ -32514,8 +32514,8 @@ const INITIAL_LEADS = [
         "km":  "159000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Soy segunda dueña, la camioneta está cuidada, siempre le hice los service en fecha. La pueden ver, el tapizado dentro está impecable porque siempre tuvo las alfombras colocadas. Escucho precio de compra. Mi idea es comprar otro vehículo de mejor año y menos km, pago diferencia.",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32551,7 +32551,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-733",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  733,
         "nombre":  "Martin Castelli",
         "whatsapp":  "598986997990000000000",
@@ -32605,7 +32605,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-732",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  732,
         "nombre":  "Diego Bayarres",
         "whatsapp":  "598923113630000000000",
@@ -32615,8 +32615,8 @@ const INITIAL_LEADS = [
         "km":  "198000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Es extra full, tiene llantas, a/c, techo cielo, vidrios eléctricos, computadora de abordo",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32652,7 +32652,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-731",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  731,
         "nombre":  "Lucas Marchetti",
         "whatsapp":  "598994805920000000000",
@@ -32662,8 +32662,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Está impecable, cambio más que nada para seguir mejorando. Detalles visibles. No agregue foto interior por que no me dejó adjuntar",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32694,7 +32694,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-730",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  730,
         "nombre":  "Juan Manuel Hernández",
         "whatsapp":  "598998271790000000000",
@@ -32704,8 +32704,8 @@ const INITIAL_LEADS = [
         "km":  "160000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "No tiene ningún choque, lo hice verificar antes de comprarlo (scaner oficial Renault). Todos los mantenimientos al día en tiempo y forma. Con mecánico de confianza de Renault. Estado excelente. Su único detalle es que se comenzó a despegar el tapizado del techo ( como todos los Megane) lo iba a arreglar pero me salió la oportunidad de otro vehículo",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32741,7 +32741,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-729",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  729,
         "nombre":  "Felipe Romero",
         "whatsapp":  "598996354810000000000",
@@ -32788,7 +32788,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-728",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  728,
         "nombre":  "Patricia Hernández",
         "whatsapp":  "598980661410000000000",
@@ -32825,7 +32825,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-727",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  727,
         "nombre":  "Federico Novoa",
         "whatsapp":  "598942259940000000000",
@@ -32835,8 +32835,8 @@ const INITIAL_LEADS = [
         "km":  "90000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service de 90000 recién hecho Service oficiales menos el último , descuenta IVA . Muy buen estado, sólo detalle en guardabarros trasero.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32879,7 +32879,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-726",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  726,
         "nombre":  "Natalia Díaz",
         "whatsapp":  "59809847469600000000000",
@@ -32889,8 +32889,8 @@ const INITIAL_LEADS = [
         "km":  "203000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Crk-TIX4Z6em3dFe0vZbthR6UnEe5MMn",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32926,7 +32926,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-725",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  725,
         "nombre":  "Pablo Presa",
         "whatsapp":  "598981345050000000000",
@@ -32936,8 +32936,8 @@ const INITIAL_LEADS = [
         "km":  "93700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al día, cubiertas y baterías nuevas. Tiene algunos detalles de chapa",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -32973,7 +32973,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-724",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  724,
         "nombre":  "Gualbert arrua",
         "whatsapp":  "598934341460000000000",
@@ -32983,8 +32983,8 @@ const INITIAL_LEADS = [
         "km":  "72000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene sus service oficiales y esta al dia con todo, seguro pago 2026 y cubiertas nuevas",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33022,7 +33022,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-723",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  723,
         "nombre":  "Gabriel Gayol",
         "whatsapp":  "598986567470000000000",
@@ -33032,8 +33032,8 @@ const INITIAL_LEADS = [
         "km":  "196000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1TKZLwHAq-G_Hcw3pPMsehwxUTKMRUsr9",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33069,7 +33069,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-722",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  722,
         "nombre":  "Santiago Tabeira",
         "whatsapp":  "59894522517",
@@ -33111,7 +33111,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-721",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  721,
         "nombre":  "Ignacio",
         "whatsapp":  "598990297520000000000",
@@ -33121,8 +33121,8 @@ const INITIAL_LEADS = [
         "km":  "139000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto est a funcionado en perfecto estado y los neumáticos están bien y cuenta con todos los service oficiales",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33160,7 +33160,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-720",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  720,
         "nombre":  "",
         "whatsapp":  "598989009610000000000",
@@ -33170,8 +33170,8 @@ const INITIAL_LEADS = [
         "km":  "7000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Único dueño",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33188,7 +33188,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-719",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  719,
         "nombre":  "Ignacio carbon",
         "whatsapp":  "59895451050",
@@ -33235,7 +33235,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-718",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  718,
         "nombre":  "Dylan",
         "whatsapp":  "59809509779300000000000",
@@ -33289,7 +33289,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-717",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  717,
         "nombre":  "Franco briozzo",
         "whatsapp":  "59892813910000000000",
@@ -33329,7 +33329,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-716",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  716,
         "nombre":  "Mauro Cardozo",
         "whatsapp":  "598964182040000000000",
@@ -33339,8 +33339,8 @@ const INITIAL_LEADS = [
         "km":  "185000km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Le cambié las 4 ruedas y fue balanceado/alineado.\nTiene un detalle en el tambor pues me lo quisieron robar, se lo llevarían con el encendido arreglado, tengo que pagar patente de este año nada más",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33366,7 +33366,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-715",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  715,
         "nombre":  "Nicolás vanzuli",
         "whatsapp":  "0017864145902",
@@ -33403,7 +33403,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-714",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  714,
         "nombre":  "Camila Ibáñez",
         "whatsapp":  "59891358708",
@@ -33413,8 +33413,8 @@ const INITIAL_LEADS = [
         "km":  "167000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1SnRb_yBRPTYRXdakMtbeqr-q4RDD3jS1",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33450,7 +33450,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-713",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  713,
         "nombre":  "Iván Díaz",
         "whatsapp":  "598951556560000000000",
@@ -33487,7 +33487,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-712",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  712,
         "nombre":  "Guillermo",
         "whatsapp":  "598995207060000000000",
@@ -33522,7 +33522,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-711",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  711,
         "nombre":  "Iván Díaz",
         "whatsapp":  "59895155656",
@@ -33571,7 +33571,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-710",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  710,
         "nombre":  "",
         "whatsapp":  "598922866670000000000",
@@ -33581,8 +33581,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Nada",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33618,7 +33618,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-709",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  709,
         "nombre":  "Fernando Font",
         "whatsapp":  "598942245530000000000",
@@ -33628,8 +33628,8 @@ const INITIAL_LEADS = [
         "km":  "159000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas run flat, buen estado general, cambio de aceite recién hecho, sin perdida de ningun tipo . Funciona todo ok. Tapizados sin manchas, sin roturas. Parabrisa con 2 puntos de piedras sin astillar.",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33667,7 +33667,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-708",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  708,
         "nombre":  "Micaela Hernández",
         "whatsapp":  "598927890150000000000",
@@ -33677,8 +33677,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un pequeño choque atrás, el rail izquierdo y el paragolpe.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33721,7 +33721,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-707",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  707,
         "nombre":  "Pablo Tassano",
         "whatsapp":  "59899290800",
@@ -33768,7 +33768,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-706",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  706,
         "nombre":  "Facundo Pérez",
         "whatsapp":  "598917490590000000000",
@@ -33815,7 +33815,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-705",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  705,
         "nombre":  "Sandra",
         "whatsapp":  "598994052970000000000",
@@ -33825,8 +33825,8 @@ const INITIAL_LEADS = [
         "km":  "205000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos nuevos, tendrán 2000km, radio táctil con cámara de reversa",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33862,7 +33862,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-704",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  704,
         "nombre":  "Matías lantes",
         "whatsapp":  "598917554970000000000",
@@ -33872,8 +33872,8 @@ const INITIAL_LEADS = [
         "km":  "99700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos en buen estado con llantas diamantadas, equipo de música con 4 parlantes nuevos + subwoofer potenciado, muy buen estado general, interior impecable + cubre asientos nuevos. Todo lo accesorio puede quedar o se puede retirar, nos adaptamos a usted.\nMantenimientos siempre en orden para que funcione en óptimas condiciones.",
-        "tasacion":  48000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33916,7 +33916,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-703",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  703,
         "nombre":  "Esteban",
         "whatsapp":  "598954496260000000000",
@@ -33926,8 +33926,8 @@ const INITIAL_LEADS = [
         "km":  "238000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "4 cubiertas , bateria nueva , funciona todo todo lo eléctrico menos bocina",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -33948,7 +33948,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-702",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  702,
         "nombre":  "Daniel Silva",
         "whatsapp":  "59897322677",
@@ -33995,7 +33995,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-701",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  701,
         "nombre":  "Nicolas Sequeira",
         "whatsapp":  "598922960190000000000",
@@ -34005,8 +34005,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene deuda pagable (28.000 en patente y 11.000 en multa), Aire acondicionado a revisar (enfría y calienta poco), cubiertas nuevas, suspensión regulable atras y adelante, tapa de cilindros, embrague y caño de escape hecho nuevo, tiene tratamiento cerámico, detalle estético (buches delanteros) detalle eléctrico (a cambiar sensor de oxigeno map, luz de reversa y de freno) y tambor de llave (pequeño juego)",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34049,7 +34049,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-700",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  700,
         "nombre":  "Nicolás",
         "whatsapp":  "589942168530000000000",
@@ -34098,7 +34098,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-699",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  699,
         "nombre":  "VICTOR",
         "whatsapp":  "598987726060000000000",
@@ -34108,8 +34108,8 @@ const INITIAL_LEADS = [
         "km":  "38000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en perfecto estado lo compramos hace dos años en car one somos segundo dueño tiene 38.000 kilometros el precio que lo compramos es de 13500. Todo funciona perfectamente el auto esta impecable.",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34152,7 +34152,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-698",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  698,
         "nombre":  "Adrián Cabrera",
         "whatsapp":  "598912159740000000000",
@@ -34199,7 +34199,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-697",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  697,
         "nombre":  "tiago",
         "whatsapp":  "59892396338",
@@ -34246,7 +34246,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-696",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  696,
         "nombre":  "Tatiana Martínez",
         "whatsapp":  "59892815502",
@@ -34274,7 +34274,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-695",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  695,
         "nombre":  "Sabrina",
         "whatsapp":  "964863370000000",
@@ -34321,7 +34321,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-694",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  694,
         "nombre":  "María Inés Suárez",
         "whatsapp":  "598929246810000000000",
@@ -34331,8 +34331,8 @@ const INITIAL_LEADS = [
         "km":  "196534",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1_otT3K5btw5QePOpj76dz5LwpGDDptLF",
-        "tasacion":  77000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34358,7 +34358,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-693",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  693,
         "nombre":  "Gimena Alvarez",
         "whatsapp":  "59894403704",
@@ -34405,7 +34405,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-692",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  692,
         "nombre":  "Martín",
         "whatsapp":  "98120440000000",
@@ -34452,7 +34452,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-691",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  691,
         "nombre":  "Fabian",
         "whatsapp":  "59891252690000000000",
@@ -34462,8 +34462,8 @@ const INITIAL_LEADS = [
         "km":  "115300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Polarizados, camineros, regulables en las 4 ruedas, cubiertas medio uso, único detalle en la puerta del conductor, aire acondicionado no enfría bien.",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34489,7 +34489,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-690",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  690,
         "nombre":  "Rodrigo Gau",
         "whatsapp":  "598923898720000000000",
@@ -34526,7 +34526,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-689",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  689,
         "nombre":  "Marcelo",
         "whatsapp":  "598973801830000000000",
@@ -34536,8 +34536,8 @@ const INITIAL_LEADS = [
         "km":  "160000",
         "papeles":  "",
         "comentario":  "Buen estado",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34554,7 +34554,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-688",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  688,
         "nombre":  "Instagram",
         "whatsapp":  "59809948438600000000000",
@@ -34564,8 +34564,8 @@ const INITIAL_LEADS = [
         "km":  "140",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Está todo correcto",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34586,7 +34586,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-687",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  687,
         "nombre":  "",
         "whatsapp":  "59892071997",
@@ -34628,7 +34628,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-686",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  686,
         "nombre":  "Máximo Scarone",
         "whatsapp":  "59809950202400000000000",
@@ -34638,8 +34638,8 @@ const INITIAL_LEADS = [
         "km":  "160000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene 160000 km casi",
-        "tasacion":  55900,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5590,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34675,7 +34675,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-685",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  685,
         "nombre":  "Juan Ignacio Torres",
         "whatsapp":  "598979811930000000000",
@@ -34729,7 +34729,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-684",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  684,
         "nombre":  "Carolina Serpa",
         "whatsapp":  "5989210360000000000",
@@ -34739,8 +34739,8 @@ const INITIAL_LEADS = [
         "km":  "62000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "En buen estado",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -34776,7 +34776,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-683",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  683,
         "nombre":  "Leonardo Luzardo",
         "whatsapp":  "59809597954300000000000",
@@ -34788,7 +34788,7 @@ const INITIAL_LEADS = [
         "comentario":  "Está a nombre de mi madre y tiene todos los papeles al día inclusive la patente paga todo el año. Tiene detalles de chapa sobre todo",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -34823,7 +34823,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-682",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  682,
         "nombre":  "Agustín Álvarez",
         "whatsapp":  "598935564080000000000",
@@ -34851,7 +34851,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-681",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  681,
         "nombre":  "Melanie",
         "whatsapp":  "598957940570000000000",
@@ -34900,7 +34900,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-680",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  680,
         "nombre":  "Marcelo",
         "whatsapp":  "59892468248",
@@ -34954,7 +34954,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-679",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  679,
         "nombre":  "Erick",
         "whatsapp":  "59897849545",
@@ -34996,7 +34996,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-678",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  678,
         "nombre":  "Fernando González",
         "whatsapp":  "598955205360000000000",
@@ -35050,7 +35050,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-677",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  677,
         "nombre":  "Gustavo",
         "whatsapp":  "59892504375",
@@ -35097,7 +35097,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-676",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  676,
         "nombre":  "Leonardo Laveglia",
         "whatsapp":  "598961332320000000000",
@@ -35144,7 +35144,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-675",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  675,
         "nombre":  "Clayton Zapirain",
         "whatsapp":  "59899430696",
@@ -35181,7 +35181,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-674",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  674,
         "nombre":  "Matías monzón",
         "whatsapp":  "59894702617",
@@ -35228,7 +35228,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-673",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  673,
         "nombre":  "Patricio bon",
         "whatsapp":  "59892044030000000000",
@@ -35238,8 +35238,8 @@ const INITIAL_LEADS = [
         "km":  "210000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Funciona bien,está al día con títulos y propiedad a mi nombre.",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35275,7 +35275,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-672",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  672,
         "nombre":  "Carolina zunino",
         "whatsapp":  "598985050840000000000",
@@ -35285,8 +35285,8 @@ const INITIAL_LEADS = [
         "km":  "19000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "La camioneta esta nueva, la compre en diciembre 2024, le quedan 3 años de garantía o 130 mil kilómetros",
-        "tasacion":  195000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35322,7 +35322,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-671",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  671,
         "nombre":  "Paola Loisi",
         "whatsapp":  "598916043230000000000",
@@ -35357,7 +35357,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-670",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  670,
         "nombre":  "",
         "whatsapp":  "598990993190000000000",
@@ -35367,8 +35367,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Todos los service hecho antes de fecha, camioneta muy cuidada. Le cambié las cubiertas, amortiguadores, correas hace 10mil km. La camioneta se usa solamente para hacer ruta",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35404,7 +35404,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-669",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  669,
         "nombre":  "Roque Martínez",
         "whatsapp":  "598938504290000000000",
@@ -35451,7 +35451,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-668",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  668,
         "nombre":  "Jenifer",
         "whatsapp":  "59894576137",
@@ -35498,7 +35498,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-667",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  667,
         "nombre":  "FABIAN R.",
         "whatsapp":  "598983379170000000000",
@@ -35508,8 +35508,8 @@ const INITIAL_LEADS = [
         "km":  "213000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficialea en mariño, sin choques, no funciona el lado izquierdo de comandos del volante",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35557,7 +35557,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-666",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  666,
         "nombre":  "Mateo",
         "whatsapp":  "59892462661",
@@ -35599,7 +35599,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-665",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  665,
         "nombre":  "Andrés",
         "whatsapp":  "59899180134",
@@ -35627,7 +35627,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-664",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  664,
         "nombre":  "Emanuel",
         "whatsapp":  "598986163290000000000",
@@ -35637,8 +35637,8 @@ const INITIAL_LEADS = [
         "km":  "112177",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Convenio de patente que lo completo antes de entregarlo , patente paga todo el 2026 , todo los roces que tiene son de estacionar no de choque",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35674,7 +35674,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-663",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  663,
         "nombre":  "Ivan",
         "whatsapp":  "598946666790000000000",
@@ -35684,8 +35684,8 @@ const INITIAL_LEADS = [
         "km":  "70000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los services oficiales,",
-        "tasacion":  200000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  20000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35721,7 +35721,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-662",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  662,
         "nombre":  "Anahi Blanco",
         "whatsapp":  "598973406260000000000",
@@ -35768,7 +35768,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-661",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  661,
         "nombre":  "Agustín",
         "whatsapp":  "59892621135",
@@ -35796,7 +35796,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-660",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  660,
         "nombre":  "Agustín",
         "whatsapp":  "598994381420000000000",
@@ -35806,8 +35806,8 @@ const INITIAL_LEADS = [
         "km":  "131500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Muy buen estado. Tapizados como nuevos (cubre asientos desde día 1).\nDetalles de chapa. Sin choques ni reparaciones.\nEn este momento el bloqueo de la puerta trasera derecha no funciona correctamente.\nNo cuenta con los service oficiales. Los neumáticos están en buen estado.",
-        "tasacion":  68000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35841,7 +35841,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-659",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  659,
         "nombre":  "",
         "whatsapp":  "59899653670000000000",
@@ -35888,7 +35888,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-658",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  658,
         "nombre":  "Gastón Solari",
         "whatsapp":  "598991209220000000000",
@@ -35935,7 +35935,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-657",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  657,
         "nombre":  "Santiago Brum",
         "whatsapp":  "598922454650000000000",
@@ -35945,8 +35945,8 @@ const INITIAL_LEADS = [
         "km":  "82000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El estado está impecable. tiene minimos detalles en paragolpes frontal por un toque estacionado. Neumaticos cambiados recientemente. Funciona todo. Services oficiales y no oficiales",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -35994,7 +35994,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-656",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  656,
         "nombre":  "Nicolas",
         "whatsapp":  "598978638320000000000",
@@ -36041,7 +36041,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-655",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  655,
         "nombre":  "Ismael Cuevas",
         "whatsapp":  "598991621140000000000",
@@ -36051,8 +36051,8 @@ const INITIAL_LEADS = [
         "km":  "108500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Unico dueño, todos los services oficiales hechos en Ayax, neumaticos cambiados a los 70000km aprox",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36088,7 +36088,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-654",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  654,
         "nombre":  "",
         "whatsapp":  "598945935450000000000",
@@ -36098,8 +36098,8 @@ const INITIAL_LEADS = [
         "km":  "40000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "15.500 usd",
-        "tasacion":  135000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36116,7 +36116,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-653",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  653,
         "nombre":  "Martin",
         "whatsapp":  "59893873496",
@@ -36163,7 +36163,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-652",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  652,
         "nombre":  "Facundo Cabrera",
         "whatsapp":  "598922474470000000000",
@@ -36210,7 +36210,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-651",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  651,
         "nombre":  "Emiliano Olivera",
         "whatsapp":  "598984770520000000000",
@@ -36220,8 +36220,8 @@ const INITIAL_LEADS = [
         "km":  "88300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Le cambie la bateria hace 1 mes marca Moura, tiene todos los services hechos, el ultimo hecho a los 75, esta para hacerle ahora, no se lo hice porque lo quiero vender.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36257,7 +36257,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-650",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  650,
         "nombre":  "Hernán Vázquez",
         "whatsapp":  "59891736073",
@@ -36299,7 +36299,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-649",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  649,
         "nombre":  "",
         "whatsapp":  "59892950650000000000",
@@ -36327,7 +36327,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-648",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  648,
         "nombre":  "German Carnevia",
         "whatsapp":  "59894151154",
@@ -36381,7 +36381,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-647",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  647,
         "nombre":  "Bruno",
         "whatsapp":  "598988911890000000000",
@@ -36428,7 +36428,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-646",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  646,
         "nombre":  "Lautaro López",
         "whatsapp":  "5980939158900000000000",
@@ -36438,8 +36438,8 @@ const INITIAL_LEADS = [
         "km":  "165440",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Paragolpe delantero con detalle, neumático nuevos, service recién echo con cambio de filtros y aceite, correa de distribución echa también \nDirección manual \nCuenta con aire acondicionado andando perfecto",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36482,7 +36482,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-645",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  645,
         "nombre":  "",
         "whatsapp":  "598992770930000000000",
@@ -36510,7 +36510,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-644",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  644,
         "nombre":  "Romina Sánchez",
         "whatsapp":  "59898251040",
@@ -36550,7 +36550,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-643",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  643,
         "nombre":  "Rodrigo",
         "whatsapp":  "598993515910000000000",
@@ -36560,8 +36560,8 @@ const INITIAL_LEADS = [
         "km":  "159000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cuenta con aire acondicionado, dirección hidráulica y vidrios eléctricos delanteros. Radio sony nueva\nLe falta la insignia “S” en la parte trasera.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36597,7 +36597,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-642",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  642,
         "nombre":  "",
         "whatsapp":  "59892942043",
@@ -36607,8 +36607,8 @@ const INITIAL_LEADS = [
         "km":  "165000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Funciona todo perfecto , neumáticos nuevos",
-        "tasacion":  88000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36634,7 +36634,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-641",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  641,
         "nombre":  "Gonzalo barrios",
         "whatsapp":  "59899453062",
@@ -36681,7 +36681,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-640",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  640,
         "nombre":  "Carlos",
         "whatsapp":  "598950844080000000000",
@@ -36709,7 +36709,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-639",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  639,
         "nombre":  "Mathias Giordano",
         "whatsapp":  "598968401970000000000",
@@ -36719,8 +36719,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficial en Kia hasta los 60.000 km (hasta que me enteré de que el taller de Kia lo llevaba a otro taller, y luego lo llevé a ese taller). Lo cuido mucho, vehiculo familiar (nada de taxi ni uber).\nUltimo service hace 1 mes completo (alineación, balanceo, filtro de aceite, cambio de aceite, filtro anti polen, etc), todo en regla. Vehículo de mi propiedad, con titulos.\nNeumáticos cambiados el año pasado.\nLe funciona todo correctamente.\nMe robaron la insignia de atras del vehiculo (nada importante).",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36763,7 +36763,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-638",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  638,
         "nombre":  "Guzmán",
         "whatsapp":  "598982223690000000000",
@@ -36773,8 +36773,8 @@ const INITIAL_LEADS = [
         "km":  "30000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto está nuevo. Detalles no tiene. \nBusco venderlo por si te interesa!",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36791,7 +36791,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-637",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  637,
         "nombre":  "Bernardo Freitas",
         "whatsapp":  "598947640260000000000",
@@ -36838,7 +36838,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-636",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  636,
         "nombre":  "Manuel",
         "whatsapp":  "598920869190000000000",
@@ -36848,8 +36848,8 @@ const INITIAL_LEADS = [
         "km":  "18mil",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1y5ipxCcH2Zn1rvzmiYodoc07fM8jfYSE",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -36885,7 +36885,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-635",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  635,
         "nombre":  "Lucia",
         "whatsapp":  "59899196019",
@@ -36927,7 +36927,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-634",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  634,
         "nombre":  "Martin",
         "whatsapp":  "598954055330000000000",
@@ -36974,7 +36974,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-633",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  633,
         "nombre":  "Ivan luna",
         "whatsapp":  "59892202445",
@@ -37021,7 +37021,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-632",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  632,
         "nombre":  "Santiago Palavecino",
         "whatsapp":  "59897130475",
@@ -37053,7 +37053,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-631",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  631,
         "nombre":  "Jorge",
         "whatsapp":  "59897476602",
@@ -37063,8 +37063,8 @@ const INITIAL_LEADS = [
         "km":  "126055",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hace unos días no prende el aire",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37100,7 +37100,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-630",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  630,
         "nombre":  "Paula",
         "whatsapp":  "59894229608",
@@ -37110,8 +37110,8 @@ const INITIAL_LEADS = [
         "km":  "296000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Siempre, se le hace los services cada 10000 km pero no en services oficial",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37147,7 +37147,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-629",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  629,
         "nombre":  "Emiliano Guedes",
         "whatsapp":  "598919209030000000000",
@@ -37157,8 +37157,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin choques, multipunto, service siempre hechos en tiempo y forma, radiador de gasolero nuevo, radiador de calefacción nuevo. No funciona el velocímetro. Estoy pidiendo 4500 dólares",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37201,7 +37201,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-628",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  628,
         "nombre":  "Diver",
         "whatsapp":  "59894704453",
@@ -37211,8 +37211,8 @@ const INITIAL_LEADS = [
         "km":  "433600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Le hicimos muchas cosas en estos últimos años.\nMedio ajuste de motor, bomba de agua, bomba de aceite, bomba de combustible, cubiertas nuevas, frenos, bomba de vacío, embrague, luces LED todas, amortiguadores x4 tren delantero, barra de dirección, vidrios polarizados, entre otras cosas",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37255,7 +37255,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-627",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  627,
         "nombre":  "Gabriel",
         "whatsapp":  "59895490475",
@@ -37265,8 +37265,8 @@ const INITIAL_LEADS = [
         "km":  "183000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service echo hace 1 semana. Una llanta y 2 cubiertas nuevas. Puedo pasar más fotos por wspp",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37309,7 +37309,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-626",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  626,
         "nombre":  "Lucimara",
         "whatsapp":  "59809956058900000000000",
@@ -37356,7 +37356,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-625",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  625,
         "nombre":  "Fredy Aguiar",
         "whatsapp":  "598937167180000000000",
@@ -37410,7 +37410,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-624",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  624,
         "nombre":  "Lucia Pampillon",
         "whatsapp":  "59894950930000000000",
@@ -37420,8 +37420,8 @@ const INITIAL_LEADS = [
         "km":  "128578",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1w4PThOAkZEioE-gbqduVfO2cQp2DGVMo",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37457,7 +37457,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-623",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  623,
         "nombre":  "Alejandro",
         "whatsapp":  "598978809910000000000",
@@ -37467,8 +37467,8 @@ const INITIAL_LEADS = [
         "km":  "245130",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Funciona impecable",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37506,7 +37506,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-622",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  622,
         "nombre":  "Gonzalo",
         "whatsapp":  "598974691770000000000",
@@ -37516,8 +37516,8 @@ const INITIAL_LEADS = [
         "km":  "278000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Mecánicamente está IMPECABLE, todos los mantenimientos en fecha, distribución hecha hace poco, batería y alternador nuevos, solo algún detalle estético, le funciona todo. Está para comprarlo y andar tranquilo.\nEl que conoce el modelo sabe lo que es el auto, baúl inmenso, estable como él solo, tremenda máquina.\nAuto con buena historia, siempre bien mantenido, con mucha ruta y bien cuidado",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37560,7 +37560,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-621",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  621,
         "nombre":  "Gaston Villadeamigo",
         "whatsapp":  "598984903130000000000",
@@ -37570,8 +37570,8 @@ const INITIAL_LEADS = [
         "km":  "99000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos con 12000km recién rotados se cambió aceite y filtro de aire de motor hace 5000km",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37602,7 +37602,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-620",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  620,
         "nombre":  "Alison",
         "whatsapp":  "59898384929",
@@ -37612,8 +37612,8 @@ const INITIAL_LEADS = [
         "km":  "223000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Segundos dueños. Al día, impecable.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37656,7 +37656,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-619",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  619,
         "nombre":  "Marcos",
         "whatsapp":  "598949496540000000000",
@@ -37666,8 +37666,8 @@ const INITIAL_LEADS = [
         "km":  "150200",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está impecable en buen estado, tiene mínimos detalles que no llegarían a lograr gran problema por que son reparables algún toqueciito más que nada, a nivel de motor está impecable neumáticos de adelante nuevos.",
-        "tasacion":  28000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37705,7 +37705,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-618",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  618,
         "nombre":  "Alan",
         "whatsapp":  "59899894827",
@@ -37749,7 +37749,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-617",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  617,
         "nombre":  "",
         "whatsapp":  "59809881924300000000000",
@@ -37759,8 +37759,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los service, neumáticos puestos el año pasado, alineación y balanceo en diciembre, un aboyon pequeño lateral y me chocaron de atrás astillo un platico pero nada importante",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37791,7 +37791,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-616",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  616,
         "nombre":  "Alvaro Roy",
         "whatsapp":  "59809130615900000000000",
@@ -37850,7 +37850,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-615",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  615,
         "nombre":  "",
         "whatsapp":  "598091452381",
@@ -37860,8 +37860,8 @@ const INITIAL_LEADS = [
         "km":  "29000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Servicios oficiales y en garantía , patente al dia",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37892,7 +37892,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-614",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  614,
         "nombre":  "Jillian",
         "whatsapp":  "598951046510000000000",
@@ -37902,8 +37902,8 @@ const INITIAL_LEADS = [
         "km":  "41000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ningún accidente",
-        "tasacion":  178000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  17800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -37929,7 +37929,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-613",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  613,
         "nombre":  "Lucas Muñoz",
         "whatsapp":  "59891893660000000000",
@@ -37976,7 +37976,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-612",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  612,
         "nombre":  "Denis",
         "whatsapp":  "598094705618",
@@ -37986,8 +37986,8 @@ const INITIAL_LEADS = [
         "km":  "102000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas, services oficiales durante el periodo de garantía 70.000 luego cada 10.000.\nKilómetros hechos en ruta.\nFunciona todo muy bien.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38030,7 +38030,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-611",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  611,
         "nombre":  "Simón",
         "whatsapp":  "598971346080000000000",
@@ -38040,8 +38040,8 @@ const INITIAL_LEADS = [
         "km":  "123000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tien algunos toques pero nada grande. Esta todo funcional, neumáticos nuevos de hace un mes/ services a tiempo todos, no todos oficiales.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38077,7 +38077,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-610",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  610,
         "nombre":  "Ignacio Díaz",
         "whatsapp":  "598948589790000000000",
@@ -38119,7 +38119,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-609",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  609,
         "nombre":  "Aileen felix",
         "whatsapp":  "598995770410000000000",
@@ -38166,7 +38166,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-608",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  608,
         "nombre":  "Joaquín Irigaray",
         "whatsapp":  "598980469370000000000",
@@ -38203,7 +38203,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-607",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  607,
         "nombre":  "Andrea Aldaya",
         "whatsapp":  "59899362765",
@@ -38250,7 +38250,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-606",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  606,
         "nombre":  "Luis  clavijo",
         "whatsapp":  "598983219610000000000",
@@ -38297,7 +38297,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-605",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  605,
         "nombre":  "Manuel perrone",
         "whatsapp":  "598958212640000000000",
@@ -38344,7 +38344,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-604",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  604,
         "nombre":  "Gastón Bailón",
         "whatsapp":  "598945989690000000000",
@@ -38391,7 +38391,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-603",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  603,
         "nombre":  "Mathías Bonnet",
         "whatsapp":  "598940270450000000000",
@@ -38401,8 +38401,8 @@ const INITIAL_LEADS = [
         "km":  "7700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy el segundo dueño. La compré con aproximadamente 2.000 km y actualmente tiene cerca de 7.700 km, con uso ocasional (no es moto de uso diario).\n\nEl primer service se realizó en concesionario oficial (American Dream) y el segundo con mecánico particular. El próximo service corresponde a los 9.000 km.\n\nCuenta con filtro de aire K\u0026N, batería de gel nueva colocada hace 6 meses y cubiertas en buen estado. Mecánicamente funciona todo correctamente, es subirse y andar.\n\nEstá a mi nombre y prácticamente al día: adeuda únicamente la última cuota de patente, vencida hace pocos días. Empadronada en Montevideo.\n\nComo detalle, el tambor de encendido y la tranca de manubrio fueron forzados en un intento de robo estando estacionada. Esto no afecta el funcionamiento, ya que la moto arranca y opera con normalidad.",
-        "tasacion":  32000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38445,7 +38445,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-602",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  602,
         "nombre":  "Manuel Benitez",
         "whatsapp":  "59809149346200000000000",
@@ -38455,8 +38455,8 @@ const INITIAL_LEADS = [
         "km":  "86000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene service realizado , pero no oficial , distribuicion hecha hace 2000 kms aproximadamente , tiene algunos detalles estéticos",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38492,7 +38492,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-601",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  601,
         "nombre":  "Federico Layera",
         "whatsapp":  "598996553380000000000",
@@ -38502,8 +38502,8 @@ const INITIAL_LEADS = [
         "km":  "118000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "118.000 km, patente y seguro al día, airbag chofer y acompañante, tapizado muy bien (conservado con fundas), radio con bluetooth, mp3. Tengo más fotos por si te interesan",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38539,7 +38539,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-600",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  600,
         "nombre":  "Jorge Gutierrez",
         "whatsapp":  "59898770252700000000000",
@@ -38549,8 +38549,8 @@ const INITIAL_LEADS = [
         "km":  "444000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los services siempre a tiempo y no oficiales los neumáticos y la batería tienen 1 año y medio de comprados el aire acondicionado no funciona, igual anda lindo lo uso a diario sin problema",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38586,7 +38586,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-599",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  599,
         "nombre":  "Christian silva",
         "whatsapp":  "598934481470000000000",
@@ -38596,8 +38596,8 @@ const INITIAL_LEADS = [
         "km":  "249000",
         "papeles":  "",
         "comentario":  "Está bien el auto",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38633,7 +38633,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-598",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  598,
         "nombre":  "Hernán Balmes",
         "whatsapp":  "59896834333",
@@ -38643,8 +38643,8 @@ const INITIAL_LEADS = [
         "km":  "7000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin detalles, sin choques. Muy poco usado. Como nuevo. Service al día.",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38692,7 +38692,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-597",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  597,
         "nombre":  "Tiago",
         "whatsapp":  "598974020160000000000",
@@ -38702,8 +38702,8 @@ const INITIAL_LEADS = [
         "km":  "339000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1mmbPoz5vk6zDXkFFTztlgK_6jm5njfdz",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38739,7 +38739,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-596",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  596,
         "nombre":  "Mateo",
         "whatsapp":  "598976371530000000000",
@@ -38749,8 +38749,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado de neumaticos 40%.",
-        "tasacion":  98000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38786,7 +38786,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-595",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  595,
         "nombre":  "Mauricio",
         "whatsapp":  "598998094770000000000",
@@ -38796,8 +38796,8 @@ const INITIAL_LEADS = [
         "km":  "127000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tratamiento Cerámico. Muy buen estado en general. El aire no está enfriando, como no lo utilizo no lo he revisado.",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38840,7 +38840,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-594",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  594,
         "nombre":  "Johana",
         "whatsapp":  "598095299249",
@@ -38850,8 +38850,8 @@ const INITIAL_LEADS = [
         "km":  "45700",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Eata impecable única dueña",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38887,7 +38887,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-593",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  593,
         "nombre":  "Ismael Peña",
         "whatsapp":  "598999953180000000000",
@@ -38897,8 +38897,8 @@ const INITIAL_LEADS = [
         "km":  "160000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "La computadora marca un error en la sonda Landa, se colocó una nueva aunque sigue marcando el error. Después anda todo bien",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38934,7 +38934,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-592",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  592,
         "nombre":  "Mario Rodas",
         "whatsapp":  "598995249290000000000",
@@ -38944,8 +38944,8 @@ const INITIAL_LEADS = [
         "km":  "240000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Al día, funcionando todo",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -38976,7 +38976,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-591",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  591,
         "nombre":  "Fabio Juarez",
         "whatsapp":  "59899087345",
@@ -38986,8 +38986,8 @@ const INITIAL_LEADS = [
         "km":  "175000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en buen estado,",
-        "tasacion":  47000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39018,7 +39018,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-590",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  590,
         "nombre":  "Sandra próspero",
         "whatsapp":  "598954639050000000000",
@@ -39028,8 +39028,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene algún detalle de picado en alguna parte de la chapa.",
-        "tasacion":  12000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39065,7 +39065,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-589",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  589,
         "nombre":  "Mucho gusto soy Federico",
         "whatsapp":  "598922128120000000000",
@@ -39075,8 +39075,8 @@ const INITIAL_LEADS = [
         "km":  "102000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Dos detalles: 1)el táctil de la radio no anda, si es funcional con los botones usb/CD, 2)los botones de subir y bajar vidrios delanteros están flojos, funcionan pero con suavidad.\nDe mecánica ningún problema. Exterior pintura y chapa en correcto estado.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39112,7 +39112,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-588",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  588,
         "nombre":  "Pablo",
         "whatsapp":  "912212640000000",
@@ -39122,8 +39122,8 @@ const INITIAL_LEADS = [
         "km":  "118000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos ok service recién hecho.",
-        "tasacion":  260000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  26000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39159,7 +39159,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-587",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  587,
         "nombre":  "Camila",
         "whatsapp":  "598919226250000000000",
@@ -39169,8 +39169,8 @@ const INITIAL_LEADS = [
         "km":  "265000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Es francés. Tiene alarma y cámara de reversa. Pintura desgastada NO OXIDO, un abollon en el costado derecho.",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39206,7 +39206,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-586",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  586,
         "nombre":  "Teddy bendahan",
         "whatsapp":  "598974345930000000000",
@@ -39216,8 +39216,8 @@ const INITIAL_LEADS = [
         "km":  "70000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Cómo nuevo",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39253,7 +39253,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-585",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  585,
         "nombre":  "Rudemar alcina",
         "whatsapp":  "598974732750000000000",
@@ -39263,8 +39263,8 @@ const INITIAL_LEADS = [
         "km":  "211239",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Choques no, le funciona todo incluso el aire que es algo que en este modelo falla, services oficiales no, se los hace un amigo de la familia que es mecánico, los neumáticos tiene para rato aún",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39302,7 +39302,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-584",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  584,
         "nombre":  "Victor Burguez",
         "whatsapp":  "598916905770000000000",
@@ -39312,8 +39312,8 @@ const INITIAL_LEADS = [
         "km":  "216mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los servis echos en tiempo y forma, embriague y otras cosas echas",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39349,7 +39349,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-583",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  583,
         "nombre":  "",
         "whatsapp":  "598957779280000000000",
@@ -39359,8 +39359,8 @@ const INITIAL_LEADS = [
         "km":  "198000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy el único dueño que ha tenido, siempre impecable como se ve en las fotos, es un modelo que nunca llegó a Uruguay lo importe yo mismo, es 6cilindros y tienen pantalla.",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39403,7 +39403,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-582",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  582,
         "nombre":  "Adrian Pérez",
         "whatsapp":  "59899386348",
@@ -39450,7 +39450,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-581",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  581,
         "nombre":  "Gabriel Campos",
         "whatsapp":  "598922267970000000000",
@@ -39460,8 +39460,8 @@ const INITIAL_LEADS = [
         "km":  "73000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1sZvGlue1JDku9mINdpBvbEKiGNqlNXfu",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39497,7 +39497,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-580",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  580,
         "nombre":  "Sergio",
         "whatsapp":  "59892522964",
@@ -39507,8 +39507,8 @@ const INITIAL_LEADS = [
         "km":  "156000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo original nunca choque",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39551,7 +39551,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-579",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  579,
         "nombre":  "Lucas",
         "whatsapp":  "59897016610000000000",
@@ -39561,8 +39561,8 @@ const INITIAL_LEADS = [
         "km":  "199000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Renault Clio sport 1.6 16v 2002‼️\n\n• Aire acondicionado \n• Dirección hidráulica \n• Regulación altura volante y asiento \n• Vidrios eléctricos \n• Espejos eléctrico \n• 199000 km \n• Llantas deportivas originales \n• Audio: 2 twister Pionner, 2 Pionner en las puertas, 1 sobwoofee nort tech 3600w y Radio Sony \n• 6 lámparas LED de 200w 20.000 lumines \n• Patente paga todo el 2026 \n\nDivino andar, muy cómodo todo, el aire hay que cambiarle el termostato y cargarlo, el estado de los neumáticos hay que cambiar los de atrás, el resto está perfecto",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39598,7 +39598,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-578",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  578,
         "nombre":  "Valentin",
         "whatsapp":  "598984829780000000000",
@@ -39608,8 +39608,8 @@ const INITIAL_LEADS = [
         "km":  "40000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1qG2p8W9CLMTNYRsdVhfJE3IlVCF7o80Q",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39645,7 +39645,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-577",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  577,
         "nombre":  "Mario Urchipía",
         "whatsapp":  "59892769620000000000",
@@ -39687,7 +39687,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-576",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  576,
         "nombre":  "Florencia",
         "whatsapp":  "598950602490000000000",
@@ -39697,8 +39697,8 @@ const INITIAL_LEADS = [
         "km":  "141000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado interior del vehículo en perfectas condiciones, nada que no funcione correctamente. Detalles de chapa (añun poco abollado por fuera atrás como se ve en las fotos). Último service y patente al día.",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39734,7 +39734,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-575",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  575,
         "nombre":  "Maximiliano Gómez",
         "whatsapp":  "59809667835400000000000",
@@ -39744,8 +39744,8 @@ const INITIAL_LEADS = [
         "km":  "144500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Freno de mano 1 maroma reventada nada mas",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39781,7 +39781,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-574",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  574,
         "nombre":  "Gonzalo",
         "whatsapp":  "598996757570000000000",
@@ -39791,8 +39791,8 @@ const INITIAL_LEADS = [
         "km":  "7500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en excelente estado, solamente tiene un rayon al costado en el cual envío la foto. Lo compre en agosto o setiembre, y tiene seguro total por un año , Gracias",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -39823,7 +39823,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-573",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  573,
         "nombre":  "Angel",
         "whatsapp":  "598910857970000000000",
@@ -39860,7 +39860,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-572",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  572,
         "nombre":  "Valentina Garcia",
         "whatsapp":  "5989911858",
@@ -39914,7 +39914,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-571",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  571,
         "nombre":  "Richard Pias",
         "whatsapp":  "598983713270000000000",
@@ -39968,7 +39968,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-570",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  570,
         "nombre":  "Marcelo",
         "whatsapp":  "598992946280000000000",
@@ -40015,7 +40015,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-569",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  569,
         "nombre":  "Ana karina",
         "whatsapp":  "59894828350000000000",
@@ -40025,8 +40025,8 @@ const INITIAL_LEADS = [
         "km":  "124 mil",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Hasta 6000 no le funciona el aire tiene la turbina rota",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40062,7 +40062,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-568",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  568,
         "nombre":  "Manuel Del Rio",
         "whatsapp":  "598986725620000000000",
@@ -40072,8 +40072,8 @@ const INITIAL_LEADS = [
         "km":  "123000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto lo compré hace 3 años tenía en ese momento 62 mil km . Lo tengo muy conservado le funciona todo . Esta con las 4 cubiertas y batería nueva . El interior impecable . Aire acondicionado funcionando bien de bien . Tiene radio con pantalla y parlantes pionner . Los servicios se los hago yo ya que soy mecanico . Siempre le pongo aceite Motul 5w 40. Un caño el Gol.  Tiene cámara de escape deportiva con un sonido suave y agradable . Mantiene  la originalidad el auto .",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40104,7 +40104,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-567",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  567,
         "nombre":  "",
         "whatsapp":  "59809901638800000000000",
@@ -40158,7 +40158,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-566",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  566,
         "nombre":  "Leandro larrainci",
         "whatsapp":  "598999942960000000000",
@@ -40205,7 +40205,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-565",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  565,
         "nombre":  "Gonzalo",
         "whatsapp":  "598994252690000000000",
@@ -40252,7 +40252,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-564",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  564,
         "nombre":  "Martín Álvarez",
         "whatsapp":  "598999290920000000000",
@@ -40262,8 +40262,8 @@ const INITIAL_LEADS = [
         "km":  "250 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Automática 4x4 2.8 turbo diésel asientos de cuero",
-        "tasacion":  310000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  31000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40284,7 +40284,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-563",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  563,
         "nombre":  "Javier Ameglio",
         "whatsapp":  "598992066740000000000",
@@ -40310,7 +40310,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-562",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  562,
         "nombre":  "Dominique Stephanie",
         "whatsapp":  "598950882680000000000",
@@ -40320,8 +40320,8 @@ const INITIAL_LEADS = [
         "km":  "105000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=16w49seho05PUC63YdYMS1jc5fwbQoYiu",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40342,7 +40342,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-561",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  561,
         "nombre":  "Nicolás Barrios",
         "whatsapp":  "598960115030000000000",
@@ -40384,7 +40384,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-560",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  560,
         "nombre":  "Tatiana",
         "whatsapp":  "953721690000000",
@@ -40394,8 +40394,8 @@ const INITIAL_LEADS = [
         "km":  "164000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Naumatico nuevos en excelente estado todos los servicios en tiempo y forma",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40412,7 +40412,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-559",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  559,
         "nombre":  "Pablo Suárez",
         "whatsapp":  "59892491938",
@@ -40422,8 +40422,8 @@ const INITIAL_LEADS = [
         "km":  "82000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los service oficiales",
-        "tasacion":  190000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -40461,7 +40461,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-558",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  558,
         "nombre":  "Martín Aguirre",
         "whatsapp":  "59898604768",
@@ -40498,7 +40498,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-557",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  557,
         "nombre":  "Flavia Martinez",
         "whatsapp":  "59898124305",
@@ -40540,7 +40540,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-556",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  556,
         "nombre":  "Melanie Melluso",
         "whatsapp":  "698958138030000000000",
@@ -40599,7 +40599,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-555",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  555,
         "nombre":  "Federico",
         "whatsapp":  "594949274380000000000",
@@ -40653,7 +40653,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-554",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  554,
         "nombre":  "",
         "whatsapp":  "59895923654",
@@ -40688,7 +40688,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-553",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  553,
         "nombre":  "Ivan Barragán",
         "whatsapp":  "598997096950000000000",
@@ -40735,7 +40735,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-552",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  552,
         "nombre":  "Gonzalo Fazio",
         "whatsapp":  "59897318220",
@@ -40782,7 +40782,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-551",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  551,
         "nombre":  "Macarena Silvera",
         "whatsapp":  "598933999230000000000",
@@ -40836,7 +40836,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-550",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  550,
         "nombre":  "Fernando",
         "whatsapp":  "598918084070000000000",
@@ -40873,7 +40873,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-549",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  549,
         "nombre":  "",
         "whatsapp":  "59894690994",
@@ -40922,7 +40922,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-548",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  548,
         "nombre":  "",
         "whatsapp":  "59898583580",
@@ -40964,7 +40964,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-547",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  547,
         "nombre":  "Ignacio",
         "whatsapp":  "59895676753",
@@ -41023,7 +41023,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-546",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  546,
         "nombre":  "Natalia Viera",
         "whatsapp":  "598987951250000000000",
@@ -41051,7 +41051,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-545",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  545,
         "nombre":  "Noelia",
         "whatsapp":  "59894451553",
@@ -41105,7 +41105,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-544",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  544,
         "nombre":  "",
         "whatsapp":  "598992781370000000000",
@@ -41152,7 +41152,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-543",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  543,
         "nombre":  "Santiago",
         "whatsapp":  "59898884112",
@@ -41180,7 +41180,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-542",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  542,
         "nombre":  "José Estigarribia",
         "whatsapp":  "598994795420000000000",
@@ -41227,7 +41227,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-541",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  541,
         "nombre":  "Sofía Gereda",
         "whatsapp":  "598959688790000000000",
@@ -41286,7 +41286,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-540",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  540,
         "nombre":  "Javier Rodríguez",
         "whatsapp":  "59894314176",
@@ -41340,7 +41340,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-539",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  539,
         "nombre":  "Marcos",
         "whatsapp":  "59809692358500000000000",
@@ -41377,7 +41377,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-538",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  538,
         "nombre":  "Santiago",
         "whatsapp":  "59895598679",
@@ -41424,7 +41424,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-537",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  537,
         "nombre":  "",
         "whatsapp":  "59898272915",
@@ -41473,7 +41473,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-536",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  536,
         "nombre":  "Daniela Tilve",
         "whatsapp":  "598972229410000000000",
@@ -41520,7 +41520,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-535",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  535,
         "nombre":  "Camila",
         "whatsapp":  "598918303830000000000",
@@ -41567,7 +41567,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-534",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  534,
         "nombre":  "Lucas Peñaloza",
         "whatsapp":  "598099091936",
@@ -41614,7 +41614,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-533",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  533,
         "nombre":  "Dayana",
         "whatsapp":  "598918804130000000000",
@@ -41624,8 +41624,8 @@ const INITIAL_LEADS = [
         "km":  "214000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene apenas un choque atrás que es mínimo. Después el resto impecable. Algún detalle por fuera y dentro pero nada feo. Solo cosas del año",
-        "tasacion":  27000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -41663,7 +41663,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-532",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  532,
         "nombre":  "Fabricio Carreras",
         "whatsapp":  "598992667670000000000",
@@ -41695,7 +41695,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-531",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  531,
         "nombre":  "Rafael Ferreri",
         "whatsapp":  "59899762227",
@@ -41742,7 +41742,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-530",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  530,
         "nombre":  "Facundo",
         "whatsapp":  "598958791350000000000",
@@ -41784,7 +41784,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-529",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  529,
         "nombre":  "Yamila Figueiras",
         "whatsapp":  "598981138990000000000",
@@ -41794,8 +41794,8 @@ const INITIAL_LEADS = [
         "km":  "292072",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Marca: Suzuki \nAño: 1999 \nModelo: Baleno FUll automático \nTipo: sedan 4 puertas \nCilindrada: 4\nNafta \nVidrios eléctricos \nColor gris \nPatente Al contado: 9.034\nCon aire \nAutomático \nCristales polarizados \nCierre centralizado de puertas \nEspejos eléctricos\nKilómetros: 292072\nServís al día \nSano \nRadio:FM/Am con bluetooth \nSeguro y patente pagados",
-        "tasacion":  27000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -41831,7 +41831,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-528",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  528,
         "nombre":  "Nicol Flores",
         "whatsapp":  "59899739693",
@@ -41878,7 +41878,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-527",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  527,
         "nombre":  "Santiago Suarez",
         "whatsapp":  "598095525393",
@@ -41927,7 +41927,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-526",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  526,
         "nombre":  "Mauricio Fernández",
         "whatsapp":  "59899063049",
@@ -41974,7 +41974,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-525",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  525,
         "nombre":  "José Ignacio López",
         "whatsapp":  "59899774456",
@@ -41986,7 +41986,7 @@ const INITIAL_LEADS = [
         "comentario":  "El auto es en buenas condiciones nada para hacerle. Ya se le hizo todo. Tiene mucha inversion arriba. Un auto bien cuidado. Neumáticos en buen estado. Service se lo hago yo.",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -42021,7 +42021,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-524",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  524,
         "nombre":  "Marina Regehr",
         "whatsapp":  "598995462880000000000",
@@ -42031,8 +42031,8 @@ const INITIAL_LEADS = [
         "km":  "186000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=17UW2rB29TvZ44XkAaUJoTtQXTkckEtMS",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42068,7 +42068,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-523",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  523,
         "nombre":  "Alejandro cedres",
         "whatsapp":  "598998492260000000000",
@@ -42078,8 +42078,8 @@ const INITIAL_LEADS = [
         "km":  "312300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cambio de aceite y filtros recién hecho",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42096,7 +42096,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-522",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  522,
         "nombre":  "Valeria",
         "whatsapp":  "598999099570000000000",
@@ -42124,7 +42124,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-521",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  521,
         "nombre":  "Alon Stark",
         "whatsapp":  "59897969593",
@@ -42171,7 +42171,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-520",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  520,
         "nombre":  "Cristian",
         "whatsapp":  "59892824085",
@@ -42203,7 +42203,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-519",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  519,
         "nombre":  "Juan Fernández",
         "whatsapp":  "59899891909",
@@ -42250,7 +42250,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-518",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  518,
         "nombre":  "Vanessa",
         "whatsapp":  "59894936984",
@@ -42278,7 +42278,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-517",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  517,
         "nombre":  "Sonia",
         "whatsapp":  "59891637426",
@@ -42315,7 +42315,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-516",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  516,
         "nombre":  "Pamela alvarez",
         "whatsapp":  "598934213810000000000",
@@ -42325,8 +42325,8 @@ const INITIAL_LEADS = [
         "km":  "124mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Chery qq full 1.1\nAire acondicionado\nDireccion hidraulica\n4 cubiertas nuevas\nVidrios electricos \nAl dia a mi nombre\nTitulos a mi nombre\n2 llaves originales\n124mil km \n2011\nMuy cuidado \nSegunda dueña",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42359,7 +42359,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-515",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  515,
         "nombre":  "Franco",
         "whatsapp":  "1123932292000000000",
@@ -42408,7 +42408,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-514",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  514,
         "nombre":  "Mariana diez",
         "whatsapp":  "59898180925",
@@ -42436,7 +42436,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-513",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  513,
         "nombre":  "Victoria",
         "whatsapp":  "59899568718",
@@ -42483,7 +42483,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-512",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  512,
         "nombre":  "Mateo Pirez",
         "whatsapp":  "598922183870000000000",
@@ -42511,7 +42511,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-511",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  511,
         "nombre":  "Emanuel Silveira",
         "whatsapp":  "598981684580000000000",
@@ -42558,7 +42558,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-510",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  510,
         "nombre":  "Mario",
         "whatsapp":  "598987794390000000000",
@@ -42568,8 +42568,8 @@ const INITIAL_LEADS = [
         "km":  "90000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Services oficiales, único dueño",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42605,7 +42605,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-509",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  509,
         "nombre":  "Juan Pablo",
         "whatsapp":  "59898995890",
@@ -42615,8 +42615,8 @@ const INITIAL_LEADS = [
         "km":  "17800",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene la.bomba de agua recién puesta y su correa también, el ventilador hay que conectar los cables para que funcione, está la ficha para poner que llega mañana, en una de las fotos se ven los cables blancos",
-        "tasacion":  13000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42652,7 +42652,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-508",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  508,
         "nombre":  "Hola mi nombre es Carlos garolla",
         "whatsapp":  "598914533240000000000",
@@ -42662,8 +42662,8 @@ const INITIAL_LEADS = [
         "km":  "300mil maso ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos sus service oficiales bien de cubiertas( no nuevas pero en buen estado)",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42706,7 +42706,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-507",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  507,
         "nombre":  "Martin Antognazza",
         "whatsapp":  "598937683490000000000",
@@ -42755,7 +42755,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-506",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  506,
         "nombre":  "Joaquin techera",
         "whatsapp":  "598990334130000000000",
@@ -42765,8 +42765,8 @@ const INITIAL_LEADS = [
         "km":  "81000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas puestas hace 8 meses las 4\nRayón en el capó( contáctame y te paso foto \nAdviento del conductor como que desgastado de un lado( pero no es nada que influya",
-        "tasacion":  107000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42797,7 +42797,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-505",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  505,
         "nombre":  "Sofía",
         "whatsapp":  "598956669570000000000",
@@ -42807,8 +42807,8 @@ const INITIAL_LEADS = [
         "km":  "100500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un rayón en la puerta trasera, batería con tres meses (garantía de dos años), cubiertas nuevas (pocos meses de uso)",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42851,7 +42851,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-504",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  504,
         "nombre":  "Ana Quiroga",
         "whatsapp":  "598926955570000000000",
@@ -42900,7 +42900,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-503",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  503,
         "nombre":  "Agustín romay",
         "whatsapp":  "598920063980000000000",
@@ -42910,8 +42910,8 @@ const INITIAL_LEADS = [
         "km":  "257000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto tiene detalles de chapa y pintura que ya vinieron cuando lo compré",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -42947,7 +42947,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-502",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  502,
         "nombre":  "",
         "whatsapp":  "598941383980000000000",
@@ -42957,8 +42957,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Muy buen estado en general",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43001,7 +43001,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-501",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  501,
         "nombre":  "Marcos",
         "whatsapp":  "59809398003500000000000",
@@ -43011,8 +43011,8 @@ const INITIAL_LEADS = [
         "km":  "320000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El vehículo no tiene ningún choque\nNo le anda el aire \nNi la Radio services al Dia",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43050,7 +43050,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-500",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  500,
         "nombre":  "Diego",
         "whatsapp":  "598987907870000000000",
@@ -43092,7 +43092,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-499",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  499,
         "nombre":  "Bruno Fernández",
         "whatsapp":  "59894134443",
@@ -43139,7 +43139,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-498",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  498,
         "nombre":  "",
         "whatsapp":  "59899149619",
@@ -43193,7 +43193,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-497",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  497,
         "nombre":  "",
         "whatsapp":  "59891555329",
@@ -43203,8 +43203,8 @@ const INITIAL_LEADS = [
         "km":  "28000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Impecable estado, servicio de los 10.000 km oficial, el de los 20.000 se realizó en una estación de servicio",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43240,7 +43240,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-496",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  496,
         "nombre":  "Agustin",
         "whatsapp":  "59898413540000000000",
@@ -43250,8 +43250,8 @@ const INITIAL_LEADS = [
         "km":  "81000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service oficial hasta los 50mil km",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43289,7 +43289,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-495",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  495,
         "nombre":  "Sergio",
         "whatsapp":  "59895327656",
@@ -43299,8 +43299,8 @@ const INITIAL_LEADS = [
         "km":  "97500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todo a mi nombre, todos loa servicios en taller oficial",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43336,7 +43336,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-494",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  494,
         "nombre":  "Matías Olivera",
         "whatsapp":  "59898726670",
@@ -43383,7 +43383,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-493",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  493,
         "nombre":  "Nacho",
         "whatsapp":  "598979652010000000000",
@@ -43427,7 +43427,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-492",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  492,
         "nombre":  "Valentina Crosara",
         "whatsapp":  "598952786540000000000",
@@ -43437,8 +43437,8 @@ const INITIAL_LEADS = [
         "km":  "70000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los service oficiales.",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43469,7 +43469,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-491",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  491,
         "nombre":  "Camila",
         "whatsapp":  "598992303410000000000",
@@ -43479,8 +43479,8 @@ const INITIAL_LEADS = [
         "km":  "Nose",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Cubiertas nuevas \nRadio con pantalla \n4 detalles de chapa",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43506,7 +43506,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-490",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  490,
         "nombre":  "",
         "whatsapp":  "598989627070000000000",
@@ -43516,8 +43516,8 @@ const INITIAL_LEADS = [
         "km":  "148000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Detalle en el parachoque delantero. El kit de embrague está hecho nuevo.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43555,7 +43555,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-489",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  489,
         "nombre":  "Mariano",
         "whatsapp":  "598964099440000000000",
@@ -43565,8 +43565,8 @@ const INITIAL_LEADS = [
         "km":  "50000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en garantía extendida hasta fin de año. Todos los service oficiales en AYAX. Alarma original. CarPlay inalámbrico. Patente 2026 paga todo el año.",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43609,7 +43609,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-488",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  488,
         "nombre":  "Sergio",
         "whatsapp":  "59895327656",
@@ -43619,8 +43619,8 @@ const INITIAL_LEADS = [
         "km":  "97000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin choques, todo al día y todos los servicios oficiales",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43644,7 +43644,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-487",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  487,
         "nombre":  "Daniela",
         "whatsapp":  "59894125527",
@@ -43703,7 +43703,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-486",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  486,
         "nombre":  "",
         "whatsapp":  "598910590060000000000",
@@ -43713,8 +43713,8 @@ const INITIAL_LEADS = [
         "km":  "144405",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenos días, los neumáticos están bien, tuvo un toque delante que la dueña anterior lo tocó entrando al Garage de la casa después no tiene ningún detalle .  Muchas gracias",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -43750,7 +43750,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-485",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  485,
         "nombre":  "Fiorella",
         "whatsapp":  "59898155122",
@@ -43814,7 +43814,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-484",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  484,
         "nombre":  "Gerardo Hornos",
         "whatsapp":  "59895089738",
@@ -43861,7 +43861,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-483",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  483,
         "nombre":  "Andres Arriola",
         "whatsapp":  "59899678023",
@@ -43920,7 +43920,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-482",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  482,
         "nombre":  "Alex González",
         "whatsapp":  "598987737530000000000",
@@ -43967,7 +43967,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-481",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  481,
         "nombre":  "Daniel Barnech",
         "whatsapp":  "598910291890000000000",
@@ -44021,7 +44021,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-480",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  480,
         "nombre":  "Maicol",
         "whatsapp":  "59891555329",
@@ -44049,7 +44049,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-479",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  479,
         "nombre":  "Guzmán Manta",
         "whatsapp":  "59899771511",
@@ -44096,7 +44096,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-478",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  478,
         "nombre":  "Eliana",
         "whatsapp":  "598955881740000000000",
@@ -44106,8 +44106,8 @@ const INITIAL_LEADS = [
         "km":  "157500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tapizado en excelente estado , originales de fábrica . Tiene el auto ok hasta 2026 , le hice cambio de aceite y filtro hace 1 semana . Los neumáticos son continental . Tiene incorporada cámara de reversa . Lo tengo publicado 9700 pero se puede negociar precio .",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44143,7 +44143,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-477",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  477,
         "nombre":  "Pablo",
         "whatsapp":  "59891058759",
@@ -44153,8 +44153,8 @@ const INITIAL_LEADS = [
         "km":  "452000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Único dueño",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44190,7 +44190,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-476",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  476,
         "nombre":  "",
         "whatsapp":  "598969838330000000000",
@@ -44200,8 +44200,8 @@ const INITIAL_LEADS = [
         "km":  "380mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hay q hacerle una recarga de gas al aire acondicionado",
-        "tasacion":  32000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44237,7 +44237,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-475",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  475,
         "nombre":  "",
         "whatsapp":  "598923535590000000000",
@@ -44247,8 +44247,8 @@ const INITIAL_LEADS = [
         "km":  "190000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ruedas delanteras bien atrás maso el auto anda muy bien tiene hecho desde que lo tengo embrague recién cremallera de dirección homocinéticas discos batería y alguna cosa más qie se me olvida",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44279,7 +44279,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-474",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  474,
         "nombre":  "Melisa",
         "whatsapp":  "598999890640000000000",
@@ -44326,7 +44326,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-473",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  473,
         "nombre":  "Robinson Fernández",
         "whatsapp":  "59894198701",
@@ -44336,8 +44336,8 @@ const INITIAL_LEADS = [
         "km":  "105000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al día, detalle estético reciente (choque para golpes delantero derecho), títulos y libreta de propiedad a mi nombre. Esta para ser visto, máquina!!",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44380,7 +44380,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-472",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  472,
         "nombre":  "Luis",
         "whatsapp":  "59894020576",
@@ -44390,8 +44390,8 @@ const INITIAL_LEADS = [
         "km":  "237000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Es 1.0 tiene mejoras, bacas originales para el celta , camineros , radio con pantalla,  al día , con service y distribución echa .",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44422,7 +44422,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-471",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  471,
         "nombre":  "Martin",
         "whatsapp":  "598953371920000000000",
@@ -44432,8 +44432,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1RrwlHD6RQLiEvsYgLlXuLczMPVL3NT-e",
-        "tasacion":  168000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44464,7 +44464,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-470",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  470,
         "nombre":  "Analía",
         "whatsapp":  "598949626430000000000",
@@ -44506,7 +44506,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-469",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  469,
         "nombre":  "Anabel García",
         "whatsapp":  "59896120887",
@@ -44553,7 +44553,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-468",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  468,
         "nombre":  "Adrian",
         "whatsapp":  "59899504966",
@@ -44563,8 +44563,8 @@ const INITIAL_LEADS = [
         "km":  "54000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El vehículo cuenta con láminas de seguridad, tratamiento cerámico, alarma, todos los servicios oficiales en impecable estado.",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44607,7 +44607,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-467",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  467,
         "nombre":  "Jesus Gainza",
         "whatsapp":  "59895746184",
@@ -44642,7 +44642,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-466",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  466,
         "nombre":  "Fabián Galeano",
         "whatsapp":  "598985587910000000000",
@@ -44652,8 +44652,8 @@ const INITIAL_LEADS = [
         "km":  "40400",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los service oficiales",
-        "tasacion":  50,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44696,7 +44696,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-465",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  465,
         "nombre":  "Sebastian",
         "whatsapp":  "59892954219",
@@ -44706,8 +44706,8 @@ const INITIAL_LEADS = [
         "km":  "190000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles estéticos del uso buen estado general bien de cubiertas",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44743,7 +44743,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-464",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  464,
         "nombre":  "Diego",
         "whatsapp":  "59899451530000000000",
@@ -44797,7 +44797,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-463",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  463,
         "nombre":  "Marcos Acosta",
         "whatsapp":  "598944080970000000000",
@@ -44807,8 +44807,8 @@ const INITIAL_LEADS = [
         "km":  "153000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ya no se le hace el service oficial pero si está al día con los service  y detalles propios de un auto del 2016 pero está a toda prueba somos segundos dueños lo compramos hace 4 años",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44851,7 +44851,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-462",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  462,
         "nombre":  "Enzo",
         "whatsapp":  "598913095440000000000",
@@ -44861,8 +44861,8 @@ const INITIAL_LEADS = [
         "km":  "67000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Mayoría de KM hechos en Fray Bentos (está empadronado ahí), no es el mismo manejo que acá. Anterior dueño fue mi fallecido abuelo (antes había otro dueño). No funciona el ventilador de la calefacción, pensé que era el aire acondicionado, lo llevé a un técnico de aire acondicionado y me dijo que era el ventilador, no lo llevé a ningún otro lado.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44898,7 +44898,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-461",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  461,
         "nombre":  "",
         "whatsapp":  "598998912890000000000",
@@ -44945,7 +44945,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-460",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  460,
         "nombre":  "Germán Orozco",
         "whatsapp":  "598992490480000000000",
@@ -44955,8 +44955,8 @@ const INITIAL_LEADS = [
         "km":  "118000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene ningún toque, tiene láminas de seguridad,  luces cortas Led blancas, cubiertas Bridgestone a medio uso, service realizados rigurosamente cada 10000km",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -44992,7 +44992,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-459",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  459,
         "nombre":  "Mathias Caligaris",
         "whatsapp":  "598941272340000000000",
@@ -45002,8 +45002,8 @@ const INITIAL_LEADS = [
         "km":  "87000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin choques, 4 neumaticos en buen estados ( cambiados  hace poco tiempo), sin service oficial, service cada 10 mil km con mecánico particular. Somos segundos dueños.",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45051,7 +45051,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-458",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  458,
         "nombre":  "Nahuel casaña",
         "whatsapp":  "59897960352",
@@ -45079,7 +45079,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-457",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  457,
         "nombre":  "Carlos",
         "whatsapp":  "59894241500",
@@ -45128,7 +45128,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-456",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  456,
         "nombre":  "Mauricio Rabino",
         "whatsapp":  "59892427480000000000",
@@ -45138,8 +45138,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Te envío fotos por wtsp. Es el modelo nuevo del 23, el que viene con climatizador, faros led, encendido por botón. Está jodido de cubiertas, y en el guardabarro delantero derecho tiene un toque pero no es mucho.",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45156,7 +45156,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-455",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  455,
         "nombre":  "Jonathan rios",
         "whatsapp":  "59895656803",
@@ -45184,7 +45184,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-454",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  454,
         "nombre":  "",
         "whatsapp":  "598986596020000000000",
@@ -45194,8 +45194,8 @@ const INITIAL_LEADS = [
         "km":  "95000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está en perfecta funcionamiento uso familiar y más nada hace menos de 1 mes le hice tren delantero y cambio de las 2 cubiertas delanteras",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45226,7 +45226,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-453",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  453,
         "nombre":  "Marcos",
         "whatsapp":  "598950523390000000000",
@@ -45285,7 +45285,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-452",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  452,
         "nombre":  "Facundo",
         "whatsapp":  "598944276680000000000",
@@ -45332,7 +45332,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-451",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  451,
         "nombre":  "Hector Napoli Lubetkin",
         "whatsapp":  "59899142730000000000",
@@ -45379,7 +45379,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-450",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  450,
         "nombre":  "Facundo Dominguez",
         "whatsapp":  "598950665470000000000",
@@ -45421,7 +45421,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-449",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  449,
         "nombre":  "Martin",
         "whatsapp":  "598933895390000000000",
@@ -45468,7 +45468,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-448",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  448,
         "nombre":  "Facundo",
         "whatsapp":  "59892140580",
@@ -45478,8 +45478,8 @@ const INITIAL_LEADS = [
         "km":  "173000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Jeep Renegade 2016\n1.8\nExelente andar\nTiene un detalle estético frontal",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45515,7 +45515,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-447",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  447,
         "nombre":  "Martin Corbo",
         "whatsapp":  "59891658727",
@@ -45562,7 +45562,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-446",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  446,
         "nombre":  "Daniela leites",
         "whatsapp":  "59891658827",
@@ -45609,7 +45609,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-445",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  445,
         "nombre":  "Macarena",
         "whatsapp":  "59899097120000000000",
@@ -45619,8 +45619,8 @@ const INITIAL_LEADS = [
         "km":  "93000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Deuda de patente de 3mil pesos",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45637,7 +45637,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-444",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  444,
         "nombre":  "Richard Gómez",
         "whatsapp":  "59891418517",
@@ -45691,7 +45691,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-443",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  443,
         "nombre":  "Camila",
         "whatsapp":  "598912868090000000000",
@@ -45738,7 +45738,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-442",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  442,
         "nombre":  "Guillermo Nuñez",
         "whatsapp":  "598985529350000000000",
@@ -45787,7 +45787,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-441",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  441,
         "nombre":  "Diego Diaz",
         "whatsapp":  "598910858840000000000",
@@ -45841,7 +45841,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-440",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  440,
         "nombre":  "Judith",
         "whatsapp":  "59897471719",
@@ -45880,7 +45880,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-439",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  439,
         "nombre":  "Kevin Huelmo",
         "whatsapp":  "59891772850000000000",
@@ -45939,7 +45939,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-438",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  438,
         "nombre":  "Nicolás Tabárez",
         "whatsapp":  "5980963039700000000000",
@@ -45949,8 +45949,8 @@ const INITIAL_LEADS = [
         "km":  "108084",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un pequeño choque del lado trasero del conductor, pero se arregla con poco , mecánicamente el auto está impecable",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -45993,7 +45993,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-437",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  437,
         "nombre":  "Beatriz Guerra",
         "whatsapp":  "59891983689",
@@ -46047,7 +46047,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-436",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  436,
         "nombre":  "Andrés Machado",
         "whatsapp":  "598944657650000000000",
@@ -46089,7 +46089,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-435",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  435,
         "nombre":  "Pablo",
         "whatsapp":  "598991388420000000000",
@@ -46099,8 +46099,8 @@ const INITIAL_LEADS = [
         "km":  "211500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Últimos detalles realizados, correa auxiliar nueva, tensores, polea de compresor del aire nueva.",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46136,7 +46136,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-434",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  434,
         "nombre":  "Alberto Hernández",
         "whatsapp":  "59801931706200000000000",
@@ -46146,8 +46146,8 @@ const INITIAL_LEADS = [
         "km":  "159800",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en buen estado, lo vendo por qué me mudo del país.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46183,7 +46183,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-433",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  433,
         "nombre":  "Santiago",
         "whatsapp":  "5989620390000000000",
@@ -46193,8 +46193,8 @@ const INITIAL_LEADS = [
         "km":  "40000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1gMn55k5dz4rIBUNbJFuhq10IQflkPtqK",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46230,7 +46230,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-432",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  432,
         "nombre":  "Santiago Silva",
         "whatsapp":  "59895092999",
@@ -46240,8 +46240,8 @@ const INITIAL_LEADS = [
         "km":  "230mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1s4auDtQS5DEgLK14nxto1e0nd8qdehOT",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46277,7 +46277,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-431",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  431,
         "nombre":  "Andres Reyes",
         "whatsapp":  "598997999880000000000",
@@ -46324,7 +46324,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-430",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  430,
         "nombre":  "Karina",
         "whatsapp":  "59899092010",
@@ -46378,7 +46378,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-429",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  429,
         "nombre":  "Cecilia",
         "whatsapp":  "598910566350000000000",
@@ -46388,8 +46388,8 @@ const INITIAL_LEADS = [
         "km":  "157000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service realizado aire acondicionado está con poca fuerza",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46410,7 +46410,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-428",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  428,
         "nombre":  "Viviana Astrada",
         "whatsapp":  "59899239850000000000",
@@ -46420,8 +46420,8 @@ const INITIAL_LEADS = [
         "km":  "13500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Gqw1XdXFkj4Mh2PxuRULJIAPjqGd0Jtf",
-        "tasacion":  190000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  19000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46452,7 +46452,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-427",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  427,
         "nombre":  "Adrián Hernández",
         "whatsapp":  "59845505600000000",
@@ -46480,7 +46480,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-426",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  426,
         "nombre":  "",
         "whatsapp":  "59894576024",
@@ -46527,7 +46527,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-425",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  425,
         "nombre":  "Regina Castro",
         "whatsapp":  "598994567530000000000",
@@ -46537,8 +46537,8 @@ const INITIAL_LEADS = [
         "km":  "86700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1D0KnJtWNVlaAlj9DFeQmj6NQJG2hLcV1",
-        "tasacion":  88000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46569,7 +46569,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-424",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  424,
         "nombre":  "",
         "whatsapp":  "598927827430000000000",
@@ -46579,8 +46579,8 @@ const INITIAL_LEADS = [
         "km":  "183835",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Recientemente se le hizo un arreglo en las  juntas. Los neumáticos de adelante se le cambiaron hace ya 2 meses. También en esa oportunidad se le hizo alineación y balanceo. El parabrisas tiene una parte que está astillado.",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46616,7 +46616,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-423",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  423,
         "nombre":  "Federico Gonzalez",
         "whatsapp":  "598983744040000000000",
@@ -46626,8 +46626,8 @@ const INITIAL_LEADS = [
         "km":  "144000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "1 choque hace unos 5 años, se tuvo que cambiar el paragolpe y el espolón, no afecto nada del motor. Correa de distribución cambiada a los 120mil kms. Service cada 10mil kms. Ningún problema.",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46670,7 +46670,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-422",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  422,
         "nombre":  "Kevin",
         "whatsapp":  "598910047680000000000",
@@ -46680,8 +46680,8 @@ const INITIAL_LEADS = [
         "km":  "120600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los service están hechos todos en su debido tiempo. Neumáticos nuevos. Las tazas están nuevas originales (no están colocadas). Tiene un roce en un espejo y en la parte derecha de atrás. Al costado de la puerta de acompañante tiene un rayon. Tiene alarma y camara trasera.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46712,7 +46712,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-421",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  421,
         "nombre":  "Felipe Rodriguez",
         "whatsapp":  "598913286420000000000",
@@ -46759,7 +46759,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-420",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  420,
         "nombre":  "Marcelo Galli",
         "whatsapp":  "598920884020000000000",
@@ -46769,8 +46769,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está muy bien, lo único que tiene es en la puerta del conductor no abre del lado de afuera por un tema de la manija que se soltó de adentro creo, pero es lo único. Y bueno l desgaste común por los años que tiene",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46806,7 +46806,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-419",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  419,
         "nombre":  "",
         "whatsapp":  "97122490000000",
@@ -46853,7 +46853,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-418",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  418,
         "nombre":  "Martin Gambetta",
         "whatsapp":  "59894752573",
@@ -46900,7 +46900,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-417",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  417,
         "nombre":  "Aldo Araujo",
         "whatsapp":  "59809719358500000000000",
@@ -46935,7 +46935,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-416",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  416,
         "nombre":  "Daians",
         "whatsapp":  "598912491150000000000",
@@ -46945,8 +46945,8 @@ const INITIAL_LEADS = [
         "km":  "126000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Muy buen estado general del coche muy cuidado por ambos dueños.",
-        "tasacion":  125000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -46970,7 +46970,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-415",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  415,
         "nombre":  "Carlos Besson",
         "whatsapp":  "598997315010000000000",
@@ -47017,7 +47017,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-414",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  414,
         "nombre":  "Diego",
         "whatsapp":  "59809936813800000000000",
@@ -47064,7 +47064,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-413",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  413,
         "nombre":  "Samantha",
         "whatsapp":  "598943098480000000000",
@@ -47074,8 +47074,8 @@ const INITIAL_LEADS = [
         "km":  "117 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "En la puerta del acompañante . El detalle de la puerta de conductor ya lo compré así .",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -47111,7 +47111,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-412",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  412,
         "nombre":  "Lucas",
         "whatsapp":  "598259500000000",
@@ -47158,7 +47158,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-411",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  411,
         "nombre":  "Valentina Bozzolasco",
         "whatsapp":  "598992925850000000000",
@@ -47217,7 +47217,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-410",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  410,
         "nombre":  "Claudio",
         "whatsapp":  "598933813070000000000",
@@ -47259,7 +47259,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-409",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  409,
         "nombre":  "Carolina",
         "whatsapp":  "598923697640000000000",
@@ -47269,8 +47269,8 @@ const INITIAL_LEADS = [
         "km":  "89700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Batería nueva recién cambiada marca moura",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -47306,7 +47306,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-408",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  408,
         "nombre":  "Julieta",
         "whatsapp":  "59899873339",
@@ -47348,7 +47348,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-407",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  407,
         "nombre":  "María Banchero",
         "whatsapp":  "598983712940000000000",
@@ -47358,8 +47358,8 @@ const INITIAL_LEADS = [
         "km":  "136000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los km son mayormente en ruta . Segundos dueños",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -47376,7 +47376,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-406",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  406,
         "nombre":  "Sergio",
         "whatsapp":  "598928198650000000000",
@@ -47404,7 +47404,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-405",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  405,
         "nombre":  "Mathias",
         "whatsapp":  "598953201960000000000",
@@ -47414,8 +47414,8 @@ const INITIAL_LEADS = [
         "km":  "36000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Soy único dueño.\nTiene todo los servicios oficiales y aun esta en garantia hasta los 70mil km",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -47451,7 +47451,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-404",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  404,
         "nombre":  "Sergio Da Rosa",
         "whatsapp":  "598972070830000000000",
@@ -47461,8 +47461,8 @@ const INITIAL_LEADS = [
         "km":  "220000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Servicio hecho en tiempo y forma hace 2mil km se hizo toda transmisión frenos todo nuevo la quiero cambiar por uno mas nuevo i",
-        "tasacion":  37000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -47483,7 +47483,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-403",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  403,
         "nombre":  "Diana dall oglio",
         "whatsapp":  "59899332312",
@@ -47520,7 +47520,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-402",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  402,
         "nombre":  "Néstor Gutierrez",
         "whatsapp":  "59898992172",
@@ -47574,7 +47574,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-401",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  401,
         "nombre":  "Robert Monfort",
         "whatsapp":  "598920581260000000000",
@@ -47623,7 +47623,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-400",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  400,
         "nombre":  "Juan manuel",
         "whatsapp":  "59895659312",
@@ -47670,7 +47670,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-399",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  399,
         "nombre":  "Pablo",
         "whatsapp":  "598957954550000000000",
@@ -47717,7 +47717,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-398",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  398,
         "nombre":  "Belén Rodríguez",
         "whatsapp":  "598993990180000000000",
@@ -47764,7 +47764,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-397",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  397,
         "nombre":  "",
         "whatsapp":  "59899505536",
@@ -47806,7 +47806,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-396",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  396,
         "nombre":  "Mauricio Germán Rivero",
         "whatsapp":  "59897451948",
@@ -47834,7 +47834,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-395",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  395,
         "nombre":  "Renzo Rodríguez",
         "whatsapp":  "59891268380000000000",
@@ -47883,7 +47883,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-394",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  394,
         "nombre":  "Antonio dalto",
         "whatsapp":  "59892794120",
@@ -47932,7 +47932,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-393",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  393,
         "nombre":  "Adrián Cano Fernández",
         "whatsapp":  "598989328970000000000",
@@ -47986,7 +47986,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-392",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  392,
         "nombre":  "Agustin",
         "whatsapp":  "598937075730000000000",
@@ -48040,7 +48040,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-391",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  391,
         "nombre":  "Jhonatan villafan",
         "whatsapp":  "59809792033300000000000",
@@ -48050,8 +48050,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está al día, service hecho hace 2 meses, batería nueva marca heliar con 24 meses de garantía. Aire acondicionado y vidrios delanteros eléctricos.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48068,7 +48068,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-390",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  390,
         "nombre":  "Paola Corrales",
         "whatsapp":  "598999276510000000000",
@@ -48078,8 +48078,8 @@ const INITIAL_LEADS = [
         "km":  "49200",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los servicios en tiempo y forma por taller oficial.para suzuki",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48110,7 +48110,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-389",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  389,
         "nombre":  "Noelia Delgado",
         "whatsapp":  "59895410070",
@@ -48157,7 +48157,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-388",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  388,
         "nombre":  "Yamandu",
         "whatsapp":  "59899557646",
@@ -48167,8 +48167,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Farol derecho trasero arreglado. \nDirección hidráulica a reparar.",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48199,7 +48199,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-387",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  387,
         "nombre":  "Sebastián Lema",
         "whatsapp":  "59898365598",
@@ -48246,7 +48246,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-386",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  386,
         "nombre":  "Saihonara",
         "whatsapp":  "598943144920000000000",
@@ -48256,8 +48256,8 @@ const INITIAL_LEADS = [
         "km":  "76000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hola el golpe que tiene adelante se lo hice anoche en casa contra un pino. Después está muy bien",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48300,7 +48300,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-385",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  385,
         "nombre":  "Sebastian",
         "whatsapp":  "598950449320000000000",
@@ -48310,8 +48310,8 @@ const INITIAL_LEADS = [
         "km":  "91000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto lo compré hace un año en automotora Angar , tengo que hacer el traspaso de la titular anterior al mío , todavía no lo hice \nTengo títulos y libreta de la dueña anterior",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48347,7 +48347,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-384",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  384,
         "nombre":  "Leandro",
         "whatsapp":  "598928826710000000000",
@@ -48406,7 +48406,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-383",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  383,
         "nombre":  "Franco",
         "whatsapp":  "997136160000000",
@@ -48453,7 +48453,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-382",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  382,
         "nombre":  "Alejandro",
         "whatsapp":  "59899777844",
@@ -48481,7 +48481,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-381",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  381,
         "nombre":  "Nicolás pisoni",
         "whatsapp":  "598910546230000000000",
@@ -48491,8 +48491,8 @@ const INITIAL_LEADS = [
         "km":  "35000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta casi como de fabrica, algún rayónsito imperceptible a simple vista nomas. Los neumáticos michelín están para mucho más. \nLo vendo solo pq quiero un eléctrico. \nTe dejo fotos por WhatsApp. Yo lo tengo a 17990.",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48509,7 +48509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-380",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  380,
         "nombre":  "Hola qué tal ? Florencia",
         "whatsapp":  "598924484480000000000",
@@ -48537,7 +48537,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-379",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  379,
         "nombre":  "Verónica",
         "whatsapp":  "598982370460000000000",
@@ -48547,8 +48547,8 @@ const INITIAL_LEADS = [
         "km":  "47300",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "4500.0",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48584,7 +48584,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-378",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  378,
         "nombre":  "Elías Ferrari",
         "whatsapp":  "59899315110",
@@ -48594,8 +48594,8 @@ const INITIAL_LEADS = [
         "km":  "175500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "No le funciona el aire acondicionado",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -48631,7 +48631,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-377",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  377,
         "nombre":  "Javier",
         "whatsapp":  "598995911260000000000",
@@ -48678,7 +48678,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-376",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  376,
         "nombre":  "Deborak Guzman",
         "whatsapp":  "59809555743300000000000",
@@ -48722,7 +48722,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-375",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  375,
         "nombre":  "Melanye Ortiz",
         "whatsapp":  "59898355265",
@@ -48764,7 +48764,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-374",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  374,
         "nombre":  "Natalia Moreira",
         "whatsapp":  "598920844160000000000",
@@ -48823,7 +48823,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-373",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  373,
         "nombre":  "Martin balsamo",
         "whatsapp":  "598984622640000000000",
@@ -48877,7 +48877,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-372",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  372,
         "nombre":  "Paola",
         "whatsapp":  "59895242191",
@@ -48924,7 +48924,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-371",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  371,
         "nombre":  "Marcos",
         "whatsapp":  "59899588090",
@@ -48966,7 +48966,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-370",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  370,
         "nombre":  "Adriana ROMERO",
         "whatsapp":  "598945483450000000000",
@@ -49008,7 +49008,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-369",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  369,
         "nombre":  "Juan",
         "whatsapp":  "59895891959",
@@ -49055,7 +49055,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-368",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  368,
         "nombre":  "Belen Garcia",
         "whatsapp":  "59891594130000000000",
@@ -49109,7 +49109,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-367",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  367,
         "nombre":  "Diego",
         "whatsapp":  "59896241010000000000",
@@ -49156,7 +49156,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-366",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  366,
         "nombre":  "Leandro",
         "whatsapp":  "59893534656",
@@ -49210,7 +49210,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-365",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  365,
         "nombre":  "",
         "whatsapp":  "59891225269",
@@ -49257,7 +49257,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-364",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  364,
         "nombre":  "Marcos",
         "whatsapp":  "59892013422",
@@ -49285,7 +49285,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-363",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  363,
         "nombre":  "",
         "whatsapp":  "598949472410000000000",
@@ -49332,7 +49332,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-362",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  362,
         "nombre":  "",
         "whatsapp":  "59893678852",
@@ -49360,7 +49360,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-361",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  361,
         "nombre":  "Rodrigo Muniz",
         "whatsapp":  "59898377369",
@@ -49419,7 +49419,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-360",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  360,
         "nombre":  "Marcelo",
         "whatsapp":  "598997442990000000000",
@@ -49429,8 +49429,8 @@ const INITIAL_LEADS = [
         "km":  "194000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño y tiene unos detalles mínimos después está impecable si quieres más fotos o videos te paso esta al día en todo patente y seguro la radio es agregada no es la original q también la tengo si la quieres",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -49466,7 +49466,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-359",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  359,
         "nombre":  "Jonathan Gastan",
         "whatsapp":  "59893323093",
@@ -49515,7 +49515,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-358",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  358,
         "nombre":  "Rosa",
         "whatsapp":  "598958186110000000000",
@@ -49559,7 +49559,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-357",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  357,
         "nombre":  "Facundo Moreira",
         "whatsapp":  "59892454510000000000",
@@ -49618,7 +49618,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-356",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  356,
         "nombre":  "Rosa",
         "whatsapp":  "598958186110000000000",
@@ -49655,7 +49655,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-355",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  355,
         "nombre":  "Carlos",
         "whatsapp":  "59893843243",
@@ -49709,7 +49709,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-354",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  354,
         "nombre":  "Delfina",
         "whatsapp":  "598925124850000000000",
@@ -49719,8 +49719,8 @@ const INITIAL_LEADS = [
         "km":  "94000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un pequeño golpe del lado delantero derecho",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -49763,7 +49763,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-353",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  353,
         "nombre":  "Dominique Stephanie",
         "whatsapp":  "598950882680000000000",
@@ -49773,8 +49773,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "no tiene ni un rayon. servis echo a tiempo. tren delantero y las 5 cubiertas nuevas",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -49805,7 +49805,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-352",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  352,
         "nombre":  "Natalia",
         "whatsapp":  "59892380780",
@@ -49847,7 +49847,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-351",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  351,
         "nombre":  "Matías caballero",
         "whatsapp":  "59896540488",
@@ -49894,7 +49894,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-350",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  350,
         "nombre":  "Javier maly",
         "whatsapp":  "598997221460000000000",
@@ -49904,8 +49904,8 @@ const INITIAL_LEADS = [
         "km":  "67000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tuvo un choque mínimo adelante y se cambió todo por repuestos originales, no tiene deformaciones, naumaticos 2 cambiados hace 3 o 4 meses y los otros siguen en buen estado, service oficiales todos",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -49948,7 +49948,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-349",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  349,
         "nombre":  "Andrea lezaeta",
         "whatsapp":  "59899394816",
@@ -49995,7 +49995,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-348",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  348,
         "nombre":  "Nacho",
         "whatsapp":  "59899152316",
@@ -50027,7 +50027,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-347",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  347,
         "nombre":  "Silvina de León",
         "whatsapp":  "598950077260000000000",
@@ -50037,8 +50037,8 @@ const INITIAL_LEADS = [
         "km":  "110000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1f3h5_NsQUzKxU6BpzxRT6SOrvOpCPzkI",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50074,7 +50074,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-346",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  346,
         "nombre":  "Maxi",
         "whatsapp":  "598993971440000000000",
@@ -50084,8 +50084,8 @@ const INITIAL_LEADS = [
         "km":  "101000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Único dueño. Sin deuda. Sin choque",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50128,7 +50128,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-345",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  345,
         "nombre":  "Mariano soza",
         "whatsapp":  "01966416",
@@ -50160,7 +50160,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-344",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  344,
         "nombre":  "",
         "whatsapp":  "59899156790000000000",
@@ -50219,7 +50219,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-343",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  343,
         "nombre":  "Federico",
         "whatsapp":  "598973014330000000000",
@@ -50231,7 +50231,7 @@ const INITIAL_LEADS = [
         "comentario":  "Detalles de pintura",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -50266,7 +50266,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-342",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  342,
         "nombre":  "Roselin",
         "whatsapp":  "598914348080000000000",
@@ -50305,7 +50305,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-341",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  341,
         "nombre":  "Dario",
         "whatsapp":  "598987150220000000000",
@@ -50352,7 +50352,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-340",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  340,
         "nombre":  "Marcelo Horta",
         "whatsapp":  "598990738960000000000",
@@ -50399,7 +50399,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-339",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  339,
         "nombre":  "",
         "whatsapp":  "598991433280000000000",
@@ -50427,7 +50427,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-338",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  338,
         "nombre":  "Gonzalo",
         "whatsapp":  "59891268480",
@@ -50481,7 +50481,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-337",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  337,
         "nombre":  "Angélica Muñoz",
         "whatsapp":  "598996743490000000000",
@@ -50509,7 +50509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-336",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  336,
         "nombre":  "Alexander",
         "whatsapp":  "598945096460000000000",
@@ -50553,7 +50553,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-335",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  335,
         "nombre":  "Sabrina",
         "whatsapp":  "598942302110000000000",
@@ -50563,8 +50563,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un choque, y otro detalle de cuando me lo quisieron robar",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50597,7 +50597,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-334",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  334,
         "nombre":  "Estefany",
         "whatsapp":  "598921745550000000000",
@@ -50644,7 +50644,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-333",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  333,
         "nombre":  "Joaquin Beceiro",
         "whatsapp":  "59898561140000000000",
@@ -50698,7 +50698,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-332",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  332,
         "nombre":  "",
         "whatsapp":  "59893397364",
@@ -50752,7 +50752,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-331",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  331,
         "nombre":  "Octavio",
         "whatsapp":  "598986559320000000000",
@@ -50762,8 +50762,8 @@ const INITIAL_LEADS = [
         "km":  "160000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1sdv-sDyXp8D9rOyr9A4qLyFNU1RvcfBr",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50799,7 +50799,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-330",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  330,
         "nombre":  "Nahuel",
         "whatsapp":  "598924709780000000000",
@@ -50853,7 +50853,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-329",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  329,
         "nombre":  "Camilo Lorenzelli",
         "whatsapp":  "598913363230000000000",
@@ -50863,8 +50863,8 @@ const INITIAL_LEADS = [
         "km":  "93300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los service al día el último echo hace 2 semanas, de cubiertas está bastante bien y lo otro funciona súper bien está muy bien cuidada la camioneta",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50895,7 +50895,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-328",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  328,
         "nombre":  "Danto De la Vega",
         "whatsapp":  "598950397610000000000",
@@ -50905,8 +50905,8 @@ const INITIAL_LEADS = [
         "km":  "176000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene choque, los neumáticos tiene un par de meses están nuevos casi, y le marcha todo en perfecto estado",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -50944,7 +50944,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-327",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  327,
         "nombre":  "Leandro Méndez",
         "whatsapp":  "598946075630000000000",
@@ -50991,7 +50991,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-326",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  326,
         "nombre":  "Carolina Cabrera",
         "whatsapp":  "598990310030000000000",
@@ -51001,8 +51001,8 @@ const INITIAL_LEADS = [
         "km":  "240",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene como detalle estético, la lona la parte donde va la auxiliar esa parte que si bien no sé si es pegado o cocida ahí está roto como despegado, \nComo otro detalle estético la tapa, hay que hacerle un poquito de fuerza para abrirla, de cubiertas está me arriesgaría decir que tiene un poco más de medio uso, actualmente está con yantas de chapa r13 me parece que está muy bien de cubiertas, y también tiene las yantas 17 que es lo que te comentaba anterior mente.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51038,7 +51038,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-325",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  325,
         "nombre":  "Mauricio",
         "whatsapp":  "59894453714",
@@ -51085,7 +51085,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-324",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  324,
         "nombre":  "Federico",
         "whatsapp":  "598989441330000000000",
@@ -51095,8 +51095,8 @@ const INITIAL_LEADS = [
         "km":  "85000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1p6Bem4cNrEKDE-PiVV65ycsCmOmQKoAy",
-        "tasacion":  72000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51132,7 +51132,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-323",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  323,
         "nombre":  "Mariana Fernandez",
         "whatsapp":  "59898537113",
@@ -51179,7 +51179,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-322",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  322,
         "nombre":  "Andrea Mathiu",
         "whatsapp":  "598988275250000000000",
@@ -51189,8 +51189,8 @@ const INITIAL_LEADS = [
         "km":  "114500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Embrague y frenos hechos a nuevo. Mecánica general muy buena. Excelente estado",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51221,7 +51221,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-321",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  321,
         "nombre":  "Jennifer",
         "whatsapp":  "59892743431",
@@ -51268,7 +51268,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-320",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  320,
         "nombre":  "Andrea Artus",
         "whatsapp":  "59809920393200000000000",
@@ -51322,7 +51322,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-319",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  319,
         "nombre":  "Hola , Andrea Artus",
         "whatsapp":  "59809920393200000000000",
@@ -51332,8 +51332,8 @@ const INITIAL_LEADS = [
         "km":  "112000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene algunos rayones en la puerta delantera y en la trasera, lo demás funciona todo",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51369,7 +51369,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-318",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  318,
         "nombre":  "Emmanuel",
         "whatsapp":  "598920546580000000000",
@@ -51416,7 +51416,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-317",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  317,
         "nombre":  "Federico Sosa",
         "whatsapp":  "598912731620000000000",
@@ -51463,7 +51463,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-316",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  316,
         "nombre":  "Joaquin",
         "whatsapp":  "598997021070000000000",
@@ -51473,8 +51473,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin choques, con CarPlay y cámara de reversa",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51517,7 +51517,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-315",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  315,
         "nombre":  "",
         "whatsapp":  "598605066",
@@ -51571,7 +51571,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-314",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  314,
         "nombre":  "Matías",
         "whatsapp":  "59898774090",
@@ -51618,7 +51618,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-313",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  313,
         "nombre":  "Luciana Trujillo",
         "whatsapp":  "598925481650000000000",
@@ -51665,7 +51665,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-312",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  312,
         "nombre":  "Agustín Baute",
         "whatsapp":  "598967967340000000000",
@@ -51675,8 +51675,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "",
         "comentario":  "",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51691,7 +51691,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-311",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  311,
         "nombre":  "Richard Pias",
         "whatsapp":  "598983713270000000000",
@@ -51738,7 +51738,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-310",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  310,
         "nombre":  "Laura",
         "whatsapp":  "59895896920000000000",
@@ -51748,8 +51748,8 @@ const INITIAL_LEADS = [
         "km":  "72000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto único dueño, EN GARANTÍA !!! todos los service oficiales.",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51787,7 +51787,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-309",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  309,
         "nombre":  "Andrés Delmonte",
         "whatsapp":  "59899214992",
@@ -51797,8 +51797,8 @@ const INITIAL_LEADS = [
         "km":  "25500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos service oficiales realizados. El último en noviembre 2025. Con certificación que verifica la realización de los mismos.",
-        "tasacion":  73000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51841,7 +51841,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-308",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  308,
         "nombre":  "Diego",
         "whatsapp":  "59899198144",
@@ -51883,7 +51883,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-307",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  307,
         "nombre":  "Paola de Lorenzi",
         "whatsapp":  "598994975190000000000",
@@ -51893,8 +51893,8 @@ const INITIAL_LEADS = [
         "km":  "148000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un choque en la parte trasera donde se ve é la foto, y uno en la puerta que era del dueño anterior, neumáticos nuevos cambiados hace poco",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51937,7 +51937,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-306",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  306,
         "nombre":  "Manuel umpierrez",
         "whatsapp":  "59891805080000000000",
@@ -51947,8 +51947,8 @@ const INITIAL_LEADS = [
         "km":  "81500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Único dueño, SERVICE en tiempo y forma, uso familiar no carga",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -51984,7 +51984,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-305",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  305,
         "nombre":  "Martina Gallo",
         "whatsapp":  "598996282740000000000",
@@ -51994,8 +51994,8 @@ const INITIAL_LEADS = [
         "km":  "132000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Ya lo tazaron en 9500",
-        "tasacion":  67000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52031,7 +52031,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-304",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  304,
         "nombre":  "Katerin",
         "whatsapp":  "5989590990000000000",
@@ -52059,7 +52059,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-303",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  303,
         "nombre":  "Matias Ferreira",
         "whatsapp":  "598951434710000000000",
@@ -52069,8 +52069,8 @@ const INITIAL_LEADS = [
         "km":  "103000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1eJehxYPHePrDYk1V_ZUvCXxpm4rJUF2R",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52096,7 +52096,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-302",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  302,
         "nombre":  "Santiago Arostegui",
         "whatsapp":  "598982456720000000000",
@@ -52143,7 +52143,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-301",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  301,
         "nombre":  "María Brusich",
         "whatsapp":  "598975537630000000000",
@@ -52153,8 +52153,8 @@ const INITIAL_LEADS = [
         "km":  "133000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene algunos detalles como se puede ver en las fotos del capot. El  paragolpe trasero tiene detalles. Puedo adjunta más fotos. Le falta el limpia luneta trasero qué me lo robaron. El parabrisas está astillado (obvio que no le entra agua ni nada, solo que nunca lo cambié porque no me molestaba). En el interior tiene roto un plástico de salida de AA. Y le falta un botón de la radio. Después está bien. El desgaste del uso pero soy la segunda dueña. Perdí la llave original de bloqueo.\nLos títulos están a mi nombre. Nunca hice la transferencia. Matriculado en Mdeo. Con la patente al día y un convenio  mi nombre.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52197,7 +52197,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-300",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  300,
         "nombre":  "Hola soy Daniel García",
         "whatsapp":  "598958981680000000000",
@@ -52207,8 +52207,8 @@ const INITIAL_LEADS = [
         "km":  "132mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto esta funcionando bien, no tiene aire acondicionado (tiene la manguera rota), detalle en el asiento de chófer (roto como se ve la foto), vibra el caño y aveces hace un ruidito ahí, neumáticos muy buen estado,  lo tengo desde 2021 y le realizo los cambios de aceites y filtros cada 10 mil km. Yo no he tenido choque. Título a mi nombre y de mi esposa y libreta a nombre de ella. Radio original andando perfecto",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52256,7 +52256,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-299",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  299,
         "nombre":  "Diego Puppo",
         "whatsapp":  "598988405550000000000",
@@ -52266,8 +52266,8 @@ const INITIAL_LEADS = [
         "km":  "59000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Último service realizado hoy, todos oficiales",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52303,7 +52303,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-298",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  298,
         "nombre":  "Yuril Crespo",
         "whatsapp":  "59898094991",
@@ -52313,8 +52313,8 @@ const INITIAL_LEADS = [
         "km":  "14500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está en excelente estado, la tapicería sin manchas, patente al día, un servicio oficial en febrero cuando cumplió el año. Estoy En Maldonado en el Barrio Centro",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52350,7 +52350,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-297",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  297,
         "nombre":  "Bruno Apellaniz",
         "whatsapp":  "59898625712",
@@ -52360,8 +52360,8 @@ const INITIAL_LEADS = [
         "km":  "177000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1DKauAnNotqOJiIaw9vKXbnXjF8f2FV1w",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52397,7 +52397,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-296",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  296,
         "nombre":  "Cristian Diaz",
         "whatsapp":  "59898391229",
@@ -52407,8 +52407,8 @@ const INITIAL_LEADS = [
         "km":  "165000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tengo servicie oficiales, no cuenta con cubierta la llanta auxiliar porque explotó.\nRompiendo parte del paragolpe delantero.\nLe faltaria hacer alineación y balanceo",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52446,7 +52446,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-295",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  295,
         "nombre":  "Diego",
         "whatsapp":  "598954612570000000000",
@@ -52500,7 +52500,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-294",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  294,
         "nombre":  "Rolando Fuentes",
         "whatsapp":  "598941885670000000000",
@@ -52547,7 +52547,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-293",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  293,
         "nombre":  "Gabriel Ferreira",
         "whatsapp":  "59809619745300000000000",
@@ -52557,8 +52557,8 @@ const INITIAL_LEADS = [
         "km":  "145000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al dia. Neumaticos cambiados en abril (aprox 15000km). Cambio de discos y pastillas delanteros hace aprox 20 dias traseros aun en buen estado. Lo deseo vender  porque en el trabajo me van a entregar una camioneta para trabajar y que puedo darle uso personal. Necesito venderlo rapido ya que en casa no tengo lugar para ambos.",
-        "tasacion":  48000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52594,7 +52594,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-292",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  292,
         "nombre":  "Pablo Sosa",
         "whatsapp":  "598912974090000000000",
@@ -52641,7 +52641,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-291",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  291,
         "nombre":  "Marco Biagi",
         "whatsapp":  "59894546950",
@@ -52695,7 +52695,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-290",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  290,
         "nombre":  "Joaquín Pereira",
         "whatsapp":  "598949656820000000000",
@@ -52705,8 +52705,8 @@ const INITIAL_LEADS = [
         "km":  "13000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "En garantía",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52742,7 +52742,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-289",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  289,
         "nombre":  "Manuel Corujo",
         "whatsapp":  "598999743960000000000",
@@ -52752,8 +52752,8 @@ const INITIAL_LEADS = [
         "km":  "110000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto muy cuidado, sin choques. Soy 4to dueño pero con conocimiento de los 3 anteriores. Lo tengo desde los 60mil kms, service oficiales hasta 50mil kms. Se le coloco llantas del modelo mk7.5 por gusto estético personal con neumáticos hankook a medio uso. Llantas sin rayas, muy cuidadas.",
-        "tasacion":  135000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52801,7 +52801,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-288",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  288,
         "nombre":  "Maurizio",
         "whatsapp":  "598998592350000000000",
@@ -52855,7 +52855,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-287",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  287,
         "nombre":  "Guzmán Martínez",
         "whatsapp":  "598995835480000000000",
@@ -52865,8 +52865,8 @@ const INITIAL_LEADS = [
         "km":  "54000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service no son oficiales , neumáticos tienen bastante aún porque son todos km en ruta (vivo en el interior) , se puede escanear y revisar sin problemas",
-        "tasacion":  180000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -52902,7 +52902,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-286",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  286,
         "nombre":  "Pablo",
         "whatsapp":  "59899270419",
@@ -52949,7 +52949,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-285",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  285,
         "nombre":  "Iván Bravo",
         "whatsapp":  "59897233573",
@@ -53003,7 +53003,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-284",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  284,
         "nombre":  "Matias",
         "whatsapp":  "59891260658",
@@ -53050,7 +53050,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-283",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  283,
         "nombre":  "",
         "whatsapp":  "",
@@ -53104,7 +53104,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-282",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  282,
         "nombre":  "Germán",
         "whatsapp":  "598988946860000000000",
@@ -53151,7 +53151,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-281",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  281,
         "nombre":  "Camilo",
         "whatsapp":  "598989000170000000000",
@@ -53161,8 +53161,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=18Eu5gP1plIyCqkV15n8N3wPvHteAuAuc",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53193,7 +53193,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-280",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  280,
         "nombre":  "Thiago",
         "whatsapp":  "910528620000000",
@@ -53203,8 +53203,8 @@ const INITIAL_LEADS = [
         "km":  "136000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El unico detalle a nombrar es que el techo cielo esta rajado solo en el vidrio exterior ya que es un templado doble, sin filtración,  ya sellado anteriormente.",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53240,7 +53240,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-279",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  279,
         "nombre":  "Verónica Conde",
         "whatsapp":  "598975482720000000000",
@@ -53250,8 +53250,8 @@ const INITIAL_LEADS = [
         "km":  "227000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Papeles al día, seguro total pago anual hasta el abril 2026",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53287,7 +53287,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-278",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  278,
         "nombre":  "Emiliano",
         "whatsapp":  "59895827550",
@@ -53334,7 +53334,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-277",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  277,
         "nombre":  "Ana",
         "whatsapp":  "598993995740000000000",
@@ -53344,8 +53344,8 @@ const INITIAL_LEADS = [
         "km":  "152300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto esta impecable en exterior e interior. Tiene 152300km\nDistribución Full nueva, hecha el 19/10/2025\nBateria nueva\nTambién tren delantero full nuevo incluyendo amortiguadores.\nCubiertas delanteras nuevas y cubiertas traseras a medio uso.\nService recién hecho.",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53388,7 +53388,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-276",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  276,
         "nombre":  "Emiliano REISFELD",
         "whatsapp":  "59898659440000000000",
@@ -53398,8 +53398,8 @@ const INITIAL_LEADS = [
         "km":  "2012",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene un toque en una puerta del lado del conductor se ve en la foto , neumático edad mediana y SERVICE todos pero luego de que ya no estaba en garantía lo hice particular. Tiene 105000 km está impecable nunca tuvo un problema la batería la cambié este año !",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53435,7 +53435,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-275",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  275,
         "nombre":  "Gianfranco",
         "whatsapp":  "59893948777",
@@ -53477,7 +53477,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-274",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  274,
         "nombre":  "Matías Razquin",
         "whatsapp":  "598978226910000000000",
@@ -53487,8 +53487,8 @@ const INITIAL_LEADS = [
         "km":  "293000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "En el techo está desgastada la pintura y el aire acondicionado está para cargarle gas (dejó de largar aire frío)",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53524,7 +53524,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-273",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  273,
         "nombre":  "Andrés Mier",
         "whatsapp":  "598949747610000000000",
@@ -53571,7 +53571,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-272",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  272,
         "nombre":  "Maira",
         "whatsapp":  "59892019361",
@@ -53581,8 +53581,8 @@ const INITIAL_LEADS = [
         "km":  "89.8",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1OAg-H-f2HTckYHXwGzNj4nfpvhlVij21",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53608,7 +53608,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-271",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  271,
         "nombre":  "Facundo Alza",
         "whatsapp":  "598910454510000000000",
@@ -53655,7 +53655,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-270",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  270,
         "nombre":  "Luciano",
         "whatsapp":  "598946078660000000000",
@@ -53702,7 +53702,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-269",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  269,
         "nombre":  "Alejandro",
         "whatsapp":  "598978408410000000000",
@@ -53712,8 +53712,8 @@ const INITIAL_LEADS = [
         "km":  "215269",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Muy buen estado",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53746,7 +53746,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-268",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  268,
         "nombre":  "Gisel fernandez",
         "whatsapp":  "598945635040000000000",
@@ -53756,8 +53756,8 @@ const INITIAL_LEADS = [
         "km":  "172000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas tardes no me deja la app subir fotos , si quieren se las mando por wasap ,gracias",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53774,7 +53774,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-267",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  267,
         "nombre":  "DANILO",
         "whatsapp":  "598947194620000000000",
@@ -53784,8 +53784,8 @@ const INITIAL_LEADS = [
         "km":  "180000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto completo a nombre de mi hermano. Deuda de $47.000",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53828,7 +53828,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-266",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  266,
         "nombre":  "Micaela Rohner",
         "whatsapp":  "598999941050000000000",
@@ -53838,8 +53838,8 @@ const INITIAL_LEADS = [
         "km":  "123377",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service al día. Los títulos están a nombre de mi pareja y la libreta a mi nombre.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -53875,7 +53875,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-265",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  265,
         "nombre":  "Soy Leonardo Aguirre",
         "whatsapp":  "598935849240000000000",
@@ -53929,7 +53929,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-264",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  264,
         "nombre":  "",
         "whatsapp":  "598993595930000000000",
@@ -53976,7 +53976,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-263",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  263,
         "nombre":  "Santi",
         "whatsapp":  "598922920790000000000",
@@ -54025,7 +54025,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-262",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  262,
         "nombre":  "Marcos",
         "whatsapp":  "59897872066",
@@ -54074,7 +54074,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-261",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  261,
         "nombre":  "Matias",
         "whatsapp":  "598921989630000000000",
@@ -54121,7 +54121,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-260",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  260,
         "nombre":  "Silvia",
         "whatsapp":  "598913789480000000000",
@@ -54131,8 +54131,8 @@ const INITIAL_LEADS = [
         "km":  "317740",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un problema en el paragolpe me dijeron que con $15000 quedaba 0.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54175,7 +54175,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-259",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  259,
         "nombre":  "Martin",
         "whatsapp":  "598998556580000000000",
@@ -54207,7 +54207,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-258",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  258,
         "nombre":  "Javier",
         "whatsapp":  "598951277140000000000",
@@ -54249,7 +54249,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-257",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  257,
         "nombre":  "Federico moden",
         "whatsapp":  "598921901720000000000",
@@ -54259,8 +54259,8 @@ const INITIAL_LEADS = [
         "km":  "6000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Lo compré el mes pasado, no me gustó el andar, le puse vidrios nanoceramicos",
-        "tasacion":  185000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54286,7 +54286,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-256",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  256,
         "nombre":  "Javier",
         "whatsapp":  "598951277140000000000",
@@ -54333,7 +54333,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-255",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  255,
         "nombre":  "Marcos García",
         "whatsapp":  "59892092078",
@@ -54380,7 +54380,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-254",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  254,
         "nombre":  "Gabriela",
         "whatsapp":  "598914493180000000000",
@@ -54390,8 +54390,8 @@ const INITIAL_LEADS = [
         "km":  "169000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles de pintura, segundo dueño, ya la compramos con los detalles, tiene toda la documentación y service al día. Batería nueva y cubierta antigüedad 1 año.",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54427,7 +54427,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-253",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  253,
         "nombre":  "Lucas",
         "whatsapp":  "598957999710000000000",
@@ -54437,8 +54437,8 @@ const INITIAL_LEADS = [
         "km":  "98400",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Deuda de 39 mil pesos, tiene un rose en un lateral que en la foto se ve, neumáticos a cambiar. \nRecientemente cambió de correa.",
-        "tasacion":  88000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54481,7 +54481,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-252",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  252,
         "nombre":  "Guzmán berazategui",
         "whatsapp":  "598982292750000000000",
@@ -54491,8 +54491,8 @@ const INITIAL_LEADS = [
         "km":  "121mil kilómetros ",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Le funciona todo,bien de cubiertas",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54528,7 +54528,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-251",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  251,
         "nombre":  "Gastón Lista",
         "whatsapp":  "598950094660000000000",
@@ -54538,8 +54538,8 @@ const INITIAL_LEADS = [
         "km":  "127000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Soy 2do dueño, tengo carta de poder y papel de compra venta, el auto no está a mi nombre pero no tiene embargos ni deudas de ningún tipo, el golpe frontal solamente rompió los plásticos, no saltó airbag, radiador está sano, la estructura está sana, es el único golpe que tiene, cubiertas con 20000km, cambios de aceite en tiempo y forma, mecánicamente está muy bien",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54582,7 +54582,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-250",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  250,
         "nombre":  "Luz",
         "whatsapp":  "598998158410000000000",
@@ -54629,7 +54629,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-249",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  249,
         "nombre":  "Fabricio Galbarini",
         "whatsapp":  "59899338430000000000",
@@ -54639,8 +54639,8 @@ const INITIAL_LEADS = [
         "km":  "50000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Lo compré hace 3 años con 18.000km, neumáticos en buen estado, Services oficiales menos el último (50.000km) hecho en taller de confianza",
-        "tasacion":  148000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54676,7 +54676,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-248",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  248,
         "nombre":  "Micaela",
         "whatsapp":  "59891838879",
@@ -54723,7 +54723,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-247",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  247,
         "nombre":  "Matías Castellanos",
         "whatsapp":  "598994519870000000000",
@@ -54733,8 +54733,8 @@ const INITIAL_LEADS = [
         "km":  "312000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Y-ja2DerUj1evrK7y2jwVZryYGbLhWXF",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54770,7 +54770,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-246",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  246,
         "nombre":  "Felipe Ferrari",
         "whatsapp":  "598994527410000000000",
@@ -54780,8 +54780,8 @@ const INITIAL_LEADS = [
         "km":  "54000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficiales, excelente estado",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54817,7 +54817,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-245",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  245,
         "nombre":  "Santiago",
         "whatsapp":  "928954690000000",
@@ -54864,7 +54864,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-244",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  244,
         "nombre":  "Jorge jurado",
         "whatsapp":  "598997887210000000000",
@@ -54874,8 +54874,8 @@ const INITIAL_LEADS = [
         "km":  "71000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los servis a tiempo",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54911,7 +54911,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-243",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  243,
         "nombre":  "Eugeni González",
         "whatsapp":  "598938632160000000000",
@@ -54921,8 +54921,8 @@ const INITIAL_LEADS = [
         "km":  "107300",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos cambiados hace poco.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -54958,7 +54958,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-242",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  242,
         "nombre":  "Nicolas",
         "whatsapp":  "59895930730",
@@ -55007,7 +55007,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-241",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  241,
         "nombre":  "Lucas Perdomo",
         "whatsapp":  "598914355320000000000",
@@ -55017,8 +55017,8 @@ const INITIAL_LEADS = [
         "km":  "168000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1Mvqt896ZlB31KI6nYx6BnHpFOlKcPHWF",
-        "tasacion":  88000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55054,7 +55054,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-240",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  240,
         "nombre":  "Paola",
         "whatsapp":  "59895606788",
@@ -55108,7 +55108,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-239",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  239,
         "nombre":  "Dariel",
         "whatsapp":  "598950723040000000000",
@@ -55118,8 +55118,8 @@ const INITIAL_LEADS = [
         "km":  "238 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Totalmente al día, listo para transferir, andando impecable. Modelo full, sedan espacioso, muy buen estado en general. Bajo de patente. Lindo andar. \n- Motor 1.6 Nafta\n- Vidrios eléctricos delanteros\n- Frenos recién hechos\n- Cubiertas nuevas\n- Espejos eléctricos\n- Alarma y cierre centralizado\n- Llantas de aleación\n- Bujías e inyectores nuevos\n- Dirección hidráulica\n- Embriague recién hecho\n- Burro de arranque nuevo",
-        "tasacion":  10000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55167,7 +55167,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-238",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  238,
         "nombre":  "Katerin",
         "whatsapp":  "5989590990000000000",
@@ -55195,7 +55195,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-237",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  237,
         "nombre":  "",
         "whatsapp":  "59899869112",
@@ -55205,8 +55205,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está perfecto",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55223,7 +55223,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-236",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  236,
         "nombre":  "Neykel",
         "whatsapp":  "59892309435",
@@ -55270,7 +55270,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-235",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  235,
         "nombre":  "Matías Mirabal",
         "whatsapp":  "598956481730000000000",
@@ -55307,7 +55307,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-234",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  234,
         "nombre":  "Angel Horacio Alvez Ferreira",
         "whatsapp":  "598912137350000000000",
@@ -55354,7 +55354,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-233",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  233,
         "nombre":  "Gonzalo Dominguez",
         "whatsapp":  "598914380290000000000",
@@ -55396,7 +55396,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-232",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  232,
         "nombre":  "Nicolás",
         "whatsapp":  "598980680960000000000",
@@ -55406,8 +55406,8 @@ const INITIAL_LEADS = [
         "km":  "187000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Muy buen estado, todo el día y a mi nombre. \nService realizado hace poco, no oficial pero mecánico de confianza",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55450,7 +55450,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-231",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  231,
         "nombre":  "Valentin Martinez",
         "whatsapp":  "598916741960000000000",
@@ -55492,7 +55492,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-230",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  230,
         "nombre":  "Noelia",
         "whatsapp":  "598927176920000000000",
@@ -55541,7 +55541,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-229",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  229,
         "nombre":  "Soledad",
         "whatsapp":  "59898710050000000000",
@@ -55595,7 +55595,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-228",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  228,
         "nombre":  "Antonio",
         "whatsapp":  "59899180044",
@@ -55642,7 +55642,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-227",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  227,
         "nombre":  "Ivana",
         "whatsapp":  "59892279430000000000",
@@ -55652,8 +55652,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1uYo9mbS2OzkfVWhvy6yj11amPCbPgk3A",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55689,7 +55689,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-226",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  226,
         "nombre":  "Brian",
         "whatsapp":  "598956916240000000000",
@@ -55699,8 +55699,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene cubiertas muy impecables tiene todo los servicios echos",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55743,7 +55743,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-225",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  225,
         "nombre":  "Luca Cammarota",
         "whatsapp":  "59892878750000000000",
@@ -55753,8 +55753,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas! Tiene deuda de 4mil dólares, estoy pidiendo 7 por el",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55797,7 +55797,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-224",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  224,
         "nombre":  "",
         "whatsapp":  "598920638740000000000",
@@ -55807,8 +55807,8 @@ const INITIAL_LEADS = [
         "km":  "157021",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Servic echo , andando sin problema",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55844,7 +55844,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-223",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  223,
         "nombre":  "Eduardo Rivero",
         "whatsapp":  "59899738080000000000",
@@ -55854,8 +55854,8 @@ const INITIAL_LEADS = [
         "km":  "165000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Se encuentra en muy buen estado , va con cámara frontal y tiene dos cámaras traseras la original más otra que trajo en HD radio nueva q viene para Nissan",
-        "tasacion":  68000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55898,7 +55898,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-222",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  222,
         "nombre":  "Guillermo",
         "whatsapp":  "598979956150000000000",
@@ -55908,8 +55908,8 @@ const INITIAL_LEADS = [
         "km":  "174000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene para repintar paragolpes por toques.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -55952,7 +55952,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-221",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  221,
         "nombre":  "Natalie Schlapp",
         "whatsapp":  "598998558670000000000",
@@ -55999,7 +55999,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-220",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  220,
         "nombre":  "Enzo Porcile",
         "whatsapp":  "598921776020000000000",
@@ -56031,7 +56031,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-219",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  219,
         "nombre":  "Oscar Dos Santos",
         "whatsapp":  "59899026186",
@@ -56041,8 +56041,8 @@ const INITIAL_LEADS = [
         "km":  "60000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene todos los servis oficiales. Le funciona todo es sin techo solar de 7 pasajeros. La auxiliar está 0km. Las cubiertas medio uso . Me sirve permuta por vehículo de menor valor",
-        "tasacion":  145000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56078,7 +56078,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-218",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  218,
         "nombre":  "Juanchi",
         "whatsapp":  "598985092540000000000",
@@ -56115,7 +56115,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-217",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  217,
         "nombre":  "Calú Fernández",
         "whatsapp":  "598957666110000000000",
@@ -56169,7 +56169,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-216",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  216,
         "nombre":  "Cecilia Fernández",
         "whatsapp":  "598982310110000000000",
@@ -56179,8 +56179,8 @@ const INITIAL_LEADS = [
         "km":  "184000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene algunos detalles pero está muy bien en general, es muy cómoda y confortable, de 7 plazas. Tengo más fotos",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56216,7 +56216,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-215",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  215,
         "nombre":  "Enzo",
         "whatsapp":  "598942136260000000000",
@@ -56226,8 +56226,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "2 raspones del lado trasero por llevar un porta bicicletas",
-        "tasacion":  95000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56253,7 +56253,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-214",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  214,
         "nombre":  "Jhoan",
         "whatsapp":  "59894663406",
@@ -56290,7 +56290,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-213",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  213,
         "nombre":  "Tomas",
         "whatsapp":  "598934236110000000000",
@@ -56300,8 +56300,8 @@ const INITIAL_LEADS = [
         "km":  "136 mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El uso es diario de la camioneta detalles del uso nada graves la quiero cambiar por una camioneta con caja...",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56337,7 +56337,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-212",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  212,
         "nombre":  "Mario abella",
         "whatsapp":  "598974793560000000000",
@@ -56347,8 +56347,8 @@ const INITIAL_LEADS = [
         "km":  "95 mil km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta en excelentes condiciones",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56365,7 +56365,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-211",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  211,
         "nombre":  "Santiago",
         "whatsapp":  "59898231060000000000",
@@ -56402,7 +56402,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-210",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  210,
         "nombre":  "Alejandro Villalba",
         "whatsapp":  "598987183220000000000",
@@ -56434,7 +56434,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-209",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  209,
         "nombre":  "Enzo",
         "whatsapp":  "59891665232",
@@ -56462,7 +56462,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-208",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  208,
         "nombre":  "Nicolás Rodríguez",
         "whatsapp":  "598980680960000000000",
@@ -56509,7 +56509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-207",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  207,
         "nombre":  "Valentina",
         "whatsapp":  "59899799030",
@@ -56519,8 +56519,8 @@ const INITIAL_LEADS = [
         "km":  "42milk",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles de chapa",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56537,7 +56537,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-206",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  206,
         "nombre":  "Sofia Suppa",
         "whatsapp":  "598988001340000000000",
@@ -56547,8 +56547,8 @@ const INITIAL_LEADS = [
         "km":  "165000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "La llave de bloqueo hace falso, hay veces tranca y a veces cuesta que tranque el auto.",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56584,7 +56584,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-205",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  205,
         "nombre":  "Luna",
         "whatsapp":  "598922852250000000000",
@@ -56621,7 +56621,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-204",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  204,
         "nombre":  "Alexander fontes",
         "whatsapp":  "598998372890000000000",
@@ -56631,8 +56631,8 @@ const INITIAL_LEADS = [
         "km":  "86100",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "A los 76000 km cambie los neumáticos todos los services hechos este año bateria moura nueva\nMe intera u. Hb grs",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56663,7 +56663,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-203",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  203,
         "nombre":  "Camila Pisano",
         "whatsapp":  "598996452860000000000",
@@ -56673,8 +56673,8 @@ const INITIAL_LEADS = [
         "km":  "270000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta andando bien, es motor 800 , tiene las cubiertas delanteras nuevas y los asientos tienen los tapizados enteros y bien. \nLo que no le funciona es la ventana trasera derecha no baja ni sube esta fija. \nY las ventanas delanteras suben pero hay que ayudarlas con la mano pero suben.\nEs un auto muy económico nos da 18/19 por litro en ciudad",
-        "tasacion":  18000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56710,7 +56710,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-202",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  202,
         "nombre":  "",
         "whatsapp":  "598989300970000000000",
@@ -56764,7 +56764,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-201",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  201,
         "nombre":  "Mateo noria",
         "whatsapp":  "59894113670000000000",
@@ -56774,8 +56774,8 @@ const INITIAL_LEADS = [
         "km":  "153000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene choques, las cubiertas están nuevas, no hay nada en el que no funcione, está impecable.\n\nTotalmente para transferir, se puede ir al día o con una deuda de 38mil pesos, como se prefiera y sirva.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56828,7 +56828,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-200",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  200,
         "nombre":  "Jessica Hernandorena",
         "whatsapp":  "598983276160000000000",
@@ -56838,8 +56838,8 @@ const INITIAL_LEADS = [
         "km":  "97000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Al día, le funciona todo perfectamente",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56875,7 +56875,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-199",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  199,
         "nombre":  "Mariana González",
         "whatsapp":  "598994130330000000000",
@@ -56885,8 +56885,8 @@ const INITIAL_LEADS = [
         "km":  "150000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene airbag porque se ve que el dueño anterior tuvo un siniestro",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56917,7 +56917,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-198",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  198,
         "nombre":  "Leonel",
         "whatsapp":  "598949163620000000000",
@@ -56927,8 +56927,8 @@ const INITIAL_LEADS = [
         "km":  "118500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los detalles están a la vista no ha tenido ningún choque, neumáticos delanteros se cambiaron en enero, servicios en fecha.",
-        "tasacion":  78000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -56971,7 +56971,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-197",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  197,
         "nombre":  "Francisco Presno",
         "whatsapp":  "598999048350000000000",
@@ -56981,8 +56981,8 @@ const INITIAL_LEADS = [
         "km":  "60000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Es, de esa generación, el que está en mejor estado del mercado. Tiene un farol roto de atrás con una pequeña abolladura de chapa que lo puedo arreglar y trasladar el costo o dejarlo así y Uds lo arreglan. Si me escribís por wp te mando fotos de eso.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57018,7 +57018,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-196",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  196,
         "nombre":  "Sergio",
         "whatsapp":  "598976795340000000000",
@@ -57060,7 +57060,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-195",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  195,
         "nombre":  "Ana Lucía roldan",
         "whatsapp":  "598921342520000000000",
@@ -57107,7 +57107,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-194",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  194,
         "nombre":  "Sebastián",
         "whatsapp":  "59891621622",
@@ -57135,7 +57135,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-193",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  193,
         "nombre":  "Antonio Rivarola",
         "whatsapp":  "598920377710000000000",
@@ -57167,7 +57167,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-192",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  192,
         "nombre":  "Romina",
         "whatsapp":  "59897348330000000000",
@@ -57177,8 +57177,8 @@ const INITIAL_LEADS = [
         "km":  "85.4",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1ZeS8XKvqHDmVcwzwNI2pPcTtnfToJ8-o",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57214,7 +57214,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-191",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  191,
         "nombre":  "",
         "whatsapp":  "59892765990",
@@ -57256,7 +57256,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-190",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  190,
         "nombre":  "Laura",
         "whatsapp":  "59894518231",
@@ -57298,7 +57298,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-189",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  189,
         "nombre":  "Victor. Mucho gusto",
         "whatsapp":  "598958849530000000000",
@@ -57357,7 +57357,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-188",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  188,
         "nombre":  "Miriam Bermudez",
         "whatsapp":  "598983236780000000000",
@@ -57399,7 +57399,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-187",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  187,
         "nombre":  "Fernando",
         "whatsapp":  "598983791310000000000",
@@ -57453,7 +57453,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-186",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  186,
         "nombre":  "Florencia González",
         "whatsapp":  "59899417214",
@@ -57463,8 +57463,8 @@ const INITIAL_LEADS = [
         "km":  "186000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No funciona el aire acondicionado. Neumáticos nuevos , tren delantero nuevo y cambio de correa de distribución reciente (setiembre)  con servicios realizados en tiempo y forma",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57500,7 +57500,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-185",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  185,
         "nombre":  "Jhonny Rodríguez",
         "whatsapp":  "59899390253",
@@ -57547,7 +57547,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-184",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  184,
         "nombre":  "Alessandro",
         "whatsapp":  "59899386121",
@@ -57557,8 +57557,8 @@ const INITIAL_LEADS = [
         "km":  "56593",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1uZ7jIJYrNrcYbutu9USYjl9FqwHijx7-",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57594,7 +57594,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-183",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  183,
         "nombre":  "Paula",
         "whatsapp":  "59809377626200000000000",
@@ -57648,7 +57648,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-182",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  182,
         "nombre":  "Maximiliano Machado",
         "whatsapp":  "598980981850000000000",
@@ -57695,7 +57695,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-181",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  181,
         "nombre":  "Gonzalo",
         "whatsapp":  "59891815200",
@@ -57705,8 +57705,8 @@ const INITIAL_LEADS = [
         "km":  "136000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Falta solucionar airbag de parte del chofer me comentaron es que hay que cambiar una ficha o algo así",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57742,7 +57742,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-180",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  180,
         "nombre":  "Ana Amorín",
         "whatsapp":  "59891052050000000000",
@@ -57752,8 +57752,8 @@ const INITIAL_LEADS = [
         "km":  "272000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "No funciona el aire acondicionado.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57789,7 +57789,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-179",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  179,
         "nombre":  "Juan motta",
         "whatsapp":  "59892501065",
@@ -57826,7 +57826,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-178",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  178,
         "nombre":  "Maximiliano",
         "whatsapp":  "59893437576",
@@ -57854,7 +57854,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-177",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  177,
         "nombre":  "German araujo",
         "whatsapp":  "59809215140400000000000",
@@ -57864,8 +57864,8 @@ const INITIAL_LEADS = [
         "km":  "20094",
         "papeles":  "",
         "comentario":  "Baja de cubiertas , funsiona todo todo !!",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -57896,7 +57896,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-176",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  176,
         "nombre":  "",
         "whatsapp":  "",
@@ -57924,7 +57924,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-175",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  175,
         "nombre":  "Washington García",
         "whatsapp":  "59894882935",
@@ -57959,7 +57959,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-174",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  174,
         "nombre":  "Martin",
         "whatsapp":  "598988027270000000000",
@@ -57969,8 +57969,8 @@ const INITIAL_LEADS = [
         "km":  "106.000km",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1oF_1Ay8NeEeZOdBJGeuQHmhZeatB0oEa",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58006,7 +58006,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-173",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  173,
         "nombre":  "Alvaro",
         "whatsapp":  "59809857118100000000000",
@@ -58053,7 +58053,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-172",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  172,
         "nombre":  "Romina",
         "whatsapp":  "598983605810000000000",
@@ -58100,7 +58100,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-171",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  171,
         "nombre":  "Fernando",
         "whatsapp":  "598983089060000000000",
@@ -58110,8 +58110,8 @@ const INITIAL_LEADS = [
         "km":  "73500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Soy único dueño todos los servicios hechos en santa rosa toda de fábrica y SIN CHOQUES",
-        "tasacion":  115000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58128,7 +58128,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-170",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  170,
         "nombre":  "Facundo",
         "whatsapp":  "598973098010000000000",
@@ -58175,7 +58175,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-169",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  169,
         "nombre":  "Diego Chagas",
         "whatsapp":  "598981312540000000000",
@@ -58185,8 +58185,8 @@ const INITIAL_LEADS = [
         "km":  "48800",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Nada para hacerle, está igual a nuevo sin choques. 4 cubiertas MOMO nuevas. Servicios oficiales los 3 primeros",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58222,7 +58222,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-168",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  168,
         "nombre":  "Francisco Lucas",
         "whatsapp":  "598994722270000000000",
@@ -58269,7 +58269,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-167",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  167,
         "nombre":  "Matias",
         "whatsapp":  "598936200910000000000",
@@ -58279,8 +58279,8 @@ const INITIAL_LEADS = [
         "km":  "65000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Envié comentarios y fotos por WhatsApp",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58297,7 +58297,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-166",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  166,
         "nombre":  "Matias",
         "whatsapp":  "598973826060000000000",
@@ -58307,8 +58307,8 @@ const INITIAL_LEADS = [
         "km":  "205 mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1wdLk544P7Fvw0l0BbyO1Z3flRrSrv24x",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58344,7 +58344,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-165",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  165,
         "nombre":  "Edinson",
         "whatsapp":  "598929470690000000000",
@@ -58354,8 +58354,8 @@ const INITIAL_LEADS = [
         "km":  "230 mil aproximadamente",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta con el cambio de correa  echo   filtro no le funciona el aire x falta de gas. Ta con un pequeña perdida se ve x q se lo carga y dura un mes masomenos",
-        "tasacion":  27000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2700,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58376,7 +58376,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-164",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  164,
         "nombre":  "Juan",
         "whatsapp":  "598975036310000000000",
@@ -58386,8 +58386,8 @@ const INITIAL_LEADS = [
         "km":  "58000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Services no oficiales, demás todo en regla",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58418,7 +58418,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-163",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  163,
         "nombre":  "Gabriel",
         "whatsapp":  "59895607710000000000",
@@ -58428,8 +58428,8 @@ const INITIAL_LEADS = [
         "km":  "89000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto de mecánica está bien todo hecho en tiempo y forma y siempre cuidado, tiene algún detalle estético pero es normal nada grave, solo tiene los neumáticos desgastados pero todo funciona bien, solo quiero sacármelo de encima ya que no lo quiero más",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58465,7 +58465,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-162",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  162,
         "nombre":  "Deivi silveira",
         "whatsapp":  "598970657890000000000",
@@ -58475,8 +58475,8 @@ const INITIAL_LEADS = [
         "km":  "173 mil ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "No tiene choque neumáticos cambiados a un año",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58509,7 +58509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-161",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  161,
         "nombre":  "Gisel fernandez",
         "whatsapp":  "598945635040000000000",
@@ -58519,8 +58519,8 @@ const INITIAL_LEADS = [
         "km":  "171000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58537,7 +58537,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-160",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  160,
         "nombre":  "Melina Suárez",
         "whatsapp":  "598980272210000000000",
@@ -58584,7 +58584,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-159",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  159,
         "nombre":  "Silvia Silvera",
         "whatsapp":  "598958919130000000000",
@@ -58594,8 +58594,8 @@ const INITIAL_LEADS = [
         "km":  "27000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58612,7 +58612,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-158",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  158,
         "nombre":  "Juan",
         "whatsapp":  "598954716480000000000",
@@ -58649,7 +58649,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-157",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  157,
         "nombre":  "Carlos Crossa",
         "whatsapp":  "598918788350000000000",
@@ -58659,8 +58659,8 @@ const INITIAL_LEADS = [
         "km":  "154900",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Aire y Direccion\n✅1.6 con 154 900 km\n✅Al Día y a mi nombre, títulos y libretaa. Se va con transferencia.\n✅Distribución, alineación y tren delantero hecho hace 5mil km\n✅Sus cambios de aceite y filtros hechos en fecha (aceite Castrol)\n✅Llantas de aleación 15 símil golf gti, cubiertas a medio uso GT  Radial\n✅Radio Pioneer nueva\n✅Espirales progresivos\n❌Detalles de chapa y pintura a la vista.. \n❌Parabrisas con detalle.\n❌Levanta vidrio del lado del chófer para revisar",
-        "tasacion":  52000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58696,7 +58696,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-156",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  156,
         "nombre":  "Emiliano Branda",
         "whatsapp":  "598924296420000000000",
@@ -58706,8 +58706,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene el SERVICE con correas incluidas en mayo y tienen detalles en el paragoloes trasero y delantero",
-        "tasacion":  140000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58743,7 +58743,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-155",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  155,
         "nombre":  "Joel Ricca",
         "whatsapp":  "598926599070000000000",
@@ -58753,8 +58753,8 @@ const INITIAL_LEADS = [
         "km":  "236500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas, service al día, sin ningún tipo de problema, tuvo una repintada de puerta por un roce mínimo en el lateral sin deformación de carrocería, lo vendo porque voy a emigrar el año que viene sino me lo quedaba. Muchas gracias.",
-        "tasacion":  46000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4600,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58797,7 +58797,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-154",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  154,
         "nombre":  "Jonathan",
         "whatsapp":  "598923773890000000000",
@@ -58807,8 +58807,8 @@ const INITIAL_LEADS = [
         "km":  "148200",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Vehículo andando muy bien, muy cuidado, con algún detallesito estético a raíz de sus años y uso. El auto más full de las versiones de los Hyundai accent.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58844,7 +58844,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-153",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  153,
         "nombre":  "Macarena Suarez",
         "whatsapp":  "598958323960000000000",
@@ -58854,8 +58854,8 @@ const INITIAL_LEADS = [
         "km":  "148000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cómo se ve en unas de las fotos tiene una rotura por choque en el frente (cambié el radiador por eso) detalle en los focos, detalle en las puertas (marcas por mala maniobra). No funciona la radio, el marcador de combustible y el tablero indicador de los iconos. Los services hechos por mi padre mecánico. Neumáticos... 3 nuevos de hace dos meses.",
-        "tasacion":  38000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58898,7 +58898,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-152",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  152,
         "nombre":  "Raimundo",
         "whatsapp":  "59891079334",
@@ -58926,7 +58926,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-151",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  151,
         "nombre":  "Cinthia Acosta",
         "whatsapp":  "598917393880000000000",
@@ -58936,8 +58936,8 @@ const INITIAL_LEADS = [
         "km":  "96200",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "https://drive.google.com/open?id=17Xbjcckvr54yDS5n7ccrZqaiIXgLa6WE",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -58973,7 +58973,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-150",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  150,
         "nombre":  "Leandro Sosa",
         "whatsapp":  "598983617710000000000",
@@ -58983,8 +58983,8 @@ const INITIAL_LEADS = [
         "km":  "218000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Hace 2 semanas lo saque del taller, se le hizo distribución, aros pastillas de freno rulemanes de rueda y hace 7mil km aprox. Se le hizo un mantenimiento grande a la caja donde se le cambio filtro líquido y más, le anda el control crucero, techo todo sin problemas",
-        "tasacion":  42000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59020,7 +59020,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-149",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  149,
         "nombre":  "Sebastian Seoane",
         "whatsapp":  "598970840930000000000",
@@ -59030,8 +59030,8 @@ const INITIAL_LEADS = [
         "km":  "75000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "volante \" un poco descascarado\" en la fotos se ve,  también un toquecito en el frente se ve en fotos, el AC hace poco empezó a funcionar mal, hace un poco de ruido.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59067,7 +59067,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-148",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  148,
         "nombre":  "Leonardo",
         "whatsapp":  "598933052780000000000",
@@ -59077,8 +59077,8 @@ const INITIAL_LEADS = [
         "km":  "143000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Buenas! El auto lo compré hace un año. Tiene detalles en la pintura exterior, en el lado derecho del oaragoloe tiene detalle (foto exterior 3). Todos los dias le hace casi 60Km para ir a trabajar desde hace un año, más otras salidas y aún no ha pisado un mecánico. Debe patente del año actual, desgaste en los asientos delanteros. Y habría que hacerle el servicio de 10.000Km.",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59109,7 +59109,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-147",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  147,
         "nombre":  "Gonzalo",
         "whatsapp":  "59899190823",
@@ -59156,7 +59156,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-146",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  146,
         "nombre":  "Sebastian Conde",
         "whatsapp":  "59891664855",
@@ -59210,7 +59210,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-145",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  145,
         "nombre":  "Nicolas",
         "whatsapp":  "598959000090000000000",
@@ -59220,8 +59220,8 @@ const INITIAL_LEADS = [
         "km":  "98600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Se le agregó camara de reversa",
-        "tasacion":  85000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59257,7 +59257,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-144",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  144,
         "nombre":  "Pablo",
         "whatsapp":  "598962022130000000000",
@@ -59267,8 +59267,8 @@ const INITIAL_LEADS = [
         "km":  "248000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "En estado general está bien no le fuciona el vidrio trasero del lado chofer. Y detalles propios del año del veiculo",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59304,7 +59304,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-143",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  143,
         "nombre":  "Viviana",
         "whatsapp":  "59896602920000000000",
@@ -59351,7 +59351,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-142",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  142,
         "nombre":  "Danilo Bachin",
         "whatsapp":  "59898768530",
@@ -59398,7 +59398,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-141",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  141,
         "nombre":  "Gonzalo Martinoni",
         "whatsapp":  "598955311750000000000",
@@ -59445,7 +59445,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-140",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  140,
         "nombre":  "Hernan",
         "whatsapp":  "59809209485200000000000",
@@ -59455,8 +59455,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59471,7 +59471,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-139",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  139,
         "nombre":  "KATIANA Rodriguez 598094578471",
         "whatsapp":  "59809457847100000000000",
@@ -59481,8 +59481,8 @@ const INITIAL_LEADS = [
         "km":  "295000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1I9MUYjbFcc5jnpiwDnlqcg9fS6bGK0u9",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59513,7 +59513,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-138",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  138,
         "nombre":  "Andres Martinez",
         "whatsapp":  "598962430050000000000",
@@ -59523,8 +59523,8 @@ const INITIAL_LEADS = [
         "km":  "135000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "10500.0",
-        "tasacion":  105000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59560,7 +59560,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-137",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  137,
         "nombre":  "Pedro Guedes",
         "whatsapp":  "598985162020000000000",
@@ -59570,8 +59570,8 @@ const INITIAL_LEADS = [
         "km":  "320000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Todos los Service, usado solo en ciudad, funciona todo espectacular, único dueño,",
-        "tasacion":  200000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  20000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59588,7 +59588,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-136",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  136,
         "nombre":  "Lucas Carranza",
         "whatsapp":  "598982271520000000000",
@@ -59598,8 +59598,8 @@ const INITIAL_LEADS = [
         "km":  "131mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Quiero vender mi auto, xq quiero cambiar, gracias!!",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59635,7 +59635,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-135",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  135,
         "nombre":  "Gustavo",
         "whatsapp":  "59809499270900000000000",
@@ -59645,8 +59645,8 @@ const INITIAL_LEADS = [
         "km":  "170000",
         "papeles":  "",
         "comentario":  "Estéticamente no muy bien, excelente mecánica, quiero cambiarlo por q necesito camioneta familiar",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59663,7 +59663,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-134",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  134,
         "nombre":  "Nestor Fernández",
         "whatsapp":  "598995296750000000000",
@@ -59673,8 +59673,8 @@ const INITIAL_LEADS = [
         "km":  "65000km",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Esta impecable falta algo de chapa",
-        "tasacion":  13000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59710,7 +59710,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-133",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  133,
         "nombre":  "Cristian",
         "whatsapp":  "59891784520000000000",
@@ -59720,8 +59720,8 @@ const INITIAL_LEADS = [
         "km":  "120000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El auto tiene chapa nueva y libreta los títulos estan en la automotora xq nunca se levantaron pero estan para levantar por si los llega a necesitar me comunico con la automotora y los levanto",
-        "tasacion":  18000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59752,7 +59752,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-132",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  132,
         "nombre":  "Vanessa Sanchez",
         "whatsapp":  "598977985340000000000",
@@ -59762,8 +59762,8 @@ const INITIAL_LEADS = [
         "km":  "244526",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta al día, tiene batería nueva, alternador nuevo, correa y cambio de aceite recién echo",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59799,7 +59799,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-131",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  131,
         "nombre":  "Valeria",
         "whatsapp":  "598963456560000000000",
@@ -59809,8 +59809,8 @@ const INITIAL_LEADS = [
         "km":  "220000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estaba un poco sucia 🤦🏻‍♀️ pero en general está en buen estado y todos los papeles al día",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59846,7 +59846,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-130",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  130,
         "nombre":  "Pablo Carabatti",
         "whatsapp":  "59891630956",
@@ -59893,7 +59893,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-129",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  129,
         "nombre":  "Fernando Perera",
         "whatsapp":  "598961007170000000000",
@@ -59905,7 +59905,7 @@ const INITIAL_LEADS = [
         "comentario":  "Lo unico que le falta es el vidrio del acompañante",
         "tasacion":  0,
         "estado":  "Enviar WhatsApp",
-        "isPending":  true,
+        "isPending":  false,
         "isDiscarded":  true,
         "photos":  [
                        {
@@ -59930,7 +59930,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-128",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  128,
         "nombre":  "Damián",
         "whatsapp":  "598956507210000000000",
@@ -59940,8 +59940,8 @@ const INITIAL_LEADS = [
         "km":  "125000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas nuevas con 4 mil km, aceite y filtros recién cambiados, como extras alarma con bloqueo sensores estacionamiento, láminas de seguridad.",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -59984,7 +59984,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-127",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  127,
         "nombre":  "Enrique Garcia",
         "whatsapp":  "59896220395",
@@ -59994,8 +59994,8 @@ const INITIAL_LEADS = [
         "km":  "197",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Sin choques, neumaticos ok, service oficial hasta los 100,000 km",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60043,7 +60043,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-126",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  126,
         "nombre":  "Sebastian",
         "whatsapp":  "59899327970000000000",
@@ -60053,8 +60053,8 @@ const INITIAL_LEADS = [
         "km":  "196000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Se le hizo hace 2 semanas cambio de aceite, cambio de correa de distribución y embriague",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60071,7 +60071,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-124",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  124,
         "nombre":  "Valentín Quatrini",
         "whatsapp":  "598913835710000000000",
@@ -60081,8 +60081,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Anda perfecto, tiene algunos detalles pero mínimos. Nunca choques. Neumáticos nuevos.",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60120,7 +60120,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-123",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  123,
         "nombre":  "Nicolás Ocampo",
         "whatsapp":  "59894801384",
@@ -60157,7 +60157,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-122",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  122,
         "nombre":  "",
         "whatsapp":  "59894327692",
@@ -60167,8 +60167,8 @@ const INITIAL_LEADS = [
         "km":  "99000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1dpoPiVpEFiPSTgjGLzZgz66SY4F1vY5h",
-        "tasacion":  130000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60204,7 +60204,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-121",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  121,
         "nombre":  "Belén Velázquez",
         "whatsapp":  "598985564090000000000",
@@ -60214,8 +60214,8 @@ const INITIAL_LEADS = [
         "km":  "17600",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "service oficiales dos 2000 km y 10.000",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60258,7 +60258,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-120",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  120,
         "nombre":  "Gastón Soria",
         "whatsapp":  "598982731250000000000",
@@ -60268,8 +60268,8 @@ const INITIAL_LEADS = [
         "km":  "269039",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está entero anda perfecto",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60305,7 +60305,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-119",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  119,
         "nombre":  "Enrico pacello",
         "whatsapp":  "598919670360000000000",
@@ -60315,8 +60315,8 @@ const INITIAL_LEADS = [
         "km":  "220000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Volante algo gastado es el original.\nTapizadp e interior en buen estado, funciona todo.\nCubiertas a medio uso.\nA entera revision.",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60347,7 +60347,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-118",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  118,
         "nombre":  "Mauro Bueno",
         "whatsapp":  "59809267954300000000000",
@@ -60357,8 +60357,8 @@ const INITIAL_LEADS = [
         "km":  "132mil y algo ",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Vehículo en perfectas condiciones , únicamente embriague para hacer. Service en tiempo y forma, cuenta con Aire y calefacción , cubiertas nuevas , al día patente pago por todo 2025. Alzacristales en las 4 puertas , cuenta con airbag , cuenta con cristales polarizados hecho hace poco. Pedimos 5500 o podemos bajar a 5000mil dólares . Esperamos su repuesta saludos",
-        "tasacion":  42000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60401,7 +60401,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-117",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  117,
         "nombre":  "Sebastián peña",
         "whatsapp":  "598928017250000000000",
@@ -60411,8 +60411,8 @@ const INITIAL_LEADS = [
         "km":  "138000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene detalles estéticos,  ningún golpe que haya afectado la estructura ni que haya sido fuerte, sólo de los que marcaron los guardabarros. Le anda perfectamente todo.\nRuedas x3 nuevas y la otra en buen estado.  Batería nueva",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60455,7 +60455,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-116",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  116,
         "nombre":  "Belén Soto",
         "whatsapp":  "59894576570000000000",
@@ -60465,8 +60465,8 @@ const INITIAL_LEADS = [
         "km":  "112077",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todo realizado, le funciona todo y el único choque que tiene es el que se ve en la parte de atrás contra un arbol",
-        "tasacion":  110000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60509,7 +60509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-115",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  115,
         "nombre":  "Elias Milan",
         "whatsapp":  "598919209730000000000",
@@ -60519,8 +60519,8 @@ const INITIAL_LEADS = [
         "km":  "140000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "me chocaron una vez de atras y se cambi9 todo, los services son cada 10000km en RP taller, le voy a hcer un service antes de venderlo. Desde que lo compré nunca se dañó.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60556,7 +60556,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-114",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  114,
         "nombre":  "Maximiliano",
         "whatsapp":  "598913399450000000000",
@@ -60603,7 +60603,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-113",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  113,
         "nombre":  "Javier martinez",
         "whatsapp":  "598092821795",
@@ -60640,7 +60640,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-112",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  112,
         "nombre":  "Fran",
         "whatsapp":  "598998083680000000000",
@@ -60675,7 +60675,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-111",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  111,
         "nombre":  "Mauro Amorin",
         "whatsapp":  "598919665110000000000",
@@ -60729,7 +60729,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-110",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  110,
         "nombre":  "Marcela",
         "whatsapp":  "598918249920000000000",
@@ -60739,8 +60739,8 @@ const INITIAL_LEADS = [
         "km":  "66000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Soy única dueña, lo compré 0km. Los service están hechos en tiempo y forma. Nunca tuve que hacerle nada.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60776,7 +60776,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-109",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  109,
         "nombre":  "Sebastian",
         "whatsapp":  "598993285570000000000",
@@ -60820,7 +60820,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-108",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  108,
         "nombre":  "Rafael moreira",
         "whatsapp":  "598912240440000000000",
@@ -60867,7 +60867,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-107",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  107,
         "nombre":  "Esteban sosa",
         "whatsapp":  "598982388260000000000",
@@ -60914,7 +60914,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-106",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  106,
         "nombre":  "Juani",
         "whatsapp":  "59893322210000000000",
@@ -60924,8 +60924,8 @@ const INITIAL_LEADS = [
         "km":  "204000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Service recién hecho, ruedas nuevas, parlantes JBL nuevos atrás, totalmente inmaculado, es del 2001",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -60961,7 +60961,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-105",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  105,
         "nombre":  "Jonatan Ferreira",
         "whatsapp":  "598956861860000000000",
@@ -61008,7 +61008,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-104",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  104,
         "nombre":  "Cristian Silvera",
         "whatsapp":  "598925125250000000000",
@@ -61062,7 +61062,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-103",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  103,
         "nombre":  "Mariana",
         "whatsapp":  "598916073820000000000",
@@ -61072,8 +61072,8 @@ const INITIAL_LEADS = [
         "km":  "203000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61090,7 +61090,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-102",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  102,
         "nombre":  "Julio",
         "whatsapp":  "598944772270000000000",
@@ -61149,7 +61149,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-101",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  101,
         "nombre":  "Luciana Meny",
         "whatsapp":  "598981650050000000000",
@@ -61208,7 +61208,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-100",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  100,
         "nombre":  "Lucio Fleita",
         "whatsapp":  "598956394220000000000",
@@ -61255,7 +61255,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-99",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  99,
         "nombre":  "Valeria Benítez",
         "whatsapp":  "598992699920000000000",
@@ -61265,8 +61265,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene un choque reciente, el que fue reparado con una garantía de 3 años, según nos dijo el taller. Está al día,  es el único dueño mi esposo",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61299,7 +61299,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-98",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  98,
         "nombre":  "Marcelo Carro",
         "whatsapp":  "598991924530000000000",
@@ -61346,7 +61346,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-97",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  97,
         "nombre":  "Santiago Vaucher",
         "whatsapp":  "598956985490000000000",
@@ -61356,8 +61356,8 @@ const INITIAL_LEADS = [
         "km":  "168000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "títulos a mi nombre y totalmente al día.",
-        "tasacion":  53000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61388,7 +61388,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-96",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  96,
         "nombre":  "Emis marichal",
         "whatsapp":  "598935326370000000000",
@@ -61398,8 +61398,8 @@ const INITIAL_LEADS = [
         "km":  "435210",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Buen estado de cubiertas y en general le funciona todo,aire acondicionado,vidrios eléctricos y retrovisores,radio,alarma",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61435,7 +61435,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-95",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  95,
         "nombre":  "Florencia",
         "whatsapp":  "59898102560000000000",
@@ -61445,8 +61445,8 @@ const INITIAL_LEADS = [
         "km":  "94000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1cdnVNkkVmcqx_prNYRmJRKexv_M5COrs",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61482,7 +61482,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-94",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  94,
         "nombre":  "Johel Medina",
         "whatsapp":  "59898276893",
@@ -61536,7 +61536,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-93",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  93,
         "nombre":  "Fernando",
         "whatsapp":  "598993302770000000000",
@@ -61546,8 +61546,8 @@ const INITIAL_LEADS = [
         "km":  "27500",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficiales, último hecho esta semana. Estado impecable",
-        "tasacion":  145000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  14500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61590,7 +61590,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-92",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  92,
         "nombre":  "Nahuel Leal",
         "whatsapp":  "598945439230000000000",
@@ -61637,7 +61637,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-91",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  91,
         "nombre":  "Agustín",
         "whatsapp":  "598096025504",
@@ -61647,8 +61647,8 @@ const INITIAL_LEADS = [
         "km":  "196000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Cubiertas delanteras nuevas, traseras casinpor cambiar, no cuenta con service oficiales, luz de  airbag encendida",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61691,7 +61691,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-90",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  90,
         "nombre":  "Nicolás",
         "whatsapp":  "598991631680000000000",
@@ -61701,8 +61701,8 @@ const INITIAL_LEADS = [
         "km":  "360000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "2 cubiertas continental nuevas adelante y unas Giti que ya llegaron al testigo atrás pero están bien, la camioneta es full 2.8 diésel motor mwm.",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61738,7 +61738,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-89",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  89,
         "nombre":  "",
         "whatsapp":  "598995807640000000000",
@@ -61748,8 +61748,8 @@ const INITIAL_LEADS = [
         "km":  "9000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "La camioneta está nueva nueva para ver y comprobar de extras tiene luces les camineros , tratamiento cerámico dos años de garantía",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61766,7 +61766,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-88",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  88,
         "nombre":  "Nicolás Taliercho",
         "whatsapp":  "5989243910000000000",
@@ -61776,8 +61776,8 @@ const INITIAL_LEADS = [
         "km":  "227000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos nuevos , andando todo impecable y sus services echos cada 10 mil kilometros",
-        "tasacion":  72000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -61820,7 +61820,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-87",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  87,
         "nombre":  "Facundo espinosa",
         "whatsapp":  "59894106232",
@@ -61867,7 +61867,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-86",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  86,
         "nombre":  "Carlos",
         "whatsapp":  "59896924849",
@@ -61895,7 +61895,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-85",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  85,
         "nombre":  "Pedro Moreno",
         "whatsapp":  "59892294069",
@@ -61923,7 +61923,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-84",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  84,
         "nombre":  "Matías Aguilera",
         "whatsapp":  "91336020000000",
@@ -61970,7 +61970,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-83",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  83,
         "nombre":  "Federico",
         "whatsapp":  "598918860690000000000",
@@ -61980,8 +61980,8 @@ const INITIAL_LEADS = [
         "km":  "37000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Funciona todo cubiertas nuevas",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62014,7 +62014,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-82",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  82,
         "nombre":  "Leonardo",
         "whatsapp":  "59899349125",
@@ -62068,7 +62068,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-81",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  81,
         "nombre":  "Rodrigo Doti",
         "whatsapp":  "598928855970000000000",
@@ -62078,8 +62078,8 @@ const INITIAL_LEADS = [
         "km":  "85000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Choques no tiene, el estado de los neumáticos ya estarían para cambiarlo, servicié oficial no pero si estado mantenido por taller",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62117,7 +62117,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-80",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  80,
         "nombre":  "Marcelo de leon",
         "whatsapp":  "598912919450000000000",
@@ -62159,7 +62159,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-79",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  79,
         "nombre":  "Guzman",
         "whatsapp":  "59898507231",
@@ -62187,7 +62187,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-78",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  78,
         "nombre":  "Franco Santos",
         "whatsapp":  "598966120950000000000",
@@ -62234,7 +62234,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-77",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  77,
         "nombre":  "juan moreira",
         "whatsapp":  "59898546311",
@@ -62288,7 +62288,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-76",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  76,
         "nombre":  "Andres Borrelli",
         "whatsapp":  "5980940939004300000000000000",
@@ -62342,7 +62342,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-75",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  75,
         "nombre":  "Karina",
         "whatsapp":  "59892533290000000000",
@@ -62368,7 +62368,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-74",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  74,
         "nombre":  "Gerardo Duarte",
         "whatsapp":  "598998101840000000000",
@@ -62415,7 +62415,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-73",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  73,
         "nombre":  "Laura do santos",
         "whatsapp":  "59895332315",
@@ -62462,7 +62462,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-72",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  72,
         "nombre":  "Emanuel",
         "whatsapp":  "598997746740000000000",
@@ -62509,7 +62509,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-71",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  71,
         "nombre":  "Leandro",
         "whatsapp":  "598956077220000000000",
@@ -62563,7 +62563,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-70",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  70,
         "nombre":  "Ignacio",
         "whatsapp":  "598997946170000000000",
@@ -62622,7 +62622,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-69",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  69,
         "nombre":  "",
         "whatsapp":  "598933479390000000000",
@@ -62632,8 +62632,8 @@ const INITIAL_LEADS = [
         "km":  "283000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Se usa todos los días está impecable original",
-        "tasacion":  48000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62669,7 +62669,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-68",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  68,
         "nombre":  "Gabriel abreo",
         "whatsapp":  "59897180785",
@@ -62697,7 +62697,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-67",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  67,
         "nombre":  "Sofía",
         "whatsapp":  "59899372308",
@@ -62756,7 +62756,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-66",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  66,
         "nombre":  "Helder Martins",
         "whatsapp":  "598937704650000000000",
@@ -62766,8 +62766,8 @@ const INITIAL_LEADS = [
         "km":  "64500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene todos los services oficiales, el último se hizo en Mayo 2025. Neumáticos fueron cambiados a los 50mil kms, o sea actualmente sólo tienen 15kms de rodado. No ha tenido choques. Tiene 2 pequeños golpes en el parabrisas que fueron reparados para que no fuera a rajarse. Todos los vidrios son originales y se le hizo el AutoOK hace menos de una semana y está aprobado por 3 años.",
-        "tasacion":  150000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  15000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62810,7 +62810,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-65",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  65,
         "nombre":  "Lourdes Suárez",
         "whatsapp":  "598976888540000000000",
@@ -62838,7 +62838,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-64",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  64,
         "nombre":  "Fabian de Castro",
         "whatsapp":  "598964262220000000000",
@@ -62880,7 +62880,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-63",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  63,
         "nombre":  "",
         "whatsapp":  "598998514790000000000",
@@ -62890,8 +62890,8 @@ const INITIAL_LEADS = [
         "km":  "320140",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Neumáticos en buen estado cambio de filtro y aceite cada 5000 kilómetros te mando fotos por Whatsapp no me deja por aca",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62908,7 +62908,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-62",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  62,
         "nombre":  "Federico Nahuel gonzalez lopez",
         "whatsapp":  "59898186275",
@@ -62918,8 +62918,8 @@ const INITIAL_LEADS = [
         "km":  "277930",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "El titulo de la camioneta no esta a mi nombre \nLa libreta si esta a mi nombre\nLe hice el servis hace 3 mil km",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -62945,7 +62945,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-61",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  61,
         "nombre":  "Federico Blanco",
         "whatsapp":  "598910340810000000000",
@@ -62973,7 +62973,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-60",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  60,
         "nombre":  "Eliana machado",
         "whatsapp":  "598982279980000000000",
@@ -63020,7 +63020,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-59",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  59,
         "nombre":  "Debora sosa",
         "whatsapp":  "59892521540",
@@ -63067,7 +63067,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-58",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  58,
         "nombre":  "Martin",
         "whatsapp":  "598942285260000000000",
@@ -63077,8 +63077,8 @@ const INITIAL_LEADS = [
         "km":  "176000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Rotulas nuevas, homosineticas nuevas, pastillas de freno nuevas, cambio de aceite, cambio de filtros. Vidrios eléctricos delanteros. Aire acondicionado funcionando perfecto. Tranca para niños opcional en puertas de atrás para que solo abra desde el exterior. Tiene roces en chapa y pintura MINIMOS. Puedo mostrar más a detalle en fotos. Funcionando perfectamente",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63114,7 +63114,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-57",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  57,
         "nombre":  "Martín",
         "whatsapp":  "598944552430000000000",
@@ -63124,8 +63124,8 @@ const INITIAL_LEADS = [
         "km":  "66000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63142,7 +63142,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-56",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  56,
         "nombre":  "Alexander Mederos",
         "whatsapp":  "598928221250000000000",
@@ -63152,8 +63152,8 @@ const INITIAL_LEADS = [
         "km":  "188.500 aprox.",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Lo único que tiene de exterior es la rayadura que se ve en la foto, y el parabrisas delantero tiene un pequeño rayón. Después de mecánica no tiene nada para hacerle",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63191,7 +63191,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-55",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  55,
         "nombre":  "Mariana",
         "whatsapp":  "598920644460000000000",
@@ -63201,8 +63201,8 @@ const INITIAL_LEADS = [
         "km":  "309 mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El techo solar no anda, son las lingas. Tiene un pequeño detalle de pintura en el capo.\nEmbrague nuevo de mayo, cambio de cadena hace año y medio",
-        "tasacion":  65000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63228,7 +63228,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-54",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  54,
         "nombre":  "Verónica Demicheli",
         "whatsapp":  "598947135110000000000",
@@ -63238,8 +63238,8 @@ const INITIAL_LEADS = [
         "km":  "126000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Extra full, espejos eléctricos, alza cristales en todos los vidrios y cierre con la llave. Sin choques nunca. 2 dueños, uno 2 años y después yo.",
-        "tasacion":  45000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63272,7 +63272,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-53",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  53,
         "nombre":  "Natalia",
         "whatsapp":  "598990952230000000000",
@@ -63326,7 +63326,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-52",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  52,
         "nombre":  "Marcos Molina",
         "whatsapp":  "59891778743",
@@ -63380,7 +63380,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-51",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  51,
         "nombre":  "Marcos Fernández",
         "whatsapp":  "59892206852",
@@ -63427,7 +63427,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-50",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  50,
         "nombre":  "Leandro González",
         "whatsapp":  "59894503340000000000",
@@ -63474,7 +63474,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-49",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  49,
         "nombre":  "Andrea Bissio",
         "whatsapp":  "598914026650000000000",
@@ -63484,8 +63484,8 @@ const INITIAL_LEADS = [
         "km":  "240000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene algún detalle en carrocería y no tiene la palanca para abrir la valija desde el interior.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63521,7 +63521,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-48",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  48,
         "nombre":  "",
         "whatsapp":  "598950651550000000000",
@@ -63531,8 +63531,8 @@ const INITIAL_LEADS = [
         "km":  "163894",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Choque del lado del acompañante.",
-        "tasacion":  52000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5200,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63575,7 +63575,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-47",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  47,
         "nombre":  "Washington Aplanalp",
         "whatsapp":  "59891307112",
@@ -63585,8 +63585,8 @@ const INITIAL_LEADS = [
         "km":  "157mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Auto muy cudiado, con muchos extras que lo hacen único, tanto estéticos exterior como interior. Batería nueva 4 meses cubiertas nuevas 2 meses, tren delantero nuevo y amortiguadores.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63629,7 +63629,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-46",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  46,
         "nombre":  "Jordi González",
         "whatsapp":  "5989506172000000000",
@@ -63639,8 +63639,8 @@ const INITIAL_LEADS = [
         "km":  "164 mil ",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Tiene detalles en pintura (rayones y puntos) nada grave , un abollón chico en el guardabarros, que se puede notar en la foto, las llantas tienen rayones también, demás anda todo impecable. Service hecho a los 157 mil km",
-        "tasacion":  75000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63683,7 +63683,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-45",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  45,
         "nombre":  "Thiago Ceballos",
         "whatsapp":  "598910372580000000000",
@@ -63693,8 +63693,8 @@ const INITIAL_LEADS = [
         "km":  "72000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63711,7 +63711,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-44",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  44,
         "nombre":  "Pablo Echague",
         "whatsapp":  "598998331950000000000",
@@ -63721,8 +63721,8 @@ const INITIAL_LEADS = [
         "km":  "141000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Está bn d cubiertas tiene pantalla suspensión tebao regulables",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63758,7 +63758,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-43",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  43,
         "nombre":  "Guzman Perdomo",
         "whatsapp":  "598999508590000000000",
@@ -63768,8 +63768,8 @@ const INITIAL_LEADS = [
         "km":  "243500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1urfhH1erNbvKXWeiizZOOYFZ4768sjh1",
-        "tasacion":  43000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4300,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63805,7 +63805,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-42",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  42,
         "nombre":  "Gabriel Telis",
         "whatsapp":  "598915272530000000000",
@@ -63815,8 +63815,8 @@ const INITIAL_LEADS = [
         "km":  "144000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Estado general del auto impecable. Lo compre con 20000 kilómetros y los otros se los hice yo. Interiores originales y en perfecto estado. Llantas originales y en excelente estado. Chapa y pintura en excelente estado. Patente paga todo el año, alineado y balanceado recién, asi como el cambio de aceite hecho hace dos semanas. Pronto para que el que lo compre lo use sin inconvenientes.",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63859,7 +63859,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-41",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  41,
         "nombre":  "Cecilia",
         "whatsapp":  "59809960120300000000000",
@@ -63869,8 +63869,8 @@ const INITIAL_LEADS = [
         "km":  "100000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Mantenimiento al día .Detalles de chapa. Todo funcionando.",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63887,7 +63887,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-40",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  40,
         "nombre":  "Leonardo",
         "whatsapp":  "59893549350000000000",
@@ -63897,8 +63897,8 @@ const INITIAL_LEADS = [
         "km":  "133000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los servicios están todos al día y el vehículo se encuentra en perfectas condiciones en chapa y pintura.",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63934,7 +63934,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-39",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  39,
         "nombre":  "",
         "whatsapp":  "598989482780000000000",
@@ -63944,8 +63944,8 @@ const INITIAL_LEADS = [
         "km":  "133mil",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Impecable estado. Super cómodo",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -63978,7 +63978,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-38",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  38,
         "nombre":  "Mathias Justo",
         "whatsapp":  "598914988520000000000",
@@ -63988,8 +63988,8 @@ const INITIAL_LEADS = [
         "km":  "55597",
         "papeles":  "",
         "comentario":  "Tiene detalles estéticos para hacerle en el exterior, luces traseras, y carrocería zona baja adentro y atrás, su arreglo ronda $6000",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64020,7 +64020,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-37",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  37,
         "nombre":  "Jorge",
         "whatsapp":  "598910638770000000000",
@@ -64030,8 +64030,8 @@ const INITIAL_LEADS = [
         "km":  "55 700",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  118000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  11800,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64048,7 +64048,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-36",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  36,
         "nombre":  "Carlos",
         "whatsapp":  "598988302370000000000",
@@ -64097,7 +64097,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-35",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  35,
         "nombre":  "Zully Gesualdi",
         "whatsapp":  "598997865520000000000",
@@ -64107,8 +64107,8 @@ const INITIAL_LEADS = [
         "km":  "155000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Los títulos no están a mi nombre, tengo carta poder del titular.",
-        "tasacion":  35000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64144,7 +64144,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-34",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  34,
         "nombre":  "Richard",
         "whatsapp":  "598984237130000000000",
@@ -64154,8 +64154,8 @@ const INITIAL_LEADS = [
         "km":  "140900",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Neumáticos 1/2 usos , auxiliar nueva ,radiador nuevo , se le cambio parte del tren delantero x ej punteros y orquilla , embrague nuevo , escape nuevo , tiene aire acondicionado,  le anda todo .\n\nPara hacerle seria , cambiar ruleman de caja cambio , desde que la tengo anda así,  se le escucha un pequeño sumbido en los cambios más bajo , en ruta cuando le aflojas el pie en 5ta \" no siempre \" se sale el cambio , las luces no alumbran mucho en corta , el parabrisas está astillado no molesta para manejar , la puerta de atrás tiene unos golpes del antiguo dueño , pero funciona perfecto. \n\nLa usamos todos los días,  jamás e tenido problemas,  más que nada mantenimiento,  nosotros somos 5 y vamos seguido a montevideo,  la vendo para comprar un vehículo más cómodo y familiar. \nDesde ya muchas gracias",
-        "tasacion":  25000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64191,7 +64191,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-33",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  33,
         "nombre":  "Valeria tambasco",
         "whatsapp":  "598917300210000000000",
@@ -64201,8 +64201,8 @@ const INITIAL_LEADS = [
         "km":  "130000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Espejo roto, asientos gastados ,",
-        "tasacion":  15000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  1500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64238,7 +64238,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-32",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  32,
         "nombre":  "Camila Robaina",
         "whatsapp":  "598987647330000000000",
@@ -64248,8 +64248,8 @@ const INITIAL_LEADS = [
         "km":  "27000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Choque en lateral derecho. Todos los services oficiales",
-        "tasacion":  135000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  13500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64292,7 +64292,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-31",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  31,
         "nombre":  "Blanca",
         "whatsapp":  "59895220809",
@@ -64302,8 +64302,8 @@ const INITIAL_LEADS = [
         "km":  "106000",
         "papeles":  "",
         "comentario":  "Service echo hace 1 mes mas o menos y la propiedad está a nombre de mi esposo q falleció hace 2 meses",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64324,7 +64324,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-30",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  30,
         "nombre":  "Alfredo Dominguez",
         "whatsapp":  "598938155810000000000",
@@ -64334,8 +64334,8 @@ const INITIAL_LEADS = [
         "km":  "",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Esta andando , nunca choco tiene todo original",
-        "tasacion":  20000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  2000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64366,7 +64366,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-29",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  29,
         "nombre":  "Victoria",
         "whatsapp":  "598928469130000000000",
@@ -64376,8 +64376,8 @@ const INITIAL_LEADS = [
         "km":  "11500",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Tiene láminas de protección en los vidrios , patente todo el año paga, servís oficial realizado a los 10.000km como nuevo",
-        "tasacion":  180000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  18000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64415,7 +64415,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-28",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  28,
         "nombre":  "",
         "whatsapp":  "59809556832400000000000",
@@ -64443,7 +64443,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-27",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  27,
         "nombre":  "Joaquin Bentos",
         "whatsapp":  "59892447537",
@@ -64453,8 +64453,8 @@ const INITIAL_LEADS = [
         "km":  "200000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1TMl_JkYHZWcCH8LKCDGecpFfuXIHDORK",
-        "tasacion":  55000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5500,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64490,7 +64490,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-26",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  26,
         "nombre":  "Marcos",
         "whatsapp":  "598987530020000000000",
@@ -64537,7 +64537,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-25",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  25,
         "nombre":  "Ailin",
         "whatsapp":  "598921664550000000000",
@@ -64584,7 +64584,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-24",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  24,
         "nombre":  "Diego Rodríguez",
         "whatsapp":  "59899147177",
@@ -64631,7 +64631,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-23",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  23,
         "nombre":  "Florencia",
         "whatsapp":  "598917759110000000000",
@@ -64673,7 +64673,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-22",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  22,
         "nombre":  "Micaela",
         "whatsapp":  "598991898110000000000",
@@ -64720,7 +64720,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-21",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  21,
         "nombre":  "Santiago Falconara",
         "whatsapp":  "59893431252",
@@ -64767,7 +64767,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-20",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  20,
         "nombre":  "Nicolas",
         "whatsapp":  "598987913290000000000",
@@ -64777,8 +64777,8 @@ const INITIAL_LEADS = [
         "km":  "185000",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Le funciona todo , aire congela , cubiertas nuevas poco uso , servis echos en fecha",
-        "tasacion":  60000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  6000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64804,7 +64804,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-19",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  19,
         "nombre":  "Joaquín",
         "whatsapp":  "598983395180000000000",
@@ -64814,8 +64814,8 @@ const INITIAL_LEADS = [
         "km":  "142000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Pastillas de freno nuevas y suspensiones",
-        "tasacion":  90000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  9000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64846,7 +64846,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-18",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  18,
         "nombre":  "Lucas Soria",
         "whatsapp":  "598981506740000000000",
@@ -64856,8 +64856,8 @@ const INITIAL_LEADS = [
         "km":  "134700",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficial, neumáticos traseros 10mil km, delanteros un poco más, service oficial, sin choques ni repintado, todo totalmente original de fábrica, vidrios originales. Impecable estado.",
-        "tasacion":  120000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  12000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64905,7 +64905,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-17",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  17,
         "nombre":  "Rodrigo",
         "whatsapp":  "598980684540000000000",
@@ -64915,8 +64915,8 @@ const INITIAL_LEADS = [
         "km":  "240000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1zf3C31s6L0GokBpSAAuFiR2pOLv5kQzU",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -64952,7 +64952,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-16",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  16,
         "nombre":  "Ruben Rodríguez",
         "whatsapp":  "59899230810000000000",
@@ -64962,8 +64962,8 @@ const INITIAL_LEADS = [
         "km":  "114400",
         "papeles":  "Esta sin titulos, la libreta esta a mi nombre",
         "comentario":  "Service oficiales mientras estuvo en garantía, posteriormente se hicieron todos los mantenimientos cada 10.000 kms y acorde a manual lo que correspondía con mecánico de confianza. Lo tengo hace 6 años ningún choque importante. Si toques que fueron reparados en su momento con todo original. Está muy bien el auto. Vendo por comprar un cero km.",
-        "tasacion":  160000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  16000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65006,7 +65006,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-15",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  15,
         "nombre":  "Melina",
         "whatsapp":  "59894958116",
@@ -65053,7 +65053,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-14",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  14,
         "nombre":  "",
         "whatsapp":  "598997893170000000000",
@@ -65063,8 +65063,8 @@ const INITIAL_LEADS = [
         "km":  "115000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto está perfecto cubiertas con 10000km\nService cada 10000kms\nCamara retroceso \nCubreasientos \nTiene detalles de uso normal",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65081,7 +65081,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-13",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  13,
         "nombre":  "Geronimo Acosta",
         "whatsapp":  "598998538480000000000",
@@ -65128,7 +65128,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-12",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  12,
         "nombre":  "Isabel perez",
         "whatsapp":  "59809644320300000000000",
@@ -65175,7 +65175,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-11",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  11,
         "nombre":  "Antonio",
         "whatsapp":  "59894265846",
@@ -65222,7 +65222,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-10",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  10,
         "nombre":  "Natalia",
         "whatsapp":  "598990952230000000000",
@@ -65276,7 +65276,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-9",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  9,
         "nombre":  "Joseph",
         "whatsapp":  "59892951950000000000",
@@ -65286,8 +65286,8 @@ const INITIAL_LEADS = [
         "km":  "161000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "El auto funciona impecable, tiene el detalle en el asiento y el tapizado del techo desde el lado del chofer se empezó a despegar pero nada grave aún \nTiene service hasta 150000",
-        "tasacion":  50000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  5000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65325,7 +65325,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-8",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  8,
         "nombre":  "Jessica",
         "whatsapp":  "598989303620000000000",
@@ -65335,8 +65335,8 @@ const INITIAL_LEADS = [
         "km":  "127000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "https://drive.google.com/open?id=1c1kKj-unnyv-Yy2y7lzumajTTuu5wne2",
-        "tasacion":  80000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  8000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65367,7 +65367,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-7",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  7,
         "nombre":  "Jktest",
         "whatsapp":  "598938530920000000000",
@@ -65393,7 +65393,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-6",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  6,
         "nombre":  "Tony",
         "whatsapp":  "598964597710000000000",
@@ -65457,7 +65457,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-5",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  5,
         "nombre":  "Matías gonzalez",
         "whatsapp":  "598982882250000000000",
@@ -65467,8 +65467,8 @@ const INITIAL_LEADS = [
         "km":  "228500kmt ",
         "papeles":  "",
         "comentario":  "El auto tiene títulos pero no están a mi nombre hay carta de poder en la escribana a nombre del muchacho que me lo vendió y está aca en mi ciudad",
-        "tasacion":  30000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  3000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65485,7 +65485,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-4",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  4,
         "nombre":  "Diego test",
         "whatsapp":  "598938530920000000000",
@@ -65495,8 +65495,8 @@ const INITIAL_LEADS = [
         "km":  "80000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Nada",
-        "tasacion":  70000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  7000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65513,7 +65513,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-3",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  3,
         "nombre":  "Test 2",
         "whatsapp":  "598938530920000000000",
@@ -65523,8 +65523,8 @@ const INITIAL_LEADS = [
         "km":  "100000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "",
-        "tasacion":  40000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  4000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [
@@ -65541,7 +65541,7 @@ const INITIAL_LEADS = [
     {
         "id":  "CF-2",
         "campaign":  "CF",
-        "campaignName":  "Tasación Con Fotos",
+        "campaignName":  "Tasacion Con Fotos",
         "row":  2,
         "nombre":  "Jona",
         "whatsapp":  "598938530920000000000",
@@ -65551,8 +65551,8 @@ const INITIAL_LEADS = [
         "km":  "150000",
         "papeles":  "tiene titulos a mi nombre",
         "comentario":  "Probando",
-        "tasacion":  100000,
-        "estado":  "Enviar WhatsApp",
+        "tasacion":  10000,
+        "estado":  "TASADO",
         "isPending":  false,
         "isDiscarded":  false,
         "photos":  [

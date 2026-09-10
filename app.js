@@ -23,9 +23,9 @@ let appConfig = {
 
 let allLeads = [];
 let filteredLeads = [];
-let activeFilter = 'fotos'; // 'fotos', 'pendientes', 'tasados', 'descartar', 'todos'
+let activeFilter = 'todos'; // 'todos' (orden de llegada), 'pendientes', 'tasados', 'fotos', 'descartar'
 let activeCampaign = 'all';
-let currentSort = 'newest_first';  // Hoy primero por orden de ingreso
+let currentSort = 'newest_first';  // Hoy primero por orden de ingreso estricto
 let pageSize = 30;
 let currentlyRendered = 0;
 let activeModalLead = null;
@@ -193,19 +193,10 @@ function setCampaignFilter(camp) {
 function sortAndFilter() {
   allLeads.sort((a, b) => {
     if (currentSort === 'newest_first') {
-      const dateA = a.rawDate || a.fecha || '';
-      const dateB = b.rawDate || b.fecha || '';
-      if (dateA && dateB && dateA !== dateB) {
-        return dateB.localeCompare(dateA);
-      }
-      return (b.row || 0) - (a.row || 0);
+      // Orden de llegada estricto: la fila más alta de Google Sheets es la más reciente
+      return (parseInt(b.row, 10) || 0) - (parseInt(a.row, 10) || 0);
     } else if (currentSort === 'oldest_first') {
-      const dateA = a.rawDate || a.fecha || '';
-      const dateB = b.rawDate || b.fecha || '';
-      if (dateA && dateB && dateA !== dateB) {
-        return dateA.localeCompare(dateB);
-      }
-      return (a.row || 0) - (b.row || 0);
+      return (parseInt(a.row, 10) || 0) - (parseInt(b.row, 10) || 0);
     } else if (currentSort === 'km_lowest') {
       const kmA = parseInt(a.km, 10) || 999999;
       const kmB = parseInt(b.km, 10) || 999999;
@@ -231,7 +222,7 @@ function updateGlobalCounters() {
   allLeads.forEach(l => {
     const isDesc = (l.isDiscarded || (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular'))));
     const isFoto = (l.photos && l.photos.length > 0) || (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
-    const isTas = (l.tasacion && l.tasacion > 0);
+    const isTas = (l.tasacion && l.tasacion > 0) || (l.estado && String(l.estado).toUpperCase() === 'TASADO');
 
     if (isDesc) countDescartar++;
     else if (isTas) countTasados++;
@@ -240,17 +231,22 @@ function updateGlobalCounters() {
     if (isFoto) countFotos++;
   });
 
-  document.getElementById("counterPendientes").innerText = countPendientes;
-  document.getElementById("counterTasados").innerText = countTasados;
-  document.getElementById("counterFotos").innerText = countFotos;
-  document.getElementById("counterDescartados").innerText = countDescartar;
-  document.getElementById("counterTotal").innerText = allLeads.length;
+  const setTxt = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = val;
+  };
 
-  document.getElementById("tabCountPendientes").innerText = countPendientes;
-  document.getElementById("tabCountTasados").innerText = countTasados;
-  document.getElementById("tabCountFotos").innerText = countFotos;
-  document.getElementById("tabCountDescartar").innerText = countDescartar;
-  document.getElementById("tabCountTodos").innerText = allLeads.length;
+  setTxt("counterPendientes", countPendientes);
+  setTxt("counterTasados", countTasados);
+  setTxt("counterFotos", countFotos);
+  setTxt("counterDescartados", countDescartar);
+  setTxt("counterTotal", allLeads.length);
+
+  setTxt("tabCountPendientes", countPendientes);
+  setTxt("tabCountTasados", countTasados);
+  setTxt("tabCountFotos", countFotos);
+  setTxt("tabCountDescartar", countDescartar);
+  setTxt("tabCountTodos", allLeads.length);
 }
 
 function setFilter(filterType) {
@@ -268,7 +264,8 @@ function setFilter(filterType) {
 }
 
 function applyFilters() {
-  const q = (document.getElementById("searchInput").value || "").toLowerCase().trim();
+  const searchEl = document.getElementById("searchInput");
+  const q = (searchEl ? searchEl.value : "").toLowerCase().trim();
 
   filteredLeads = allLeads.filter(l => {
     // Campaign filter
@@ -278,7 +275,7 @@ function applyFilters() {
 
     const isDesc = (l.isDiscarded || (l.papeles && (l.papeles.includes('No esta a mi nombre') || l.papeles.includes('No conozco al titular'))));
     const isFoto = (l.photos && l.photos.length > 0) || (l.estado && (l.estado.includes('FOTO') || l.estado.includes('fotos')));
-    const isTas = (l.tasacion && l.tasacion > 0);
+    const isTas = (l.tasacion && l.tasacion > 0) || (l.estado && String(l.estado).toUpperCase() === 'TASADO');
     const isPend = !isDesc && !isTas;
 
     if (activeFilter === 'pendientes' && !isPend) return false;
@@ -467,7 +464,8 @@ function createLeadCardHtml(lead) {
     `;
   }
 
-  const kmDisplay = lead.km ? `${Number(lead.km).toLocaleString('es-UY')} km` : 'S/D';
+  const isTasado = (lead.tasacion && lead.tasacion > 0) || (lead.estado && String(lead.estado).toUpperCase() === 'TASADO');
+  const formattedMonto = isTasado && lead.tasacion ? Number(lead.tasacion).toLocaleString('es-UY') : (lead.tasacion || '0');
   const tasacionVal = lead.tasacion && lead.tasacion > 0 ? lead.tasacion : '';
   const estadoVal = lead.estado || '';
 
@@ -476,13 +474,13 @@ function createLeadCardHtml(lead) {
   const age = Math.max(0, currentYear - carYear);
 
   return `
-    <div id="lead-card-${leadKey}" class="lead-card bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-3 sm:space-y-4">
+    <div id="lead-card-${leadKey}" class="lead-card bg-white rounded-2xl ${isTasado ? 'border-2 border-emerald-500/80 bg-emerald-50/10 ring-1 ring-emerald-500/20' : 'border border-slate-200'} p-4 sm:p-5 shadow-sm space-y-3 sm:space-y-4 transition-all">
       
       <!-- Encabezado Móvil y Desktop -->
-      <div class="flex items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
+      <div class="flex items-center justify-between gap-2 pb-2.5 border-b ${isTasado ? 'border-emerald-200' : 'border-slate-100'}">
         <div class="flex items-center space-x-2.5">
-          <div class="w-9 h-9 rounded-xl bg-[#EFF2EE] text-[#2D3E46] border border-[#DFE5DD] flex items-center justify-center font-bold font-serif text-base shrink-0">
-            ${(lead.nombre || 'C').charAt(0).toUpperCase()}
+          <div class="w-9 h-9 rounded-xl ${isTasado ? 'bg-emerald-600 text-white shadow-sm' : 'bg-[#EFF2EE] text-[#2D3E46] border border-[#DFE5DD]'} flex items-center justify-center font-bold font-serif text-base shrink-0">
+            ${isTasado ? '✓' : (lead.nombre || 'C').charAt(0).toUpperCase()}
           </div>
           <div>
             <div class="flex items-center space-x-1.5 flex-wrap">
@@ -490,11 +488,23 @@ function createLeadCardHtml(lead) {
               <span class="text-[9px] bg-slate-100 text-slate-600 font-bold px-1.5 py-0.5 rounded border border-slate-200">
                 #${lead.row}
               </span>
+              ${isTasado ? `
+                <span class="inline-flex items-center gap-1 text-[11px] font-black bg-emerald-600 text-white px-2.5 py-0.5 rounded-full shadow-sm">
+                  ✓ TASADO • USD $${formattedMonto}
+                </span>
+                <span class="text-[9px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.5 rounded border border-emerald-300">
+                  📁 Archivo Cerrado
+                </span>
+              ` : `
+                <span class="inline-flex items-center gap-1 text-[11px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded-full">
+                  ⏳ Por Tasar
+                </span>
+              `}
               ${lead.campaign === 'CF' ? `
                 <span class="text-[9px] bg-purple-100 text-purple-800 font-bold px-1.5 py-0.5 rounded border border-purple-200">
                   📸 Con Fotos
                 </span>` : ''}
-              ${estadoVal ? `<span class="text-[9px] bg-blue-100 text-blue-800 font-black px-1.5 py-0.5 rounded border border-blue-200 uppercase">${escapeHtml(estadoVal)}</span>` : ''}
+              ${estadoVal && estadoVal !== 'TASADO' ? `<span class="text-[9px] bg-blue-100 text-blue-800 font-black px-1.5 py-0.5 rounded border border-blue-200 uppercase">${escapeHtml(estadoVal)}</span>` : ''}
             </div>
             <p class="text-[10px] text-slate-500 flex items-center gap-1">
               <span>🕒 ${lead.fecha || 'Reciente'}</span>
@@ -568,51 +578,170 @@ function createLeadCardHtml(lead) {
         </div>
       </div>
 
-      <!-- Caja de Tasación Rápida -->
-      <div class="bg-[#EFF2EE] border border-[#DFE5DD] rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
-        
-        <div class="flex items-center gap-2">
-          <div class="relative rounded-xl shadow-sm flex-1 sm:flex-none">
-            <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-xs font-black text-slate-600">$</span>
-            <input 
-              type="number" 
-              id="tasacionInput-${leadKey}" 
-              value="${tasacionVal}" 
-              placeholder="Monto USD" 
-              class="w-full sm:w-36 pl-7 pr-2 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"
-            >
-          </div>
-
-          <div class="flex items-center gap-1">
-            <button onclick="quickAdjustTasacion('${leadKey}', -500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">-500</button>
-            <button onclick="quickAdjustTasacion('${leadKey}', 500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+500</button>
-            <button onclick="quickAdjustTasacion('${leadKey}', 1000)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+1k</button>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-2">
-          <button 
-            onclick="saveLeadTasacion('${leadKey}', false)" 
-            class="flex-1 sm:flex-none px-3.5 py-2.5 bg-white border border-[#2D3E46] text-[#2D3E46] hover:bg-slate-50 rounded-xl text-xs font-bold transition-all shadow-sm touch-target text-center"
-          >
-            💾 Guardar
-          </button>
+      <!-- SECCIÓN DE TASACIÓN: ESTADO CERRADO SI YA ESTÁ TASADO O CAJA ABIERTA SI ESTÁ PENDIENTE -->
+      ${isTasado ? `
+        <!-- ESTADO CERRADO / TASADO (con cartelito y opción a re-editar) -->
+        <div id="tasacionClosedBox-${leadKey}" class="bg-gradient-to-r from-emerald-50 via-teal-50/40 to-emerald-50 border-2 border-emerald-400 rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-sm">
           
-          <button 
-            onclick="saveLeadTasacion('${leadKey}', true)" 
-            class="flex-2 sm:flex-none px-4 py-2.5 bg-[#C0392B] hover:bg-[#A93226] text-white rounded-xl text-xs font-black transition-all shadow hover:shadow-md flex items-center justify-center gap-1.5 touch-target text-center"
-          >
-            <span>🚀 Tasar y WhatsApp</span>
-          </button>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-lg shadow-sm shrink-0">
+              ✓
+            </div>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider text-emerald-950 bg-emerald-200/90 border border-emerald-300 px-2 py-0.5 rounded-md">
+                  <span>🏷️</span> CARTELITO: TASADO
+                </span>
+                <span class="text-[10px] font-bold text-emerald-800 bg-emerald-100 px-1.5 py-0.5 rounded border border-emerald-200">
+                  📁 Archivo Cerrado
+                </span>
+                <span class="text-[11px] font-semibold text-slate-500">
+                  Fila #${lead.row}
+                </span>
+              </div>
+              <p class="text-lg sm:text-xl font-black text-emerald-950 font-serif mt-0.5">
+                USD $${formattedMonto}
+                <span class="text-xs font-semibold text-emerald-700 ml-1">contado en mano</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2 shrink-0">
+            <button 
+              onclick="openWhatsAppModal('${leadKey}', 'oferta')" 
+              class="flex-1 sm:flex-none px-3.5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all touch-target"
+            >
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              <span>💬 Ver WhatsApp</span>
+            </button>
+
+            <button 
+              onclick="toggleEditTasacion('${leadKey}')" 
+              class="flex-1 sm:flex-none px-3.5 py-2.5 bg-white border-2 border-emerald-500 text-emerald-900 hover:bg-emerald-100 text-xs font-bold rounded-xl flex items-center justify-center gap-1.5 shadow-sm transition-all touch-target"
+              title="Volver a editar monto"
+            >
+              <span>✏️ Editar</span>
+            </button>
+          </div>
+
         </div>
 
-      </div>
+        <!-- Panel de Edición para Modificar Tasación (Oculto mientras el archivo está cerrado) -->
+        <div id="tasacionEditBox-${leadKey}" class="hidden bg-[#EFF2EE] border-2 border-[#2D3E46] rounded-xl p-3 sm:p-4 space-y-3">
+          <div class="flex items-center justify-between border-b border-slate-200 pb-2">
+            <span class="text-xs font-black text-[#1E2B31] flex items-center gap-1.5">
+              <span>✏️</span>
+              <span>Modificar Valor de Tasación:</span>
+            </span>
+            <button onclick="toggleEditTasacion('${leadKey}')" class="text-xs font-bold text-slate-500 hover:text-slate-800">
+              ✖ Cancelar edición
+            </button>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <div class="relative rounded-xl shadow-sm flex-1 sm:flex-none">
+                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-xs font-black text-slate-600">$</span>
+                <input 
+                  type="number" 
+                  id="tasacionInput-${leadKey}" 
+                  value="${tasacionVal}" 
+                  placeholder="Monto USD" 
+                  class="w-full sm:w-36 pl-7 pr-2 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"
+                >
+              </div>
+
+              <div class="flex items-center gap-1">
+                <button onclick="quickAdjustTasacion('${leadKey}', -500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">-500</button>
+                <button onclick="quickAdjustTasacion('${leadKey}', 500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+500</button>
+                <button onclick="quickAdjustTasacion('${leadKey}', 1000)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+1k</button>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button 
+                onclick="saveLeadTasacion('${leadKey}', false)" 
+                class="flex-1 sm:flex-none px-3.5 py-2.5 bg-white border border-[#2D3E46] text-[#2D3E46] hover:bg-slate-50 rounded-xl text-xs font-bold transition-all shadow-sm touch-target text-center"
+              >
+                💾 Guardar Cambios
+              </button>
+              
+              <button 
+                onclick="saveLeadTasacion('${leadKey}', true)" 
+                class="flex-2 sm:flex-none px-4 py-2.5 bg-[#C0392B] hover:bg-[#A93226] text-white rounded-xl text-xs font-black transition-all shadow hover:shadow-md flex items-center justify-center gap-1.5 touch-target text-center"
+              >
+                <span>🚀 Guardar y WSP</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      ` : `
+        <!-- Caja de Tasación Abierta para Tasar por primera vez -->
+        <div id="tasacionOpenBox-${leadKey}" class="bg-[#EFF2EE] border border-[#DFE5DD] rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+          
+          <div class="flex items-center gap-2">
+            <div class="relative rounded-xl shadow-sm flex-1 sm:flex-none">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-xs font-black text-slate-600">$</span>
+              <input 
+                type="number" 
+                id="tasacionInput-${leadKey}" 
+                value="${tasacionVal}" 
+                placeholder="Monto USD" 
+                class="w-full sm:w-36 pl-7 pr-2 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black text-[#1E2B31] focus:ring-2 focus:ring-[#2D3E46] focus:outline-none"
+              >
+            </div>
+
+            <div class="flex items-center gap-1">
+              <button onclick="quickAdjustTasacion('${leadKey}', -500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">-500</button>
+              <button onclick="quickAdjustTasacion('${leadKey}', 500)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+500</button>
+              <button onclick="quickAdjustTasacion('${leadKey}', 1000)" class="px-2 py-2 bg-white border border-slate-300 hover:bg-slate-100 text-xs font-bold rounded-lg text-slate-700 touch-target">+1k</button>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button 
+              onclick="saveLeadTasacion('${leadKey}', false)" 
+              class="flex-1 sm:flex-none px-3.5 py-2.5 bg-white border border-[#2D3E46] text-[#2D3E46] hover:bg-slate-50 rounded-xl text-xs font-bold transition-all shadow-sm touch-target text-center"
+            >
+              💾 Guardar
+            </button>
+            
+            <button 
+              onclick="saveLeadTasacion('${leadKey}', true)" 
+              class="flex-2 sm:flex-none px-4 py-2.5 bg-[#C0392B] hover:bg-[#A93226] text-white rounded-xl text-xs font-black transition-all shadow hover:shadow-md flex items-center justify-center gap-1.5 touch-target text-center"
+            >
+              <span>🚀 Tasar y WhatsApp</span>
+            </button>
+          </div>
+
+        </div>
+      `}
 
     </div>
   `;
 }
 
 // ================= ACCIONES DE TASACIÓN =================
+function toggleEditTasacion(leadKey) {
+  const closedBox = document.getElementById(`tasacionClosedBox-${leadKey}`);
+  const editBox = document.getElementById(`tasacionEditBox-${leadKey}`);
+  if (closedBox && editBox) {
+    const isCurrentlyEditing = !editBox.classList.contains('hidden');
+    if (isCurrentlyEditing) {
+      editBox.classList.add('hidden');
+      closedBox.classList.remove('hidden');
+    } else {
+      closedBox.classList.add('hidden');
+      editBox.classList.remove('hidden');
+      const input = document.getElementById(`tasacionInput-${leadKey}`);
+      if (input) {
+        input.focus();
+        input.select();
+      }
+    }
+  }
+}
+
 function quickAdjustTasacion(leadKey, amount) {
   const input = document.getElementById(`tasacionInput-${leadKey}`);
   if (!input) return;
@@ -623,10 +752,10 @@ function quickAdjustTasacion(leadKey, amount) {
 
 function saveLeadTasacion(leadKey, openWspAfter) {
   const input = document.getElementById(`tasacionInput-${leadKey}`);
-  const val = parseFloat(input.value) || 0;
+  const val = parseFloat(input ? input.value : 0) || 0;
   if (val <= 0) {
     showToast("⚠️ Atención", "Ingresá un valor mayor a 0 para tasar el auto.");
-    input.focus();
+    if (input) input.focus();
     return;
   }
 
@@ -641,12 +770,21 @@ function saveLeadTasacion(leadKey, openWspAfter) {
   saveOverrideLocal(leadKey, val, 'TASADO');
 
   // Si hay Webhook conectado a Google Sheets, sincronizar en vivo
-  if (appConfig.webhookUrl) {
+  if (appConfig.webhookUrl && lead) {
     postTasacionToWebhook(lead.row, val, 'TASADO');
   }
 
-  showToast("✓ Tasación Guardada", `USD ${val.toLocaleString('es-UY')} registrada por ${appConfig.activeOperator}`);
+  showToast("✓ Tasación Guardada", `USD ${val.toLocaleString('es-UY')} registrada como TASADO (Archivo Cerrado)`);
   updateGlobalCounters();
+
+  if (activeFilter === 'pendientes') {
+    applyFilters();
+  } else {
+    const cardEl = document.getElementById(`lead-card-${leadKey}`);
+    if (cardEl && lead) {
+      cardEl.outerHTML = createLeadCardHtml(lead);
+    }
+  }
 
   if (openWspAfter) {
     openWhatsAppModal(leadKey, 'oferta');
