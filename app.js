@@ -22,8 +22,8 @@ let appConfig = {
 
 let allLeads = [];
 let filteredLeads = [];
-let activeFilter = 'pendientes'; // 'pendientes', 'fotos', 'tasados', 'descartar', 'todos'
-let activeCampaign = 'all';       // 'all', 'CF', 'SF'
+let activeFilter = 'fotos'; // 'fotos', 'pendientes', 'tasados', 'descartar', 'todos'
+let activeCampaign = 'all';
 let currentSort = 'newest_first';  // Hoy primero por orden de ingreso
 let pageSize = 30;
 let currentlyRendered = 0;
