@@ -64,10 +64,10 @@ function initApp() {
   // Ordenar y renderizar (Hoy primero / Orden de llegada)
   sortAndFilter();
 
-  // Sincronización en vivo silenciosa al abrir
+  // Sincronización en vivo silenciosa en segundo plano (8s después de renderizar)
   setTimeout(() => {
     triggerLiveSync(true);
-  }, 1000);
+  }, 8000);
 
   // Sincronización automática al volver a la app o cambiar de pestaña
   document.addEventListener('visibilitychange', () => {
@@ -464,6 +464,7 @@ function createLeadCardHtml(lead) {
     `;
   }
 
+  const kmDisplay = lead.km ? `${Number(lead.km).toLocaleString('es-UY')} km` : 'S/D';
   const isTasado = (lead.tasacion && lead.tasacion > 0) || (lead.estado && String(lead.estado).toUpperCase() === 'TASADO');
   const formattedMonto = isTasado && lead.tasacion ? Number(lead.tasacion).toLocaleString('es-UY') : (lead.tasacion || '0');
   const tasacionVal = lead.tasacion && lead.tasacion > 0 ? lead.tasacion : '';
@@ -1192,17 +1193,32 @@ window.carvlakLiveSyncCallback = function(data) {
       const isDesc = papeles.includes('No esta a mi nombre') || papeles.includes('No conozco al titular');
       const leadKey = `CF-${rowNum}`;
 
-      const existingIndex = allLeads.findIndex(l => l.id === leadKey || l.row === rowNum);
+      // Verificar si el lead ya existe por fila, teléfono o nombre+marca para evitar duplicados
+      const existingIndex = allLeads.findIndex(l => {
+        if (l.id === leadKey || l.row === rowNum) return true;
+        if (whatsapp && l.whatsapp && l.whatsapp === whatsapp) return true;
+        if (nombre && l.nombre && l.nombre.toLowerCase() === nombre.toLowerCase() && marca && l.marca && l.marca.toLowerCase() === marca.toLowerCase()) return true;
+        return false;
+      });
+
       if (existingIndex >= 0) {
+        // Solo agregar fotos si se encontraron fotos nuevas y el lead no tenía
         if (photos.length > 0 && (!allLeads[existingIndex].photos || allLeads[existingIndex].photos.length === 0)) {
           allLeads[existingIndex].photos = photos;
           newOrUpdated++;
         }
-      } else if (nombre || whatsapp || marca || photos.length > 0) {
+        // Actualizar tasación si se ingresó en la hoja de cálculo
+        if (tasVal > 0 && (!allLeads[existingIndex].tasacion || allLeads[existingIndex].tasacion === 0)) {
+          allLeads[existingIndex].tasacion = tasVal;
+          allLeads[existingIndex].estado = 'TASADO';
+          allLeads[existingIndex].isPending = false;
+          newOrUpdated++;
+        }
+      } else if (nombre && (whatsapp || marca)) {
         allLeads.unshift({
           id: leadKey,
           campaign: "CF",
-          campaignName: "Tasación Con Fotos",
+          campaignName: "Tasacion Con Fotos",
           row: rowNum,
           nombre: nombre,
           whatsapp: whatsapp,
@@ -1213,8 +1229,8 @@ window.carvlakLiveSyncCallback = function(data) {
           papeles: papeles,
           comentario: comentario,
           tasacion: tasVal,
-          estado: estado,
-          isPending: (tasVal === 0),
+          estado: (tasVal > 0 ? 'TASADO' : estado),
+          isPending: (tasVal === 0 && !isDesc),
           isDiscarded: isDesc,
           photos: photos,
           tags: getLiveTags(comentario, papeles),
