@@ -1,9 +1,0 @@
-﻿{
-  "name": "carvlak-tasador",
-  "version": "1.0.0",
-  "private": true,
-  "description": "CARVLAK - Sistema de Tasación Rápida de Vehículos",
-  "scripts": {
-    "start": "serve ."
-  }
-}

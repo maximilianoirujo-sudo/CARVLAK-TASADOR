@@ -337,9 +337,6 @@ function getPhotoThumbnailUrl(p, sz = 'w800') {
   if (!p) return '';
   const fId = p.id;
   if (fId && !String(fId).startsWith('custom-')) {
-    if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
-      return `/api/photo?id=${encodeURIComponent(fId)}&sz=${sz}`;
-    }
     return `https://lh3.googleusercontent.com/d/${fId}=${sz}`;
   }
   return p.thumbnail || p.url || '';
@@ -350,12 +347,12 @@ window.handleThumbnailError = function(imgEl, fileId, viewUrl) {
   const step = parseInt(imgEl.dataset.step || '0', 10);
   if (step === 0) {
     imgEl.dataset.step = '1';
-    imgEl.src = `https://lh3.googleusercontent.com/d/${fileId}=w800`;
+    imgEl.src = `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`;
   } else if (step === 1) {
     imgEl.dataset.step = '2';
-    imgEl.src = `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`;
+    imgEl.src = `https://drive.google.com/uc?export=view&id=${fileId}`;
   } else {
-    // Ocultar <img> roto para evitar el signo de interrogacion [?] en iPhone
+    // Ocultar <img> para evitar el signo de interrogacion azul [?] en Safari de iPhone
     imgEl.style.display = 'none';
     const parent = imgEl.parentElement;
     if (parent) {
@@ -875,10 +872,10 @@ function updateLightboxView() {
     const step = parseInt(imgEl.dataset.step || '0', 10);
     if (step === 0) {
       imgEl.dataset.step = '1';
-      imgEl.src = `https://lh3.googleusercontent.com/d/${current.id}=w1200`;
+      imgEl.src = `https://drive.google.com/thumbnail?id=${current.id}&sz=w1200`;
     } else if (step === 1) {
       imgEl.dataset.step = '2';
-      imgEl.src = `https://drive.google.com/thumbnail?id=${current.id}&sz=w1200`;
+      imgEl.src = `https://drive.google.com/uc?export=view&id=${current.id}`;
     } else {
       imgEl.style.display = "none";
       if (errorBox) errorBox.classList.remove("hidden");
