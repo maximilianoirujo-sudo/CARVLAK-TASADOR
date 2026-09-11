@@ -332,6 +332,39 @@ function loadMoreLeads() {
   renderNextBatch();
 }
 
+// ================= UTILIDADES DE FOTOS PARA IPHONE Y COMPUTADORA =================
+function getPhotoThumbnailUrl(p, sz = 'w800') {
+  if (!p) return '';
+  const fId = p.id;
+  if (fId && !String(fId).startsWith('custom-')) {
+    if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
+      return `/api/photo?id=${encodeURIComponent(fId)}&sz=${sz}`;
+    }
+    return `https://lh3.googleusercontent.com/d/${fId}=${sz}`;
+  }
+  return p.thumbnail || p.url || '';
+}
+
+window.handleThumbnailError = function(imgEl, fileId, viewUrl) {
+  if (!imgEl) return;
+  const step = parseInt(imgEl.dataset.step || '0', 10);
+  if (step === 0) {
+    imgEl.dataset.step = '1';
+    imgEl.src = `https://lh3.googleusercontent.com/d/${fileId}=w800`;
+  } else if (step === 1) {
+    imgEl.dataset.step = '2';
+    imgEl.src = `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`;
+  } else {
+    // Ocultar <img> roto para evitar el signo de interrogacion [?] en iPhone
+    imgEl.style.display = 'none';
+    const parent = imgEl.parentElement;
+    if (parent) {
+      const fb = parent.querySelector('.photo-fallback');
+      if (fb) fb.classList.remove('hidden');
+    }
+  }
+};
+
 // ================= GENERACIÓN DE TARJETA DE VEHÍCULO =================
 function createLeadCardHtml(lead) {
   const leadKey = lead.id || lead.row;
@@ -399,6 +432,7 @@ function createLeadCardHtml(lead) {
     const thumbs = previewList.map((p, pIdx) => {
       const isLast = (pIdx === maxPreview - 1 && totalPhotos > maxPreview);
       const remainingPhotos = totalPhotos - maxPreview;
+      const photoSrc = getPhotoThumbnailUrl(p, 'w400');
       
       return `
         <div 
@@ -406,12 +440,17 @@ function createLeadCardHtml(lead) {
           class="relative aspect-[4/3] rounded-xl overflow-hidden bg-slate-900 border border-slate-200 shadow-sm cursor-pointer group shrink-0 w-20 sm:w-24 md:w-28"
         >
           <img 
-            src="${p.thumbnail || p.url}" 
+            src="${photoSrc}" 
             alt="Foto auto" 
             loading="lazy"
-            onerror="this.onerror=null; this.src='https://lh3.googleusercontent.com/d/${p.id}=w600';"
+            referrerpolicy="no-referrer"
+            onerror="window.handleThumbnailError(this, '${p.id}', '${p.viewUrl || ''}')"
             class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
           >
+          <div class="photo-fallback hidden absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 flex flex-col items-center justify-center text-center p-1 text-slate-300 select-none">
+            <span class="text-base sm:text-lg">📷</span>
+            <span class="text-[9px] font-bold text-emerald-400 mt-0.5">Ver foto ↗</span>
+          </div>
           ${isLast ? `
             <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white font-bold text-xs sm:text-sm">
               +${remainingPhotos + 1}
@@ -820,9 +859,30 @@ function updateLightboxView() {
   document.getElementById("lightboxCarTitle").innerText = `${activeLightboxLead.marca} ${activeLightboxLead.modelo} (${activeLightboxLead.ano || ''}) • ${activeLightboxLead.nombre || ''}`;
 
   const imgEl = document.getElementById("lightboxImg");
-  imgEl.src = current.thumbnail || current.url;
+  const errorBox = document.getElementById("lightboxErrorBox");
+  const errorBtn = document.getElementById("lightboxErrorBtn");
+
+  if (errorBox) errorBox.classList.add("hidden");
+  imgEl.style.display = "block";
+  imgEl.dataset.step = "0";
+
+  if (errorBtn && current.viewUrl) {
+    errorBtn.href = current.viewUrl;
+  }
+
+  imgEl.src = getPhotoThumbnailUrl(current, 'w1200');
   imgEl.onerror = () => {
-    imgEl.src = `https://lh3.googleusercontent.com/d/${current.id}=w1200`;
+    const step = parseInt(imgEl.dataset.step || '0', 10);
+    if (step === 0) {
+      imgEl.dataset.step = '1';
+      imgEl.src = `https://lh3.googleusercontent.com/d/${current.id}=w1200`;
+    } else if (step === 1) {
+      imgEl.dataset.step = '2';
+      imgEl.src = `https://drive.google.com/thumbnail?id=${current.id}&sz=w1200`;
+    } else {
+      imgEl.style.display = "none";
+      if (errorBox) errorBox.classList.remove("hidden");
+    }
   };
 
   const driveLink = document.getElementById("lightboxDriveLink");
@@ -837,7 +897,10 @@ function updateLightboxView() {
   const strip = document.getElementById("lightboxThumbStrip");
   strip.innerHTML = photos.map((p, idx) => `
     <img 
-      src="${p.thumbnail || p.url}" 
+      src="${getPhotoThumbnailUrl(p, 'w200')}" 
+      alt="Miniatura"
+      referrerpolicy="no-referrer"
+      onerror="this.onerror=null; this.src='https://lh3.googleusercontent.com/d/${p.id}=w200';"
       onclick="setLightboxIndex(${idx})" 
       class="h-12 sm:h-14 aspect-[4/3] object-cover rounded-lg cursor-pointer transition-all ${idx === activeLightboxIndex ? 'ring-2 ring-emerald-400 opacity-100 scale-105' : 'opacity-50 hover:opacity-80'}"
     >

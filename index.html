@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
   
   <!-- Soporte Oficial Apple iOS / iPhone (PWA) -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -300,7 +301,17 @@
         &#10094;
       </button>
       
-      <img id="lightboxImg" src="" alt="Foto vehículo CARVLAK" class="max-h-[75vh] max-w-[95vw] object-contain rounded-xl shadow-2xl transition-all duration-200">
+      <img id="lightboxImg" src="" alt="Foto vehículo CARVLAK" class="max-h-[75vh] max-w-[95vw] object-contain rounded-xl shadow-2xl transition-all duration-200" referrerpolicy="no-referrer">
+      
+      <!-- Fallback Box cuando la foto no se puede cargar por permisos de Drive -->
+      <div id="lightboxErrorBox" class="hidden flex flex-col items-center justify-center text-center p-6 bg-slate-900/95 border border-slate-700 rounded-2xl max-w-sm mx-auto space-y-3 shadow-2xl">
+        <span class="text-4xl">📸</span>
+        <h4 class="text-base font-bold text-white">Foto en Google Drive</h4>
+        <p class="text-xs text-slate-300 leading-relaxed">Esta imagen está protegida en Google Drive. Podés verla directamente tocando el botón a continuación:</p>
+        <a id="lightboxErrorBtn" href="#" target="_blank" class="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white rounded-xl text-xs font-bold transition-all shadow-lg flex items-center gap-2">
+          <span>Abrir Foto en Google Drive ↗</span>
+        </a>
+      </div>
       
       <button onclick="nextLightboxPhoto()" class="absolute right-2 sm:right-4 z-10 w-11 h-11 rounded-full bg-black/70 hover:bg-black/90 text-white flex items-center justify-center text-xl font-bold shadow-xl border border-white/20 touch-target transition-all">
         &#10095;
